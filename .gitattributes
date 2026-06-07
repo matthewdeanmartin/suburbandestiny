@@ -1,0 +1,18 @@
+# Normalize line endings: store text as LF in the repo, check out native.
+# This silences the "LF will be replaced by CRLF" warnings on Windows.
+* text=auto
+
+# Keep these as LF everywhere (web/build assets).
+*.js   text eol=lf
+*.json text eol=lf
+*.njk  text eol=lf
+*.css  text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.html text eol=lf
+*.py   text eol=lf
+
+# Binary assets — never touch.
+*.png binary
+*.jpg binary
+*.gif binary
