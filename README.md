@@ -4,15 +4,18 @@ The recovered weblogs of Matthew Martin, rebuilt from the Internet Archive
 Wayback Machine and published as a single [Eleventy](https://www.11ty.dev/) site
 with two sections:
 
-- **Life** — 40 posts (2013–2020), originally `suburbandestiny.com`.
-- **Tech** — 240 posts (2006–2020), originally `tech.wakayos.com`.
+- **Life** — 376 posts (2005–2020), originally `suburbandestiny.com`.
+- **Tech** — 236 posts (2003–2020), originally `tech.wakayos.com`.
 
 The two sections share one black / white / grey theme; the nav highlights
 whichever blog you are currently reading.
 
-> **Note:** recovery is incomplete. The non-`www` `suburbandestiny.com` capture
-> referenced many category archives (`?cat=1..31+`) that were never crawled, so
-> more posts likely remain to be backfilled from Wayback.
+Most posts were recovered by `scripts/backfill_posts.py`, which enumerates
+every archived `?p=<id>` permalink from the Wayback CDX index and fetches each
+directly — the original recursive crawler had filtered out the `?cat=` category
+archives and missed the bulk of the posts. A handful of posts whose snapshot
+carried no date are placed by interpolating from neighbouring post ids and are
+shown as "(approx.)".
 
 ## Layout
 
