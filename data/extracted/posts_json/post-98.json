@@ -1,0 +1,10 @@
+{
+  "title": "Visual Programming",
+  "slug": "post-98",
+  "date": "2003-10-27",
+  "raw_date": "2003-10-27T09:21:12+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200310\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=98",
+  "markdown": "\nVisual programming includes DTS, all GUI and form builders, SQL query (also called query by example or QBE).\n\n\nIt is faster and easier, especially for forms and SQL queries with lots of joins.\n\n\n1\\) Code off the screen holds hard to find bugs.  \n\n2\\) Exact positioning is a productivity killer (automatic layout tends to make a mess)\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-98.md"
+}

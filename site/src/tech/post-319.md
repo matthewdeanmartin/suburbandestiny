@@ -2,7 +2,7 @@
 date: '2008-01-31'
 recovered_from: wayback
 slug: post-319
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200801\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200801\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=319
 title: Learing about ASP.NET output caching

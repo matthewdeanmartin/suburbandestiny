@@ -2,7 +2,7 @@
 date: '2012-09-16'
 recovered_from: wayback
 slug: post-676
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\201209\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\201209\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=676
 title: Getting WCF to talk ordinary HTTP to a browser

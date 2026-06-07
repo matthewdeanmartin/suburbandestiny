@@ -2,7 +2,7 @@
 date: '2010-07-15'
 recovered_from: wayback
 slug: post-597
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\201007\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\201007\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=597
 title: MaxiVista and Visual Studio 2010 and my computers

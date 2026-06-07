@@ -1,0 +1,61 @@
+---
+date: '2007-10-08'
+recovered_from: wayback
+slug: post-283
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\283\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=283
+title: 'Blogging Politics: Does it work?'
+---
+
+
+I was at a book club and the issue of war and immigration protesters in DC came up, in particular, “they blocked traffic, didn’t add a coherent message to the policy discussion, weren’t effective.”  The comment was made by a self identified war hawk, the suggested alternative was to take up a quill like Tom Paine and pen a thought out policy position.
+
+
+My blog gets very few readers.  If anything it is me listening to my own thoughts.  On a good day, I might touch the lives of one, two or even three people with my blog.  I have no delusions about it’s effectiveness as a means of mass communication.
+
+
+Here is my list, in order of effectiveness of political action in the US, for an average middle class American.
+
+
+\#1 most effective) Send $25\-$100 to the candidate or party of your choice.  Donors, small and large count more than votes.  We are not a one man one vote country when it comes to the votes of Benjamin Franklin, Lincoln and Andrew Jackson.
+
+
+2\) Write your local and state representative on issues that are *not* the hot issues of the day.  Better yet, try calling, showing up at a town hall meeting or other communication forum.
+
+
+3\) Volunteer with the local political party of your choice.  The nuts and bolts of politics–knocking on doors, making phone calls, putting up signs are the *prerequisite* of political success.
+
+
+4\) Write your favorite newspaper or magazine with a reaction to an editorial or article relating to a pet policy of yours.
+
+
+5\) Voting. It’s a paradox, but there it is–your vote won’t change the election, *but if enough people believe that*, then your vote will change the election.  The side with 100% turn out wins, even if they are the minority opinion.  Even if your party didn’t field a suitable candidate, show up anyhow so you can write in Donald Duck. 
+
+
+There may be a bunch more ways, too.  Let’s skip to the end of the list for the **least effective**:
+
+
+method \# n \+ 0: **Campaigning on stalemated issues**.  Immigration, Abortion, Gun Control are all stalemated issues.  The best supporters on either side can do is send small checks to the advocacy group of their choice to help maintain the stalemate.  Again, like the paradox of voting–the stalemate will continue only as long as people remain engaged to some minimal amount.
+
+
+method \# n \+ 1: **Blogging**.  Blog readers read what they already agree with.  A blog will not change minds in any quantity.
+
+
+method \# n \+ 2:**Marches**. Marching is about firing yourself up, getting excited about a cause, and ultimately will be not much more effective than a journalist writing an article saying 100,000 people favorite such and such a policy.
+
+
+method \# n \+ 3:**Being bitter \& angry**. If one is bitter and angry about politics, either one is getting old and cranky or one is found what is likely a stalemated issue, like immigration, abortion or gun control.  An angry and bitter policy position may find welcome company with other of the same psychological state, but will not sway anyone save small children.
+
+
+method \# n \+ 4:**Reason**. I kind of suspect that political success is kind of like evolution.  An insect knows not why it is successful in it’s niche, it just is.  Likewise in political evolution, it may *not be the well reasoned policy statements* that lead to political survival, but the fact that the politician was merely competent. Evolution is cagey about these things.  Maybe it was the fact that the politician didn’t do anything at all.  Maybe it was the fact that they politician said what people wanted to heard, but did what needed to be done to make the land safe, prosperous and vigorous.
+
+
+
+
+ This entry was posted
+ 
+ on Monday, October 8th, 2007 at 6:16 pm and is filed under [Politics](http://www.suburbandestiny.com/?cat=5 "View all posts in Politics").
+ You can follow any responses to this entry through the [RSS 2\.0](http://www.suburbandestiny.com/?feed=rss2&p=283) feed. 
+ 
+ You can skip to the end and leave a response. Pinging is currently not allowed.

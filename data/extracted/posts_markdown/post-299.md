@@ -1,0 +1,21 @@
+---
+date: '2007-11-04'
+recovered_from: wayback
+slug: post-299
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\299\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=299
+title: 'News: Dad Duty, Vegetarian Meetup'
+---
+
+
+Wow, if I can just keep up the pace, I figure I’ll start to know people in the community–at least the corners I like to hang out at.  Just got back from the Vegetarian Meetup, went to Lebanese Taverna–I recognized about five or six people from previous events, two people from other organizations.
+
+
+While on Dad duty this weekend, I was going to do what I thought would be an easy and fun language project (creating an artificial language in an hour), but quickly learned that the public schools are grossly failing in teaching kids what a subject, verb, object, or direct object is.  So my son \& I rode bikes to the library and got a English grammar workbook.  I guess that will be a project for the upcoming months. 
+
+
+We also played Pirates of the Caribbean/Legend of Jack Sparrow in co\-operative mode, which was pretty fun.  Probably like any game though, it could have used some refinement in some areas–for example, it was meant to be playable without much training or practice, so pretty much hitting keys at random will move you forward through the game.  In a very few instances, co\-operation was required, but sometimes it was a bit contrived.  For example, getting through certain doors requires both players to press the indicated key at the same time.  Seems easy, but the lousy instructions never included a key map that mapped the key symbols on screen to an xbox controller.  Still, despite this, LoJS is the best father\-son video game I’ve ever played.
+
+
+(And if anyone is playing LoJS and the screen is spinning due to a defective z\-axis calibration, go to the control panel, game control, and reset the controls to default.  Trying to “re\-calibrate” doesn’t work, but “reset to default” did work.  I guess, if I did want to re\-calibrate , it is better to start from a reset, then to start from where ever the control happens to be.)

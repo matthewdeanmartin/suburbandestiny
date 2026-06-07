@@ -2,7 +2,7 @@
 date: '2009-05-22'
 recovered_from: wayback
 slug: post-534
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200905\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200905\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=534
 title: Not using SqlRedgate is industrial sabotage

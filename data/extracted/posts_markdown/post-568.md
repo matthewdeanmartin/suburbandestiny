@@ -2,7 +2,7 @@
 date: '2009-07-26'
 recovered_from: wayback
 slug: post-568
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200907\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200907\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=568
 title: Troubleshooting “Service ‘Astoria’ implements multiple ServiceContract types,

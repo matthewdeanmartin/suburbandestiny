@@ -1,0 +1,29 @@
+---
+date: '2014-07-04'
+recovered_from: wayback
+slug: post-753
+source_file: data\normalized\tech.wakayos.com\root\__query__\p\753\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=753
+title: Computer Operating System, Explain it like I’m Five
+---
+
+
+“[Explain it like I’m Five](http://xkcd.com/1364/)” is an internet meme. It isn’t meant to literal dumb it down to a five year old’s level. The assumption is that if you ask some one who understands something at a deep level to explain it in a way the lister can understand, they will undershoot and explain it in a way more appropriate for a more experienced audience.
+
+
+**Operating Systems**  
+
+Metaphors and models are simplifications of reality that retain certain, but not all characteristics of reality. 
+
+
+So some typical metaphors for a computer are human bodies (the arms and legs are peripherals– the input and output– the brain is the CPU, operating system and applications). A better metaphor would be a human society– the input and output peripherals are organizations like the census and the post office. The various companies and stores are applications. All of these are orchestrated by laws, which work out the fundamental rules for the parts to interact.
+
+
+The other way is via models. We name a few parts of the total, and establish some relationships between these parts. The relationships can sometimes be quite fuzzy. A computer consists of input, output, and a CPU. The CPU essentially does math and moves numbers around. Input takes signals from the outside world. Programs run on the CPU, by step by step doing arithmetic and moving the results around. If there was no input and output, the application wouldn’t really need an operating system. Many old style applications were responsible for memory management. But this application can’t run in the first place if a boot application doesn’t run. The boot application performs enough actions to get the computers memory in a state where it can start to run applications. Booting is called booting as a reference to the story about a guy who got himself up on a roof by pulling up on his own bootstraps. The computer’s boot routine likewise is attempting to get the computer in a state where it can execute applications, but it itself is also an application! These boot routines are part of the hardware. After the application begins to run, it needs to communicate with the input and output. These functions are normally provided by the operating system and modern OS’s also take care of a lot of memory management. Because at the instruction level, all applications look like arithmetic and moving numbers around in memory, it’s some what arbitrary to saw where applications end and where the OS functions begin, as illustrated by the lawsuit between Microsoft and the US government over bundling an internet browser into the operating system. 
+
+
+The point of this explanation isn’t to allow you to build your own computer or operating system. The point is to give you a mental model that doesn’t require getting a computer science degree. (And even to get that computer science degree, at some point you will need to put together some internal mental models of computers)
+
+
+For further reading, see Petzolds’ “[Code](http://www.amazon.com/Code-Developer-Practices-Charles-Petzold-ebook/dp/B00JDMPOK2/ref=sr_1_1?ie=UTF8&qid=1404512653&sr=8-1&keywords=code)“, which moves from logical switches through the entire hardware stack to explain how a computer works, including the basic operating system functions. At some points, the author successfully dumbs it down, sometimes he gets bogged down in what maybe irreducibly complex. I’m personally optimistic about the ability to dumb any concept down to a point where you can get simplified and useable mental models. An example would be calculus, which started out as something only the top mathematicians could do. High school calculus textbooks have since figured out ways to dumb it down so that ordinary people can do calculus. As for proving the calculus works, which seems irreducibly complex, you can read Berlinksy’s [A Tour of the Calculus](http://www.amazon.com/A-Tour-Calculus-David-Berlinski/dp/0679747885), which is a sort of Calculus for literature majors– not enough calculus to build bridges or prove that it works, but enough to have a usable mental model, or at least find out it is worth studying any further.

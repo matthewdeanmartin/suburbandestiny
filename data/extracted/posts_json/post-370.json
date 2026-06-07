@@ -3,8 +3,8 @@
   "slug": "post-370",
   "date": "2008-06-16",
   "raw_date": "2008-06-16T07:27:18+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200806\\index.html",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200806\\index.html",
   "source_url": "http://tech.wakayos.com/?p=370",
   "markdown": "\nThe DataSourceWebPart (DSWP) is a databinding webpart for XML source data, although it can use a SQLData source as well.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-370.md"
+  "markdown_file": "data\\extracted\\posts_markdown\\post-370.md"
 }

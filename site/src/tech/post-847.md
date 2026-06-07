@@ -2,7 +2,7 @@
 date: '2017-04-03'
 recovered_from: wayback
 slug: post-847
-source_file: C:\github\dead_blog\data\normalized\suburbandestiny.com\Tech\index.html
+source_file: data\normalized\suburbandestiny.com\Tech\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=847
 title: Why you should work at Burson-Marsteller on my team

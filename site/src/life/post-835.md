@@ -1,0 +1,30 @@
+---
+date: '2011-02-07'
+recovered_from: wayback
+slug: post-835
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\835\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=835
+title: How to cancel Verison DSL Service
+---
+
+
+If you have multiple accounts with Verizon, you must call them multiple times to cancel each account, even if you don’t realize that you have multiple accounts. Verzion DSL doesn’t know if have phone service, they the phone service doesn’t know if you have DSL. So when you cancel phone service, they expect you to immediately call back to cancel DSL. As for me, it was surprising to find out such a thing as “[Naked DSL](http://en.wikipedia.org/wiki/Naked_DSL)” even exists, i.e. DSL that works when the phone line has been cancelled.
+
+
+If this doesn’t happen, they will keep billing you forever.
+
+
+If you do not get a cancellation number you are not cancelled and will have a more difficult time contesting the continuing charges. My cancellation number is 214589121\. What is yours?
+
+
+Verizon DSL doesn’t really care if they ever get you again as a customer so long as they can bill you for a few extra months of service. The managers can only waive 1 month of service fees. Apparently, this is some sort of “no explanation” business rule, because you don’t have to wrangle with them very long to be offered a month’s waived fees, but they can’t waive anything else.
+
+
+[Here is another person who had the exact same experience I did](http://www.complaintsboard.com/complaints/verizon-dsl-c5827.html).
+
+
+May Verizon lose all their customers, may the government shut them down, may their shareholders all die mysterious early deaths. 
+
+
+The only other companies I hate as much as Verizon would have to be UPS (particularly their shipping centers).

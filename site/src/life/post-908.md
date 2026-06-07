@@ -1,0 +1,40 @@
+---
+date: '2012-01-19'
+recovered_from: wayback
+slug: post-908
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\908\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=908
+title: 'GTD: Apocalypse'
+---
+
+
+It’s that time again, time to try to get (more) things done. First things first, I need to update my methodology, review my projects, remember what the GTD advice was in the first place. I suppose it is a pity my license for the GTD book only works on a palm pilot and the password was a credit card I don’t have anymore.
+
+
+**Methodology**  
+
+This is the boring part. GTD at the start is a fun chore of picking things to do. On a day to day basis, it’s the tending to calendars and to\-do lists on paper and computer. Currently, I get by on a 12 month calendar (2 pages per month), a pair of notebooks, some TODO items in gmail, some in remember\-the\-milk, some on slips of paper, instapaper, a bunch of vague policies (like don’t do things that require errands, like returning physical videos).
+
+
+**Projects**  
+
+Projects are to\-do list items that are so big that they need a separate list. They drive all the other to\-do lists. [According to GTD](http://www.wikisummaries.org/Getting_Things_Done:_The_Art_of_Stress-Free_Productivity#Chapter_3_--_Getting_Projects_Creatively_Under_Way:_The_Five_Phases_of_Project_Planning), I’m suppose to think about why this is a good project, envision what it would look like if I succeeded, some more things of questionable value and then come up with a concrete “next action”.
+
+
+Change of contract. I’ve worked on the same contract three\+ years. I’ve been working on transitioning to the next contract since August. I’m regretting not just quitting my job and job hunting. It’s getting increasing important that something happen on this issue because people are getting fatigued about me talking about it to the point where this could lead to violence. Why? My mood is just better on a contract with clear goals and a clear benefits. What does success look like? Easy. I report to a different desk. I feel like I’ve earned my paycheck each day.
+
+
+Languages. In my life I’ve sunk effort into ASL, Latin, \*Spanish, \*French, Japanese, \*Russian, Swedish, \*Icelandic, Esperanto, Klingon, toki pona. At one point I could speak like a three year old in the ones I starred. I won’t go any further with la, es, jp, or se. ru is going into deep freeze– no particular action outside of music \& movies. is is going into maintenance mode– just flash cards and reading– not clear if I can resume or continue study weekly group. I want to finish fr, but just flash cards \& reading– I’vent the will to do a study group. I’m on the fence with respect to eo, tlh and tp– they’re small, but tend to be driven by obsession \& that isn’t voluntary. I’d like to finish writing a language. And I want to make some progress with ASL and it’s look\-a\-like, Baby Sign Language. Why? It’s just a social hobby, a good defense against the typical imbalances you find yourself living when you work in IT. And ASL/Baby\-SL actually could be useful. What does success look like? It’s either a local in\-person community or being able to read without dictionaries or that “I\-don’t\-understand\-anything” feeling.
+
+
+Vegetarianism and Cooking. I used to be active in the vegetarian community. I should resume. Why? If not me, who else will? What is success? Gee, hard to say. This is more of a process than a goal with a single end.
+
+
+Open Source Hobbyist Programming. This December I made awesome progress on [an open source project](http://hicmah.codeplex.com/). I’ll have to figure out how to move it to the next level. Why? Easy, because one needs to be able to point at something every once in a while and say, “There, I did something tangible, valuable and good.” What is success? A downloadable component that a hypothetical developer could install, and demo with sample data in less than 15 minutes unpracticed and 5 minutes with practice.
+
+
+Books Another project that looks like a process, without any particular end. Why? It’s community and tends to drive new hobbies. What does success look like? It looks like three book clubs. I think that is my limit.
+
+
+And I haven’t even gotten to the interesting projects that will probably shrink my spare, idle time to nothing. That’s for another post.

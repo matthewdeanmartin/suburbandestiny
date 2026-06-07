@@ -1,10 +1,10 @@
 {
-  "title": "Review: Google Gears",
+  "title": "Toki Pona: Translating Malglico",
   "slug": "post-218",
-  "date": "2007-05-31",
-  "raw_date": "2007-05-31T06:58:29+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200705\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=218",
-  "markdown": "\nOk, I think I grok it now. Google Gears is a huge cookie that can store files and SQL data. It also acts as a web server should the real internet be down. The API is all JavaScript.\n\n\nThe only caveat I see so far is getting people to install the Google Gears plug in. For MSIE, you get warning after warning about the plug in. You also seem to need to be an administrator to install the plug in. Without a sophisticated user base or a sympathetic IT department, the ActiveX component installation could be a show stopper.\n\n\nAs for integration with ASP.NET, ASP.NET has never been very friendly to JavaScript developers. ASP.NET changes the element ID’s, so you will need to code generate some JavaScript with \\<%\\= ClientId %\\> golden nuggets each time you reference a controls ID.\n\n\nJavaScript counts as an out of bound call\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-218.md"
+  "date": "2007-08-07",
+  "raw_date": "2007-08-07T18:34:05+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\218\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=218",
+  "markdown": "\nRelixification is where you do a ‘dictionary lookup’ translation. All words get replaced by a word of a foreign language, but grammar, community conventions, etc. get ignored.\n\n\nMalglico is a word that comes from the Lojban constructed language community. It means f\\*cking\\-English. Which would translated into Toki\\-Pona as\n\n\n* toki pi toki\\-Inli unpa — Ironically, this is itself a calcque, sounds like it is talking about sex.\n* toki pi toki\\-Inli unpa la ona sitelen e toki.\n* li toki e toki pona lon Inli — speaking toki pona in English– doesn’t show disapproval\n* li toki e toki pona lon nimi Ingli sama poka –\n* li pakala e toki pona kepeken poka Inli– breaking toki pona with English forms\n\n\nIt means don’t do word for word translations and don’t try to import English grammatical constructs when existing ones already exist and work just fine.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-218.md"
 }

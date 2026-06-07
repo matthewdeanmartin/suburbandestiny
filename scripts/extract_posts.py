@@ -12,8 +12,11 @@ from markdownify import markdownify as md
 
 DATE_PATTERNS = [
     re.compile(r"(\b(?:19|20)\d{2}[-/](?:0[1-9]|1[0-2])[-/](?:0[1-9]|[12]\d|3[01])\b)"),
-    re.compile(r"(\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\s+\d{1,2},\s+(?:19|20)\d{2}\b)", re.I),
+    re.compile(r"(\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\s+\d{1,2}(?:st|nd|rd|th)?,?\s+(?:19|20)\d{2}\b)", re.I),
 ]
+
+# Strip ordinal suffixes ("27th" -> "27") before strptime, which can't parse them.
+ORDINAL_RE = re.compile(r"(\d{1,2})(?:st|nd|rd|th)", re.I)
 
 
 def slugify(text: str) -> str:
@@ -28,9 +31,10 @@ def parse_date(text: str):
         if not m:
             continue
         raw = m.group(1)
-        for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%b %d, %Y", "%B %d, %Y"):
+        cleaned = ORDINAL_RE.sub(r"\1", raw).replace(",", "")
+        for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%b %d %Y", "%B %d %Y"):
             try:
-                return raw, datetime.strptime(raw, fmt).date().isoformat()
+                return raw, datetime.strptime(cleaned, fmt).date().isoformat()
             except ValueError:
                 pass
     return None, None
@@ -70,6 +74,10 @@ def article_title(article: BeautifulSoup, fallback: BeautifulSoup) -> str:
     title = article.select_one(".entry-title")
     if title and title.get_text(" ", strip=True):
         return title.get_text(" ", strip=True)
+    # Older WordPress themes: title is in an h2/h3 bookmark link.
+    bookmark = article.select_one("h1 a[rel='bookmark'], h2 a[rel='bookmark'], h3 a[rel='bookmark']")
+    if bookmark and bookmark.get_text(" ", strip=True):
+        return bookmark.get_text(" ", strip=True)
     return best_title(fallback)
 
 
@@ -84,7 +92,8 @@ def article_permalink(article: BeautifulSoup) -> str | None:
 
 
 def article_body(article: BeautifulSoup) -> BeautifulSoup:
-    body = article.select_one(".entry-content")
+    # Try modern then older WordPress content wrappers before falling back.
+    body = article.select_one(".entry-content, .entrytext, .entry, .post-content")
     return body or article
 
 
@@ -99,7 +108,39 @@ def article_date(article: BeautifulSoup):
         raw, iso = parse_structured_date(bookmark.get_text(" ", strip=True))
         if iso:
             return raw, iso
+    # Older themes print the date as free text in a header (e.g. "September 27th, 2007").
+    for sel in (".post-date", ".date", "h2", "h3", "small"):
+        for el in article.select(sel):
+            raw, iso = parse_date(el.get_text(" ", strip=True))
+            if iso:
+                return raw, iso
     return None, None
+
+
+def permalink_from_path(html_file: Path) -> str | None:
+    """Recover a ?p=<id> permalink from the saved file path when the page's own
+    permalink is missing. Paths look like
+    <host>/root/__query__/p/<id>/index.html, so we read the host and id back out."""
+    parts = html_file.parts
+    if "p" not in parts:
+        return None
+    i = parts.index("p")
+    if i + 1 >= len(parts):
+        return None
+    pid = parts[i + 1]
+    if not pid.isdigit():
+        return None
+    # host is the path component just before "root"/"__query__"
+    host = None
+    for marker in ("root", "__query__"):
+        if marker in parts:
+            j = parts.index(marker)
+            if j > 0:
+                host = parts[j - 1]
+                break
+    if not host:
+        return None
+    return f"http://{host}/?p={pid}"
 
 
 def slug_from_permalink(permalink: str | None, title: str) -> str:
@@ -109,6 +150,46 @@ def slug_from_permalink(permalink: str | None, title: str) -> str:
         if post_ids and post_ids[0]:
             return f"post-{post_ids[0]}"
     return slugify(title)
+
+
+def interpolate_missing_dates(manifest_by_slug: dict) -> None:
+    """Fill missing dates from dated neighbours by numeric post id.
+
+    WordPress ?p=<id> ids increase monotonically with publication time, so a
+    dateless post can be placed by borrowing the date of the nearest *earlier*
+    dated post (falling back to the nearest later one). These get a
+    `date_estimated` flag so the site can mark them as approximate.
+    """
+    def post_id(record):
+        m = re.match(r"post-(\d+)$", record["slug"])
+        return int(m.group(1)) if m else None
+
+    dated = sorted(
+        ((post_id(r), r["date"]) for r in manifest_by_slug.values()
+         if post_id(r) is not None and r["date"]),
+        key=lambda x: x[0],
+    )
+    if not dated:
+        return
+    ids = [d[0] for d in dated]
+
+    import bisect
+
+    for record in manifest_by_slug.values():
+        if record["date"]:
+            continue
+        pid = post_id(record)
+        if pid is None:
+            continue
+        pos = bisect.bisect_left(ids, pid)
+        # Prefer the nearest earlier dated post; else the nearest later one.
+        if pos > 0:
+            record["date"] = dated[pos - 1][1]
+        elif pos < len(dated):
+            record["date"] = dated[pos][1]
+        else:
+            continue
+        record["date_estimated"] = True
 
 
 def main() -> None:
@@ -138,7 +219,8 @@ def main() -> None:
         for bad in soup(["script", "style", "noscript"]):
             bad.decompose()
 
-        articles = soup.select("article[id^=post-]")
+        # New themes use <article id="post-N">; older WordPress uses <div class="post" id="post-N">.
+        articles = soup.select("article[id^=post-], div.post[id^=post-], div.hentry[id^=post-]")
         if not articles:
             articles = [soup.body or soup]
 
@@ -150,7 +232,7 @@ def main() -> None:
             if not iso_date:
                 raw_date, iso_date = parse_date(text)
             markdown = md(str(body), heading_style="ATX")
-            permalink = article_permalink(article)
+            permalink = article_permalink(article) or permalink_from_path(html_file)
             slug = slug_from_permalink(permalink, title)
 
             record = {
@@ -163,10 +245,18 @@ def main() -> None:
                 "markdown": markdown,
             }
 
+            # Skip captures that are just the site shell (footer/RSS chrome,
+            # no real post). These show up as short bodies advertising WordPress.
+            plain = text.strip()
+            if len(plain) < 400 and "proudly powered by" in plain.lower():
+                continue
+
             previous = manifest_by_slug.get(slug)
             if previous and len(previous["markdown"]) >= len(markdown):
                 continue
             manifest_by_slug[slug] = record
+
+    interpolate_missing_dates(manifest_by_slug)
 
     manifest = sorted(manifest_by_slug.values(), key=lambda item: (item["date"] or "", item["slug"]))
 
@@ -177,6 +267,8 @@ def main() -> None:
         if record["date"]:
             post["date"] = record["date"]
         post["slug"] = slug
+        if record.get("date_estimated"):
+            post["date_estimated"] = True
         post["source_file"] = record["source_file"]
         if record["source_url"]:
             post["source_url"] = record["source_url"]

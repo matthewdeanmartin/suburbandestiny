@@ -1,10 +1,10 @@
 {
-  "title": "Reporting Services and Dynamic Columns",
+  "title": "Hypothesis about age brackets and singles events",
   "slug": "post-186",
-  "date": "2007-01-08",
-  "raw_date": "2007-01-08T13:11:13+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200701\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=186",
-  "markdown": "\nIf a field is not in a result set, then you can still define it manually. The report will not raise an error if that field is not in the executed result set. HOWEVER, there appears to be no way to test for that condition. IsNothing(Field!MyField.value) doesn’t appear to return anything, although some one on Experts Exchange thought so. I tried many variations on it. Aparently, if the expression tries to evaluate an expression with missing column, the whole expression evaluates to a blank or zero or sometimes ERROR\\#, depeding on the partiucular expression.\n\n\nOther sites recommend dealing with dynamic columns by referencing a parameter, which knows which columns are appearing:\n\n\n\\=cdbl(iif(Parameters!WhichColumn\\=1,max(Fields(“MyColumn”).Value),max(Fields(“OtherColumn”).Value)))\n\n\nThis is like trying to embed the result set’s meta data into the parameter set. Ugh.\n\n\n \n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-186.md"
+  "date": "2007-05-09",
+  "raw_date": "2007-05-09T16:07:12+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\186\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=186",
+  "markdown": "\nHere is something that needs scientific testing. If someone holds a single’s event and says that everyone will be between age 30 and 40 (men and women), then who will show?\n\n\nWe start with the possibly sexist but probably true assumption that men prefer younger women and women prefer men of thier age or older.\n\n\nSo a guy of age 30 suspects women there will be 31 years or older, since it has already been announced that the youngest guy will be 30\\. He decides not go.\n\n\nAnother woman 40 years old considering going knows that the 30 old guy, won’t go, so she expects everyone there to be age 31\\-40\\. Since she is as old as the oldest guy there, she also decides not to go.\n\n\nA guy of 31, expecting the above two prospects to follow that reasoning, calculates the age range is 32to 39\\. He drops out.\n\n\nAnd so on. I guess eventually, only 35\\+ year old men will arrive and 30 to 35 year old women would arrive.\n\n\nMy thinking on the matter right now is a bit fuzzy, but I’m sure simulation with a variety of parameters probably could solve the problem. Or experimentation.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-186.md"
 }

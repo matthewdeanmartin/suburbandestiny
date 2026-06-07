@@ -2,7 +2,7 @@
 date: '2007-08-15'
 recovered_from: wayback
 slug: post-268
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200708\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200708\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=268
 title: 'Portable XAMPP: Potential Uses'

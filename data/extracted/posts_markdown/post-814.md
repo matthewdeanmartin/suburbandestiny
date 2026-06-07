@@ -1,0 +1,42 @@
+---
+date: '2010-10-26'
+recovered_from: wayback
+slug: post-814
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\814\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=814
+title: My Universalist touring
+---
+
+
+This is the religion post. If you’re here for the linguistics stuff, you might want to check out my [conlang blog](https://suburbandestiny.com/conlang).
+
+
+My Dad grew up Baptist. Grandpa was Mormon, but only in because missionaries helped him move to Salt Lake City. Or so the family story goes. My other grandfather was probably Jewish, but assimilated after immigrating and more or less disavowed his background. My Mom went to a country protestant church and later was introduced to new age beliefs. Both of my parents took me to a variety of churches Among my sisters are Lutherans and Catholics.
+
+
+I’ve mentally tried on for size all the religions of the world. I’ve joined the Russian Orthodox Church and Unitarian\-Universalist. But didn’t attend the former for very long and I’m lapsed in the later because it was too stressful dealing with my son at church. Advice to parents– kids will put up with church better if they go most all the time. On the other hand, most church services either are completely inappropriate for kids (as in boring, over their heads) or there is a massive child care problem that causes the everyone under 40 in the congregation to get up after 10 minutes to help with Sunday school (at least that is the UU tradition).
+
+
+A good religion is a community of the sort of people I’d like to hang out with, doesn’t fail the giggle test and has a certain pragmatism to it.
+
+
+Christianity fails the giggle test or doesn’t speak to me most of the time. It was probably more fun 2000 years ago when it was addressing something that was missing in the pagan traditions of the time.
+
+
+I don’t really believe in the physical existence of anyone’s gods, so I suppose I’m an atheist, but atheists, in practice are too angry to hang out with. Some significant part of the atheist community are Christian heretics. Their beliefs are reactions against Christianity and not an independent approach to life.
+
+
+UU’s are cool people to hang out with. I noticed that the Universalist part is actually a real organizational pain for the UU’s. If you mix traditions, then you get a wild mix of contradictions. So UU’s universalism is, in my non\-scholarly opinion, a watered down Christianity and the assumption that other major world religions are much the same–independently discovered rehashes of Christianity. On the otherhand, more than any other organization the UU’s tolerate pagans, Buddhists and other people who dabble in world religions.
+
+
+I like Buddhism most of all as a religion that speaks to me and passes the giggle test. It’s a serious and pragmatic religion. It is also thoroughly Asian. As I’ve said elsewhere, it’s hard to join a club if you need to speak Vietnamese first. The English speaking Buddists in the US tend to be overwhelmingly Zen or sometimes Theravada. So that means a lot of sitting and not interacting with anyone. I get enough of that at work. Again, I like most of the Buddhist traditions and when you try to join a Buddhist club, they’re generally promoting one sort of Buddhist, and often are linked with the Asian organization who likewise wants to promote one sort of Buddhism. Nichiren is the most extreme example of this, although the sentiment that one shouldn’t mix schools is common.
+
+
+I like Asatru because it involves the Icelandic language and I’m a language geek. Animism and Polytheism, on the otherhand, completely fails the giggle test if I imagine myself believing it is anything but reification I’d have to giggle. ([Reification](http://en.wikipedia.org/wiki/Reification_(fallacy)) a very cool word, it means thinking about the abstract as if it were concrete, e.g. death, war and love personified) More so than a typical religion, Asatru requires you to be picky about what parts you want to adopt. Historical Germanic pagan practices are reputed to have included human sacrifice. Probably most of the historical believers believed that the Gods really existed and weren’t just personified ways to discuss abstractions. On the otherhand, Asatru, like Tibetan Buddhism, is more fun than Zen, Lutheranism– with better stories and rituals.
+
+
+Universalists are disruptive when they join a religion. The religions of the world really are different, not just rehashes of the same thing, (except on a superficial level, else we wouldn’t be calling them all religions!) A function organized religion is promoting a code of conduct, a way of seeing the world. Having members promoting incompatible codes and viewpoints is a challenge. Not even economic departments are immune to this– the economic department full of like\-minded academics will run smoothly and have fewer intercine battles. And even if a group is homogeneous, some part of them will start quibbling over minutia.
+
+
+Anyhow, time for a summary. It’s rough being a Universalist. Next I’ll see if I can write up what the elevator speech for Asatru would be, were I an Asatruar.

@@ -1,0 +1,35 @@
+---
+date: '2012-02-09'
+recovered_from: wayback
+slug: post-935
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\935\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=935
+title: Sleep- Part 2
+---
+
+
+**Sleep tracking in practice**  
+
+I put my sleep tracker onto my Kindle Fire. Bad idea, for two reasons. I use my android cell phone for my alarm clock, so it would have made more sense to put it there. If your alarm clock is also your sleep tracking application, you can skip half of the manual entries as you only need to log when you went to sleep. The other problem is that I try turn my Kindle Fire off, which takes forever when I just want to record a data point.
+
+
+Also, any manual logging of sleep start time consistently overestimate how much sleep I get since it takes time to go to sleep.
+
+
+**More complicated ways to calculate sleep debt**.  
+
+[This calculator](http://www.thewhitenoisealbum.com/sleepdebtcalculator.html) assumes you need to sleep for 1/2 of an hour for every hour awake (I think– that’s 8 sleep per 16 awake). So to pay off sleeping only 6 hours for two nights means sleeping more than just 4 extra hours over the next few nights because you need to sleep for the extra awake hours as well. It creates an interesting algebra problem, or it means sleep debt needs to be tracked on a spreadsheet, kind of like a mortgage amortization schedule.
+
+
+**Yawning.**  
+
+First point of yawning should be a good measure of sleepiness, but boredom will confound the results. In my experiment so far, I’ve started yawning at 3PM, 3PM and 11AM. And yawning is contagious, so hanging out with tired people will trigger yawning that isn’t related to sleep debt.
+
+
+**Joe’s Goals**  
+
+With [Joe’s Goals](http://www.joesgoals.com/) you can mark up to 3 good things or 3 bad things happening on a day. That roughly corresponds to a typical increase or decrease in sleep debt– although sleep debt should only be recorded as decreasing up to 2 hours a day and only if there was a sleep debt (i.e. if you start out fully rested, you don’t get credit for sleeping in advance of the day you stay up late). I use Joe’s Goals for other goal tracking already, so this could be a good solution for sleep debt tracking.
+
+
+**Results**. Unexplained anxiety is way down and ability to get work done is way up. That is the good news. The bad news is I’m too old to stay up late and not suffer the consequences.

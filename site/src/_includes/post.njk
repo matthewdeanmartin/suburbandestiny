@@ -7,6 +7,7 @@ layout: base.njk
     {%- if date %}
     <p class="post-meta">
       <time datetime="{{ date }}">{{ date | readableDate }}</time>
+      {%- if date_estimated %} <span class="post-meta-approx">(approx.)</span>{%- endif %}
     </p>
     {%- endif %}
   </header>

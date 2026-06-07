@@ -2,7 +2,7 @@
 date: '2012-01-06'
 recovered_from: wayback
 slug: post-647
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\201201\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\201201\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=647
 title: Customizations I used with Elmah

@@ -1,10 +1,10 @@
 {
-  "title": "Exporting Gridviews with ASP.NET",
+  "title": "Even if the TSA wins the argument, they still lose",
   "slug": "post-194",
-  "date": "2007-02-02",
-  "raw_date": "2007-02-02T06:59:42+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200702\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=194",
-  "markdown": "\nHow to export a ASP.NET gridview to excel, plus how to deal with the occasional control not rendered in a form error.\n\n\nPublic Overrides Sub VerifyRenderingInServerForm(ByVal control As Control)  \n\n‘Do nothing.  \n\nEnd Sub\n\n\nProtected Sub btnExport\\_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnExport.Click  \n\nResponse.Clear()  \n\nResponse.AddHeader(“content\\-disposition”, “attachment;filename\\=FileName.xls”)  \n\nResponse.Charset \\= “”\n\n\n‘If you want the option to open the Excel file without saving than\n\n\n‘comment out the line below\n\n\n‘Response.Cache.SetCacheability(HttpCacheability.NoCache)\n\n\nResponse.ContentType \\= “application/vnd.xls”  \n\nDim stringWrite As System.IO.StringWriter \\= New System.IO.StringWriter()  \n\nDim htmlWrite As System.Web.UI.HtmlTextWriter \\= New HtmlTextWriter(stringWrite)\n\n\nMe.grdData.RenderControl(htmlWrite)  \n\nResponse.Write(stringWrite.ToString())  \n\nResponse.End()  \n\nEnd Sub\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-194.md"
+  "date": "2007-06-16",
+  "raw_date": "2007-06-16T09:13:00+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\194\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=194",
+  "markdown": "\nThe [TSA harassed a mom](http://www.boingboing.net/2007/06/14/tsa_detains_woman_ov.html) for not taking away her toddlers water before going through the security check point.\n\n\nThe facts of the matter–they don’t matter. The policy of harassing people for trying to bomb planes with sippy cups, cans of soup and tubes of toothpaste is stupid. Deep in their hearts, the TSA knows that the toddler and him mom were not going to commit any crimes.\n\n\nI’m not arguing that we should go back to the old system of having our baggage screened by shoplifters and minimum wage workers hired by the lowest bid contractors. That was stupid.\n\n\nHowever, the way that the TSA doesn’t listen to the public about what level of aggravation they are willing to put up with is just as stupid. The complete lack of profiling is stupid–(and you don’t need to be sexist or racist to separate low risk travelers from higher risk travelers. The toddler is not a terrorist– you don’t need to be ageist to realize that). Attacking a mother and her toddler on a national web site, is doubly stupid.\n\n\nInstead of putting a myth busters page up, the TSA should apologize and look closely at how effective their no\\-liquids and no fly list are. Are these policies making the innocent public into partners or enemies?\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-194.md"
 }

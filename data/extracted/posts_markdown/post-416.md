@@ -1,0 +1,24 @@
+---
+date: '2008-08-03'
+recovered_from: wayback
+slug: post-416
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\416\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=416
+title: 'Movie Review: 101 Reykjavik'
+---
+
+
+101 Reykjavik is the expensive downtown district of Reykjavik.  It represents the height of economic development in Iceland.
+
+
+The movie is one of those “what is the meaning of life” movies.  The main character is an aimless guy with no sense of direction.
+
+
+Among Icelandic movies, I rate it a 5 out 5\.  There is lots of Icelandic that I could understand, although someday I should watch it again at 3/4 speed.
+
+
+Culturally, I think this movie really brings to light how Iceland is both a hypermodern Scandinavian country and still something of it’s own that hasn’t decided what to do with the evolving memes concerning family, the social welfare system that are coming out of Europe.  The North American anti\-smoking meme has not caught on at all.  Maybe booze and cigarettes is the northern societies way of killing of the weak, without being so explicit about it.
+
+
+The end isn’t depressing.  This could have turned into an existentialist tale about the meaningless of life, but fortunately it wasn’t.  Funny how unrelentingly sad movies can be turned into happy movies in the last five minutes, it makes for a reassuring metaphor for life.

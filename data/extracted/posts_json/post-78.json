@@ -1,0 +1,10 @@
+{
+  "title": "Can SQL be run in reverse?",
+  "slug": "post-78",
+  "date": "2003-09-21",
+  "raw_date": "2003-09-21T21:12:57+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200309\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=78",
+  "markdown": "\nCan SQL be reversed, say by looking at a trace of SQL and undoing each statement?\n\n\nSELECT \\-\\> no operation  \n\nINSERT \\-\\> DELETE row  \n\nUPDATE \\-\\> no can do. We don’t know which subset was updated, and we don’t know what values used to be there.  \n\nUPDATE (assume 1 row, primary key and the value being updated is also with the WHERE clause) \\-\\> UPDATE using appropriate values in WHERE clause  \n\nCREATE TABLE \\-\\> DROP TABLE Works for similar DDL  \n\nDROP TABLE \\-\\> no can do. Don’t know what we dropped. Similar problem for other DDL\n\n\nSeems like it would be easier to reverse engineer the transaction logs, since they have entire row before and after snapshots of each row that changes.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-78.md"
+}

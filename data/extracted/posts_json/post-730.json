@@ -1,0 +1,10 @@
+{
+  "title": "Creating Skype Chatrooms",
+  "slug": "post-730",
+  "date": "2010-04-09",
+  "raw_date": "2010-04-09T19:21:53+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\730\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=730",
+  "markdown": "\nTo run a moderated chatroom on skype, you need to know these commands. The pre 4\\.0 interface provided a GUI for these commands. the post 4\\.0 interface seems to have fewer working commands and no GUI.  It does support group conference phone calls and both kick (temporary removal) and kickban (permanent remove) and well as a lurker mode for the world in general.\n\n\n–Initial setup  \n\n/set options \\+JOINING\\_ENABLED  \n\n/set options \\+JOINERS\\_BECOME\\_APPLICANTS  \n\n/set options \\+TOPIC\\_AND\\_PIC\\_LOCKED\\_FOR\\_USERS  \n\n/get uri\n\n\nPublic URI needs to be updated should a chatroom lapse.\n\n\n– Can people join?  \n\n/get options  \n\n/set guidelines Joiners must be approved before chatting.\n\n\n– Add a user  \n\n/add foobar  \n\n/setrole foobar USER  \n\n/whois foobar\n\n\n– Deal with bad behavior  \n\n/kick badguy  \n\n/kickban realbadguy\n\n\n– What’s going on  \n\n/info  \n\n/get guidelines  \n\n/get options\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-730.md"
+}

@@ -1,0 +1,24 @@
+---
+date: '2008-05-28'
+recovered_from: wayback
+slug: post-388
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\388\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=388
+title: Frankly my dear, I don’t need a house
+---
+
+
+[New York Times says rent to buy ratios may be back in line](http://www.nytimes.com/2008/05/28/business/28leonhardt.html?em&ex=1212206400&en=5cf63d127f4d4c14&ei=5087%0A).  I don’t believe them.  For example, my apartment in Arlington would cost $300,000 plus, not the $200,000 that a rent to buy ratio of 17 would imply.  (And historically for the 80s and 90s, 10\-14 was a more typical ratio) If anything, the rent to buy ratio in slums may be back in line.  This is very exciting news for unemployed winos and gang members, but not exciting for the middle class.
+
+
+**Arlington County Myth:** Renting is throwing money away on a house, after all the rent could be paying down a mortgage three times over your life.
+
+
+**Arlington County Truth:** Renting costs less than the interest on a house. In other words, the money you are spending on rent isn’t enough to reduce the size of a mortgage and associated costs of homeownership.
+
+
+**Arlington County Myth:** Prices have stabilized, the bubble is over, it is safe to buy again.
+
+
+**Arlington County Truth:** Arlington county residents who bought at bubble prices can put off reality until they have to sell and they don’t have to sell any time soon. As long as Arlington County housing prices are detached from fundamentals (regarding rent to buy ratios and house to income ratios), the bubble is on going. A slowly adjusting bubble is still a bubble.

@@ -1,0 +1,50 @@
+---
+date: '2011-10-20'
+recovered_from: wayback
+slug: post-880
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\880\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=880
+title: Why study Icelandic?
+---
+
+
+I also wrote a big advertisement for my [meetup/study group](http://learnicelandic.net/join/) which says much the same stuff.
+
+
+**EASY.** If you speak English, it is actually on the easy range.  
+
+\- It is indoeuropean. So it works like every other language you’ve studied in High School  
+
+\- The grammar isn’t much like English, but word order is close enough to be intelligible  
+
+\- There are lots and lots of transparent compound words (words made up of two words and you can fairly easily guess the correct meaning if you know the parts)  
+
+\- There are lots of words that match up to something in English. Not nearly the overlap you get with English and French, but a lot of overlap all the same.  
+
+\- It isn’t tonal, it isn’t polysynthetic. It could be much, much more difficult.  
+
+\- The learning materials available today are adequate.  
+
+\- There is tons of Icelandic pop culture available over the internet. Language without accessible media are hard, so by this measure Icelandic is easy.  
+
+\- Reading, writing and speaking Icelandic at a college educated level is hard, but odds are that isn’t your goal.
+
+
+**VACATION**  
+
+Iceland is a nice place to go on vacation and the language is one more thing to do there. If you fail to learn the language, that’s okay, ekki stressaður, most everyone speaks English. I’ve been there twice, but I don’t know when I’ll get to go again. It really depends when the right set of travel companions turn up.
+
+
+**RELIGION**  
+
+About 40,000 people in the US are Asatru revivalists. Of these, a small percent (maybe 1%?) use Old Norse as their religious language– for service, prayers, devotional reading and the like.
+
+
+This is the closest living language to Old Norse. While it might be counter intuitive to study Icelandic to learn Old Norse– Icelandic has schools with living, native speakers, and Old Norse doesn’t. So you are more likely to succeed in learning Icelandic and gain reading capability of Old Norse. The single biggest barrier to learning a language is that it is a huge amount of work and people are more likely to follow through if there are real living people involved somehow.
+
+
+I like to read about all sorts of religions, it’s a pity that I can’t find it in me to believe in any of it. But the philosophy and ethics stuff is often quite valuable to know.
+
+
+**FAMILY.** This doesn’t apply to everyone, but of the people who study Icelandic, a good percent do so because they failed to learn it from their parent/grandparent and still want to speak Icelandic to their relatives back home. Unless you are learning Icelandic to speak to your significant other and your significant other prefers to speak Icelandic (i.e. has poor English skills), then you might not have enough motivation to pull this off. Most people in Iceland speak English and prefer to speak English to their visiting relatives– they need the practice. I don’t have any Icelandic family– but I don’t have any particular personal relationship with anyone in my family that lives in another country anyhow, so for me, with respect to the family issue, all languages are just as good.

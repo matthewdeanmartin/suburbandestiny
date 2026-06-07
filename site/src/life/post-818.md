@@ -1,0 +1,39 @@
+---
+date: '2010-11-19'
+recovered_from: wayback
+slug: post-818
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\818\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=818
+title: Gods and Magic for skeptics
+---
+
+
+If a person listens to a single tone, sometimes they will report hearing a human voice making a particular sound, like, “a”, “e”, i.e. they hear a phoneme, when in fact there is none there. We are just wired to extract linguistic information out of sound.
+
+
+I think we are also wired to extract evidence of people where there are none. When we find the proverbial watch on the beach, we see the watchmaker. We see the watchmaker when we look at all the moving parts of eyes or the amazing things that parasites do– but strictly scientifically speaking, we know there wasn’t a watchmaker here– just evolution.
+
+
+So if I see a watchmaker where there is none, and others do, too then we have a consensual hallucination, which isn’t meaningless like pink elephants in the garden that are only there when you aren’t looking– but instead is kind of like “Harry Potter”, another consensual hallucination that both the skeptics and and non\-skeptics experience enough to be able to discuss him without getting ugly.
+
+
+I think that Gods are like that. They’re personifications of abstractions, they’re shared images. They have social reality. The wood sprites and spirits of the land and rocks are personifications of the concrete.
+
+
+Magic is the inexplicable. If it can be explained, it is science, even if it can only be explained by experts, such as quantum mechanics. Another sort of magic is social magic– the effect we have on each other when we engage in thought that assumes magic has some force. Magic is also the way people behave when they act as if there is someone to punish them were they to skip on paying for the taxi man. Self fulfilling prophesies, the curse that leads to the community to shun the accursed are real magic. I suppose social magic could be explained by psychology and sociology, and then it wouldn’t be the magic of the inexplicable, but it would still work and be a behavior not all that different from what we call magic.
+
+
+Magic that doesn’t work is superstition. I suspect that most of the magic that doesn’t work is magic that is attempting to work via science (praying that your dishwasher will resume working) instead of social mechanisms (cursing the store that sold it, praying in public so someone can react, praying that you will have the power to fix it). Attempts to influence random number generators is superstition, too.
+
+
+**Now what are the consequences of these ideas?** Well, the gods of myths and spirits do matter, magic does matter, but it matters strictly in the world of people, not in the world of science.
+
+
+**What would make social magic more effective?** The better people know the stories, the better they have a common image of the relevant players.
+
+
+Rituals performed in groups would be more effective than rituals performed alone. A ritual for gaining good luck in finding a job is clearly more effective if it is public than if it is a secret– although it may inspire some confidence should you ask the Gods some luck and they seem to have granted it. 
+
+
+Rituals with social goals would be more effective than non\-social goals– for example, if you are sick with a bacterial infection, you need either your white blood cells to rally or you need antibiotics, so at best social magic will make you feel better while you are sick– that is, treating you from the head up.

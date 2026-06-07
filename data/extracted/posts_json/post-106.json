@@ -1,0 +1,10 @@
+{
+  "title": "Stupid VB Control Tricks",
+  "slug": "post-106",
+  "date": "2004-02-08",
+  "raw_date": "2004-02-08T11:29:04+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200402\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=106",
+  "markdown": "\n1. **Visible connections** They clutter up the field\n2. **Invisible text boxes**  \n\ne.g. when you set the border to be invisible, they become invisible on the designer\n3. **Zero width widgets**  \n\nThe designer should give everything a minimum width even if the widget will be zero width in runtime.\n4. **Default trash text**  \n\nDefault names are ok. Default properties, like value \\= “text1″ is a pain\n5. **Absolute positioning**  \n\nWho has time to bump around every single widget!\n6. **Inconsistent property names**  \n\nThis control returns values with .value, that one with .text\n7. **Non extendable controls**  \n\nGive the using programmer’s a chance to fix the base controls defects. And give us at least 3 different ways to extend a control. (By adding new properties, overriding exiting behavior or properties, or making it easy to pass control through a subroutine each time before use for repair)\n8. GUI only edits\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-106.md"
+}

@@ -2,7 +2,7 @@
 date: '2019-11-03'
 recovered_from: wayback
 slug: post-871
-source_file: C:\github\dead_blog\data\normalized\suburbandestiny.com\Tech\index.html
+source_file: data\normalized\suburbandestiny.com\Tech\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=871
 title: Version Incrementing on Multiple Branches

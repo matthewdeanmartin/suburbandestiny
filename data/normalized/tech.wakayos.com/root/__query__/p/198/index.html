@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=198","20160801205911","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1470085151");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>SMO vs TSQL vs Batch vs .NET vs VBS | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » SMO vs TSQL vs Batch vs .NET vs VBS Comments Feed" href="http://tech.wakayos.com/?feed=rss2&amp;p=198"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Why I ripped MS Ajax 1.0 out of my app" href="http://tech.wakayos.com/?p=197"/>
+<link rel="next" title="MSDTC Considered Harmful" href="http://tech.wakayos.com/?p=199"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="http://tech.wakayos.com/?p=198"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-198 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="http://tech.wakayos.com/">
+									<img src="http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/trolley.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="http://tech.wakayos.com/?p=197" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="http://tech.wakayos.com/?p=199" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-198" class="post-198 post type-post status-publish format-standard hentry category-sqlserver">
+	<header class="entry-header">
+		<h1 class="entry-title">SMO vs TSQL vs Batch vs .NET vs VBS</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=198" title="4:51 pm" rel="bookmark"><time class="entry-date" datetime="2007-02-08T16:51:49+00:00" pubdate>February 8, 2007</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>The prototypical application I have in mind is the backup script, which involves launching a few processes, running a few TSQL commands like &#8220;BACKUP&#8221; and doing some file system shuffling, like checking for the existance of a file you intend to write, deleting old backup files, moving them to a safe place, etc.&nbsp; To get anything done, you find yourself doing 3 crimes against computer science:</p>
+<blockquote><p>Code writing code to make up&nbsp;for missing features in the host language.</p>
+<p>Parsing untyped output.&nbsp; The output of DIR is unparsed.</p>
+<p>Domain overspecialization.&nbsp; TSQL does good with tables, it stubles when you need to write a batch script in TSQL.&nbsp; Batch does good at launching processses, it fails when you need to do loops or handle errors. .NET has a wonderful library, but you have to roll your own 5 line process launcher.</p>
+</blockquote>
+<p>In batch, you can launch a process in 1 line of code:</p>
+<blockquote><p>osql.exe {args}</p>
+</blockquote>
+<p>In TSQL, you can launch a process, BUT, it is just a xp_cmd_shell command, so really you are writing batch and if you have long strings of xp_cmd_shell commands you should write batch.&nbsp; However, TSQL will put the data into a single column table, so if the output of the batch command is one data element per row, it nicely maps to a table and you can use it as a table.&nbsp; Still, you have to use TSQL&#8217;s string functions to build the command, there isn&#8217;t a independent parameter, data returned isn&#8217;t typed (it is a table of strings, not a collection of files or some other class).</p>
+<p>SQLCMD.&nbsp; SQLCmd is a SQL2005 tool that is a half measure to make some TSQL scripts easier to write and run, especiall when they need to be execute in different database contexts.&nbsp; Previously this had been done by writing dynamic EXEC(&#8220;use db EXEC myCommand&#8221;) type scripts, which were not fun to write&#8211;again due to the lousy string handling of TSQL.</p>
+<p>The resulting code is clunky and slow to write, a hybrid of a not very good procedural language with something that was never meant to be used as a programming language at all.</p>
+<p>VBS has late binding.&nbsp; This feature is hardly ever used for anything clever, mostly it exists to cripple the language and make it unfriendly to intellisense supporting IDE&#8217;s. COPY, DIR, DEL takes many lines of code.&nbsp; SQLDMO exists, but why put yourself through the pain when you could write VB6 in the uncrippled way?&nbsp; Well maybe because the environment is COM unfriendly.</p>
+<p>VB6. It takes a couple of lines of code to launch a process and it is fairly hard to get the output of the command.&nbsp; SQL DMO did exist to get object oriented access.&nbsp; This requires an environment that is COM friendly.&nbsp; Why deal with COM at all when you can use .NET and not worry if you have the right to register a COM dll?</p>
+<p>.NET and SMO. The prototypical backup script in SMO requires instatiating a bunch of objects in a typed language and relying on the .NET framework for the file system shuffling.&nbsp; In general, it takes more lines of code than the corresponding batch command, eg. COPY, DIR, DEL.&nbsp; Still it is better than VB6.</p>
+<p>WMI. WMI is just so damn hard to use.&nbsp; I won&#8217;t talk about it. It makes me dizzy.WMI via .NET is better, but man you just never know what kind of object you&#8217;ll get back when you talk to a WMI object.&nbsp; Calling everything in the world an object and accessing everthing with a .getProperty(string name) and&nbsp; .invoke(string name)&nbsp;methods is not really typed programming.</p>
+<p>Powershell.&nbsp; I&#8217;m just starting to learn about Powershell.&nbsp; It looks like the goal is to make batch into a real programming language, with the conciseness of COPY, DIR, DEL, the library of .NET, and some real programming language features.&nbsp;</p>
+<p>Powershell you&#8217;re my only hope.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="http://tech.wakayos.com/?cat=1" title="View all posts in SQL Server" rel="category">SQL Server</a> by <a href="http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="http://tech.wakayos.com/?p=198" title="Permalink to SMO vs TSQL vs Batch vs .NET vs VBS" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-198 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			2 thoughts on &ldquo;<span>SMO vs TSQL vs Batch vs .NET vs VBS</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-14">
+		<article id="comment-14" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="http://1.gravatar.com/avatar/9600f79bdd284cffeffbe4b3437d4d33?s=68&amp;d=identicon&amp;r=G" class="avatar avatar-68 photo" height="68" width="68"/><span class="fn">Jeffrey Snover</span> on <a href="http://tech.wakayos.com/?p=198&amp;cpage=1#comment-14"><time pubdate datetime="2007-02-08T20:38:28+00:00">February 8, 2007 at 8:38 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>We won&#8217;t let you down!  <img src="http://tech.wakayos.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley"/><br/>
+If you have questions or run into difficulties, post a query at the newsgroup Microsoft.Public.Windows.Powershell  .  It is a very helpful and responsive community.</p>
+<p>I can&#8217;t wait to see how it turns out.</p>
+<p>Jeffrey Snover [MSFT]<br/>
+Windows PowerShell/MMC Architect<br/>
+Visit the Windows PowerShell Team blog at:    <a href="http://blogs.msdn.com/PowerShell" rel="nofollow">http://blogs.msdn.com/PowerShell</a><br/>
+Visit the Windows PowerShell ScriptCenter at:  <a href="http://www.microsoft.com/technet/scriptcenter/hubs/msh.mspx" rel="nofollow">http://www.microsoft.com/technet/scriptcenter/hubs/msh.mspx</a></p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li>
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-180">
+		<article id="comment-180" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="http://0.gravatar.com/avatar/057fe0a2d7cddd548e98dfe2ee94ad28?s=68&amp;d=identicon&amp;r=G" class="avatar avatar-68 photo" height="68" width="68"/><span class="fn">DLL Files Gal</span> on <a href="http://tech.wakayos.com/?p=198&amp;cpage=1#comment-180"><time pubdate datetime="2007-07-27T13:01:01+00:00">July 27, 2007 at 1:01 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thanks for the breakdown.. tons of good info. </p>
+<p>Bookmarked this page for future reading.</p>
+<p>Thanks<br/>
+Sash Geran</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li>
+		</ol>
+
+		
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 20:59:11 Aug 01, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:00 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.156
+  exclusion.robots: 0.544
+  exclusion.robots.policy: 0.037
+  esindex: 0.011
+  cdx.remote: 8.671
+  LoadShardBlock: 180.348 (3)
+  PetaboxLoader3.datanode: 169.537 (4)
+  PetaboxLoader3.resolve: 67.622 (2)
+  load_resource: 74.736
+-->

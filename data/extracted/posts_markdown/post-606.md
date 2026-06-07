@@ -2,7 +2,7 @@
 date: '2011-01-13'
 recovered_from: wayback
 slug: post-606
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\201101\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\201101\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=606
 title: SQL Compact and MS-Access

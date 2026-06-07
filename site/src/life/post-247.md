@@ -1,0 +1,33 @@
+---
+date: '2007-09-15'
+recovered_from: wayback
+slug: post-247
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\247\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=247
+title: Conglang’s with purported political leanings
+---
+
+
+Toki pona keeps getting compared to New Speak.  Newspeak was a incompletely described, fictional language that suggested if you can’t say it, you can’t think it.  Newspeak was meant to prevent anti\-government speech and thought.  We can’t prove that if this was your only language you’d only think pro\-government thoughts. That would require raising some kids to speak only newspeak, not humane, not practical.
+
+
+We can prove the flip side, which is, “Can you write an anti\-government tract in Newspeak?”
+
+
+I think one can, although I’m too lazy to do it.  Here is a link to one person’s attempt to finish [defining newspeak](http://forums.newspeakdictionary.com/viewtopic.php?t=2238&start=0).
+
+
+One might be able to make an argument about newspeak being partially effective, but that is not very interesting.  It would be very hard if not impossible to separate the effectiveness of propaganda, from the effect of the language itself.  You’d have to again do an experiment where children were raised speaking only newspeak, first hearing only pro\-government utterances, then with neutral, and then with anti\-government newspeak utterances and see if there was a difference among the groups.  Again, not humane, not practical and I’d predict that those that hear pro\-government utterances have a tendency to adopt those thoughts as their own and those that hear anti\-government speak adopt that.
+
+
+Similarly, some people have said because some proverbs proposed in toki pona are economically leftist, that the language would prevent speaking and thinking about economics.  Actually, given the structure of toki pona, where you have a relatively small number of words to start with, one of them is money, “mani”, which means you automatically get a free ride to translating economic jargon.
+
+
+If toki pona was about preventing thought about economics, especially thoughts that were charitable towards capitalist or market based systems, then “mani” should be there.  Even it it wasn’t there, it could be replace with a close synonym, such as “ilo pana” (giving device, instrument of the act of transferring), “ijo pana” (giving thing), as the word “pana” is a semantic category and can be used to translate “give”, (without expectation of return), “sell”, (with expectation of a reciprocal transfer), “transfer” (no implications of reciprocality or lack thereof).
+
+
+And for the tokiponist out there, this is a common feature of toki pona, in that of the 120 odd words, if any one was removed, there usually is a close two word replacement, e.g., “toki” \= “mu jan”
+
+
+Someday when I’m not feeling so lazy, I need to translate Adam Smith into tp and write a tp thesaurus.

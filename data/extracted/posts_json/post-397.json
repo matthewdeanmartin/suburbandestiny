@@ -1,10 +1,10 @@
 {
-  "title": ".NET Attributes to use more often",
+  "title": "Movie Review: Beowulf",
   "slug": "post-397",
-  "date": "2008-08-12",
-  "raw_date": "2008-08-12T17:58:01+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200808\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=397",
-  "markdown": "\nMy theme here are general purpose programming attributes, ones that you might use for any class.\n\n\n(first seen [here](http://www.acorns.com.au/blog/?p=128))\n\n\n**DebuggerStepThroughAttribute, \\[DebuggerStepThrough()]**  \n\nYou can still set breaks here, but normally the debugger will fly right over it. Use this when you find yourself running through the same boiler plate code over \\& over again, especially if the code is machine generated, or otherwise not of interest.\n\n\n**DebuggerNonUserCodeAttrbute.\\[DebuggerNonUserCode()]**  \n\nNo step through, no breaking, even if you have a breakpoint.\n\n\n**\\[DebuggerDisplay(**\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-397.md"
+  "date": "2008-06-15",
+  "raw_date": "2008-06-15T18:34:56+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\397\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=397",
+  "markdown": "\nIt was a cool movie, mostly because it was about life in old Scandinavia.  They did speak a little bit of Old English–it sounds a lot like Icelandic or anyone of the other modern Scandinavian languages.  Oddly, Old English didn’t sound much like English.\n\n\nThe actor assisted computer generate animation was on the whole in the “uncanny valley,” not fake enough to enjoy as a cartoon and not real enough to be thoroughly tricked.  Lot of moments where the actors seemed creepy.\n\n\nAncient myths completely ignore all the rules about how a story is supposed to unfold–things like the hero is not allowed to die, at least not until very late in the movie.    The movie patches up a lot of the typical gaps in a poorly recorded, re\\-told too many times myth.  Still, the rules of magic in the movie were inexplicable.  Magic gold horns may have passed muster in ancient England, but I think nowadays, we deserve some initial motivation for using magic.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-397.md"
 }

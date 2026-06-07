@@ -2,7 +2,7 @@
 date: '2007-10-31'
 recovered_from: wayback
 slug: post-298
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200710\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200710\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=298
 title: 'SSIS: Dog Pile!'

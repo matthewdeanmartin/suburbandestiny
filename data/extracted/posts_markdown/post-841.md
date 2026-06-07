@@ -2,7 +2,7 @@
 date: '2016-05-07'
 recovered_from: wayback
 slug: post-841
-source_file: C:\github\dead_blog\data\normalized\suburbandestiny.com\Tech\index.html
+source_file: data\normalized\suburbandestiny.com\Tech\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=841
 title: Adapting a template for a resume

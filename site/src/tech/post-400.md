@@ -2,7 +2,7 @@
 date: '2008-08-24'
 recovered_from: wayback
 slug: post-400
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200808\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200808\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=400
 title: Automated Testing Using WebClient and HTML Agility Pack

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=318","20191017130013","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1571317213");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>License Mixing from a CDDL standpoint | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Review: Pervasive Data Integration" href="http://tech.wakayos.com/?p=317"/>
+<link rel="next" title="Learing about ASP.NET output caching" href="http://tech.wakayos.com/?p=319"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="http://tech.wakayos.com/?p=318"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-318 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="http://tech.wakayos.com/">
+									<img src="http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/chessboard.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="http://tech.wakayos.com/?p=317" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="http://tech.wakayos.com/?p=319" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-318" class="post-318 post type-post status-publish format-standard hentry category-matthew-martin">
+	<header class="entry-header">
+		<h1 class="entry-title">License Mixing from a CDDL standpoint</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=318" title="10:27 am" rel="bookmark"><time class="entry-date" datetime="2008-01-28T10:27:34+00:00" pubdate>January 28, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Wow I can&#8217;t believe how long this document got.&nbsp; I just wanted to be able to get $25 bucks from ordinary people who use my software, but can afford to pay, to get code contributions from developers who want to use my software but don&#8217;t want to pay, and not give my code away to people so that they could sell it for $24.50 and discourage anyone from buying from me.&nbsp;&nbsp; And I don&#8217;t want anyone suing me for relying on my product and suffering some dread fate.</p>
+<p>So far dual licensing with CDDL looks the best.</p>
+<p>Contributing new code is okay under the CDDL license, just follow the relevant rules to hold harmless, etc.</p>
+<p>But what if I find a cool library, API, code snippet, DLL, control, JAR, etc that someone has released for free on the web? Can it be used with the open source project I&#8217;m currently working on?</p>
+<p><span style="font-weight: bold;">Often&#8230;no! </span></p>
+<p>Viral licenses, GPL, CDDL require careful consideration of what code you mix in with existing code.&nbsp; In fact, a viral license may prevent change an existing code base from proprietary to open, depending on what licenses are already mixed in.&nbsp; The FSF has a long list of <a href="http://www.fsf.org/licensing/licenses/">GPL incompatible licenses</a>.</p>
+<p>For example, the Free Software Foundation says that CDDL and GPL are incompatible:</p>
+<dl style="margin-left: 40px;">
+<dt><span class="link-external"><a id="CDDL" href="http://www.opensolaris.org/os/licensing/cddllicense.txt">Common  Development and Distribution License (CDDL)</a></span>  </dt>
+</dl>
+<p style="margin-left: 40px;">This is a free software license. It has a copyleft with a scope that&#8217;s  similar to the one in the Mozilla Public License, which makes it incompatible  with the <a href="gpl.html">GNU GPL</a>. This means a module covered by the GPL  and a module covered by the CDDL cannot legally be linked together. We urge you  not to use the CDDL for this reason.</p>
+<p>Also unfortunate in the CDDL is its use of the term <span class="link-external"><a href="http://www.gnu.org/philosophy/not-ipr.xhtml">&#8220;intellectual  property&#8221;</a></span>.</p>
+<p>[Sigh.&nbsp; The link to the essay on "intellectual property" is disheartening.&nbsp; Mr. Stallman is trying to say that property rights between physical and intangible things are somehow different.&nbsp; A more rigorous understanding of ownership of property demonstrates that ownership is a bundle of intangible rights, like the right to use, dispose, sell an object.&nbsp; The property right is to the intangible ability-- the physical object is just a distraction.&nbsp; Stallman has not earned the standing to make a statement like "Economics operates here, as it often does, as a vehicle for unexamined  assumptions."&nbsp; I might as well be saying nuclear physicists are a bunch of raving lunatics and whining ninnys, despite me not know squat about nuclear physics.]</p>
+<p><span style="font-weight: bold;">Or maybe license incompatibility isn&#8217;t so bad!&nbsp; </span><br/>
+LAMP applications are often developed as a single unit, yet they use GPL, Apache, Hybrid and PHP licenses respective, which the FSF says are incompatible with each other.</p>
+<p><span style="font-weight: bold;">Dual Licensing</span><br/>
+Make different versions that are released under different licenses.&nbsp;&nbsp; So there might be a CDDL version and a GPL version.&nbsp; Contributors would could contribute to the GPL branch and mix in GPL code.&nbsp; Alternatively they could contribute to the CDDL version and take advantage of it&#8217;s superior terms.</p>
+<p><span style="font-weight: bold;">Copyright and Dual Licensing</span><br/>
+The choice to do dual licensing can only be done by the original project&#8217;s copyright holder.&nbsp; </p>
+<p><span style="font-weight: bold;">Merging and Dual Licenses</span><br/>
+You can&#8217;t merge GPL improvments back into the dual licensed branch of code.&nbsp; This is a strange restriction because when GPL is violated, the party that has standing is the copyright holder!&nbsp; Unless the chosen opensource license gives users and contributors standing, I don&#8217;t see how they could stop a copyright holder from periodically merging the proprietary and opensource branches, unless the contributor retains rights to the contribution.&nbsp; </p>
+<p>If the contributor is retaining rights to the contribution, then he could take action against merging.&nbsp; If the license says that contributions are automatically granted to the original copyright holder, then merging is OK.</p>
+<p>If the contributor didn&#8217;t have the rights to his contribution in the first place, (say the contributor stole some proprietary code) then merging could pose a risk to the the original copyright holder trying to sell under a proprietary license.</p>
+<p><span style="font-weight: bold;">Trade Marks and Dual Licenses</span><br/>
+You might want to give the open source and closed source product a different name, since a trademark is a signal to the market that one company has done something to enforce quality.&nbsp; An open source product uses different means to create quality.</p>
+<p><span style="font-weight: bold;">Forking and Dual Licensing</span><br/>
+Because only the orginal copyright holder can release a proprietary version, forks don&#8217;t normally pose a competitive risk</p>
+<p><span style="font-weight: bold;">Purism and Dual Licensing</span><br/>
+Purism is a sign of obsessive compulsive personality disorder being projected onto software licensing.&nbsp; Just because some GPL users are OCPD doesn&#8217;t mean non OCPD developers should strive for a perfect &#8216;all GPL&#8217; world.</p>
+<p><span style="font-weight: bold;">What about LGPL?</span><br/>
+LGPL specificly talks about allowing code mixing with dynamically link libraries, a specific technology for mixing code.&nbsp; CDDL allows for code mixing on a file based level, which allows for mixing licenses that are statically or dynamically linked.&nbsp; (This may be a red herring, since some LGPL licenses say &#8220;static or dynamic linking&#8221;)
+</p>
+<p><span style="font-weight: bold;">Incentives LGPL and Dual Licensing</span><br/>
+If I am a commercial developer and want to sell some code, I will look for open source licenses that allow me to mix free code with my proprietary code.&nbsp; If I take an LGPL licensed work and put a thin layer of my code over the top, I can start selling it.&nbsp; This would compete with the original copyright holder&#8217;s commercial version.</p>
+<p>On the other hand, if I am a commercial developer, I might use the open source version as a trial version, and then buy the commercial license if I didn&#8217;t want to deal with the viral features of GPL or CDDL.</p>
+<p><span style="font-weight: bold;">Viral to the Modifications, Viral to the Derived Works</span>
+</p>
+<p>In CDDL, you only need to make your modifications to the CDDL work opensource.&nbsp; If you compose the CDDL code, statically or dynamically (what ever that may mean), <a href="http://weblogs.java.net/blog/evanx/archive/2006/06/mayhem_roundup.html">the derived work doesn&#8217;t have to be made open source</a>.</p>
+<p><span style="font-weight: bold;">Can you change your mind?</span><br/>
+You can change your mind with a proprietary license, but many open source licenses are forever.&nbsp; Also, because the licenses are long lived and are based on licenses who&#8217;s official version might change!&nbsp; So at the very least, you might want to pick a type of license that has something to say about versioning or that doesn&#8217;t refer back to the &#8220;latest greatest&#8221; license that some foundation has tweaked.</p>
+<p style="text-align: right; font-size: 8px">Blogged with <a href="http://www.flock.com/blogged-with-flock" title="Flock" target="_new">Flock</a></p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a> by <a href="http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="http://tech.wakayos.com/?p=318" title="Permalink to License Mixing from a CDDL standpoint" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-318 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 13:00:13 Oct 17, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:11:17 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.44
+  exclusion.robots: 0.035
+  exclusion.robots.policy: 0.027
+  esindex: 0.009
+  cdx.remote: 8.432
+  LoadShardBlock: 84.509 (3)
+  PetaboxLoader3.datanode: 87.536 (4)
+  PetaboxLoader3.resolve: 42.324 (2)
+  load_resource: 61.5
+-->

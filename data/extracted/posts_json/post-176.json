@@ -3,8 +3,8 @@
   "slug": "post-176",
   "date": "2006-09-17",
   "raw_date": "2006-09-17T12:48:51+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200609\\index.html",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200609\\index.html",
   "source_url": "http://tech.wakayos.com/?p=176",
   "markdown": "\nIE 6\\.0 sucks.  It’s lagged behind Mozilla for a few years and just a few minutes ago it crashed and took my blog post with it.  IE 6\\.0 must die.  Unfortunately I have to replace it with IE 7\\.0 because there are still so many MSIE only sites.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-176.md"
+  "markdown_file": "data\\extracted\\posts_markdown\\post-176.md"
 }

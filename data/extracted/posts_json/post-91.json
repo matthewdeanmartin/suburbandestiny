@@ -1,0 +1,10 @@
+{
+  "title": "XML Things I’ve learned",
+  "slug": "post-91",
+  "date": "2003-10-09",
+  "raw_date": "2003-10-09T14:46:06+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200310\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=91",
+  "markdown": "\n1. If you are using an XML api, no problem, you’re XML documents will be valid.\n2. If you are using string concatenation, you’ll hit these problems: XML data needs to be escaped for the \\& MS Access has a XML import which works nicely, but it will look like the ‘tables’ it finds in your XML file are not available for import because they are greyed out. This is actually means they **are** available for import, but you have to import all of them or none of them and you can’t pick and choose\n3. MS Excel will open XML files, but it picks rather awful column names, made up of the full path (\\\\\\\\root\\\\myxml\\\\mytag) MS Access will use just the tag name for a column name. Access preserves the white space from CDATA stuff.\n4. Creating a fixed width XML layout requires: a two line header, a one line footer and alternating columns holding constants that could be tricky for the other programmer to fill in. Also, one must assume that the other programmer is using unescaped ASCII. For example:  \n\n(This looks weird because I’m too lazy to manually escape my greater thans and less thans for blogger to display them correctly)\n^?xml version\\=”1\\.0″^  \n\n^table^  \n\n^row^^col1^^!\\[\\[CDATA ]]^^/col1^^col2^^!\\[\\[CDATA ]]^^/col2^^/row^  \n\n^row^^col1^^!\\[\\[CDATA ]]^^/col1^^col2^^!\\[\\[CDATA ]]^^/col2^^/row^  \n\n^/table^\n\n\nFrom this we can see that the XML file can be created by concatinating \n\n\ntag \\+ data \\+ tag \\+ data, etc.\n\n\nThe programmer creating the interface file need not give up the beloved fixed with layout and need only include some cryptic \\& variable separators inbetween the data.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-91.md"
+}

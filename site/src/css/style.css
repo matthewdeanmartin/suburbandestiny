@@ -237,6 +237,10 @@ main {
   color: var(--grey-400);
 }
 
+.post-meta-approx {
+  font-style: italic;
+}
+
 .post-body {
   font-size: 1.2rem;
 }

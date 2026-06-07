@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=215","20160801205422","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1470084862");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>ASP.NET DropDownList and Unexpected Data | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20160801205422cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » ASP.NET DropDownList and Unexpected Data Comments Feed" href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?feed=rss2&amp;p=215"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Review: Mac on a Stick" href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?p=213"/>
+<link rel="next" title="Using Web Services from an ASP.NET 2.0 Application" href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?p=217"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?p=215"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-215 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20160801205422im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/shore.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?p=213" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?p=217" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-215" class="post-215 post type-post status-publish format-standard hentry category-aspnet">
+	<header class="entry-header">
+		<h1 class="entry-title">ASP.NET DropDownList and Unexpected Data</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?p=215" title="8:41 am" rel="bookmark"><time class="entry-date" datetime="2007-05-25T08:41:45+00:00" pubdate>May 25, 2007</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><strong>The Problem</strong><br/>
+You are data binding to a table.  One of the columns, say US state, should have a limited domain, but for various reasons, values outside of that range appear.  For example, you might be importing the data from a second system that uses the state field for country and state.�<br/>
+You don’t want to throw away the invalid state, for example the value, “UK” You want the user to correct them as they find them.  The user should be shown the invalid value, given the option to leave it alone, but not given the option to change it to anything other than one of the fifty US states.<br/>
+Plain HTML drop down controls can’t show a value that isn’t on the list of options.</p>
+<p><code>&lt;select&gt;<br/>
+&lt;option value="OH"&gt;Ohio&lt;/option&gt;<br/>
+&lt;option value="VA" selected="selected"&gt;Virginia&lt;/option&gt;<br/>
+&lt;/select&gt;</code></p>
+<p>You can’t set the value to “UK” because there isn’t an option.</p>
+<p><strong>Solutions.<br/>
+</strong><br/>
+<strong>Ugly solution #1.</strong>  Use foreign keys.  Make a foreign key between the state table and the address table.  The data import package will blow up on invalid foreign keys.  Make the data service group clean up the mess without the help of an ASP.NET application.</p>
+<p><strong>Ugly solution #2.</strong> Update the SqlDataSource to use a combination of valid and found values.  So if the table was pubs, you would use</p>
+<p><code>SELECT state value, state + ' Bad' description<br/>
+FROM authors<br/>
+where state not in (select state from states)<br/>
+GROUP BY state<br/>
+union<br/>
+select state, state as v from states</code><br/>
+This solution is ugly because what was an isolated component, a drop down that lists the states, now needs to know all the parameters necessary to run the same query that the datagrid is using.</p>
+<p><strong>Promising solution #3.</strong> Use a third party control that simulates a drop down through a series of divs.  This would have worked, but the Telerik Rad ComboBox had the exact same behavior as the Microsoft DropDownList—it blows up on an unexpected value.<br/>
+More Elegant Solution. For the ASP.NET DropDownList, we can create a new user control project, add the following class.  This class overrides the DataBinding event.  If the OnDataBinding event raises the dread out of range error, we torture the naming container until we get the value.  We add it to the list with a description showing that we don’t approve of selecting it and select it. *Note, I didn’t invent this technique, I found variants on forums.</p>
+<p><strong><code>Imports System<br/>
+Imports System.Collections.Generic<br/>
+Imports System.ComponentModel<br/>
+Imports System.Text<br/>
+Imports System.Web<br/>
+Imports System.Web.UI<br/>
+Imports System.Web.UI.WebControls<br/>
+Imports Microsoft.VisualBasic<br/>
+&lt;DefaultProperty("Text"), ToolboxData("&lt;{0}:BetterDropDown runat=server&gt;&lt;/{0}:BetterDropDown&gt;")&gt; _<br/>
+Public Class BetterDropDown<br/>
+Inherits System.Web.UI.WebControls.DropDownList</code></strong><code><strong>Protected Overrides Sub OnDataBinding(ByVal e As System.EventArgs)<br/>
+Try<br/>
+MyBase.OnDataBinding(e)<br/>
+Catch OutOfRangeEx As System.ArgumentOutOfRangeException<br/>
+Dim gvr As GridViewRow = CType(Me.NamingContainer, GridViewRow)<br/>
+Dim drv As DataRowView = CType(gvr.DataItem, DataRowView)<br/>
+Dim v As String = drv.Item(Me.DataValueField).ToString()<br/>
+Me.ClearSelection()<br/>
+Dim li As ListItem = New ListItem("BAD:" &amp; v, v)<br/>
+li.Selected = True<br/>
+Me.Items.Insert(0, li)<br/>
+Catch ex As Exception<br/>
+Throw ex<br/>
+End Try</strong></code></p>
+<p><strong>End Sub</strong></p>
+<p><strong>End Class</strong></p>
+<p>The client code looks like this.  Notice that the DropDownList’s data source doesn’t need to reference the author’s table anymore, we don’t get an ugly error when an author is recorded as living in the state of UK</p>
+<p><strong><code>&lt;%@ Register Assembly="BetterDD" Namespace="BetterDD" TagPrefix="asp" %&gt;<br/>
+&lt;asp:GridView<br/>
+ID="GridView1"<br/>
+runat="server"<br/>
+AutoGenerateColumns="False"<br/>
+DataKeyNames="au_id"<br/>
+DataSourceID="SqlDataSource2"&gt;<br/>
+&lt;Columns&gt;<br/>
+&lt;asp:BoundField DataField="au_lname" HeaderText="au_lname" SortExpression="au_lname"  /&gt;<br/>
+&lt;asp:BoundField DataField="au_fname" HeaderText="au_fname" SortExpression="au_fname" /&gt;<br/>
+&lt;asp:TemplateField HeaderText="state" SortExpression="state"&gt;<br/>
+&lt;ItemTemplate&gt;<br/>
+&lt;asp:BetterDropDown<br/>
+ID="DropDownList1"<br/>
+runat="server"<br/>
+SelectedValue='&lt;%# Bind("State") %&gt;'<br/>
+DataTextField="State"<br/>
+DataValueField="State"<br/>
+DataSourceID="SqlDataSource1"&gt;<br/>
+&lt;/asp:BetterDropDown&gt;<br/>
+&lt;/ItemTemplate&gt;<br/>
+&lt;/asp:TemplateField&gt;<br/>
+&lt;/Columns&gt;<br/>
+&lt;/asp:GridView&gt;</code></strong></p>
+<p><strong>        &lt;asp:SqlDataSource<br/>
+ID=&#8221;SqlDataSource1&#8243;<br/>
+runat=&#8221;server&#8221;<br/>
+ConnectionString=&#8221;&lt;%$ ConnectionStrings:pubsConnectionString %&gt;&#8221;<br/>
+SelectCommand=&#8221;select state, &#8216;y&#8217; as v from states&#8221;&gt;&lt;/asp:SqlDataSource&gt;<br/>
+&lt;asp:SqlDataSource<br/>
+ID=&#8221;SqlDataSource2&#8243;<br/>
+runat=&#8221;server&#8221;<br/>
+ConnectionString=&#8221;&lt;%$ ConnectionStrings:pubsConnectionString %&gt;&#8221;<br/>
+SelectCommand=&#8221;SELECT [au_id], [au_lname], [au_fname], [state] FROM [authors]&#8220;&gt;<br/>
+&lt;/asp:SqlDataSource&gt;</strong></p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?cat=3" title="View all posts in ASP.NET" rel="category">ASP.NET</a> by <a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?p=215" title="Permalink to ASP.NET DropDownList and Unexpected Data" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-215 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			One thought on &ldquo;<span>ASP.NET DropDownList and Unexpected Data</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-209">
+		<article id="comment-209" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="https://web.archive.org/web/20160801205422im_/http://0.gravatar.com/avatar/80d02f0970875759a0ac3df6be2da164?s=68&amp;d=identicon&amp;r=G" class="avatar avatar-68 photo" height="68" width="68"/><span class="fn">Barry Tarr</span> on <a href="https://web.archive.org/web/20160801205422/http://tech.wakayos.com/?p=215&amp;cpage=1#comment-209"><time pubdate datetime="2008-02-05T05:50:27+00:00">February 5, 2008 at 5:50 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I am fairly new to ASP .NET.  I am trying to use your solution to override the ondatabinding event of the asp .net V2 drop down list.  I am using VS 2005 and I don&#8217;t see a user control project for any of the languages I have (VB/C++/c#).  I have tried to make a class, but I get various errors.  I would appreciate any help or direction you could give me.</p>
+<p>Thanks,<br/>
+Barry</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li>
+		</ol>
+
+		
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20160801205422/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 20:54:22 Aug 01, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:58 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.522
+  exclusion.robots: 0.039
+  exclusion.robots.policy: 0.029
+  esindex: 0.008
+  cdx.remote: 72.292
+  LoadShardBlock: 246.006 (3)
+  PetaboxLoader3.resolve: 101.028 (3)
+  PetaboxLoader3.datanode: 115.108 (4)
+  load_resource: 125.782
+-->

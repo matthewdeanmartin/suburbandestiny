@@ -1,10 +1,10 @@
 {
-  "title": "MS Build Fortune Cookie Manual",
+  "title": "Cheap Farmland Near Washington, DC",
   "slug": "post-389",
-  "date": "2008-07-25",
-  "raw_date": "2008-07-25T05:21:53+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200807\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=389",
-  "markdown": "\n**Jargon**\n\n\nPropertyGroup \\= Variable declarations  \n\nTask\\= Statement/Method Invocation  \n\nImport \\= Reference/Include/Using statement  \n\nTarget \\= Code Bock/Subroutine\n\n\n**Control of Flow**\n\n\nCode runs once. So if a project has 10 dependencies that need to be compiled, and other projects depend on some subset of those, they won’t be rebuilt. I think this is what makes a build script different from an ordinary script, like a ps or bat file.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-389.md"
+  "date": "2008-05-29",
+  "raw_date": "2008-05-29T03:28:13+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\389\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=389",
+  "markdown": "\nI did a quick study of where there was cheap farmland. I picked a minimum size of about 10 acres, because that is the size of a farm that a supports one person in subsistence farming. My goal isn’t subsistence farming, but right now I don’t have a better algorithm.\n\n\nI picked a goal price of about $50,000, because anything more than that and one would have to operate the farm as a serious business.\n\n\nI checked the prices of land without houses in the states of WV, VA, MD, PA and DE, which is about a 175 mile radius. Here is what I found:\n\n\nThere is a cluster of cheap land ($50,000 lots) on the west wing of West Virginia, about 175 miles away from DC, this area extends into Allegheny County is PA, but disappears fast as you move north or east from that point where there is \\*a lot\\* of farming still going on.\n\n\nThere is a band of cheap land ($50,000 lots) SE of Richmond, about 175 miles away from DC.\n\n\nThere is a band of affordable land in Shenendoah ($75,000\\-$100,000 lots)\n\n\nThe concentric circle bound by Richmond, Charllottesville and Harrisonburg has lots of $200,000 and up.\n\n\nThere is nothing particularly cheap in MD, DE or NJ.\n\n\nIf nothing else, this points out how big Bos\\-Ne\\-Wash city has become. It is so big that the residential real estate market in these cities has driven up the price of farm land for the surrounding 300 miles! Why do I think so? Because a $50,000 lots can be found as far as you can drive west \\*only\\* after you get away from the DC supercommuters.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-389.md"
 }

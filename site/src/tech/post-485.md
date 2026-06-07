@@ -2,7 +2,7 @@
 date: '2008-11-30'
 recovered_from: wayback
 slug: post-485
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200811\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200811\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=485
 title: The given columnMapping does not match up with any column in the source or

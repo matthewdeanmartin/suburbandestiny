@@ -1,0 +1,10 @@
+{
+  "title": "Enterprise Library from Patterns & Practices",
+  "slug": "post-137",
+  "date": "2006-05-18",
+  "raw_date": "2006-05-18T20:12:14+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\p\\137\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=137",
+  "markdown": "\nWhat is the “[Enterprise Library](http://msdn.microsoft.com/library/?url=/library/en-us/dnpag2/html/EntLib2.asp)“? Well, look at the .NET framework.  It is big and feature rich.  But what if you want to so something the righ way, like write code with lots of trace \\& logging commands, lots of try/catch blocks, encrypt lots of potentially secret values, cache stuff for performance or even just retrieve data from the database in a safe, high performance manner?  Well, doing any of these the right way will take ten times as much code.\n\n\nEvery time I catch and error, log it and alert the user, I’m down ten lines of code.  Setting up a stored procedure with parameters is a dozen lines of code, short cutting and using string concatenation takes two lines of code, but is subject to SQL injection attacks.  Encryption, again takes a couple of lines of code each time it is used.\n\n\nThe solution is to use the Enteprise library, which provides a layer on top of the .NET frame work that cuts the number of lines of code it takes to log and event, call a stored procedure or encrypt a string.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-137.md"
+}

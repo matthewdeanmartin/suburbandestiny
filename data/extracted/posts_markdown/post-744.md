@@ -1,0 +1,77 @@
+---
+date: '2010-04-18'
+recovered_from: wayback
+slug: post-744
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\744\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=744
+title: Locally Dead Languages, like French, and What they’ve in common with Conlangs.
+---
+
+
+**Are we studying locally living, dying or dead languages?**  If one “learns” French and you never meet anyone to speak French with, or don’t move to France, you will join the ranks of people who can say, “I took 16 semesters of French in High School and College and still can’t converse very well.”  It’s a still born language with regards to your household– in your community French is dead, and never really was alive.
+
+
+Like biological species that can thrive in one area and be extinct in another, languages fail to thrive outside their range or wither until their gone.  French is a living language in Quebec, Louisiana, France, not so much in Washington DC.  In DC, I’d call it an endangered language.   French, Spanish, German, Russian and Italian are all dieing languages in Washington DC. The domains of their use is vanishingly small and could disappear any year now.
+
+
+A truly dead language can only be used to write messages to your self and read the messages from people who can never respond to you.  Knowing a locally dead language is a clever party trick, but otherwise a colossal waste of time.
+
+
+**How do you recognize the languages near you that aren’t dead yet?**
+
+
+A language is dead for you when you can’t use it in any domain\- not at home, school, work, church, or on the street.  I haven’t made up my mind about if a language is dead or not if you can still use it on the internet on a forum or mailing list.
+
+
+\-Are there social events that are conducted in something other than English? This is the case with Russian.  Most of the events are in DC and Maryland.  
+
+\- Are there play groups and immersian schools? If children don’t have an opportunity to use a second language in their community, they will stop using it.  Ordinary schools that offer French and Spanish don’t count because probably 99\.98% of those who study French and Spanish and school will never attempt to use it in any forum and generally their students never achieve any interesting level of fluency.  The exception to this would be the various immersion schools in the area– there is one for Russian, German, Mongolian, Swedish, one in the works for Icelandic and so on.  
+
+\- Is mass media available? The internet has only been half a solution.  Many languages don’t have very good internet resources and many communities don’t have a high ratio of tech savy people.  Locally in DC, there is cable TV and Radio for Spanish and some other languages, but out of the 50\+ languages some one might want to study, the local availability is sparse.  Books, libraries and news stands generally a pretty grim picture for non\-English materials–hard to find and expensive.  
+
+\- Is this a job skill in demand for both native and non\-native speakers?
+
+
+**If we are studying a locally living language, is a open or closed social group?**I get a warm fuzzy feeling knowing that some language are alive in the DC area, but if that language group is closed to me, it might as well be dead.
+
+
+Some existing language groups are open.  This is a subtle distinction, I doubt any social group is formally closed.  Do the existing groups go out of their way to advertise and gain new members? In the case of Russian, general when you meet a bilingual Russian, the like to speak Russian to you. If you meet a Swede, generally, they like to speak English because listening to broken Swedish is a tedious chore.
+
+
+Enclaves are largely restricted to recent immigrants and their descendants.  Enclaves are another scenario of interest–outsiders will never be invited, many members of an enclave plan to go home at any time, so they’re not motivated to reach out to the local community.  For example, the Vietnamese and Mongolian community is fairly closed, in part because sometimes they’re monolingual.  You can’t find  them until you’re fluent, if you can’t find them, you can’t learn the language except through books, a challenge only the most academically expert can pull off.
+
+
+Enclaves are the most linguistically fragile systems, especially if they stop teaching the language to their children or if immigration from the home country drops off.  The Scandinavian languages are the best example of this.  If I had a nickle for monolingual person who showed up at a Scandinavian language meetup saying “My grandfather spoke Swedish”, I’d be rich.
+
+
+**How to revive a language or bring a language to life?**  
+
+The Welsh, the tiny community of conlangers and the Esperanto community have something to teach us.  A language needs to have prestige, a open community, tolerant of low proficiency speakers and lots of in person social events.
+
+
+To bring a new language to life, it needs to have prestige factors. Esperanto speakers are working on world peace, Lojban speakers are working on clear thought. Klingon and Na’vi speakers are Sci\-fi fans who can win points for being a competent fan, where as anyone can say they watched a movie and liked it.
+
+
+So what would a prestige factor for a natural language be? Icelandic for some reason is prestigious among linguists and polyglots\-wanna\-bes.  Chinese has a prestige factor because the pronunciation and writing system are so difficult for English speakers.  I have no idea what the prestige factor is for French and Spanish and I don’t think anyone in Washington DC knows either.  Arabic and Pashto (and previously Russian) have prestige because a noticeable number of government and military jobs exist that require it.
+
+
+There are a few prestige factors which I think are junk.
+
+
+“It’s a beautiful language”  What language isn’t?  Even Klingon is beautiful once you get used to it and even Italian is ugly if you aren’t used to it.  I’ve gotten used to French and Spanish, so Latin strikes me as a rather ugly counterfeit.
+
+
+“Grampa speaks it.”  Who wants to talk to old farts?  It’s difficult enough to talk to family in English.
+
+
+“100 million people speak it”.  Do they live in Washington DC?  What’s the odds of you ever meeting 1 of those people and needing to speak to them?
+
+
+The community needs to tolerate extremely sloppy speech.  Fluent speakers of Finnish and Hungarian tend to tolerate language learners attempts because it is so rare to find anyone who is trying at all.  French and Japanese fluent speakers have a reputation of tolerating only extremely fluent speakers attempting to speak their language.  US English speakers are the same, but it’s because we are sure as hell not going to learn someone else’s language.
+
+
+The community needs to have public social events.  A tribe in the Ukraine used to have fabulous feasts, were they sacrificed horses to their god the sky father.  They invited everyone to the sacrifices and everyone ate, sang, danced and had a great time.  The people who showed up got free food and learned the language of the host of the sacrifice.  This tradition sparked off the greatest expansion of a language in known times, and in my opinion, explains why the Indoeuropean languages are alive anywhere other than along a particular river in the Ukraine.
+
+
+Without potlucks, French, and any other second language being pursued in the DC area, will remain a dead language, an amusing party trick and a colossal waste of time and money.

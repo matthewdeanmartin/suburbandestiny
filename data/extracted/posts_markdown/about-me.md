@@ -1,7 +1,7 @@
 ---
 recovered_from: wayback
 slug: about-me
-source_file: C:\github\dead_blog\data\normalized\www.suburbandestiny.com\root\__query__\page_id\2\index.html
+source_file: data\normalized\www.suburbandestiny.com\root\__query__\page_id\2\index.html
 source_site: suburbandestiny-tech
 title: About Me
 ---

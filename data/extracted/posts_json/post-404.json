@@ -1,0 +1,10 @@
+{
+  "title": "Icelandic without an Icelandic Keyboard",
+  "slug": "post-404",
+  "date": "2008-07-06",
+  "raw_date": "2008-07-06T04:26:16+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\404\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=404",
+  "markdown": "\nAll special characters lose their hats, split the æ, ð becomes d, þ becomes th.\n\n\nö – o  \n\ná é í ó ú – a e i o u  \n\næ – ae  \n\nð, þ \\-d, th\n\n\nI first saw the technique [here](http://kristinsnae.blog.is/blog/kristinsnae/entry/584252/).\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-404.md"
+}

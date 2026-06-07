@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=211","20210227214154","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1614462114");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>Overview of Code Generation in the .NET World | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20210227214154cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Geek Charity– Donate Bandwidth and CPU Cycles" href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?p=210"/>
+<link rel="next" title="Boot Loader Personality Disorder" href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?p=212"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?p=211"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-211 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20210227214154im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/willow.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?p=210" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?p=212" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-211" class="post-211 post type-post status-publish format-standard hentry category-general-programming">
+	<header class="entry-header">
+		<h1 class="entry-title">Overview of Code Generation in the .NET World</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?p=211" title="12:30 pm" rel="bookmark"><time class="entry-date" datetime="2007-05-07T12:30:55+00:00" pubdate>May 7, 2007</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Code generation is hand for common coding patterns, like the half dozen lines of code you for a class property.  This will save you minutes of labor.
+</p>
+<p>Code generation is really useful for meta-data drive programming.  For example, if you have something that is a database, or looks like one, you may find yourself writing code to do the same half dozen operations with each table, such as fetch by primary key, insert, delete, update, undo an update, update within the context of a transaction, check for string lengths, and so on.   Dynamic code that figures out how to do this at run time, for example, Fetch(table_name as object, pk_value as object) as object means you are working with late bound data types and it is potentially very expensive to look up the metadata on each call. It would be more efficient to code generate the tables and call Account.Fetch(pk_value as integer) as Account.  And obviously either one of these patterns is more efficient than writing by hand the dozens of lines of code that it takes to fetch a row from a table and fill a business object.
+</p>
+<p>Three big business object frameworks include CSLA, Subsonic, and .nettiers.  CSLA and .nettiers are big frameworks with lots of fancy features.  Subsonic is a relatively simple framework.  It probably is better to pick any of the above than to try to write one&#8217;s own.
+</p>
+<p>Metadata drive code generation is also a type of Object Relational Mapping (ORM).  There is a &#8220;ORM impedance mismatch&#8221; between how the world looks from the standpoint of a relational model and an object oriented one.  Sometimes the code generation frameworks do are able to translate from a database schema to objects without a change in semantics, sometimes not.  For example, .nettiers can&#8217;t deal with tables with composite foreign keys.
+</p>
+<p>To get code generation to work, you may have to adapt the templates or change the schema. If you have the luxury of completely rewriting your schema or if you don&#8217;t care what the database schema looks like, you might at this point decide to drop code generation and instead use nHibernate or the like, which takes the opposite approachâ€”you write business objects and nHibernate decides how to save them to a database.
+</p>
+<p>Code generation can be done in any language, although JSP/ASP like languages seem to be the preferred way to generate code.  Template languages like to mix inline code in document templates.  XSLT is an also ran that a bit hard to write.  Microsoft itself uses CodeDom, which is like the HTML DOM, except the document is a .NET source file.  It also has a reputation for being hard to write.
+</p>
+<p>CodeSmith is almost just like ASP.NET and the code templates in Subsonic are ASP.NET pages. They are ordinary aspx files with source code instead of HTML around the golden nuggetâ€”(the inline code).
+</p>
+<p>Code generation will become part of the build process, so a final component of a code generation is editing the nant or msbuild files to include the build.  Both are a type of a script language with xml syntax. MsBuild is used by Visual Studio 2005, but nant has more features.  MS-build&#8217;s feature list is more competitive once you include : <a href="https://web.archive.org/web/20210227214154/http://msbuildtasks.tigris.org/">http://msbuildtasks.tigris.org/</a></p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?cat=10" title="View all posts in Development" rel="category">Development</a> by <a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20210227214154/http://tech.wakayos.com/?p=211" title="Permalink to Overview of Code Generation in the .NET World" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-211 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20210227214154/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 21:41:54 Feb 27, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:12 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.696
+  exclusion.robots: 0.059
+  exclusion.robots.policy: 0.045
+  esindex: 0.011
+  cdx.remote: 7.913
+  LoadShardBlock: 682.525 (3)
+  PetaboxLoader3.datanode: 507.89 (4)
+  PetaboxLoader3.resolve: 176.572 (2)
+  load_resource: 674.177
+-->

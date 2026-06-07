@@ -1,7 +1,7 @@
 ---
 recovered_from: wayback
 slug: about
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\page_id\2\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\page_id\2\index.html
 source_site: suburbandestiny-tech
 title: About
 ---

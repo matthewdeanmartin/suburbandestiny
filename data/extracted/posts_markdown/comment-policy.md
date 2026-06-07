@@ -1,7 +1,7 @@
 ---
 recovered_from: wayback
 slug: comment-policy
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\page_id\263\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\page_id\263\index.html
 source_site: suburbandestiny-tech
 title: Comment Policy
 ---

@@ -2,7 +2,7 @@
 date: '2009-05-11'
 recovered_from: wayback
 slug: post-531
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200905\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200905\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=531
 title: Webservices and WCF- eatting one’s own dogfood

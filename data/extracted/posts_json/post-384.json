@@ -1,10 +1,10 @@
 {
-  "title": "Where is MS-Build?",
+  "title": "Small Houses, Small Farms",
   "slug": "post-384",
-  "date": "2008-07-16",
-  "raw_date": "2008-07-16T08:24:13+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200807\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=384",
-  "markdown": "\nMsbuild’s location varies depending on version.\n\n\nThere isn’t a 1\\.1 version.\n\n\nC:\\\\WINDOWS\\\\Microsoft.NET\\\\Framework\\\\v2\\.0\\.50727\\\\MsBuild.exe\n\n\nC:\\\\WINDOWS\\\\Microsoft.NET\\\\Framework\\\\v3\\.5\\\\MSBuild.exe\n\n\nMsbuild is considered unusable without extending it, <http://msbuildtasks.tigris.org/>, the community built tasks.\n\n\nMSBuild files can be edited with [MS\\-Build SideKick](http://www.attrice.info/msbuild/), (14 day trial $55 single user license).\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-384.md"
+  "date": "2008-05-17",
+  "raw_date": "2008-05-17T12:35:09+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\384\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=384",
+  "markdown": "\nI’ve been researching what it would take to set up a weekend farm for myself.  Learnings:\n\n\n1\\. **Distance**.  Two hours away from DC, you can get a 5 acre plot for $100,000\\.  Three hours away you can get a 15 acre plot for $50,000\\.  Those are minimum prices an additional 1/2 hour out it you can find that with a better selection.\n\n\n2\\. **Modern Cabins/Small Houses**. I found out that housing designs exist in the 100 to 400sqft range.  They tend to have all custom built in furniture.  Without the custom fixtures and build in futurniture, they would be too small to put conventional stuff into.  Even with that, these ultra small houses will leave almost no room for extra stuff, like extra shoes or extra dishes.  Prebuilt on wheels they sell for $35,000 to $45,000\\.  When built on a foundation it costs $100 to $200 per sq foot.  I also found out that when building on undeveloped land, you have to budget an unknown quanity of money for wells, septic and road building, or an unknown quantity of time and money to get a muninciple hookup.\n\n\n3\\. **Farming**.  Some good crops for plants that a weekend farmer could grow would include plants that sometimes grow wild, like paw paw, persimmon, hazelnut, black walnut, crab apple, grapes and some berries like the serviceberry.  These can be turned into juice for fermenting into cider or wine, or in the case of nuts crushed for oil.  Completely unprocessed, they aren’t worth enough to sell, although they could help offset grocery bills.\n\n\n4\\. **Financing**.  Undeveloped land requires up to 50% downpayment, building the house requires financing.  The house part requires a construction loan which is a loan that starts out as a line of credit, then turns into a mortgage.\n\n\n \n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-384.md"
 }

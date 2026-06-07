@@ -1,0 +1,14 @@
+---
+date: '2006-10-12'
+recovered_from: wayback
+slug: post-132
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\132\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=132
+title: Solved!
+---
+
+
+Solved another humdinger of a ill defined question today.  I was thinking about why dating is such an uphill struggle.  I think the answer is “[high stakes relationships](http://www.google.com/search?hs=TgX&hl=en&lr=&safe=off&c2coff=1&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&q=%22you+are+my+everything%22+lyrics&btnG=Search)“.  If a new relationship means creating that much risk, then yeah, then [just coffee](http://www.itsjustcoffee.com/) isn’t just coffee, it’s an [existential](http://en.wikipedia.org/wiki/Existential) challenge. “Good morning.  How’d you like to go out for a cup of coffee and see if we can put together the [ultimate meaning of life](http://en.wikipedia.org/wiki/Absurdism)?”  
+
+And today I got an opportunity to use (at least in my own inner dialog), the word [postmodernism](http://en.wikipedia.org/wiki/Postmodern).  I was watching [nobody’s watching](http://en.wikipedia.org/wiki/Nobody%27s_Watching)– they are pretty funny.  Even more ironic is that I don’t own a TV, so I’m not watching TV, but watching TV on youtube, but about a TV show about being frustrated with watching TV.

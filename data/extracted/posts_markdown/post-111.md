@@ -1,0 +1,18 @@
+---
+date: '2004-03-29'
+recovered_from: wayback
+slug: post-111
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200403\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=111
+title: '#!#@$!@ XM Radio, !$!@$ Car Radios'
+---
+
+
+**Big problem with XM**: Not user installable, dealers want you to drop off your car for half a day or schedule two weeks in advance to get it installed.
+
+
+**Big problem with cars**: Not enough electrical sockets. I want to be able to plug anything into my car! I don’t want to have to jury rig a connection to the fuse box. The cigarette lighter doesn’t cut it. There aren’t enough of them and they are inelegant.
+
+
+**Big problem with car radios**: To hard to hook up arbitrary device to the speakers. I just want to play my audible.com books from my Tungsten Palm, but right now if I wanted to do that I’d have to burn the audio book to half a dozen CD and either play them that way, or then encode the audio CD to mp3 format and put them on a single disk. That is a lot of work, maybe more than listening to the book!

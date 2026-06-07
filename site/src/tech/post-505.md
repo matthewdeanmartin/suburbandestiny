@@ -2,7 +2,7 @@
 date: '2009-01-07'
 recovered_from: wayback
 slug: post-505
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200901\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200901\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=505
 title: log4net weirdness

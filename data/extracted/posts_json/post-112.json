@@ -1,0 +1,10 @@
+{
+  "title": "VB6/Visual Studio Irritation #5673",
+  "slug": "post-112",
+  "date": "2004-04-12",
+  "raw_date": "2004-04-12T13:52:51+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200404\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=112",
+  "markdown": "\nWhen setting a property through a property page, sometimes the property doesn’t set unless you put the cursor focus on a 2nd property in the property page. Merely moving on to the next control doesn’t always set the property.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-112.md"
+}

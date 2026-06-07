@@ -1,0 +1,21 @@
+---
+date: '2007-06-16'
+recovered_from: wayback
+slug: post-227
+source_file: data\normalized\tech.wakayos.com\root\__query__\p\227\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=227
+title: Creative Use of Role Base Authorization in Degenerate Cases
+---
+
+
+What if your application has only one human user? You’d think that you’d have to grant him the right to do all operations in the application. However, if the application has a learning curve, you might have several roles, such as beginner, intermediate, advanced, where the advance user can do operations that a beginner would be better off not attempting for fear of mistakes.
+
+
+What if you have many users, but you are using a service account? (Sometimes called a trusted subsystem architecture) You can still use role based authentication to restrict access to new code. For example, if my application has method1(), method2() and method3(), developed in versions 1, 2, and 3 respectively, if I discover that there is a bug in method3, I can either do a roll back, (which may be hard to do, especially if you have done any database schema changes), or I could remove the service account from the Version3 role. To make this really work, I’d also have to intercept all the “access denied” messages and replace them with “not implemented” messages.
+
+
+What if you have only a few users, say 5, or 2 or 1? At what point does the creation of roles, nesting roles and so on start to outweigh the reduction of user to securable decisions? Hard to say, that would require some math. At one user, it’s pretty clear that creating roles adds extra decisions.
+
+
+However, users are unique and if they leave the company, we don’t want to have to reassign rights to a new user. If we granted rights to the JohnDoeGroup (population one Mr. John Doe), when John leaves the company, we can add Jane Doe to the group and not worry about having lost the potentially complicated set of role memberships and right granting that John Doe needed to do his job.

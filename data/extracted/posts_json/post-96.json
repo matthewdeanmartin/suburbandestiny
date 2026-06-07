@@ -1,0 +1,10 @@
+{
+  "title": "W3 Standards",
+  "slug": "post-96",
+  "date": "2003-10-16",
+  "raw_date": "2003-10-16T09:06:29+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200310\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=96",
+  "markdown": "\nIf you want to use XML \\& XHTML forms you will need to know:\n\n\n**The XML standard**– XML repurposes \\& cleans up HTML so it can be use for arbitrary knowledge domains. No prerequisites, but to use it well, you need to set up DTDs \\& Schemas.  \n\n**XML Schema standard**– Defines what a document should look like and what the data types are.  \n\n**The XSLT standard**– Allows you to transform XML into different XML or into non\\-XML like fixed width files or HTML. Requires knowing the XPath standard  \n\n**XPath standard**– This is like SQL WHERE clauses, except for the data is in XML. Takes getting used to because unlike SQL WHERE clauses, the data being queried is heirarchial.  \n\n**The XHTML standard**– This is the set of rules to be applied to a HTML standard document so that it is tidy enough to be used as XML. It requires knowing HTML4\\.01  \n\n**HTML4\\.01**– This standard is huge– 380\\+ pages.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-96.md"
+}

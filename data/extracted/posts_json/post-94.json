@@ -1,0 +1,10 @@
+{
+  "title": "SQL Server & XML Forms",
+  "slug": "post-94",
+  "date": "2003-10-14",
+  "raw_date": "2003-10-14T11:27:47+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200310\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=94",
+  "markdown": "\nIf you are in a hurry and can’t build heavyweight rich user interface forms, (like VB6\\.0 forms) then you can uses a combination of XSL, XHMTL, and update grams.\n\n\nTricky parts:\n\n\n1. Set up the virtual directories per BOL. Try :  \n\n `.../myVirtualDirectory?sql=SELECT * FROM myTable&root=sometagname`  \n\nIf your leave out the root part, you won’t get a valid XML document back.\n2. To get the xml back transformed, you have to put it in a ‘updategram’ with the following in the root tag:  \n\n `xmlns:sql='urn:schemas-microsoft-com:xml-sql'  \n\nsql:xsl='myStyleSheet.xsl'`\n3. You have to put call your update grams like this:  \n\n`myupdategram.xml?contenttype=text/html`  \n\nIf you don’t the browser ignores the META tag \\& treats the document as XML.\n4. The XML document you get back from a successful update is blank. If not, you get a processing instruction\\- which is hard to transform into a pretty XHTML document. This kind of match will show the error message, but not clean it up.  \n\n `<xsl:template match='processing-instruction()'>  \n\n <xsl:value-of select=\".\"/>`\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-94.md"
+}

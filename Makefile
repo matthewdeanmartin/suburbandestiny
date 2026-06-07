@@ -32,6 +32,7 @@ STATIC_SITE ?= eleventy
 FETCH_DELAY ?= 1
 FETCH_MAX_PAGES ?= 1000
 FETCH_ALLOW_HOSTS ?= suburbandestiny.com,www.suburbandestiny.com,tech.wakayos.com
+BACKFILL_HOSTS ?= suburbandestiny.com,tech.wakayos.com
 
 PYTHON ?= python
 PIP := .venv/Scripts/pip.exe
@@ -48,14 +49,15 @@ SITE_DIR := $(ROOT)/site
 WAYBACKPACK_UA := dead_blog-waybackpack
 
 .PHONY: help bootstrap py-bootstrap clean dirs \
-	fetch normalize extract llm-pack \
-	site-init site-copy all diagnose
+	fetch backfill normalize extract llm-pack \
+	site-init site-copy split all diagnose
 
 help:
 	@echo ""
 	@echo "Targets:"
 	@echo "  make bootstrap              Install Python venv deps"
 	@echo "  make fetch URL=...          Crawl archived HTML with waybackpack"
+	@echo "  make backfill               Fetch every archived ?p= post via CDX"
 	@echo "  make normalize              Rewrite Wayback links and clean HTML"
 	@echo "  make extract                Extract posts into markdown + json"
 	@echo "  make llm-pack               Build LLM-ready prompt/input files"
@@ -116,6 +118,13 @@ fetch: dirs
 		--allow-hosts "$(FETCH_ALLOW_HOSTS)" \
 		$(if $(TIMESTAMP),--to-timestamp "$(TIMESTAMP)",)
 
+backfill: dirs
+	@echo "==> Backfilling every archived ?p= post via the CDX index"
+	"$(PY)" scripts/backfill_posts.py \
+		--output "$(RAW_DIR)" \
+		--hosts "$(BACKFILL_HOSTS)" \
+		--delay "$(FETCH_DELAY)"
+
 normalize: dirs
 	@echo "==> Normalizing downloaded HTML/assets"
 	"$(PY)" scripts/normalize_wayback.py \
@@ -151,7 +160,13 @@ site-copy: dirs
 		--site "$(SITE_DIR)" \
 		--engine "$(STATIC_SITE)"
 
-all: bootstrap fetch normalize extract llm-pack site-init site-copy
+split: dirs
+	@echo "==> Splitting extracted posts into life/tech sections"
+	"$(PY)" scripts/split_into_sections.py \
+		--posts "$(EXTRACTED_DIR)/posts_markdown" \
+		--site "$(SITE_DIR)"
+
+all: bootstrap fetch normalize extract llm-pack site-init split
 	@echo ""
 	@echo "Done."
 	@echo "Look at:"

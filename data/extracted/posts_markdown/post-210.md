@@ -2,7 +2,7 @@
 date: '2007-04-28'
 recovered_from: wayback
 slug: post-210
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200704\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200704\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=210
 title: Geek Charity– Donate Bandwidth and CPU Cycles

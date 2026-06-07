@@ -1,10 +1,10 @@
 {
-  "title": "Setting a property that does’t exist at compile time in C#",
+  "title": "Book Review: Wicked",
   "slug": "post-380",
-  "date": "2008-06-26",
-  "raw_date": "2008-06-26T10:47:46+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200806\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=380",
-  "markdown": "\nLet’s say you need to set a property that won’t exist at compile time, but will at runtime, say through the magic of runtime replacing of objects.\n\n\n\n```\nSystem.Reflection.PropertyInfo pi = someObject.GetType().GetProperty(\"SomeProperty\");\npi.SetValue(someObject, \"new value\", null);\n```\n\nIn VB.NET, much easier:\n\n\n\n```\nObject o = someObject\no.SomeProperty=\"new value\"\n```\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-380.md"
+  "date": "2008-05-05",
+  "raw_date": "2008-05-05T14:12:49+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\380\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=380",
+  "markdown": "\nI highly recommend this book, but it is a long and slow read, chock\\-full of words that are barely English, like “shirtily” (meaning ill\\-tempered) It is a origin story and a tragedy. At one chapter I was ready to put down the book and stop reading if he killed a particular character.\n\n\nL Frank Baum wrote stories about humans and not Humans. In Macguire’s book a distinction is made between animals and Animals, the later being fully sentient, the former were stupid automatons. Gregory Maguire wrote out all characters as full Humans. The good and evil characters of L Frank Baum’s world were humans with a small “h”. In Macguire’s version , each character had real motives, instead of being motivated by “Good” or “Evil” as if they were automatons. This is important because a theme of the book was, “What is evil? Was the witch wicked?” Like in real life, the distinction isn’t simple with people with good intentions and goals being cruel and vicious and people who seem cruel and vicious are just trying to get by in a cruel and vicious world, doing only what could be expected of them being in their position.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-380.md"
 }

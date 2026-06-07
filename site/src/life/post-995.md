@@ -1,0 +1,21 @@
+---
+date: '2012-10-28'
+recovered_from: wayback
+slug: post-995
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\995\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=995
+title: News- rejiggering my meetup groups, new book club, etc.
+---
+
+
+I’m re\-arranging my meetups. 
+
+
+I’m starting a new book club– the Buddhist Book Club of Takoma Park. This will be the third time I’ve tried to start a Buddhist themed meetup group. The first two times, it wasn’t a book club– so people arrived and we didn’t really have an agenda or any specific topic to talk about. It was a disaster– low turn out, single RSVP meetups where even that one person didn’t show, and the Nichiren and Shin proselytizers showed up. Maybe I should be thankful they didn’t show up at the same time, historically, those two sects didn’t always get along. 
+
+
+On the other hand, book clubs are great– they create a natural agenda, everyone knows what is on topic and how to behave. The time investment involved in reading a book encourages people to finish what they start and give people the knowledge to intelligently discuss something. So far I’ve done an Programmer’s book club, Icelandic Fiction in translation club (closed), a Russian contemporary fiction club (closed), a Linguistics book club (still going), — the stillborn conlang book club doesn’t count. Of those, the Linguistics one is the most successful\- 38 books!
+
+
+I’m dropping the “Programmer’s Bookclub”– I think I read all the popular audience book clubs I need to read. More importantly, I was hoping to network and form relationships with people in the industry but outside of my office. Didn’t happen– people on average attended 1\-3 times. Also, I moved and when I updated the group’s location, meetup didn’t notify anyone near my new location. So everyone from the original group stop arriving due to the distance and there were too few sign ups at the new location. That and about three failed meetups with rsvps but 0 shows, really killed the group and my motivation to keep it going. Still, at 16 books, it achieved one goal– to read more programming books.

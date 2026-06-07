@@ -2,7 +2,7 @@
 date: '2007-02-05'
 recovered_from: wayback
 slug: post-195
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200702\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200702\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=195
 title: The Search for FAST Souce Control

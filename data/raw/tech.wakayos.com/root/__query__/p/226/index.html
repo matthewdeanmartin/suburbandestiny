@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=226","20160828082440","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1472372680");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>More Notes on AzMan- An inconvenient interface | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20160828082440cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="More Notes on AzMan" href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?p=225"/>
+<link rel="next" title="Creative Use of Role Base Authorization in Degenerate Cases" href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?p=227"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?p=226"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-226 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20160828082440im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/trolley.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?p=225" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?p=227" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-226" class="post-226 post type-post status-publish format-standard hentry category-azman">
+	<header class="entry-header">
+		<h1 class="entry-title">More Notes on AzMan- An inconvenient interface</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?p=226" title="7:33 pm" rel="bookmark"><time class="entry-date" datetime="2007-06-16T19:33:20+00:00" pubdate>June 16, 2007</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>When creating an authorization store, make sure you are in Developer mode&#8211; Action menu, options, developer mode.  Every time you open the azman console, it resets back to administrator mode.</p>
+<p>The context menu changes for each node.  Top node, you can create a new store, next node you can create an application, next node you can create a user group.  These actions are not duplicated in the menu system, so if you were searching the menu&#8217;s, ha ha! Fooled you.</p>
+<p>You can&#8217;t create two applications that differ only by version. So if you do have two applications running at the same time, you ahve to give them two names, like App1 and App2.</p>
+<p>The &#8220;Role Definition Properties&#8221; page is some what non-intuitive.  The Definition tab has two means:</p>
+<p>- What the role can do</p>
+<p>- What other roles the role is a member of</p>
+<p>The difference between Groups and Roles is not clear.  They appear to be the same concept, except Groups can be formed from an LDAP query and Roles appear to be strictly nested (i.e. they hold groups, but not individuals)  Forcing all roles to nest by at least on level implies to me that there are going to be a lot of degenerate roles (that have exactly one group in them).</p>
+<p>And finally it looks like AzMan can only talk to an Activite Directory, Local or Adam authentication store.  This is quite a bummer if you were thinking of using AzMan on a hosted website where the account is likely to be running the application under a service account.</p>
+<p>I think the one thing I don&#8217;t like about this user interface, is that there is nothing in the user interface to suggest what is a suitable operation, task, role or group.  When I first started dinking around with the application, I kept wanting to so something like create a operations and tasks with the same name and to create roles and groups with same name.  (or worse, confuse roles/groups with operations/tasks)</p>
+<p>Another point of confusion I blame on the UI is the scope of the group depends on where it is in the tree.  It would have be nice if there was a 2nd attribute on the tree to just state the scope rather than make me infer it from where it is.</p>
+<p>Ok, exercise for the reader, rewrite the UI so that all operations can be performed using traceable powershell scripts.</p>
+<p>Authorization Store, Application and Scope&#8211; A store holds applications, for which each is a complete set of groups, roles, tasks and operations.  If your application is a two headed beast, say half store, half customer blogging engine, then you might want to keep separate your roles strategy for the store and the blog.  Or you might want to set these up as two different applications.  So far the only advantage I can see to having several scopes vs several applications is that you get an additional set of roles with a &#8216;scope&#8217; that extends over several azman scopes. Ugh, can&#8217;t we invent some new jargon instead of reusing jargon that already has well defined meanings?</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?cat=23" title="View all posts in AzMan" rel="category">AzMan</a> by <a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20160828082440/http://tech.wakayos.com/?p=226" title="Permalink to More Notes on AzMan- An inconvenient interface" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-226 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20160828082440/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 08:24:40 Aug 28, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:03:17 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.453
+  exclusion.robots: 0.042
+  exclusion.robots.policy: 0.034
+  esindex: 0.006
+  cdx.remote: 12.401
+  LoadShardBlock: 109.864 (3)
+  PetaboxLoader3.datanode: 116.458 (4)
+  PetaboxLoader3.resolve: 363.624 (3)
+  load_resource: 385.311
+-->

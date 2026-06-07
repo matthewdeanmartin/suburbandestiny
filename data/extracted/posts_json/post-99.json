@@ -1,0 +1,10 @@
+{
+  "title": "TSQL programming with MS-Access",
+  "slug": "post-99",
+  "date": "2003-11-03",
+  "raw_date": "2003-11-03T13:07:43+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200311\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=99",
+  "markdown": "\n**Pros**  \n\nFast  \n\nDoesn’t corrupt  \n\nCan handle a lot of data (unless you are using MDBE)  \n\nSome DDL chores are easier in access than enterprise manager  \n\nGives a MS\\-Access front end to SQL6\\.5  \n\nTSQL is a more expressive SQL dialect than JET SQL\n\n\n**Cons**  \n\nHard to use VBScript functions, VB functions can’t be called from inside a stored procedure.  \n\nImpossible to figure out how to change connection timeout  \n\nImpossible to figure out how to globally turn off the ‘rowcount 10000′ feature.  \n\nOn account of the previous 2 problems I run almost all of my queries in Query Analyzer  \n\nRequires extra step to graphically update joined tables  \n\nScrews up the formatting of TSQL– default formatting isn’t very readable  \n\nCan’t graphically view common constructs like CASE/WHEN/THEN  \n\nDefaults to creating a table valued function instead of a stored procedure  \n\nHave to split data accross lots of tables if you are using MSDE  \n\nHeterogenous joins between local and linked tables have lousy performance (as compared to joining local tables to linked tables in an Access .mdb)  \n\nLinked tables have cumbersome names, like SERVER\\_DATABASE\\_DBO\\_TABLENAME, which is a pain when the “SERVER\\_DATABASE\\_DBO\\_” part never changes! Why couldn’t they have used a shorter alias?  \n\nCan’t see date/time a table or procedure was created (although the data can be seen in enterprise manager!)\n\n\n**Tricks**  \n\nTo graphically update the join of 2 tables, create a view and then update the view.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-99.md"
+}

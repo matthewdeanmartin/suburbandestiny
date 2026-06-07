@@ -1,0 +1,10 @@
+{
+  "title": "Whee, recovering a crashed SQL Server",
+  "slug": "post-133",
+  "date": "2006-05-08",
+  "raw_date": "2006-05-08T12:50:54+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\p\\133\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=133",
+  "markdown": "\nI unplugged my workstation accidentally. On reboot I got, right after the trace for ‘starting up master’:  \n\n**17207 : udopen: Operating system error 3(The system cannot find the path specified.) during the creation/opening of physical device .**  \n\nand\n\n\n**FCB::Open failed: Could not open device for virtual device number (VDN) 2\\.** \n\n\nand\n\n\n**Error: 5105, Severity: 16, State: 4\\.**\n\n\nPossible causes: database files being held open by virus scan, database files marked as readonly, or the master is hosed.\n\n\nSo I suppose master is hosed. I check for advice on [restoring master](http://www.phptr.com/articles/article.asp?p=27566&seqNum=1). I tried the rebuild master utility, which kept failing with error \\-1\\. A [BUG: report](http://support.microsoft.com/default.aspx?scid=kb;EN-US;q273572) said I might need to restore from a copy of the install files from harddrive, not a copy from disk.\n\n\nI publish more if I ever get the server back up without just doing a reinstall of the server.\n\n\n**Update**: It was faster to reinstall SQL Server than to figure out how restore the master.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-133.md"
+}

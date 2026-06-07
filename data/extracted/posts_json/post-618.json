@@ -3,8 +3,8 @@
   "slug": "post-618",
   "date": "2011-05-31",
   "raw_date": "2011-05-31T13:01:31+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\201105\\index.html",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\201105\\index.html",
   "source_url": "http://tech.wakayos.com/?p=618",
   "markdown": "\nThe .hgignore file must exist before the /bin/ /obj/ etc files exist. If you edit the .hgignore file after the /bin files have been created, you have to tell tortoise to forget the files. In my case, it was easier to completely empty out the folder by moving all the files outside of the repository folder \\& then re\\-adding them– this time with the .hgignore file in place.\n\n\nThe file needs to be at the root of the repository. This is an unlikely cause of the problem. It isn’t clear if putting the .hgignore file in every @\\#$@%^ folder helps.\n\n\nThere are about six ways to exclude /bin/,\n\n\nglob:/bin  \n\nglob:\\*/bin/\\*  \n\nglob:bin/  \n\nregex:\\\\/bin\\\\/  \n\nglob:\\\\/bin\\\\/\n\n\nAnd so on. God knows which one actually works, it isn’t clear if putting every @$!@% version in the .hgignore file will trigger an ignore.\n\n\nAnyhow, I never had this problem with Ankh and Tortoise SVN. Tortoise SVN understood windows and Ankh understood .NET projects. The corresponding mercurial products don’t seem to understand either, and seem reluctant to ignore.\n\n\nPersonally, I’d rather a version control tool that was reluctant to ‘add’.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-618.md"
+  "markdown_file": "data\\extracted\\posts_markdown\\post-618.md"
 }

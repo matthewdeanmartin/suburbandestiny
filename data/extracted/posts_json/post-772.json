@@ -1,0 +1,10 @@
+{
+  "title": "REST Levels above 4",
+  "slug": "post-772",
+  "date": "2014-10-23",
+  "raw_date": "2014-10-23T10:04:59+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\p\\772\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=772",
+  "markdown": "\nThere is the [Richardson Model](http://martinfowler.com/articles/richardsonMaturityModel.html) of REST says REST APIs can be ranked like so:\n\n\n1\\- Plain old XML. You serve up data in a data exchange format at HTTP endpoint. Ignores as much as possible about how HTTP was intended to work.  \n\n2\\- Resources have their own URL  \n\n3\\- Resources can be manipulated with GET, PUT, POST, DELETE  \n\n4\\- Resources return hypermedia, which contains links to other valid actions \\& acts as the state of the application.\n\n\nI’ll add these:  \n\n5\\- Metadata. The API supports HEAD, OPTIONS, and some sort of meta data document like HAL  \n\n6\\- Server Side Asynch – There is support for HTTP 202 \\& an endpoint for checking the status of queued requests. This is not to be confused with client side asych. Server side asynch allows the server to close an HTTP connection and keep working on the request. Client side asych has to do with not blocking the browser’s UI while waiting for a response from the server.  \n\n7\\- Streaming – There is support for the ranges header for returning a resource in chunks of bytes. It is more like resumeable download, and not related to the chunk size when you write bytes to the Response. With ranges, the HTTP request comes to a complete end after each chunk is sent.\n\n\n\\#5 is universally useful, but there isn’t AFAIK, a real standard.  \n\n\\#6 \\& \\#7 are really only needed when a request is long running or the message size is so large it needs to support resuming.\n\n\nClients should have a similar support Level system.  \n\n1 – Can use all verbs (Chrome can’t, not without JavaScript!)  \n\n2 – Client Side Caches  \n\n3 – Supports chunking \\& maybe automatically chunks after checking the HEAD  \n\n4 – Supports streaming with byte ranges\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-772.md"
+}

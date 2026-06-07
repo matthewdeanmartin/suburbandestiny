@@ -1,10 +1,10 @@
 {
-  "title": "Dual Monitors and SLI Woes",
+  "title": "Oppenheimer Cares about your privacy, Bank of America Doesn’t",
   "slug": "post-185",
-  "date": "2007-01-02",
-  "raw_date": "2007-01-02T16:30:43+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200701\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=185",
-  "markdown": "\nOk, listen to this. If you want to run dual monitors, you can’t use SLI mode, and worse to switch to dual monitors, you have to reboot.\n\n\n[http://forums.nvidia.com/index.php?showtopic\\=6269](http://forums.nvidia.com/index.php?showtopic=6269)\n\n\nThe intresting post above seems to say that if you want SLI and dual monitor output without reboot and plug/unplug/plug/unplug misery, you have to get a third video card for the second monitor, interestingly enough, the configuration seems to work better when the 3rd card is not Nvidia!\n\n\nTo make matters worse, my water cooling device gets in the way of the plugs so not all 4 of them are exposed. And of course every time I change modes, Nvidia wants to make the least accessible plug the main monitor.\n\n\nAnd if I plug a monitor into the digital slot, it doesn’t always detect it or is seemingly random about how it detects it.\n\n\nGrumble, grumble.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-185.md"
+  "date": "2007-05-09",
+  "raw_date": "2007-05-09T15:56:09+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\185\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=185",
+  "markdown": "\nI live in an appartment, I get tons of mail everyday, much of it not for me, but for the last 50 residents of my apartment. Many of these incorrect mailings are financially related–bank statements, pension statements, credit card applications, debt collection dunns, and so on.\n\n\nI tried marking them “Return to Sender” but the mail man refuses to take them (lazy bastard).\n\n\nI’ve started emailing some of the senders and kindly asking them to update the address of the previous resident to the return mail address so that the loop can be closed more efficiently.\n\n\nSteaks of Omaha– no problem.\n\n\nBank of America– three requests, they are only capable of sending robo\\-mail, which ironically has the name of different humans on each response.\n\n\nOppenheimer Funds– they agreed to stop sending me some strangers mail! Kudos to Oppenheimer.\n\n\nI don’t understand why a financial institution wouldn’t stop sending mail to somone upon request from the new resident of an apartment.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-185.md"
 }

@@ -1,0 +1,39 @@
+---
+date: '2008-06-18'
+recovered_from: wayback
+slug: post-398
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\398\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=398
+title: Why the Locavore isn’t just a neo-protectionist
+---
+
+
+It has been well established in economics that in the market for commodities, foreign trade, intra\-country trade and other trade is generally a good thing.  Efforts to create barriers to trade, such as trariffs and quotas have well measured costs to efficiency and at best pose a lose\-lose or “win some”\-”lose more” outcome for society.
+
+
+So what is different about the locavore?  Aren’t they arguing in favor of discredited barriers to trade?  I think not.  There are many barriers to trade that rational people favor, such as the ban on trade in humans as chattel, euphoric drugs, assassination as a service.  If it is okay to say locavores are arguing in favor of discredited barriers to trade, maybe it is okay to say opponents to the locavore are in favor of removing all barriers to trade in all commodities.  The fact is, products differ, markets differ.  We are not dealing with idealized commodities that have only the features of quantity, price and a certain ability to provide a featureless utility.  Products in the real world have many peculiarities, such as the eurphoric drug’s ability to subvert the users ability to make rational economic decisions, or the way slavery and murder as a service undermine basic property rights.
+
+
+Food has the peculiar characteristics in that we must consume it or die.  It has weight, costly to ship.  It can be stored, but virtually no food can be stored indefinately.  Production of food has its own peculiar characteristics.  Producers can choose the quanitty of inputs, but can’t predict the quanity of outputs, hence there are gluts and shortages.  The price system clears the market, but not as efficiently as in the market for toasters, where producers get 1000 toasters when they order their factory to create 1000 toasters.
+
+
+The peculiarities of long distance food.  Long distance food is a product where the food itself is virtually free.  New Zealand apples can be grown for a negligible cost.  These apples combined with petroleum, creates the product of an apple in Virginia.  Since almost all of the inputs are petroleum, eating food over a long distance is about switching from the peculiarities of the food market to the peculiarities of the petroleum market. 
+
+
+The petroleum market is one of a dwindling resource.  The global quanity is fixed and shrinking.  The price will go up, technology will improve and become more efficient in its use just before it finally become too expensive to use an input into any productive activity.  At that point, the use of petroleum to creat the product of an New Zealand apple in Virginia will come to an end.
+
+
+That gets us back to the peculiarities of food.  As public policy, it is not wise to base the production of a product that \*must\* go on, on a input that \*must\* disappear.
+
+
+The locavore is not trying to beggar the neighbor (ie. deny New Zealand money), or enrich local farmers.  The locavore is choosing a supply of an essential product from a supplier than can deliver on the promise to alway be there.
+
+
+One arguement against locavores is that, well if barriers to trade with food far away is good, then ever more stringent barriers are better, say buying only products grown 10 feet away, or in one’s own house.  A rational locavore would not choose to do this because the limit of food autarchy (self sufficency), of being a subsistence farmer is a contract with a supplier who also can’t deliver on the promise to always deliver food.
+
+
+Now in the DC area, it is possible to buy food from Loudon County, Pennsylvannia or New York and expect that food to still be delivered after the collapse of the petroleum economy.
+
+
+The final arguement rests on the peculiarities of edge cases, such as remote locations like Alaska, where there isn’t any agricultural production.  For that, I’d point to the experience of Norwegian colonists in Greenland, who tried to farm there.  Their civilization collapsed.

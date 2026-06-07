@@ -2,7 +2,7 @@
 date: '2006-08-15'
 recovered_from: wayback
 slug: post-171
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200608\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200608\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=171
 title: Actually trying to use MS-Words HTML editing is not a good idea

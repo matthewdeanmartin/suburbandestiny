@@ -1,0 +1,10 @@
+{
+  "title": "Upgrading WordPress only to See A Hat (Â) all over the place.",
+  "slug": "post-460",
+  "date": "2009-01-10",
+  "raw_date": "2009-01-10T18:18:28+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\460\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=460",
+  "markdown": "\nGo here: http://wordpress.org/extend/plugins/utf\\-8\\-database\\-converter/download/\n\n\nGet the utf\\-8 upgrader .  I went from 2\\.6 to 2\\.7 and it worked, despite the scary warning.  I haven’t checked every single post, but if your posts really are valuable, you’d have a backup mechanism, right?\n\n\nSpeaking of WordPress 2\\.7, it seems that the UI of wordpress 2\\.6 was hiding the spam from me, which I guess was fine because half of it was spam and the rest were \\*angry\\* comments, although not spam.\n\n\nMaybe a spam \\+ troll filter would be a nice filter.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-460.md"
+}

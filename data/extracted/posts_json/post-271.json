@@ -1,10 +1,10 @@
 {
-  "title": "The file ‘/foo.aspx’ has not been pre-compiled, and cannot be requested.",
+  "title": "Alanis Morissette: Hand in My Pocket",
   "slug": "post-271",
-  "date": "2007-08-24",
-  "raw_date": "2007-08-24T07:59:14+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200708\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=271",
-  "markdown": "\nIf you put a compiled ASP.NET application into a sub folder of a virtual directory/application, you get this error accessing the child application. Compiled apps don’t like to be in a hierarchy. [Create an IIS ‘application’](http://www.affiliatewiz.com/support/appstartpoint.asp) for the compiled website.\n\n\n\nIf you are missing a reference, you might get this error message. Think back to what the most recent DLLs that were added to your project. GAC’d dlls are a likely candidate because deployment projects and msi installer projects assume the destination has the same GAC’d file as the development machine.\n\n\n\n\n \n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-271.md"
+  "date": "2007-09-25",
+  "raw_date": "2007-09-25T16:03:28+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\271\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=271",
+  "markdown": "\nSo I was listening to Alanis Morrisette on Lucy radio \\& s[he’s complaining about how uncertain she is about how she’s doing, then she says](http://www.lyrics007.com/Alanis%20Morissette%20Lyrics/Hand%20In%20My%20Pocket%20Lyrics.html) \n\n\n\n> “Is that everything’s gonna be quite alright   \n> I’ve got one hand in my pocket   \n> And the other one is flicking a cigarette”\n\n\nAnd I think, “How isolating!  How absurd!  Her health is going to go in the toilet, she’s going to be shunned by everyone, potential boyfriends, her family.”  I mean, no one in my family smokes– among my sisters and my self, only one person married a smoker, and the generation after that no smokers at all!\n\n\nTobacco doesn’t mean looking cool anymore.  Tobacco’s symbolism has shifted from a habit to a irrational act, irrational as rubbing glass shards into your eyes, licking red hot electric stove burners and gargling Clorox.  I mean, sure someone might look cool doing it, but why bother?\n\n\nAnd worse yet, why would someone smoke when it has the social appeal of\n\n\n\n> “Is that everything’s gonna be quite alright   \n> I’ve got one hand in my underwear  \n> And the other one is flicking a booger”\n\n\nSadly, this blog entry is probably only going to attract readers from Alanis Morissette fandom, so I’ll point out that Regina Spektor, who is a singer who I do like, makes me do the same double take, like in “[That Time](http://www.songmeanings.net/lyric.php?lid=3530822107858587403)“\n\n\n\n> “Hey, remember that time when I would only smoke Parliaments?  \n> Hey, remember that time when I would only smoke Marlboros?  \n> Hey, remember that time when I would only smoke Camels?”\n\n\nand I thought, “This isn’t here singing anymore, she’s singing on behalf of someone else, like if she was singing the love songs of 18th century whalers. Her voice doesn’t sound damaged enough for her to be a smoker”\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-271.md"
 }

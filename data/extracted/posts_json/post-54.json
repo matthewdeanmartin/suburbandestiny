@@ -1,0 +1,10 @@
+{
+  "title": "SSMS Review",
+  "slug": "post-54",
+  "date": "2006-01-27",
+  "raw_date": "2006-01-27T11:19:47+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\p\\54\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=54",
+  "markdown": "\n1\\) The tabs labels are useless.  They are not wide enough to show anything exciting, for example, I see “server01\\.databa\\_…Query1\\.sql”  The tab label should be wider or we should just have the file name.\n\n\n2\\) F5 doesn’t always behave, sometimes it start “Open Project” instead of execute.  Fortunately ctrl\\-E works the same as F5 did in query analyzer.\n\n\n3\\) Object explorer is just about useless because it takes 50% of the screen.  25% of the space object explorer now takes up is white space.  The object explorer heirarchy is 6 folders deep, so with all folders open, this becomes full page of diagram.\n\n\n4\\) I can’t sort views by name in the object explorer.\n\n\n5\\)  I have to register servers twice, once in the “Register Servers” section and once in the “Object Explorer” section\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-54.md"
+}

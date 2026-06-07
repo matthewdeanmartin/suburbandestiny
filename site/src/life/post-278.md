@@ -1,0 +1,67 @@
+---
+date: '2007-10-02'
+recovered_from: wayback
+slug: post-278
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\278\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=278
+title: 'Conlang: Dnghu/Indoeuropean'
+---
+
+
+There is a really cool conlang called  Dnghu.  It is an attempt to revive a language that no one has ever heard or read.  It’s form is inferred only from modern and ancient written languages by a processes  of searching for similarities among these languages and regular phonetic changes over time.  The detective work being done to ‘reconstruct’ the language is fascinating in its own right.
+
+
+**Why**. The grammar guide says there is a need for Dnghu this because the EU is large, has a lot of documents which have to be translated at great cost into all member languages.  No member state wants to drop any national language.  Since most of these national languages are in the indo\-european family, maybe the dead language can be revived, the same way dead languages like Hebrew and Cornish have been revived.  Because this is the purported ancestor language of the official languages of the EU, there should be less resistance to its use than the alternatives. 
+
+
+**Is it really euro\-neutral?** Even here, there is some nationalistic argument about how similar PIE (proto\-indoeuropean) should look like a modern national language.  Should the modern PIE have the look and feel of Latin or Sanskrit?  Should it be designed–err–reconstructed to have no strong similarity to a single modern language?  If a similar program was designed for Nordic countries, then a Proto\-Nordic would sound a lot like Icelandic, since the Icelanders living in isolation from speak a dialect that changed less than Swedish, Norwegian and Danish, something that the Icelanders would like but wouldn’t be pleasant for nationalist of the rest of the Nordic states.
+
+
+**Why not some other auxlang?** The page says that a benefit of the IndoEuropean Con lang is that it isn’t English (and by analogy), we can presume that it is better because it isn’t Esperanto.  I think a conlang must stand on its own merits, not on the failings of other languages.  At one point Esperanto is dissed as being too artificial, which seems like a strange criticism from one euro\-clone conlang to another.  If Dnghu has any interest in being a serious language, it needs the grammar to be translated into Esperanto, to get the attention of the people who already have proven an interested in auxlang projects.
+
+
+**Is it a conlang or not?** The creators interestingly see it as a scientific program and not a creative one and get miffed when accused of creating a conlang.  Dnghu is also put forth as a ‘natural language’, which is highly amusing.  A conlang is not a natural language on account of it not being “a priori”   Many conlangs are relexes of natural languages, inspired by particular language families and some are thought experiments about how a language would evolve if it didn’t have neighbors.  Being a conlang is not a bad thing, but assertions to the contrary, I think, muddy the water.
+
+
+**Is it ready to speak?** Also interesting is that they are actively discouraging random people from attempting to learn to speak it, yet they hope it to become an auxlang within our lifetime.  This actually is a interesting conlang design question, when does one declare a language ready for use?  It is often in the usage that the weaknesses of a design become apparent, but changes late in a conlangs life are likely to be controversial or impossible if enough archaic text still exists.
+
+
+**How hard is it?** The language looks fiercely difficult to learn.  If I had that much time, I’d just learn Icelandic instead, which would be handy on vacation.  It may just be the presentation–the grammar guide is aimed at people who might want to contribute to the design more than people who might want to speak it.  As noted, as of right now, it isn’t considered ready for use.
+
+
+**What is the license?** The language has one of the most completely thought licenses out I’ve seen so far, © for the website, CC by attribution for the language and GFDL (GNU Free Documentation License), TM on Dnghu and variants and a Terms of Service looking thing.  The multiple license part though does make it hard to decide what covers what—it would make more sense if the documents for exclusive sale were ©, the redistributable grammar guide CC or GFDL, but not both.
+
+
+**Was there really one ancestral language?**
+
+
+There are some problems with the idea of winding the linguistic clock backwards:
+
+
+As we go back in time linguistic diversity increases, not decreases!   Before the domestication of horses, villages would have been isolated and developed rapidly splintering languages.  Many of these would have died out.
+
+
+As one language spreads across the land, it’s splinters, and creates diversity as well!  This was the story of Indo European.
+
+
+There are some problems with the choice of the root language:
+
+
+Indo European is no more an ancestral language (that is, language of our genetic ancestors) than English is, as the spread of the Indo\-European tribes almost certainly absorbed non\-Indo\-European speakers.
+
+
+Some cultures conquer peoples and let the conquered speak their language.  Some conquer and integrate.  Some conquer and then take the language of the conquered.  Probably all of the patterns happened, so a French man speaking an Indo\-European re\-constructed might just be speaking the language of an ancient conquer in a body that holds the blood of men who arrived in France in multiple waves over tens of thousands of years, speaking a variety of languages, not all descendent from PIE.
+
+
+As for me, I think indo\-esperanto might be fun to study, too.  After all, many constructed languages have a similar look to them, e.g. esperanto, interlingua, Ocidental, etc.  Maybe if we could find the common ancestor to these auxlangs, then auxlangers could finally settle on a language to promote.
+
+
+
+
+ This entry was posted
+ 
+ on Tuesday, October 2nd, 2007 at 4:48 pm and is filed under [Conlang](http://www.suburbandestiny.com/?cat=21 "View all posts in Conlang").
+ You can follow any responses to this entry through the [RSS 2\.0](http://www.suburbandestiny.com/?feed=rss2&p=278) feed. 
+ 
+ You can skip to the end and leave a response. Pinging is currently not allowed.

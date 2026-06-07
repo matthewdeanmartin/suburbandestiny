@@ -3,8 +3,8 @@
   "slug": "comment-policy",
   "date": null,
   "raw_date": null,
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\page_id\\263\\index.html",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\page_id\\263\\index.html",
   "source_url": null,
   "markdown": "\n1\\. I read all comments before publishing them. It is more important to prevent spam that to have comment show up immediately.\n\n\n2\\. If there is any question as to a comment’s legitimacy–especially if you aren’t referring back to my post’s content–I will publish but remove any URL.\n\n\n3\\. If I publish a comment, I will encourage [google to increase your page rank](http://en.wikipedia.org/wiki/Wikipedia:Nofollow).\n\n\n4\\. WordPress as of yet doesn’t let me control [trackbacks](http://en.wikipedia.org/wiki/Trackback) well enough to prevent trackback spam, so no trackbacks.\n\n\n5\\. [Angry comments](http://en.wikipedia.org/wiki/Flaming_%28Internet%29) will be deleted, generally while only half read. If you feel the need to be angry, go sign up for a page on myspace.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\comment-policy.md"
+  "markdown_file": "data\\extracted\\posts_markdown\\comment-policy.md"
 }

@@ -1,0 +1,36 @@
+---
+date: '2007-10-11'
+recovered_from: wayback
+slug: post-284
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\284\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=284
+title: 'Jumble: Missed two events, Cut work early'
+---
+
+
+**What’s doing.**  I’ve got a cold. So I missed not one, but two possible events.  At least I baked some pies.  Got two apple pies.  
+
+
+**Toki Pona Thought**. I’d marry a woman who spoke toki pona on the spot. (Not an original thought, sorry.)  But now that I’m talking about conlangs, I’ve thought it would be very handy for there to be a pronoun to mean “you” as in “you guys on the other side of the fourth wall”  It would have made [sinfest.net](http://sinfest.net/) clearer today.
+
+
+**Match.com Thoughts.** There’s got to be something better out there.  It hasn’t changed in the years since I last tried to use it.
+
+
+**Cold Thoughts**.  Just as it pleasantly got cold outside, I get a cold.  Now that isn’t fair. Cold hearted viruses.  Is it entirely Buddhist \& compassionate to wish that these viruses will fail to reproduce and every bit of their genetic information were erased from the earth?  Rat bastard molecules.
+
+
+**Politics.** Even [Fairfax county](http://www.washingtonpost.com/wp-dyn/content/article/2007/10/10/AR2007101002031.html) is joining in on the jim crow, anti\-brown people dog pile.  So if an immigrant working in the US–remember this is 5% of the working population in the US–gets accused of a small crime, but large enough to get thrown in jail, he will be punished with exile, a punishment normally used for natives when execution is impractical.  Making the penalty disproportionate to the crime doesn’t mean people will obey the law more, but it will mean more desperate behavior when police try to arrest immigrants.
+
+
+Also, there is a human rights issue involved.  Fairfax county isn’t going to be deporting the Swiss back to Switzerland.  Fairfax will be deporting brown people to third world countries with dicey prisons. There are things we don’t do to humans, even if they have committed a crime.(Excluding Republicans of course, who don’t mind torture)   Heck, there are some things we don’t even do to animals and they’re food.   We don’t flay people, we don’t give them electrical shocks until their teeth fall out.  Why should turn prisoners over to foreign governments who have no such qualms?
+
+
+And there is the effectiveness issue. Many foreign countries won’t take back their foreign nationals if they are in jail for any criminal offenses.  Like the death penalty, deportation is not cheap.  If the country doesn’t want them, Fairfax County will be sending prisoners on a round trip back to Fairfax County.
+
+
+Moral of the story, keep your passport on you at all times if you are in Fairfax County Virginia.
+
+
+Anyone want to wager if we see a resurgence of the Klan in the DC suburbs?  Anyone want to bet what party the [future anti\-brown people candidates](http://www.fairfaxgop.com/) in Fairfax will be?

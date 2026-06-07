@@ -1,10 +1,10 @@
 {
-  "title": "Mocking SharePoint a reading list",
+  "title": "Icelandic Rock",
   "slug": "post-360",
-  "date": "2008-05-23",
-  "raw_date": "2008-05-23T09:40:20+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200805\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=360",
-  "markdown": "\nDeveloping for SharePoint requires testing code you write on SharePoint. But SharePoint wants to run on the same box as your development environment.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-360.md"
+  "date": "2008-03-15",
+  "raw_date": "2008-03-15T18:54:04+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\360\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=360",
+  "markdown": "\n[Icelandic rock song with lyrics and translation in English](http://www.youtube.com/watch?v=Osam78j6Q74)!  Very handy if you’re studying Icelandic.\n\n\nBlogged with [Flock](http://www.flock.com/blogged-with-flock \"Flock\")\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-360.md"
 }

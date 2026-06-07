@@ -1,0 +1,10 @@
+{
+  "title": "How to send a file to a printer using batch",
+  "slug": "post-84",
+  "date": "2003-10-01",
+  "raw_date": "2003-10-01T13:13:46+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\p\\84\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=84",
+  "markdown": "\nToday I learned you can print to a network printer by using:\n\n\n`type file.prn > \\\\server\\printer`\n\n\nThis is handy when you have PCL or PS file and don’t have a suitable application to open the file with.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-84.md"
+}

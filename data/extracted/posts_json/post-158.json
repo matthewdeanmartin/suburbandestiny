@@ -1,10 +1,10 @@
 {
-  "title": "Software Review: Free MS-SQL DB Documentation Generation",
+  "title": "LARP Rules",
   "slug": "post-158",
-  "date": "2006-08-04",
-  "raw_date": "2006-08-04T08:22:25+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200608\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=158",
-  "markdown": "\n[SchemaSpy](http://schemaspy.sourceforge.net/) is a free [database documentation](http://schemaspy.sourceforge.net/) generation tool.  It uses Java and JDBC to gather schema information.  The output is a browsable website for each database. It generates ERD’s if you have [Graphviz](http://www.graphviz.org/Download_windows.php) installed.  It also supports a large number of other databases, (important for me, SQL 2005\\).  I haven’t figure out how to get intergrate security to work, but it does appear to work with just a user in the db\\_datareader role.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-158.md"
+  "date": "2006-11-22",
+  "raw_date": "2006-11-22T05:30:52+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\158\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=158",
+  "markdown": "\nRoles agreed upon in advance. Players describe character before starting game. Qualities not listed in advance can’t be added during the game. All qualities implied costume are immediately granted.\n\n\nFinal state. The final state is the condition under which a character wins, or the campaign is over. Players choose in advance if they want a character vs character or character vs world.\n\n\nNo game master. Any character can say that something happened in the world and unless another character says that didn’t happen, it happened. (This rule need to be modified for large groups)\n\n\nResolution of game actions. All character actions automatically succeeds, however, characters must challenge the character with 1 to 3 objections. Objections can be either character resistance or the player imaging resistance from the environment. Character actions can be challenged if they are out of character. If players argue, they have to switch to another resolution device. Paper\\-scissors\\-rock is the default resolution for opposed feats (that is, where one player is attempting a feat, the other character wishes or thinks that the feat to fail, it isn’t obvious what the outcome should be based on the characters qualities)\n\n\nGame dialog vs in character dialog. Game dialog is for dealing with game mechanics and should follow formula, in character dialog is\n\n\nGame progress. Not sure yet, although it seems that a multi session campaign would be a good element.\n\n\nGame accounting. LARP should have almost no accounting.\n\n\nGame Flow. Players take turns. Each turn players\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-158.md"
 }

@@ -2,7 +2,7 @@
 date: '2012-09-21'
 recovered_from: wayback
 slug: post-686
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\201209\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\201209\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=686
 title: Compiler Error 128

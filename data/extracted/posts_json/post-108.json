@@ -1,0 +1,10 @@
+{
+  "title": "Things DTS needs",
+  "slug": "post-108",
+  "date": "2004-03-05",
+  "raw_date": "2004-03-05T11:06:06+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200403\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=108",
+  "markdown": "\n1\\) STOP\\-GO A task that can be quickly set to always succeed, or always fail  \n\n2\\) Run Access ‘action queries’ in batches (10 or so access queries executed in a row, graphically)  \n\n3\\) Send table (turn an access or SQL view or table into an excel spreadsheet and send it)  \n\n4\\) Drop table (which always succeeds)  \n\n5\\) Execute Access ‘action queries’  \n\n6\\) Create Excel spreadsheet\n\n\nCurrently all these very common tasks require a big hassle.\n\n\nDTS also needs to:  \n\nMake the graphical taks bigger and make them visably change when properties change, for example, the icon should have a big red circle with line through it if the task is disabled.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-108.md"
+}

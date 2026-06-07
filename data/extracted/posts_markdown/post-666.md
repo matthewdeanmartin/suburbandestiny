@@ -2,7 +2,7 @@
 date: '2012-08-30'
 recovered_from: wayback
 slug: post-666
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\201208\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\201208\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=666
 title: Cross Database Support

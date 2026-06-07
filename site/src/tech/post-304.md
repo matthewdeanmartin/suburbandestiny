@@ -2,7 +2,7 @@
 date: '2007-11-12'
 recovered_from: wayback
 slug: post-304
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200711\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200711\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=304
 title: 'Webcast Notes: Top 5 Challenges Faced by Software Development Teams'

@@ -2,7 +2,7 @@
 date: '2007-09-07'
 recovered_from: wayback
 slug: post-276
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200709\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200709\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=276
 title: 'Visual Studio 2005: Installation Woes'

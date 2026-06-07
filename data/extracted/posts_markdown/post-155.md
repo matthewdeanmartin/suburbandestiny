@@ -2,7 +2,7 @@
 date: '2006-07-26'
 recovered_from: wayback
 slug: post-155
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200607\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200607\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=155
 title: Kitchen Computer

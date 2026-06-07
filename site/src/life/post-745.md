@@ -1,0 +1,42 @@
+---
+date: '2010-04-18'
+recovered_from: wayback
+slug: post-745
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\745\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=745
+title: Why I study the langauges I do.
+---
+
+
+I read French comics, listen to French music–but only in the morning, French movies.  It’s all about mass media.
+
+
+I listen to Russian music, and sometimes make Russian food, although I’m more likely to read the recipes in English than Russian.  I’m trying to start reading the news in Russian on Mondays, but it isn’t looking to promising.
+
+
+I watch Icelandic movies, read Andres Ond (the comic), and read the news in Icelandic every Tuesday.  I occasionally hold an Icelandic themed potluck at my apartment.  I read Scandinavian novels (but in translation) as part of a book club.
+
+
+I study all languages as a part of my linguistics book club.  Most of the time I’m interested in linguistics as a way to figure out who we are and how we work, as a species.
+
+
+I write toki pona the toki pona forum, twitter and toki lili because the language is so simple, I’m almost competent, something I can’t say about my L2, or L3, etc.
+
+
+I periodially attempt to learn a language just to see if there is anything there to make me want to go any further. I’ve attempted (at some point in my life) and failed to progress at: Japanese, Danish, Swedish, Spanish, Korean, Klingon, Esperanto, Ute, Cherokee, Chinese, Bulgarian, Mongolian, Estonian and Latin.  Of these, Japanese, Spanish and Latin involved semesters of class work.  For all the rest of I’ve sunk time and money into them, generally with not much to show for it.  Probably an equally long list of languages I’ve at least checked out the relevant book from the library.
+
+
+I have never tried to learn German and I never will.  I won’t study Ukrainian because it sounds wrong.
+
+
+I never have the good fortune of having to desperately (or otherwise) need to communicate with anyone in a language other than English, and the few times at are close to that, the colocutor is highly motivated that they speak English and not me attempt to speak their language.
+
+
+I have never searched the internet and having failed to find the answer had a nagging feeling that the answer is out there, but written in French.  Or Chinese.  Unless I’m looking for the recipe for snuther, which is only in Icelandic.
+
+
+I have never searched for a book to learn that it isn’t available in English translation, except for maybe “Morðið í Rockville”
+
+
+Is it any wonder that us DC residents are so hopelessly monolingual?

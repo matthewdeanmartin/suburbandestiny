@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=691","20210118195658","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1610999818");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>So you want to run powershell scripts without admin rights | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL  Feed" href="http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL  Comments Feed" href="http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Reading System.Diagnostics from the Mono sources" href="http://tech.wakayos.com/?p=689"/>
+<link rel="next" title="HTML 5 Web Storage" href="http://tech.wakayos.com/?p=703"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="http://tech.wakayos.com/?p=691"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-691 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="http://tech.wakayos.com/">
+									<img src="http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/wheel.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="http://tech.wakayos.com/?p=689" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="http://tech.wakayos.com/?p=703" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-691" class="post-691 post type-post status-publish format-standard hentry category-powershell">
+	<header class="entry-header">
+		<h1 class="entry-title">So you want to run powershell scripts without admin rights</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=691" title="2:50 pm" rel="bookmark"><time class="entry-date" datetime="2012-11-02T14:50:38+00:00" pubdate>November 2, 2012</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>First logon as a limited, non admin user on windows 7. Should be easy because large organizations are yanking admin rights and apps are running better without admin rights, so whining to the help desk isn&#8217;t as effective as it was.</p>
+<p>Create an empty file, say test.ps1 </p>
+<p>Try to run it using </p>
+<p>  .\test.ps1</p>
+<p>You can&#8217;t. <strong>Execution of scripts has been disabled</strong>. (You try modules and profile scripts, same issue)  So you read up and try running</p>
+<p><code>set-executionpolicy remotesigned</code>  </p>
+<p>And you get an error message about not being able to modify the registry because you are not admin on your machine you are a limited user. And then you think to your self&#8230;There&#8217;s a time when the operation of the machine becomes so odious, makes you so sick at heart, that you can&#8217;t take part! You can&#8217;t even passively take part! And you&#8217;ve got to put your bodies upon the gears and upon the wheels…upon the levers, upon all the apparatus, and you&#8217;ve got to make it stop! And you&#8217;ve got to indicate to the people who run it, to the people who own it, that unless you&#8217;re free, the machine will be prevented from working at all!</p>
+<p>And with a rebel cry we jump to google. A non-admin can still run a batch file as a limited user. So can we execute .ps1 equivallent as a .bat?</p>
+<p>Yes! <a href="http://dmitrysotnikov.wordpress.com/2008/06/27/powershell-script-in-a-bat-file/">Our friends from the CCCP know how.</a></p>
+<p>Wrap everything in your .ps1 file in a </p>
+<p><code>$code={ #code goes here  }</code></p>
+<p>Encode it</p>
+<p><code>[convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($code))</code></p>
+<p>Put it in a batch file like so, names test.bat</p>
+<p><code>powershell.exe -NoExit -EncodedCommand<br/>
+DQAKAAkAIwBpAHQAZQByAGEAdABlACAAbgB1<br/>
+AG0AYgBlAHIAcwAgADEAIAB0AGgAcgBvAHUAZwBoACAAMQ<br/>
+AwAA0ACgAJADEALgAuADEAMAAgAHwAIABmAG8AcgBlAGEA<br/>
+YwBoAC0AbwBiAGoAZQBjAHQAIAB7AA0ACgAJ<br/>
+ACMAIABqAHUAcwB0ACAAbwB1AHQAcAB1AHQAIAB0AGgAZQB<br/>
+tAA0ACgAJACIAQwB1AHIAcgBlAG4AdAAgAG<br/>
+8AdQB0AHAAdQB0ADoAIgANAAoACQAkAF8ADQAKAAkAfQANAAoA</code></p>
+<p>The code executes and is the moral equivallent of executing a .ps1 file.  Except you have no clue what the source is by casual inspection.  And it means all non-admin users have to run their ps1 code through a build step.</p>
+<p>Jeffrey Snover, tear down this wall!  Thanks.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="http://tech.wakayos.com/?cat=31" title="View all posts in powershell" rel="category">powershell</a> by <a href="http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="http://tech.wakayos.com/?p=691" title="Permalink to So you want to run powershell scripts without admin rights" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-691 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 19:56:58 Jan 18, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:41:32 Apr 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2.253
+  exclusion.robots: 0.068
+  exclusion.robots.policy: 0.052
+  esindex: 0.013
+  cdx.remote: 8.268
+  LoadShardBlock: 6479.232 (3)
+  PetaboxLoader3.datanode: 6534.703 (4)
+  load_resource: 684.483
+  PetaboxLoader3.resolve: 571.887
+-->

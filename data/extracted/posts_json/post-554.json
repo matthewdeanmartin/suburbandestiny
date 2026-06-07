@@ -1,10 +1,10 @@
 {
-  "title": "List vs Collection",
+  "title": "Metablogging…Sorry.",
   "slug": "post-554",
-  "date": "2009-07-14",
-  "raw_date": "2009-07-14T08:52:08+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200907\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=554",
-  "markdown": "\nFXCop doesn’t like List. It says use Collection \\*if\\* you are writing a public API and the List or Collection is exposed to the outside world. \n\n\nWhy? Because Collection can be extended and List can’t. Put it another way, if use List, you’re locked into the feature set of List\n\n\nHow? They aren’t exactly the same, Collection doesn’t sort. You can’t cast List to Collection (at least not without making a copy, and that would be inefficient)\n\n\nSo this is okay:\n\n\nclass Foo  \n\n{  \n\n public int foobar()  \n\n {  \n\n List blah;  \n\n //Use it, but don’t ask for it in a parameter or return as value.  \n\n }  \n\n}\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-554.md"
+  "date": "2009-09-07",
+  "raw_date": "2009-09-07T16:31:41+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\554\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=554",
+  "markdown": "\nI used to have a blog about blogging, but it got hit by a php root kit. Then another an attempt to fix the Unicode encoding of my tech blog blew away many of my tech blogs posts.  Today the leading link on delicious.com was that wordpress is again being attacked.  This makes we want to dump wordpress for something less vulnerable, or at least something that no one is targeting.\n\n\nIt all makes me wonder if blogging should be ephemeral or permanent.  Do I care to communicate with people in  the far future?\n\n\nAll I know is that writing well, and getting read are two different projects and both are a lot of work.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-554.md"
 }

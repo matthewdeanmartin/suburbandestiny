@@ -1,0 +1,10 @@
+{
+  "title": "Working with Php Dates",
+  "slug": "post-117",
+  "date": "2004-10-30",
+  "raw_date": "2004-10-30T13:07:38+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200410\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=117",
+  "markdown": "\nI am using Jax Calendar, a free php Calendar. I wanted to display the upcoming events on my front page, separate from the calendar module, but the date is stored as a text, something like “1096761600″, after much research, it was determined that this is the number of seconds since 1970\\. If you are using MS\\-Access \\& ODBC, you need a function like this to convert the string to a date.\n\n\n`Function DatefromUnix(strIn As String) As Date  \n\nDim lngSeconds As Long  \n\nlngSeconds = strIn  \n\nDim datStart As Date  \n\ndatStart = #1/1/1970#  \n\nDim dblDays As Double  \n\ndblDays = lngSeconds / 60 / 60 / 24  \n\nDatefromUnix = dblDays + datStart  \n\nEnd Function`\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-117.md"
+}

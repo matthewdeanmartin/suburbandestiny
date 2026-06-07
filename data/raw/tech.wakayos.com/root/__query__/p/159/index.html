@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=159","20160801163724","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1470069444");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>Why SQL SMO is so damn exciting | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20160801163724cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Why SQL SMO is so damn exciting Comments Feed" href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?feed=rss2&amp;p=159"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Software Review: Free MS-SQL DB Documentation Generation" href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?p=158"/>
+<link rel="next" title="Computer Books" href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?p=172"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?p=159"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-159 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20160801163724im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/chessboard.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?p=158" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?p=172" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-159" class="post-159 post type-post status-publish format-standard hentry category-sqlserver">
+	<header class="entry-header">
+		<h1 class="entry-title">Why SQL SMO is so damn exciting</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?p=159" title="8:24 am" rel="bookmark"><time class="entry-date" datetime="2006-08-05T08:24:16+00:00" pubdate>August 5, 2006</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>SMO is a .NET API for manipulating everything about SQL Server except data and result sets&#8211;ADO.NET exists for that.  In otherwords, SMO is an administrative API.  It allows you to backup and manipulate databases with .NET error handling, .NET syntax, .NET unit tests, ,NET looping, etc. instead of the primitive constructs available in T-SQL for general purpose programming.</p>
+<p>1. You don&#8217;t have to buy SQL 2005 to use it.  You can use it with SQL 2000 and the SMO objects can be downloaded for free from Microsoft.  In fact, you could even use it with the free SQL Express and the free Visual Studio Express editions.</p>
+<p>2. One admin script for both SQL 2000 and SQL 2005.  Typical admin scripts use system stored procedures, system tables and these have changed radically between 2000 and 2005.  In my case, almost 100% of the scripts in my admin database were broken in 2005.  SMO abstracts away the differences between these two.  Plus, SMO is more likely to support the next version of SQL, &#8220;<font size="-1">Katmai&#8221;, than the equivalent T-SQL script.</font></p>
+<p>3. You get to use a real programming language, with full access to the .NET library.  Plus to get the use of .NET, you don&#8217;t have to run the script in the embedded SQL CLR, you can run an SMO script as a .exe file.</p>
+<p>4. You can still issue SQL commands in a SMO script.</p>
+<p>5. You can use .NET mail instead of trying to call CDONT or CDOSYS from inside a stored procedure.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?cat=1" title="View all posts in SQL Server" rel="category">SQL Server</a> by <a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?p=159" title="Permalink to Why SQL SMO is so damn exciting" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-159 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			One thought on &ldquo;<span>Why SQL SMO is so damn exciting</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-214">
+		<article id="comment-214" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="https://web.archive.org/web/20160801163724im_/http://1.gravatar.com/avatar/b923712dfa22d383710cdb0f94e1f190?s=68&amp;d=identicon&amp;r=G" class="avatar avatar-68 photo" height="68" width="68"/><span class="fn">moi...</span> on <a href="https://web.archive.org/web/20160801163724/http://tech.wakayos.com/?p=159&amp;cpage=1#comment-214"><time pubdate datetime="2008-04-19T14:10:17+00:00">April 19, 2008 at 2:10 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>wht is sql smo?</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li>
+		</ol>
+
+		
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20160801163724/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 16:37:24 Aug 01, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:07 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.5
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.029
+  esindex: 0.009
+  cdx.remote: 7.912
+  LoadShardBlock: 161.541 (3)
+  PetaboxLoader3.datanode: 151.801 (4)
+  load_resource: 290.689
+  PetaboxLoader3.resolve: 241.054
+-->

@@ -1,0 +1,76 @@
+---
+date: '2010-09-03'
+recovered_from: wayback
+slug: post-799
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\799\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=799
+title: Dialects of toki pona
+---
+
+
+There are at least three dialects (or styles) of toki pona.  These dialects are driven by the interest of the user, not so much separate communities and some authors write with a little of two, three or all of these styles.
+
+
+**toki pona pi nasin tan**  
+
+toki pona pi nasin tan is the original, simple toki pona.  nasin tan has a disdain for numbers, aggressively minimizes tense, gender and number in sentence and pronoun contructions.  Nasin tan would pick phrases that imply a ignorance of science, or better yet a phrase that is equally compatible with a naive or scientific view of the world.  Simple toki pona can’t really translate existing texts because so much information is lost, the result isn’t really a translation. An example would be jan Pije’s translation of a paragraph movie review as “ni li ike”   The best and most representative of this style is written from scratch and not a translation.
+
+
+jan Pije, jan Wiko, jan Akidave, jan Ape are the best exemplars.
+
+
+**toki nasa**  
+
+toki nasa sees toki pona as just another language. The goal is to express anything that one may need to express.  Well written toki nasa is capable of translating from typical languages without much loss of information.  There is no particular disdain for numbers.  Where conventions are absent, they are to be established on the spot, much as one would in real life when one’s mother tongue come across a new object or a new situation– for example, is a talking rock a he, she or it? An English speaker would have to solve the puzzle on the spot.
+
+
+Sentences can be quite long and paragraphs interlock closely.  When writing, toki nasa, one pushes the boundaries of grammatical possibilities by seeking out constructions that may not have any canonical support, but follow the general pattern of the language.  Toki nasa is also more likely to ignore canonical rules that similarly don’t fit the general patterns of the language.
+
+
+toki nasa is more willing to just use ones own culture as guide and not worry about what the philosophical implications are.  This shows up in terms of metaphysical obsessions (noting time, place, gender more often than strictly might be necessary), biases in choices about what is salient (is it the measure and colors or some other quality that is salient?), and of course in guiding editorializing phrasing (palisa moli \= cigarettes).
+
+
+toki nasa linguistically is a creole, because the fuzzy parts of the language definition are being filled in by a variety of speakers from different linguistic backgrounds.
+
+
+toki nasa isn’t completely crazy.  This writing style has a goal of being read and understood, so there is a bound to how much can be done within toki nasa– see toki ante, below, for more.
+
+
+jan Mato, and anyone that is translating hard texts is in this camp.
+
+
+**toki pona pi nasin nanpa**  
+
+toki pona does have some Lojban influence. The rules have been written down in [BNF form](http://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form) and most toki pona could could be machine parsed– the most accurate rule set is on the wikipedia article.   A toki nasa writer would write toki nasa that doesn’t validate if it helped get around an edge case as the wikipedia article doesn’t cover all cases, especially when reading the rules depends on POS and certain constructions too technical to list right now.
+
+
+toki pona pi nasin tan would probably validate in almost all cases because in nasin tan, the sentences are short, conservative and don’t try to do much.  For example, a nasin tan verb would likely not have any modifiers, so it has no opportunity to go wrong, where as verbs with modifier and modifier phrases could be parsed in many ways, not all completely worked out.
+
+
+In real human languages speech errors occur at a shocking rate. They occur at a shocking rate in toki pona as well, but often one can see what the other person means.  So in casual toki nasa, only errors that are so egregious that they render the sentence incomprehensible are wrong enough to warrant fixing.  For example, pi dropping is wrong, but often not a problem when the upcoming word is pragmatically obviously a noun.
+
+
+The toki pona derivative ROILA probably would be a form of toki pona pi nasin nanpa.
+
+
+Linguistically, toki nanpa is the most like a constructed language, like XML, C\#, COBOL and other formally describable languages that humans happen to also be able to understand.
+
+
+jan Kipo is, not surprisingly, the best symbol for this style, although in practice I’d say jan Kipo style is conversational and somewhere between toki tan and toki nasa (simple, but practical).
+
+
+**toki ike**  
+
+Toki ike is just grammatically wrong, a complete calque of a foreign langue,  unintelligible not just to some readers but most readers.  toki ike is also all the dialects and styles that you don’t prefer to write in at the moment.
+
+
+toki ike is mostly restricted to people brand new to the language making their brave first attempts.  Linguistically speaking, toki ike is a pidgin– language spoken with the words of the target language but mostly the word order of one’s mother tongue.
+
+
+**toki ante**  
+
+Some percent of the people who use toki pona are also constructed language hobbyists, intent either on extending or imitating toki pona.  Most derivatives of toki pona are so far from toki pona that they are identifiable as separate languages.
+
+
+Anyone using more than 125 words has at least one foot in this camp.

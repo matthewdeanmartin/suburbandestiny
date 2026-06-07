@@ -1,0 +1,18 @@
+---
+date: '2011-06-07'
+recovered_from: wayback
+slug: post-858
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\858\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=858
+title: I got my Lamy Safari pen and ecosystem notebooks
+---
+
+
+The pen is just like the reviews. Very smooth to write with, feather\-light. The fine nib draws a line that is almost identical up and across, but writes \& writes with a thin line if the nib is upside down. The color of my pen is Charcoal, but it looks to me like a very, very dark brown. My handwriting still is blah, but the pen is more interesting to use.
+
+
+I think a good analogy would be a hypothetical push button car. If you could drive to New York by getting into a car and pushing a button, driving wouldn’t be fun. As you move from that do\-nothing car, to a automatic with a steering wheel, to a manual transmission, the driver gets some decisions to make again. At the far extreme would be the cars from right after the invention of combustion engines, which were a challenge to start, required goggles due to spewing bits of hot chemical nastiness, and other driver interventions that we don’t think about anymore.
+
+
+Pens are like that. There is some point in between designing the user’s participation out of the product and designing a product where the user is doing all the work where you get optimal fun out of using something.

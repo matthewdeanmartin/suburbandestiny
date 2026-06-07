@@ -2,7 +2,7 @@
 date: '2007-09-20'
 recovered_from: wayback
 slug: post-282
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200709\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200709\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=282
 title: 'Installing Oracle Drivers: A Heuristic Approach'

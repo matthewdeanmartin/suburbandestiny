@@ -3,8 +3,8 @@
   "slug": "post-269",
   "date": "2007-08-20",
   "raw_date": "2007-08-20T11:23:51+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200708\\index.html",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200708\\index.html",
   "source_url": "http://tech.wakayos.com/?p=269",
   "markdown": "\nThe [blowery ASP.NET gzip module](http://www.blowery.org/code/HttpCompressionModule.html) deals poorly with axd files. The axd files aren’t really files on the disk and they [often are already compressed](http://kyle.baley.org/BlowerywebAndASPNETAJAXOrQuotHowToMediateTwixtCompressorsquot.aspx).\n\n\n\nI don’t completely understand it, but these are the exclusions I used to get Maintain Scroll Postion On Postback to work. WebResource is related to the scroll position code, scriptresource is an ajax thing, and ebresource, I think that is yet another frameworks piece of code.\n\n\n\n\\<excludedPaths\\>  \n\n\n\n\n    \\<add  \n\npath\\=“ebResource.axd“/\\>  \n\n\n\n\n    \\<add  \n\npath\\=“ebresource.axd“/\\>  \n\n\n\n\n    \\<add  \n\npath\\=“\\*.axd“/\\>  \n\n\n\n\n    \\<add  \n\npath\\=“webresource.axd“/\\>  \n\n\n\n\n    \\<add  \n\npath\\=“WebResource.axd“/\\>  \n\n\n\n\n    \\<add  \n\npath\\=“ScriptResource.axd“/\\>  \n\n\n\n\n    \\<add  \n\npath\\=“scriptresource.axd“/\\>  \n\n\n\n\n    \\<add  \n\npath\\=“%.axd“/\\>  \n\n\n\n\n\\</excludedPaths\\>\n\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-269.md"
+  "markdown_file": "data\\extracted\\posts_markdown\\post-269.md"
 }

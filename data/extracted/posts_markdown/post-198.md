@@ -2,7 +2,7 @@
 date: '2007-02-08'
 recovered_from: wayback
 slug: post-198
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200702\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200702\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=198
 title: SMO vs TSQL vs Batch vs .NET vs VBS

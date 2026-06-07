@@ -3,8 +3,8 @@
   "slug": "post-485",
   "date": "2008-11-30",
   "raw_date": "2008-11-30T16:52:47+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200811\\index.html",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200811\\index.html",
   "source_url": "http://tech.wakayos.com/?p=485",
   "markdown": "\nThe SqlBulkCopy object is good, but probably super twitchy. The fact that it is case sensitive to columnames to me is a sign of likely low code quality, and the error that gives this blog entry its title is another.\n\n\nSometimes bulk copy will import a table from text without explicitly setting the columns. Sometimes you have to explicitly set the columns and poof! it works. It may have to do with white space or case sensitivity in the columns, or it may have to do with drivers making inaccurate counts of fields.\n\n\nSqlBulkCopy bcp \\= new SqlBulkCopy(  \n\n“Server\\=.;persist security info\\=True;initial catalog\\=target;Integrated Security\\=SSPI”,  \n\nSqlBulkCopyOptions.KeepIdentity \\& SqlBulkCopyOptions.KeepNulls);\n\n\nbcp.BatchSize \\= 50000;  \n\nbcp.ColumnMappings.Clear();\n\n\nfor (int i\\=0;i {  \n\nstring name \\= reader.GetName(i).Trim().ToLower();  \n\nbcp.ColumnMappings.Add(name,name);  \n\n}\n\n\nfor (int i \\= 0; i \\< bcp.ColumnMappings.Count\\-1; i\\+\\+)  \n\n{  \n\nSystem.Diagnostics.Debug.WriteLine(bcp.ColumnMappings\\[i].SourceColumn);  \n\n}  \n\nbcp.DestinationTableName \\= file.Name.Split(‘.’)\\[0];\n\n\nbcp.WriteToServer(reader);\n\n\nbcp.Close();\n\n\n**NOTE:** Even explicitly listing the columns often is not enough. I eventually gave up and used alternate techniques. The command is poorly documented with respect to what text formats are acceptable for BIT, DATETIME, IMAGE when doing heterogeneous bulkcopy. Until MSDN documents it, this otherwise fantastic tool is only reliable for copying from SQL to SQL with identical schemas and probably identical version and patch levels.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-485.md"
+  "markdown_file": "data\\extracted\\posts_markdown\\post-485.md"
 }

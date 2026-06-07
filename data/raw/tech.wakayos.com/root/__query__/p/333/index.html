@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=333","20160801203950","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1470083990");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>The MED Software Development Life Cycle | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20160801203950cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » The MED Software Development Life Cycle Comments Feed" href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?feed=rss2&amp;p=333"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Embedded databases for speed and simplicity" href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?p=332"/>
+<link rel="next" title="SQLite and ASP.NET Providers" href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?p=334"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?p=333"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-333 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20160801203950im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/chessboard.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?p=332" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?p=334" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-333" class="post-333 post type-post status-publish format-standard hentry category-matthew-martin">
+	<header class="entry-header">
+		<h1 class="entry-title">The MED Software Development Life Cycle</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?p=333" title="11:47 am" rel="bookmark"><time class="entry-date" datetime="2008-03-12T11:47:50+00:00" pubdate>March 12, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>The federal government requires it&#8217;s agencies to follow a sofware process, according to  The Clinger-Cohen Act (<a href="https://web.archive.org/web/20160801203950/http://thomas.loc.gov/cgi-bin/bdquery/z?d104:SN01124:@@@D&amp;summ2=2&amp;">Public Law 104-106, search for division E</a>).  MED, which Managed Evolutionary Development is the SDLC process used by various <a href="https://web.archive.org/web/20160801203950/http://www.google.com/search?q=%22Managed+Evolutionary+Development%22">US government agencies and almost no one else</a>.</p>
+<ul>
+<li><a href="https://web.archive.org/web/20160801203950/http://www.usdoj.gov/jmd/irm/lifecycle/ch13.htm">Department of Justice</a> (DOJ) &#8211; <a href="https://web.archive.org/web/20160801203950/http://books.google.com/books?id=RKarHAAACAAJ&amp;dq=%22managed+evolutionary+development%22&amp;ei=vjXYR9H3HZG-iQHk4JzVAQ">Patent And Trademark Office 1993 (reference but no text)</a></li>
+<li>National Archives and Records Agency (NARA) &#8212; no public links, but referenced in online presentation.</li>
+<li>National Oceanic and Atmospheric Agency (NOAA) &#8212; no public links, but referenced in <a href="https://web.archive.org/web/20160801203950/http://projects.osd.noaa.gov/NDE/pub-docs/NDE_ConOps_PDR_Accept.pdf">ConOps document</a> (a typical MED artifact)</li>
+<li><a href="https://web.archive.org/web/20160801203950/http://enterprisearchitecture.nih.gov/NR/rdonlyres/E17A49EB-2530-4F70-81C7-E545D32E24D0/0/NRFC0004.pdf">National Instute for Heath</a> (NIH)</li>
+<li><a href="https://web.archive.org/web/20160801203950/http://books.google.com/books?id=oD4TAAAAIAAJ&amp;q=%22managed+evolutionary+development%22&amp;dq=%22managed+evolutionary+development%22&amp;ei=vjXYR9H3HZG-iQHk4JzVAQ&amp;pgis=1">Bureau of Land Management</a> (BLM)</li>
+</ul>
+<p>The methodology appears to have been born around 2002, and shows up in &#8220;Managing Software Deliverables&#8221; (c) 2004 by John Rittinghouse.</p>
+<p>The methodology is a lightly reformed waterfall process.  The NIH version is representative of the MED directives and I&#8217;ll direct all my comments toward that one.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a> by <a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?p=333" title="Permalink to The MED Software Development Life Cycle" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-333 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			One thought on &ldquo;<span>The MED Software Development Life Cycle</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-213">
+		<article id="comment-213" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt="" src="https://web.archive.org/web/20160801203950im_/http://1.gravatar.com/avatar/90dd5661d4c9aae406ef1f029efedd90?s=68&amp;d=identicon&amp;r=G" class="avatar avatar-68 photo" height="68" width="68"/><span class="fn">Thomas Giammo</span> on <a href="https://web.archive.org/web/20160801203950/http://tech.wakayos.com/?p=333&amp;cpage=1#comment-213"><time pubdate datetime="2008-04-05T09:55:55+00:00">April 5, 2008 at 9:55 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>MED was &#8220;invented&#8221; at the United States Patent and Trademark Office around 1900.  The first MED guidebook was published in 1992 and a revised edition in June 1993.  It was based on the principles used in the management of the development of the large scale Patent Search system and was instituted to provide a framework for its extension over time.</p>
+<p>I was the principal developer of the methodology.  The Mitre Corporation, which was providing systems support to the USPTO at the time, undertook to collect the various elements of the methodology and to formalize its procedures.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li>
+		</ol>
+
+		
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20160801203950/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 20:39:50 Aug 01, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:13:34 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.377
+  exclusion.robots: 0.035
+  exclusion.robots.policy: 0.027
+  esindex: 0.008
+  cdx.remote: 14.489
+  LoadShardBlock: 142.012 (3)
+  PetaboxLoader3.datanode: 114.286 (4)
+  load_resource: 86.82
+  PetaboxLoader3.resolve: 40.494
+-->

@@ -1,10 +1,10 @@
 {
-  "title": "Telerik RadGrid and the SqlDataSource and Eval",
+  "title": "Bermuda Travel Update, day 1",
   "slug": "post-503",
-  "date": "2009-01-05",
-  "raw_date": "2009-01-05T08:40:55+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200901\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=503",
-  "markdown": "\nIf the no\\-code editable grid isn’t updating, check that AllowAutomaticUpdates is true. The documenation seems to leave out this important detail, except in the description of the AllowAutomaticUpdates property.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-503.md"
+  "date": "2009-04-04",
+  "raw_date": "2009-04-04T15:45:43+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\503\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=503",
+  "markdown": "\nIt isn’t safe to walk in Bermuda.  The problem is the lack of sidewalks, something that must have made perfect sense when there were hardly any cars and land was in limited supply.  Now it just dangerous to walk anywhere.  Even when on lesser used roads, you’ll need to frequently check to see what’s behind you.  The bridges are extremely narrow are barely fit the cars, let alone pedestrians.\n\n\nSo that and me being overly tired had me blowing my stack on the way to the hotel.  My plan A was to take the bus, but the staff at the airport said luggage was forbidden on busses–rat bastards! Normally there is just a surcharge for luggage on a public bus.  It wasn’t like the busses were packed or anything (at least not on Saturday).  Plan B was to walk, but we took a wrong turn and crossed the wrong bridge.  A taxi man stopped and tried to reason with me.  I just wanted to get back across the bridge and resume walking in the correct direction, but he insisted on taking me all the way to the hotel.  At least it wasn’t as exorbitant as I expected\\- $15 to go about 2 miles.  \n\n\nFortunately the hotel (Aunt Nea’s Guest House) is fine.  There are several beaches in walking distance, again if you are brave enough to walk.\n\n\nThe son and niece seems to be enjoying the place. They waded, while I took picture of rocks and picked up trash.  Bermuda,so far, is pretty low trash as countries go (less litter than the US, more than in Switzerland).\n\n\nOther accomplishments\\- watched part of Icelandic police TV show. I started reading Halting State, which is a novel in the dreaded second person.  It’s like ‘Choose your own adventure’ without the choice.  I tried to play ‘Animal Crossings’, which has a non\\-trivial learning curve.  It’s like an MMO, but nintendo style and on a DS.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-503.md"
 }

@@ -2,7 +2,7 @@
 date: '2008-04-15'
 recovered_from: wayback
 slug: post-342
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200804\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200804\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=342
 title: 'Hit by a Php Root Kit: ro8kbsmag.txt'

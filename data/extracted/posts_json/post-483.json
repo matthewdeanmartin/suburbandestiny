@@ -1,10 +1,11 @@
 {
-  "title": "Telerik Ajax and the Mystery of the missing postback",
+  "title": "Studying Mongolian",
   "slug": "post-483",
-  "date": "2008-11-30",
-  "raw_date": "2008-11-30T08:19:43+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200811\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=483",
-  "markdown": "\nTelerik Ajax on my machine on my project was acting as if on MSIE, but not firefox, as if postbacks were GET’s. Page.IsPostback evaluated to false.\n\n\nBut! If I changed from http://localhost/mysite/MyPageWithTelerikDropDown.aspx\n\n\nto http://machinename/…etc\n\n\nThen post backs behaved like postbacks.\n\n\nGo figure.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-483.md"
+  "date": "2009-01-31",
+  "raw_date": null,
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\483\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=483",
+  "markdown": "\nIn case you are in Washington DC and are wondering what good it is to know Mongolian, well you can use it to listen to the [radio](https://radiotime.com/region/c_101275/Mongolia.aspx).  With [this application, you can record](http://applian.com/sound-recorder/) it to an MP3 file and listen to it on the metro.  And of course [pop music from YouTube](http://se.youtube.com/watch?v=Lfzy4nidOCg).\n\n\nMy books still haven’t arrived, I’m hoping they arrive before next Monday, ’cause I got a [Mongolian study group](http://mongolian.meetup.com/36/) posted for that day.\n\n\n  \n\n  \n  \n\n",
+  "date_estimated": true,
+  "markdown_file": "data\\extracted\\posts_markdown\\post-483.md"
 }

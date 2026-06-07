@@ -1,0 +1,10 @@
+{
+  "title": "Toki Pona: Compound Words",
+  "slug": "post-214",
+  "date": "2007-08-05",
+  "raw_date": "2007-08-05T09:48:42+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\214\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=214",
+  "markdown": "\n**Noun \\+ Modifier**\n\n\nModifiers are added in reverse order as compared to English.\n\n\nsike mama \\= sphere maternal \\= egg\n\n\ntomo telo \\= aquatic room \\= wash room\n\n\ntoki sona \\= wise words \\= proverb\n\n\n**Noun \\+ Noun \\+ Modifier**\n\n\nThese can be ambiguous because the binding could be (n \\+ modifier) \\+ modifier or n \\+ (noun modifier). Most nouns in toki pona have a verb, adjective or adverbial meaning, so the middle word is potentially ambiguous, (see next section on preventing this ambiguity)\n\n\nsike mama waso \\= avian maternal sphere \\= bird’s egg\n\n\ntelo naso \\= water crazy \\= booze\n\n\ntomo telo naso \\= odd restroom\n\n\n**Noun \\+ pi \\+ ( Noun \\+ Modifier)**\n\n\nTo prevent the ambiguity of the Noun \\+ (Noun\n\n\ntomo pi telo naso \\= room of water crazy \\= bar\n\n\n**Li \\+ Word**\n\n\nli \\+ word turns the word into a verb. Toki pona is a bit like Japanese in that adjectives are sometime treated like verbs.\n\n\nJan li pona. She’s is pretty. By li doesn’t mean ‘is’! At least not in the sense of “to be”\n\n\nlon anu lon ala ni: nimi seme. To be or not to be, that is the question.\n\n\nVerb \\+ Verb\n\n\nJo kama \\= own come \\= to get, to receive\n\n\nSona kama \\= know come \\= to learn, to study\n\n\n**Jan \\+ Personal Name**\n\n\njan Matthew \\= Matthew\n\n\njan John \\= John\n\n\n\\[More patterns to come]\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-214.md"
+}

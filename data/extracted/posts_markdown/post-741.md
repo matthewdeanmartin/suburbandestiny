@@ -1,0 +1,19 @@
+---
+date: '2010-04-11'
+recovered_from: wayback
+slug: post-741
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\741\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=741
+title: Why we don’t give a crap about languages once English has won
+---
+
+
+This is why we don’t care about foreign languages and why when we do, Na’vi is just as good as the next, in fact better.
+
+
+
+> If you can think of an easy way for me to get linguistic samples from dying languages that I can analyze in my home, then by all means, I will learn a dying language. **If learning Korean will provide me with a large but close\-knit community of people, easily and readily accessible and willing to share, whom I know share the same exact interests as me, down to films and books, then by all means, I will work harder at learning Korean.** Many of this have this as just another language tacked onto the pile: Prrton knows, what is it, seven? Wm knows at least five. And I personally tire of dealing with all of the irregularities of greek and latin, the inaccessability of Japanese orthography, and the lack of immediate community for German and French. I would love to learn a dying language. Tell me how, and I’ll start today.
+> 
+> 
+> Richard Littauer (<http://www.slate.com/id/2248683/>)

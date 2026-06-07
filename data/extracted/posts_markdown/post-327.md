@@ -2,7 +2,7 @@
 date: '2008-02-27'
 recovered_from: wayback
 slug: post-327
-source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200802\index.html
+source_file: data\normalized\tech.wakayos.com\root\__query__\m\200802\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=327
 title: 'Notes: Pervasive Data Integrator Repositories'

@@ -1,0 +1,33 @@
+---
+date: '2006-07-16'
+recovered_from: wayback
+slug: post-79
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\79\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=79
+title: Book Club
+---
+
+
+I was crazy enough to volunteer to host a book club.  I’ve been cleaning for the past day and a half.  I passed out from exhaustion well before bed time yesterday, something that hasn’t happened for a long time.
+
+
+I put together the sound track for the book (Time Traveler’s Wife).  There were many songs and bands mentioned.  Some were mentioned just for flavor (the beatles, silent night)– for time reference, seasonal appropriateness, not because the music was all that appropriate.  Henry’s favorite bands followed a pattern– a lot of punk, post punk and alternative rock.  Claire liked more popular music.  The songs that Niffenegger mentioned by name showed Niffeneggers appreciate for deep, cryptic lyrics, not unlike the poetry she quoted in the book.
+
+
+I made a playlist for my iPod, which I will post as soon as I figure out a clever way to do it.  The pop music was easy, except for the bands mentioned only by name–for those I had to pick out a good song from the ‘best of’ albums. Some bands just didn’t have songs that fit with the themes and sounded good.  I couldn’t find a love song from the Ramones that I liked.  It was just as well, since by the time I stopped, I had 1\.3 hours of music, which barely fits on a standard music CD.  The mix of Clair and Henry’s music is interesting, because while Henry claimed to be annoyed by Clair’s favorites, they all seem to live together okay on the same playlist.  
+
+The classical music was fairly hard to find, and was really long peices, like entire operas and entire symphonies.  Some of the classical musicians were only menioned by name, and the complete works of most composers is huge.  Including even a couple of movements from a  symphony or a few  scenes from an opera would overwhelm a pop playlist.  I might create a Time Traveler’s Wife classical play list someday.  
+
+My playlist definately could use some tuning.  There are a bunch of identifiable themes in the Time Traveler’s wife, fate, things\-not\-making\-sense, love, inevitability, waiting.  I’m sure there are some songs that have lyrics fit better.  There are also some bands and songs that I know Henry would have liked, had he survived the final chapters.
+
+
+
+
+
+ This entry was posted
+ 
+ on Sunday, July 16th, 2006 at 1:53 pm and is filed under [Uncategorized](http://www.suburbandestiny.com/?cat=1 "View all posts in Uncategorized").
+ You can follow any responses to this entry through the [RSS 2\.0](http://www.suburbandestiny.com/?feed=rss2&p=79) feed. 
+ 
+ You can skip to the end and leave a response. Pinging is currently not allowed.

@@ -1,10 +1,10 @@
 {
-  "title": "Cannot get IIS pickup directory.",
+  "title": "Interesting websites",
   "slug": "post-481",
-  "date": "2008-11-17",
-  "raw_date": "2008-11-17T13:23:38+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200811\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=481",
-  "markdown": "\nIn test and development, sometimes you don’t want to send the mail, you just want to write it to disk for reading as an .eml file.\n\n\nIIS’s SMTP writes email to C:\\\\Inetpub\\\\mailroot\\\\Pickup\n\n\nTo let ASP.NET use that, first, you can’t do it in medium trust. You can only send email over port 25 in medium trust, not to the drop folder.\n\n\nYOu will also need this link: http://agileer.com/blog/2007/05/24/CannotGetIISPickupDirectory.aspx\n\n\nEditing the metabase may be required.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-481.md"
+  "date": "2009-01-31",
+  "raw_date": "2009-01-31T06:51:47+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\481\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=481",
+  "markdown": "\n[**BookGlutton.com**](http://bookglutton.com/) — A social website where instead of commenting on articles (like digg.com), you comment on books.  You can even do IM with people who are reading the same book as you at the same time.\n\n\n[**Pipl.com**](http://pipl.com/)– Wh0 needs an address and phone book anymore? This is a free service and does better than just about anything at finding evidence of anyone on the internet.  Good enough for most applications.  On my name, it returns about 80% false matches (same name, different person).  But the remaining 20% is probably 70% of all the online accounts and profile pages that exist for me.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-481.md"
 }

@@ -1,0 +1,21 @@
+---
+date: '2006-01-21'
+recovered_from: wayback
+slug: post-52
+source_file: data\normalized\tech.wakayos.com\root\__query__\p\52\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=52
+title: 'Front Page Extentions: What are they?'
+---
+
+
+0\) **vti\_XXX directories are evidence of Front Page extensions**.  VTI was the company who intially developed Front Page Extensions. 
+
+
+1\) **They are an API of server side code components**.  This is quickly becoming irrelevant unless you are actually using Front Page to write your website and are using Front Page the way it was ‘meant to be used’ instead of what I’d do, which would be to ignore all the FP features.
+
+
+2\) **It is a primitive type of source control or an FTP accellerator**.  When opening a website by FPE, you get a local copy, then when you upload the pages, FP overwrites what you changed.  There is some sort of detection of things changing on the server, because Visual Studio will tell (and optionally automatically reload) any changes it detects.  There is no merge, the person who saves their file first, wins.  There is no visible history or tool for comparing what you just did to what is on the server.  Since FPE write to the server only what you changed, it is faster than FTP’ing the entire website.
+
+
+3\) **When you check a FPE website into VSS, VS warns that FPE aren’t going to be used anymore.**

@@ -3,8 +3,8 @@
   "slug": "post-57",
   "date": "2006-02-07",
   "raw_date": "2006-02-07T10:16:37+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200602\\index.html",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200602\\index.html",
   "source_url": "http://tech.wakayos.com/?p=57",
   "markdown": "\nWhat can be done \n\n\n* VS will let you color sytax if it thinks the file is a C\\+\\+ file\n* You can use custom snippets for any language\n* You can use external tools to call the external compiler, etc.\n* You can use the VSS integration\n* Create file templates\n* Create project templates\n\n\nWhat can’t be done (as far as I can tell)\n\n\n* Debug non VS languages\n* Intellisense\n\n\nHowever, plug ins do exist that do the intellisense and debugging from the VS environment.\n\n\n <http://www.jcxsoftware.com/vs.php>\n\n\nSomeday I will have to review this product, since all of my personal websites are opensource applications written in PHP. Given I spend $100\\+ a year on the website, $100 for a development environment that makes PHP development less frustrating might be worth it.  I have very little time for writing code on my personal sites, so every second counts.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-57.md"
+  "markdown_file": "data\\extracted\\posts_markdown\\post-57.md"
 }

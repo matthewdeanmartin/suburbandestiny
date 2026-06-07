@@ -2,7 +2,7 @@
 date: '2016-04-29'
 recovered_from: wayback
 slug: post-831
-source_file: C:\github\dead_blog\data\normalized\suburbandestiny.com\Tech\index.html
+source_file: data\normalized\suburbandestiny.com\Tech\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=831
 title: What a Build Master should know or do as a Build Master.

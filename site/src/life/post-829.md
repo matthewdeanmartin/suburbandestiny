@@ -1,0 +1,26 @@
+---
+date: '2011-01-23'
+recovered_from: wayback
+slug: post-829
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\829\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=829
+title: Swearing off Stack Exchange
+---
+
+
+Stack Exchanges are becoming a lot like the phpbb cesspools of combative flamewars they were intended to replace. The model works great for topics where there are questions with technical answers because it tends to drain the swamp, remove the heat and leave the light. I’ve participated in stackoverflow, serverfault, superuser, the English and WebApps from the beta. I’ve had questions closed, answers voted down– sometimes fairly sometimes not– but generally, the mechanisms in place keep things from escalating into a phpbb style flame war.
+
+
+A few weeks ago, I sign up to participate in the Stack Exchange. I’ve had questions that I proposed and were on the site prospectus closed. I’ve had active users question my sexuality because they didn’t like a question I asked. Normally, it’s just phpbb sites where people have to resort to calling people faggots to get them to shut up and go away. I’m watching people ask questions getting closed because the question doesn’t have solid answer like questions in programming do. What does anyone expect? This is speculative fiction! The questions are about some speculation, the answers are going to be heaping speculation on top of speculation.
+
+
+In anycase, I can’t afford to use websites with too much hostility. May the Science Fiction stack exchage die. The SO culture isn’t flexible enough to expand to cover topics that are too dissimilar from programming questions.
+
+
+Another annoyance is how uncommitted the moderators are. I’m referring to the joke about the pig and chicken that said, “Let’s open a restaurant called ham and eggs” The pig said, “Nah, I’d be committed, but you’d only be involved” The moderators aren’t the people asking questions. They got the guts to close questions, but they don’t have the guts to post questions of their own. If moderators are leaders, then there is no way I’m going to follow cowards.
+
+
+**Alternatives**  
+
+[Yahoo Answers has every question that has ever been asked on scifi.stackexchange.com](http://answers.yahoo.com/search/search_result;_ylt=AgD1ojlD_Mhx_VY9awF2M07j1KIX;_ylv=3?p=science+fiction&submit-go=Search+Y!+Answers) (more or less), I don’t see a fraction of the nastiness going on at SE. Before the stackexchange came up, I didn’t have a need (as in need to breath, need to eat) for a place to ask sci\-fi questions, I probably still don’t, but if I did, I’d go to Yahoo Answers, anything but Stack Exchange.

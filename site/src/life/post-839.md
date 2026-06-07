@@ -1,0 +1,50 @@
+---
+date: '2011-02-21'
+recovered_from: wayback
+slug: post-839
+source_file: data\normalized\suburbandestiny.com\root\__query__\p\839\index.html
+source_site: suburbandestiny-tech
+source_url: http://www.suburbandestiny.com/?p=839
+title: Learning Icelandic, What’s been working, what hasn’t
+---
+
+
+**Not working.** The charts. The charts aren’t working for me. You can take your charts and shove them. How to start inflecting when you are coming from a language that doesn’t inflect is an unsolved mystery. I suspect this is analagous to the problems people have when they are learning a tonal language and their L1 isn’t tonal, or a polysynthetic one and their L1 isn’t polysynthetic, or an isolating strict word order language when your L1 is inflecting and word order insensitive.
+
+
+**Seems to work.** The time spaced flashcards, such as Anki. I wish I’d learned about this a long time ago. In all languages, the shear number of words you need to learn is a massive barrier to progress. With a typical 12 lesson “teach\-your\-self” or a highschool class, you get really good at juggling 500 words, but that is only a tiniest sliver of the words you need to understand a comic book.
+
+
+paper flash cards \<\< naive computer based flashcards \<\<\<\< anki
+
+
+Paper flash cards are just slow and have lots of overhead. A computerized flashcard system with any algorithm is much better (e.g. Byki), and the ones that time reviews to show you a word just before you forget it are magical in their effectiveness.
+
+
+Hard to Tell if they Work. Immersion, which is really hard to do out of country, may or may not work. When I say immersion, I mean:  
+
+\- Reading donald duck comics, even if I don't understand much beyond what I see in the pictures. Generally, the pictures show enough of the story that I don't get too bored.  
+
+\- Listening to podcasts, everyday, even if I understand almost nothing. I generally can only do this as a background activity, too boring to sit and listen.  
+
+\- Watching movies, usually with subtitles. Without subtitles, I get bored. When there is a significant lack of parallelism between the subtitles and the text, I've noticed I have a hard time even hearing the Icelandic unless I turn off the subtitles. Movies use cussing, slang and vulgar vocabulary. You will need to track down what these mean by some other means than most dictionaries and textbooks.  
+
+\- Reading children's chapter books. This can be massively boring if you don't have the sheer vocabulary to get the gist of whats going on. If you start resorting to dictionaries, then your productivity (reading) is so low that its not an effective use of time.
+
+
+**Computer Dictionaries, Google Translate**  
+
+Invaluable. Productivity with paper dictionaries is abysmal. Google translate, imho, is a smart bulk dictionary lookup tool and is invaluable for attempting to read the news at the intermediate stage. Without it, you risk getting stuck on a difficult sentence.
+
+
+**Community Building**  
+
+Essential. Although it sometimes feels even more time consuming than the hours of study.
+
+
+**Caveats.**  
+
+If learning this language is your job and all you do 24×7, then paper flashcards and paper dictionary look might be great, it’s not like you have anything better to do with your time, right?
+
+
+If you like charts, you might like the (E)BNF rules for the language, too. Or a linguists professional reference grammar. If you ride your bike by solving the system of differential equations in you head as you turn the wheels, then the charts technique might be for you.

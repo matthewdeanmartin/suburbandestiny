@@ -1,0 +1,10 @@
+{
+  "title": "Can you do Cascading Dropdowns In FormView?",
+  "slug": "post-179",
+  "date": "2006-11-11",
+  "raw_date": "2006-11-11T13:25:52+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\p\\179\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=179",
+  "markdown": "\nNot unless you write some event handling code to manually populate the dropdown list.\n\n\n[Why you can’t do Cascading Drop Downs in Formviews Easily](http://www.mikepope.com/blog/displayblog.aspx?permalink=1629)\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-179.md"
+}

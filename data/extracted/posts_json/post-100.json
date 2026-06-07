@@ -1,0 +1,10 @@
+{
+  "title": "Droping tables in T-SQL",
+  "slug": "post-100",
+  "date": "2003-11-07",
+  "raw_date": "2003-11-07T11:04:23+00:00",
+  "source_file": "data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200311\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=100",
+  "markdown": "\nIdeally, we want to have a function that will drop a table if it exists, do nothing if it doesn’t exist. This can be done in T\\-SQL or DTS. In DTS we create a single DROP TABLE statement into SQL task and then have the exit arrow set to ‘on completion’ so the code goes on even if the table didn’t exist. This can create a lot of clutter on the DTS drawing board.\n\n\nWriting pure T\\-SQL makes this a pain, but with a T\\-SQL function, at least you can shorten the code.  \n\n `IF dbo.TableExists('myTable')=1 -- THEN  \n\n drop table myTable  \n\n-- END IF`\n\n\nThe DDL for the above function is :\n\n\n `FUNCTION dbo.TableExists(@tableName varchar(250))  \n\nRETURNS bit  \n\nAS  \n\n BEGIN`\n\n\nDECLARE @OUT bit\n\n\nIF EXISTS(SELECT TABLE\\_NAME FROM DATA.INFORMATION\\_SCHEMA.TABLES  \n\n WHERE TABLE\\_NAME \\= LTRIM(RTRIM(@tablename)))  \n\n SET @OUT \\= 1  \n\nELSE  \n\n SET @OUT \\= 0 \n\n\n RETURN @OUT  \n\n END  \n\n\n\n\nThe database name needs to be changed for each database where the function is deployed. Also, notice I’m returning a bit and not a boolean, (which I’m not sure if it is possible), so you have to check for equality to 1 or 0 when using the function.\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-100.md"
+}

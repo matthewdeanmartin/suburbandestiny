@@ -1,10 +1,10 @@
 {
-  "title": "Sys for SQL2000",
+  "title": "What a busy week.",
   "slug": "post-144",
-  "date": "2006-06-08",
-  "raw_date": "2006-06-08T08:50:27+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200606\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=144",
-  "markdown": "\nWe used to not use the master..sys\\* tables for fear that Microsoft would change the schema and break our code.  Now that is not a fear, it is a known entity.  It seems like it should be possible to create a user named sys, and then create a bunch of views that reference the old master..sys\\* tables which would have much the same structure as the SQL2005 tables.  Oh well, a project for another day.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-144.md"
+  "date": "2006-10-22",
+  "raw_date": "2006-10-22T17:46:07+00:00",
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\144\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=144",
+  "markdown": "\nDid volunteer event at food \\& friends. Took son to fun festival at his school. Took son to Clarendon Day. Took son to volunteer seed gathering event, which turned out to be a joint UUCA and ACE event. Went to Ren Faire in Maryland. Went to Critical Mass UU book club. I went to a games night. I went to the Gym. I went to a meet up event at Arlington Draft Movie Company.\n\n\nIt’s no wonder I’ve only written 1500, but now I have a better idea of where my story is going, so it should pick up speed.\n\n\nAnd I’ve gone from having nightmares to have pleasant dreams. Now I need to plan out the next week.\n\n\n\\[Interestingly, this is not my usual behavior\\-\\-if left to my own devices, I'd putter around the apartment indefinately.]\n\n\n",
+  "markdown_file": "data\\extracted\\posts_markdown\\post-144.md"
 }

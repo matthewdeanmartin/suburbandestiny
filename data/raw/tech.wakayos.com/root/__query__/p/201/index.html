@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=201","20160801205944","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1470085184");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>Moving Bits Faster | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20160801205944cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="MS Access as a Linked Server" href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?p=200"/>
+<link rel="next" title="Comic Book Creator" href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?p=202"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?p=201"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-201 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20160801205944im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/wheel.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?p=200" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?p=202" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-201" class="post-201 post type-post status-publish format-standard hentry category-utilities">
+	<header class="entry-header">
+		<h1 class="entry-title">Moving Bits Faster</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?p=201" title="7:13 pm" rel="bookmark"><time class="entry-date" datetime="2007-02-15T19:13:35+00:00" pubdate>February 15, 2007</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Everyone has to move files every once in a while.  You might have two machine both with high speed internet connections, but maybe the connection is an unreliable VPN connection, or maybe it is just a very large file.  For some reason, windows file shares across VPN just isn&#8217;t has high performance as you might want and there is very little that can be done about it, except zip it.</p>
+<p><strong>Get 7z.</strong>  7z currently has the best compressions ratios of almost any format, it is free and very fast.  CPU nowadays is cheaper than bandwidth.</p>
+<p>484MB-&gt;31MB  So I&#8217;m going 15 times faster.  But download with file shares over VPN is at 40Kb/sec</p>
+<p>Get &#8220;<strong>Get Right</strong>&#8220;. Get Right is a file download manager.  It has an accelerated mode where it opens 4 connections and downloads the file in four parts.  It can also talk &#8220;Z mode&#8221; to FTP servers. &#8220;Get Right&#8221; costs money, though.  And it does resume.  And so forth.</p>
+<p>Get <strong>Filezilla Server</strong>. Filezilla is free, supports Z-mode compression and FTP clients that accelerate by using multiple connections.</p>
+<p>Bam, 86 Kb/sec and I was able to resume when the VPN connection died.</p>
+<p>All together, Compression+FTP+FTP download managers can increase your bit throughput by 30x (neglecting compression and decompression time , which in my case was about a minute or two at 2MB/sec-6MB/sec.</p>
+<p>Now what I&#8217;d like to hear is, what&#8217;s up Microsoft?  Why can&#8217;t SMB file shares work like that?</p>
+<p>Apparently I&#8217;m not the only one that has noticed that <a href="https://web.archive.org/web/20160801205944/http://www.netpredict.com/solutions/usecases/fileshare.htm">SMB performance is subpar</a>.  And <a href="https://web.archive.org/web/20160801205944/http://www.oreilly.com/catalog/samba/chapter/book/appb_01.html">Microsoft has mostly been comparing SMB against Samba</a>.  A protocol and a reverse engineering of the same protocol are likely to perform similarly.  One of the key finding I see from these links is that there are not a lot of things a computer pro can do to tune SMB, while there are several compression and FTP tools.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?cat=43" title="View all posts in Utilities" rel="category">Utilities</a> by <a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20160801205944/http://tech.wakayos.com/?p=201" title="Permalink to Moving Bits Faster" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-201 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20160801205944/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 20:59:44 Aug 01, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:01:04 Jun 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.975
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.027
+  esindex: 0.007
+  cdx.remote: 5.848
+  LoadShardBlock: 43.536 (3)
+  PetaboxLoader3.datanode: 60.274 (4)
+  load_resource: 93.492
+  PetaboxLoader3.resolve: 50.041
+-->

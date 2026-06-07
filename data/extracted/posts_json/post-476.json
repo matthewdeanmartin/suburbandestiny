@@ -1,10 +1,11 @@
 {
-  "title": "Error Messages:  On_Error_Insult_User",
+  "title": "Getting Things Done: It would be done if I just could generate reports on my to-do lists",
   "slug": "post-476",
-  "date": "2008-11-03",
-  "raw_date": "2008-11-03T06:38:32+00:00",
-  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200811\\index.html",
-  "source_url": "http://tech.wakayos.com/?p=476",
-  "markdown": "\nIn the good ole days, if we hit an error message, we’d just write to the console a routine insult to the user.\n\n\n**If input\\_arg\\<0 then Print “You are such a dumb ass”**\n\n\nWe now hide our contempt in secret code\n\n\n**If input\\_arg\\<0 then Print “Please contact your administrator”  \n\n/\\* You are such a dumb ass \\*/**\n\n\nSometimes we prefer the “I’m smarter than the runtime” pattern and send developers on a goose chase.\n\n\n",
-  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-476.md"
+  "date": "2009-01-12",
+  "raw_date": null,
+  "source_file": "data\\normalized\\suburbandestiny.com\\root\\__query__\\p\\476\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=476",
+  "markdown": "\nI’m excited about internet calendar applications, which at it’s heart, is all meetup.com is. So I’ve been dinking around with what can be done to manage..\n\n\n\\- todo list items  \n\n\\- email (a mix of information requiring no action and implicit to\\-do items)  \n\n\\- calendar items (todo items with a start and finish date)  \n\n\\- contacts (a todo item with a person at the other end)\n\n\nI also use a paper system– this means I’ve got 2 bins for collecting to\\-do items, a [GTD](http://en.wikipedia.org/wiki/Getting_Things_Done) no\\-no.\n\n\nAnd how quickly the distributed to\\-do item database gets.  Here is the topology so far:\n\n\n* Meetup → Google Calendars\n* Google Calendars ↔ Outlook.  I’m using [Google’s official synch tool](http://www.google.com/support/calendar/bin/answer.py?answer=98563&topic=13948).\n* Google Email → Outlook.   I need to switch to IMAP because right now I use POP and I’m doing double deletion.\n* [Toodledo](http://www.toodledo.com/) → Outlook.  I used to use [Remember the Milk](http://www.rememberthemilk.com/), but they don’t support Outlook, [except as a calendar](http://www.rememberthemilk.com/help/answers/icalendar/software.rtm).\n* [Toodledo](http://www.toodledo.com/) → Google Calendars\n* Outlook → T\\-Mobile SDA Phone,  roughly one way synch of contacts, todo and calendar items.\n* Google Calendars → Sunbrid on thumb drive (Pending…)\n* Google Calendars → iCal on MacBook (Pending…)\n\n\nGoogle to Outlook synch doesn’t seem to synch my extra calendars, so I’m going to upgrade to Outlook 2007 and subscribe to iCal URLs instead.\n\n\nTo be continued… trust me, I’ll put it on my to\\-do list.\n\n\n  \n\n  \n  \n\n",
+  "date_estimated": true,
+  "markdown_file": "data\\extracted\\posts_markdown\\post-476.md"
 }

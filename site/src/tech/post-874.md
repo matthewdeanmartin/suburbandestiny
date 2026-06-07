@@ -2,7 +2,7 @@
 date: '2020-01-16'
 recovered_from: wayback
 slug: post-874
-source_file: C:\github\dead_blog\data\normalized\suburbandestiny.com\Tech\index.html
+source_file: data\normalized\suburbandestiny.com\Tech\index.html
 source_site: suburbandestiny-tech
 source_url: http://tech.wakayos.com/?p=874
 title: Is working with Python Environments a barrier to Python use?
