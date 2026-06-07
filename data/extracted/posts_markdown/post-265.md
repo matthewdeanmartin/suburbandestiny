@@ -1,0 +1,160 @@
+---
+date: '2007-08-04'
+recovered_from: wayback
+slug: post-265
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200708\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=265
+title: Who are you and who do you know?
+---
+
+
+This is an interesting problem somewhat related to authentication and authorization. It is screaming for another name starting with ‘a’ and ending in ‘ation’. It asks the question, who are you? Who do you know? Can you prove that you know them through some sort of reciprocal authentication process? What rights do you grant your various relationships?
+
+
+**Why Do We Care Who you Know?**
+
+
+This is a special case of authorization. If you have verifiable claims about who you know, then that information can be used to authorize you see information concerning your friends and collegues. This is part of the trend of putting users in control of their own information. The alternative would be for an overworked administrator to create a authentication group, say a Window group or an Azman group, which has the special right of being able to view your data. This would mean an application of one million users would have one million Azman or Windows groups, an administrative nightmare and the administrator would have to use an out of bound method (like making phone calls) to verify the relationship.
+
+
+This is also a special case of authentication. A friends list is most interesting when you I know you because you gave me a secret which lets me correlate the person I created the identity with subsequent authentication attempts. I know you know your friends because you gave me a secret which matches the secret I got from one of your friends. For example, if you can tell me the sum of the digits in your email address and your fiends email address, maybe I can believe you without letting you know what the true email address of your claimed friend is. Of course, there are better cryptographic methods for this.
+
+
+**Current Technologies**
+
+
+Current technologies focus on public claims and not much on the verification of the claims.
+
+
+You try to authenticate me and ask, “Who are you?” I give you my OpenId or InfoCard. I send back some claims and maybe an hCard.
+
+
+You ask for some claims, “Who do you know?” I give you one of the following: a FOAF document, bunch of XFN links, a XOXO/OPML list. Ugh.
+
+
+* [FOAF](http://www.ldodds.com/foaf/foaf-a-matic)– hard to make by hand, no browsers can read it. This answers, “Who’s in your email address book?”
+* [XFN](http://gmpg.org/xfn/)– doesn’t support time, no way to prove relationships short of spidering the links in hopes of finding a reciprocal XFN link. This answers, “Who amongst your friends have a URL that is associated with their identity?” I wouldn’t easily be able to make a meaningful XFN link to my grandmother.
+* [OPML](http://en.wikipedia.org/wiki/OPML) is just an hierarchical list structure, not specific to a friends list and is mostly used for blog readers, so a OPML list answers, “Who’s blog do you read?” Somehow this format seems redundant, since XML already is a hierarchical data structure. [XOXO](http://microformats.org/wiki/xoxo) is the microformat of the same.
+* [hCard](http://microformats.org/wiki/hcard) — This is a business card, also answers, “Who’s in your address book?” (It is the microformat of the vCard standard)
+
+
+**Proof of Relationship.** In FOAF, proving relationships requires knowing something secret about your friend, say their email address. You publish a crytopgraphic hash of your friend’s email address, the friend does the same. In XFN, your friends need to be able to publish html pages with XFN. The relying party would query both domains and see if they match. Authentication is as good as the internet domain name system, so an XFN relationship is really between the users represented by the Whois database, which is mostly minimally authenticated people. Worse, many, many people might have the ability to publish to a given domain. OPML has the same problems as XFN in proving a reciprocal relationship. hCard lacks a way to uniquely link two hCards. I publish my hCard with the name Matthew Martin, which is shared by 100′s of people. To form a link you’d need to do a complicated fuzzy match of address, phone number, name and other address information.
+
+
+**Claims.** Out of FOAF, XFN, OPML, hCard, only XFN makes claims about the type of the relationship. OPML implies a bogger\-reader relationship. FOAF implies only a friend relationship, the only other category is “not\-friend” indicated by leaving someone out of the FOAF file. hCard implies no particular relationship at all. I could publish a list of hCards on my website and there is no way to know what the implied semantic meaning of the relationship is. Maybe it’s just a list of lawn mowing companies I’m considering hiring, maybe they are my best friends.
+
+
+**Rights Granting**. None of these say anything about what it means for someone to be a friend, so right now this is handled in an ad hoc fashion. For example, Flickr lets you grant different rights to the public versus your friends list. The rights would have to be simple, maybe Read, Write, Update, Delete. The contexts would also have to be simple, maybe a URL for a context. What would rights granting look like if one of the above were extended?
+
+
+
+> \- Friend List  
+> 
+> —– John Doe  
+> 
+> ———\-Friend  
+> 
+> —– Jane Doe  
+> 
+> ———Met  
+> 
+> \-Rights  
+> 
+> —–flickr.com  
+> 
+> ———Read–(photos)– Friends  
+> 
+> ———Read–(vacation photos)– Verified Friends  
+> 
+> —–blogger.com  
+> 
+> ——–Write–(comments), Met  
+> 
+> ——–Write–(posts), Family  
+> 
+> —–amazon.com  
+> 
+> ———Read–(wishlist), Friends, Family  
+> 
+> ———Write–(recommendations)–Met
+
+
+The system would have to be extensible to rights that don’t fall into the Read/Write/Update/Delete categories and right would need some domain restrictions. The format would have to be extremely simple to make and robust to validation errors.
+
+
+**Tools.** None of these have very good tool support, but the tool support is better than any proprietary technique you can think up. XFN and hCard can be browsed with any browser. FOAF is going to languish until browsers have support for RDF documents in general. In theory, they all can be parsed as XML.
+
+
+**Ubiquity**. Formats that rely on domain control mean users need to open accounts on ClaimId or the like to get a page associated with themselves. Email is almost ubiquitous. Cell phone control does a better job of identify one person, but is not as ubiquitous. Domain control is mostly restricted to super users and geeks. SSL is restricted to people with spare cash and are geeks. SSL certificates that actually verify an identity claim to any degree cost a lot more money and require the relying party to check the SSL certificate issuer’s issuance policies, not an easily automatable process. Of these, only ClaimId or email control are in the grasp of my mother.
+
+
+**Privacy of Friends**. Maybe I don’t want my friends URL, email address, phone number and address to be misused. FOAF addresses this issue, but doesn’t require users to protect their friends from spam. XFN assumes that the URL of your friend is public. hCard makes no effort to address the privacy issue. A good friends list would let the user decide if he trusts the world with their claims about their friends, a hash of their friends claims, an encrypted copy of the claims (ie. the relying party can store my friends data, but not read it), or maybe I entrust the relying party with the identity but not claims about my friends at all.
+
+
+Any relationship verification system needs to be able to prevent mischief. Any system that can be exploited, will eventually be overrun with spam and other attempts to get rich quick.
+
+
+**Games people play with the question**
+
+
+**Aspirational Claims.** Claiming someone is a friend when they are not a friend at all. Fortunately, my best friend Bill Gates doesn’t fall into this category. To prevent this, you’d have to get a friends list from both candidates and find the reciprocal claim.
+
+
+**Misrepresentation.** You have a relationship, but you misrepresent it. They met you, but they are not a close friend like you claim. If the relationships fall on a neat continuum, you could pick the minimum relationship claimed by both. For example, if one person claims the other is a brother, but the other only claims they are kin, then the verifiable claim is mere kinship.
+
+
+No one can be expected to make a claim that will restrict their rights. When an administrator puts people into groups, he has no qualms about putting people in the the “Limited user” group. Who will make claims that will give them less access to the people they know? If I claim I’m a best friend, I get access to the juicy gossip. If I claim I only met someone, I get just the public information. Any one guess what I will claim? This is misrepresentation again. Again, to prevent this you’d have to calculate the minimum reciprocal relationship.
+
+
+**The relying party relies on stale information.** They were your friend, but they aren’t any more. Reciprocations are only reliable if friends lists have start and stop dates and a duration that the claim is good for. For example, if John Doe is my friend, I need to record him on my friend list as a friend since 2004 and this claim is good for a year.
+
+
+**Good Manners.** No one wants to be hostile, so people will over\-reciprocate and claim a stronger relationship than they would want to if you get them to privately explain the extent of their friendship. For example, if John Doe says I’m his best friend forever and I think he’s just an acquaintance and only for the next year, If it is important to know the true extent of a relationship. If you make people rate their relationship on a scale of 1 to 10, people will be biased towards 10\. If you ask binary questions, there will be less of a bias due to politeness.
+
+
+The relying party needs to know the strength of the relationship, but the two claimants don’t want to reveal the fact to the other person. This means public friends lists will be dogged by good manners biases. If the friend list was secret and the user got back limited information on friends list based authorization check, users would be more likely to be honest.
+
+
+**Humor.** The XFN romance attributes appear to be used for humorous intent. All developers who write sample XFN links claim they have a crush on [Don Box](http://www.pluralsight.com/blogs/dbox/). Surely some of them must be joking. Real developers have a crush on [Scott Gu](http://weblogs.asp.net/scottgu/).
+
+
+**Unidirectional claims.** These are unverifiable, so what can they be used for? Who can verify if I have or had a crush on Kylie Minogue? If I and Kylie Minogue were in the same database, would she grant extra rights to her account data to people who claim a crush on her? (Or more likely, restrict rights to deter stalkers?)
+
+
+**Unauthenticated Other Friend.** You authenticate a user. The user claims he has Kim Cameron as a friend. But this guy claims that Kim Cameron friend list can be found at KimCameron.ru, which is actually a domain controlled by the party claiming to be a friend of Kim Cameron. So no relationship claims should be accepted by the relying party
+
+
+**Some Characteristics Of a Commercial Grade Relationship Architecture**
+
+
+Uses private friends lists. E.g. “If a relying party asks, I will let them know that John Doe is someone I barely know, but please don’t tell John Doe the details, just give him a yes/no on an authorization check”
+
+
+Uses authenticated friends lists. E.g. “John Doe is my friend, you know, they guy in your authentication store that sent you his friend list”
+
+
+Relies on reciprocal claims. E.g. “John Doe is my friend, just go check his friends list”
+
+
+Has time a time dimension. E.g. “John Doe was my co\-worker from 2000\-2004\.” “Jane Doe is a friend since 2000″ “I am willing for these claims to be valid for the next six months”
+
+
+Has a rights list. E.g. “These are my friends and when I say friend, I mean they can read my blog and comment. When I say family, I mean they can also write blog entries.”
+
+
+Has a enterprise grade API, maybe a SOA based server based on WCF.
+
+
+**Some Characteristics of a Good Enough Relationship Architecture**
+
+
+Relies on public friends lists. Authenticating friends to a private store is expensive and require co\-ordination.  
+
+Rights granted based on level of friendship and quality of claim. Most claims will be unreciprocated and unverified. Authenticated friends should be differentiated from unauthenticated. Likewise, unreciprocated are differentiated from reciprocated. If transaction costs are important and it is not important to guarantee that people don’t play games with the system, reciprocated claims based on domain control might be good enough.  
+
+Based on plain old semantic HTML. HTML has a universally available data viewer. RDF and XML don’t.  
+
+Has a simple API. Maybe a some HTML GET commands (REST) or some Javascript checks. Obviously Javascript would only be useful for data that is already public. For example, a Javascript API might use my friends list to filter a public photo RSS stream down to just my co\-workers photo’s.  
+
+Works with google and other ‘found API’s. For example, the “who link’s to me” could be used as a way of verifying reciprocal claims.

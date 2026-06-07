@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "About",
+  "slug": "about",
+  "date": null,
+  "raw_date": null,
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\page_id\\2\\index.html",
+  "source_url": null,
+  "markdown": "\nI won’t even try to guess about which technologies I will write about.  I suspect that SQL Server will be on the list and probably ASP.NET, too.  But really, I have a short attention span, so don’t be surprised if things take a turn at Albequerque.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\about.md"
+}

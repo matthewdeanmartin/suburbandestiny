@@ -1,0 +1,10 @@
+{
+  "title": "Installing Subversion, short edition",
+  "slug": "post-340",
+  "date": "2008-04-03",
+  "raw_date": "2008-04-03T08:32:23+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200804\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=340",
+  "markdown": "\n\\- Use the Collabnet installer. It will save you the steps of finding and installing the modules.\n\n\nCreate a folder, say  \n\nf:\\\\svn\\_repositories  \n\nThat will be the PARENT FOLDER. You create repositories in the parent folder. If you are a MS\\-SQL geek, then f:\\\\svn\\_repositories means “Server” and f:\\\\svn\\_repositories\\\\mycode means “database”\n\n\nEach repository has a Apache “Location”. Each “Location” can have a password file.\n\n\nBe sure to create a repository first with anonymous access and test that. Add this to the location to allow for browsing:\n\n\nSVNListParentPath on\n\n\nOk. Next thing I ran into was that Apache is like Java and can’t find $\\#!\\+\n\n\nThis failed:  \n\nAuthUserFile passwords.txt\n\n\nThis worked:  \n\nAuthUserFile “D:/folder/otherfolder/passwords.txt”\n\n\nNow the brower test passed with authentication. Now I can switch to tortoise and set up my repositories.\n\n\nNext challenge will be moving repositories working folders around.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-340.md"
+}

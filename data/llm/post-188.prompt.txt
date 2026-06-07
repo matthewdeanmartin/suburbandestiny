@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "When to use an Object Database (Or ASP.NET Personalization)",
+  "slug": "post-188",
+  "date": "2007-01-20",
+  "raw_date": "2007-01-20T07:53:12+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200701\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=188",
+  "markdown": "\nASP.NET personalization takes your Profile object and serializes it and dumps the binary goo into a SQL table. This breaks the normal rules of normalization. You’re supposed to create a normalized table with one column for each property of your profile object, something like\n\n\n\n> ```\n> CREATE TABLE PROFILE (\n> PrimaryKey Int,\n> PreferredTheme Varchar(50),\n> PreferredBackgroundColor Varchar(50),\n> <etc.>\n> )\n> ```\n\n\nHowever, the ASP.NET 2\\.0 framework doesn’t know in advance what thousand of developers are going to think important enough to set up as a property of the profile. Worse, you can have collections as properties, which should be relationally represented as separate tables. To keep relational, the ASP.NET team would have had to issued ALTER TABLE, ADD COLUMN, DROP COLUMN, CREATE TABLE, etc. commands as the web.config file was updated. So we can see that random website personalization bits like PreferredTheme should be serialized and put into the database as a binary, non\\-relational object. How about putting orders, addresses, payment histories and the like into the Profile? No! That is a crime against Codd.\n\n\nSo here are some suggested rules about when it is okay to serialize an object and dump it into a table without do proper relational modeling:\n\n\n1. The object is mostly standalone and has few if any foreign key relationships with other tables. E.g. a Profile has a user relationship and that is it.\n2. The object will not queried in a fashion that returns collections of objects. E.g. we only fetch one Profile at a time, so we aren’t really returning a table’s worth of data.\n3. We don’t have the data in the Profile replicated anywhere else. (That is, if we have a customer table, don’t put customer name into the Profile, or you will have to do two updates to update one entity)\n4. We never will need to aggregate the Profile data. Actually this could happen with some Profile data. Finding out if the YellowOnWhite theme is being used more than WhiteOnBlue maybe be useful in deciding which theme to kill or expand. Extracting that data would require a VB.NET program instead of a simple TSQL statement. On the otherhand, last page visited, we probably will never aggregate.\n\n\n* \n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-188.md"
+}

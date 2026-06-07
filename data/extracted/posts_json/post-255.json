@@ -1,0 +1,10 @@
+{
+  "title": "Better ASP.NET Web Controls",
+  "slug": "post-255",
+  "date": "2007-07-15",
+  "raw_date": "2007-07-15T13:12:11+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200707\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=255",
+  "markdown": "\nI created a better asp.net drop down control that supports missing values better than the default control. It’s now set up as a complete library and opensource project on Google Code.\n\n\n### Development Agenda\n\n\n**A better HyperLink tag**. Hyperlinks should support FOAF like properties. [XFN is one kind of FOAF like property](http://haacked.com/archive/2006/04/05/MakingMicroformatsMoreVisibleAnnouncingTheXFNHighlighterScript.aspx).\n\n\n**A better HyperLink title**. Hyperlink titles in MSIE show a tool tip, but in Firefox, the anchor title is virtually inaccessible. A good improvement would be to add browser sniffing and javascript tooltips that work for Firefox. A great improvment would be to add design time fetching to the target page’s “Title” to use as a default title.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-255.md"
+}

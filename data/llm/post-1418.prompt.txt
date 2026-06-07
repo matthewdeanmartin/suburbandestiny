@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Nonauthoritative discussion of how to do discussion with Robert’s Rules",
+  "slug": "post-1418",
+  "date": "2016-02-10",
+  "raw_date": "2016-02-10T11:32:44+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\suburbandestiny.com\\root\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=1418",
+  "markdown": "\nA key principle in Roberts Rules is that people can’t just talk when they feel like it.\n\n\n1\\) **At ease** (meeting on hold, talk amongst yourselves)– this is for when Chair is consulting, looking up rules. Also for meeting breaks.  \n\n2\\) **Talking with out pending motion** (**at chair’s sufferance** or until point of order at which point a motion \\*must be made\\* or stop talking)  \n\n3\\) **Move to read a document** (“right to read”), member asks permission of assembly to read something  \n\n4\\) **Officer and committee reports** (opportunity to just talk, usually on regular agenda \\& favors officers, committees)  \n\n5\\) **Guest reports**  (opportunity for just anyone to talk like officers do.)  \n\n6\\) **Small board rules** (no limits on debate, may interrupt, other things)  \n\n7\\) **Committee rules.** (no limits on debate) May talk without a motion pending, in fact, if the whole point of a committee is to come up with a motion no motion will be pending. Also, if the point of a committee is to merely report, then again, no motion would be pending.  \n\n8\\) **(Quasi) Committee of the whole** (whole assembly/board acts as a committee temporarily). Ends as soon as a motion is adopted/ready to make a motion. (Quasi means chair stays the same)  \n\n9\\) **Informal consideration** (similar to small board rules, except still requires a motion to be under consideration?) Wikipedia says same as usual except no limit on \\# of times someone can speak to a topic. This is not as lax as the name sounds.  \n\n10\\) “**Informal consultation to assist the framing of a motion”** When the member rises to speak and promises to make a motion, but has some preliminaries to say.  \n\n11\\) **Programs.** E.g. watching a movie, listening to music, and I suppose, other non\\-deliberative entertainments.  \n\n12\\) **Explanation of a pending, undebatable motion.** Brief statement of fact about why we gotta adjourn. Otherwise, it’d be against the rules to say, “The game starts in 10, we gotta adjourn”  \n\n13\\) **Hearings.** This is something that happens in committees. The committee calls people before it to talk. People can talk without a motion pending. Only committee members have a right to talk.  \n\n14\\) **Recess.** Temporary break in meeting. Talking between the meeting not governed by any particular parliamentary procedure. Same for just before and after the meeting.  \n\n15\\) **Adjournment.** Discussion between meetings, which can be subject to condo \\& HOA rules.\n\n\n \n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-1418.md"
+}

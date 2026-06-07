@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Production Trace",
+  "slug": "post-672",
+  "date": "2012-09-11",
+  "raw_date": "2012-09-11T13:41:45+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\201209\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=672",
+  "markdown": "\nAssume you work in a large organization, you write code, you really would like to see some diagnostic trace from your app in Test, Staging or Production, but a server admin owns all of them. You can’t have the event logs, remote desktop access, or ask that the web.config be edited to add or a remove a System.Diagnostics section. Just imagine.\n\n\nProduction trace needs to be:  \n\n\\- high performing, if it slows down the app, which may already be under load, not good.  \n\n\\- secure, since trace exposes internals, it should have some authorization restrictions  \n\n\\- not require change of code or config files, because large organizations often have paralyzing change management processes  \n\n\\- support a variety of listeners that will meet the requirements above (and if those listeners are write only, then a reader will need to be written)\n\n\nSystem.Diagnostics \\-File\\-  \n\n\\- Perf\\- Not very performant, will likely have contention for the file.\n\n\nSystem.Diagnostics\\-Console, DebugString, Windows Event Log  \n\n\\- You can’t see it. End of story.\n\n\nASP.NET Trace.axd and In Page  \n\n\\- Perf\\- not so good.  \n\n\\- Security\\- it’s well known, so security teams often disable it  \n\n\\- Config\\- Can sort of enable on a by page/by user basis if you use a master page or base page to check rights and maybe a query string.\n\n\nCustom Session Listener  \n\nWrite to session.  \n\n\\- Okay for single user trace. Need a page to dump the results.  \n\n\\- Perf probably okay, could hog memory.  \n\n\\- Security, pretty good, by default you can only see your own stuff.\n\n\nCustom Cache Listener  \n\n\\- Write trace to cache  \n\n\\- Will have locking problems  \n\n\\- Won’t hog memory because of cache eviction  \n\n\\- Cache eviction could remove trace too fast.\n\n\nHttpContext.Items listener \\+Base page to dump contents at end of request  \n\n\\- Only shows one page of trace at a time  \n\n\\- Probably high perf.  \n\n\\- Won’t show other users\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-672.md"
+}

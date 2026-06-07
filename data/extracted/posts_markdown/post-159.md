@@ -1,0 +1,27 @@
+---
+date: '2006-08-05'
+recovered_from: wayback
+slug: post-159
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200608\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=159
+title: Why SQL SMO is so damn exciting
+---
+
+
+SMO is a .NET API for manipulating everything about SQL Server except data and result sets–ADO.NET exists for that. In otherwords, SMO is an administrative API. It allows you to backup and manipulate databases with .NET error handling, .NET syntax, .NET unit tests, ,NET looping, etc. instead of the primitive constructs available in T\-SQL for general purpose programming.
+
+
+1\. You don’t have to buy SQL 2005 to use it. You can use it with SQL 2000 and the SMO objects can be downloaded for free from Microsoft. In fact, you could even use it with the free SQL Express and the free Visual Studio Express editions.
+
+
+2\. One admin script for both SQL 2000 and SQL 2005\. Typical admin scripts use system stored procedures, system tables and these have changed radically between 2000 and 2005\. In my case, almost 100% of the scripts in my admin database were broken in 2005\. SMO abstracts away the differences between these two. Plus, SMO is more likely to support the next version of SQL, “Katmai”, than the equivalent T\-SQL script.
+
+
+3\. You get to use a real programming language, with full access to the .NET library. Plus to get the use of .NET, you don’t have to run the script in the embedded SQL CLR, you can run an SMO script as a .exe file.
+
+
+4\. You can still issue SQL commands in a SMO script.
+
+
+5\. You can use .NET mail instead of trying to call CDONT or CDOSYS from inside a stored procedure.

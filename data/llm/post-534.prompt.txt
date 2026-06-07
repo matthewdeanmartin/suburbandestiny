@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Not using SqlRedgate is industrial sabotage",
+  "slug": "post-534",
+  "date": "2009-05-22",
+  "raw_date": "2009-05-22T05:33:32+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200905\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=534",
+  "markdown": "\nSQL and related databases have some peculiar characterists that encourage it’s users to become opinionated.  Namely, it is very easy to screw stuff up.  The relational database is a unparallelled tool attached at the hip to a COBOL era programming langauge.  The recent rise of compensating tools is a revolution in IT and probably will add an extra %0\\.1 to the developed worlds GDP.  If only adoption rate was higher.\n\n\n**SqlCompare**.  This is one of many schema diff tools on the market.  It does source control (or scripts folder) to database schema comparison.  And it works.  Microsoft’s product that enables this work flow costs twice as much (ie. data dude)\n\n\n**SqlData Generator**. Fire those monkeys you call testers.  A typical testor of a database application hits random keys until the validator allows saving a row. If the row gets rejected, but otherwise the data looks okay, a bug is filed.  Sql Data Generator can do that 100,000 times a second.  If you have foreign keys, SqlRedGate can generate sample data better than most domain experts.\n\n\n**SqlPrompt**.  Writing code without intellisense is slow.  Working without intellisense, expect your developers to need and extra six monts to a year to commit the schema to memory.  Trust me, I’ve never really been good with a schema until I had most of it committed to memory.  With typcial schemas of 500\\+ tables, not giving your developers intellisense is adding an extra half man year for each developer on your team.  \n\n\nCode formatting affects maintenance times and right now to debug a TSQL stored procedure it takes hours if the proc is long enough.  Reformatting pays for itself in the first debug session.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-534.md"
+}

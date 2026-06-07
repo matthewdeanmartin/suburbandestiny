@@ -1,0 +1,37 @@
+---
+date: '2007-10-22'
+recovered_from: wayback
+slug: post-294
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200710\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=294
+title: 'DTS and SSIS: Time to find alternatives'
+---
+
+
+Having been a fan and champion of the DTS and SSIS way of life, I’m starting to hit a wall in terms of what I want to do with data integration and what the SSIS team has been able to deliver.  Both DTS and SSIS are simutaneously genius and dramatic advances and fatally flawed.
+
+
+**Genius**  
+**Graphical programming.**  This allows flowcharting and coding to be done in one environment. Flowcharting (and the related family of charts and diagrams, such as DFD, UML, etc) are a good thing, but developers aren’t going to use them if it means working on two models, i.e. a Visio file and a .VB or .CS file, which are never in synch.
+
+
+**Buffer architecture.** A typical antipattern in data integration is “Pickup\-set\-down.”  The pick\-up\-set\-down pattern means you read in a data file or table, transform it, write back to a file or table and repeat, over and over and over.  Each write to the harddrive destroys performance.
+
+
+**Row by row processing.** SQL wants to do everything inside transactions.  This works until you are dealing with mega\-transactions, with thousands of rows.  Row by row processing isn’t faster, but it scales. For example if it takes an hour to run 50,000 records, it will take two hours to run twice as many.  
+
+
+**Fatal Flaws**
+
+
+**Absent configuration in DTS and broken configuration in SSIS.**  DTS make user rewrite packages to deal with connection string changes.  SSIS configuration is baroque and broken.  The XML files are rigidly tied to the package they were created with, so sharing them among packages is a pain.
+
+
+**Low productivity UI.**  The UI is god awful slow, even on a fast machine.  The UI is rife with signs of unfinished, shoddy user experiences.  No UI is better than a bad UI. So is there an non\-GUI way to use the SSIS stack? Well, not really..
+
+
+**Unusable or absent code interface.**  By this I mean, can you write a package in pure code.  In DTS is was possible, but looking at the sheer size of packages saved as VBScript, it wouldn’t be practical to write one by hand.  DTS used to allow access to the package object model from inside the package, which led to self modifying code, which was bad.  SSIS prevents self modifying code and hasn’t done anything to make it easier to create a package from code.  The XML files that represent a package are generally unreadable–probably machine serializations of an object tree, which were never meant to be touched or viewed by human hands.  In otherwords, XML source code providing the bulk and ineffiency of XML but the opacity of binary.
+
+
+**Absent deployment in DTS and broken deployment in SSIS.** DTS really was only practical when development, test and production was done on the same machine–DTS is very resistant to moving.  SSIS’s runtime in Visual Studio is very good and provides the same experience you got with DTS.  SSIS’s runtime outside of Visual Studio is a black hole.  You can’t tell what is going on when a SSIS package is running outside of Visual Studio.

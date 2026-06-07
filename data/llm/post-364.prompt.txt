@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Stsadm for hard core users- Installing Templates with Powershell",
+  "slug": "post-364",
+  "date": "2008-05-27",
+  "raw_date": "2008-05-27T06:14:55+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200805\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=364",
+  "markdown": "\nThere is an easy way to [install the WSS3\\.0 templates](http://forums.microsoft.com/MSDN/ShowPost.aspx?PostID=1634704&SiteID=1) this posted on a forum. But I wanted to try to use powershell to do it. And then the errors started.\n\n\nReal hard core users can tell if they are pasting ANSI or UNICODE parameters and can see if that is an em dash or an en dash or some other character.\n\n\nWhile trying to install ApplicationTemplateCore.wsp, I kept getting “Command line error”, plus a books worth of useless command listing.\n\n\n[This post gave me the clue that works](http://www.eggheadcafe.com/software/aspnet/29671724/command-line-error.aspx).\n\n\nInstead of copy/pasting from the readme/MSDN page, retype by hand. I guess this ensures that whitespace and character encoding isn’t anything that Stsadm can’t deal with.\n\n\nFortunately, this isn’t a bug because most SharePoint admins have super vision and can see the electrons moving around in the computers memory so they can determine if\n\n\n“stsadm \\-o addsolution \\-filename ApplicationTemplateCore.wsp”\n\n\nis ANSI, Unicode or what have you.\n\n\nHere is the script that eventually worked.\n\n\n\n```\nstsadm -o addsolution -filename e:\\download_temp\\ApplicationTemplateCore.wsp\nstsadm -o deploysolution -name ApplicationTemplateCore.wsp -allowgacdeployment -local\nstsadm -o copyappbincontent\n```\n\nHere is the powershell script to install all the templates.  \n\n\n\n\n\n```\n\nforeach ($i in get-childitem E:\\download_temp\\*.wsp) {\n     if(!($i.Name -eq \"ApplicationTemplateCore.wsp)){\n    stsadm -o addsolution -filename $i\n    if($i.Name -eq \"InventoryTracking.wsp\" -or\n       $i.Name -eq \"DocumentLibraryReview.wsp\" -or\n       $i.Name -eq \"RoomEquipmentReservations.wsp\" \n       ){\n       stsadm -o deploysolution -name $i.Name -local -allowgacdeployment\n    }\n    else\n    {\n       stsadm -o deploysolution -name $i.Name -local\n    }\n      }\n}\n\n```\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-364.md"
+}

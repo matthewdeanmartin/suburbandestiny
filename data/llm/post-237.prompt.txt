@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "OpenId vs CardSpace Smackdown",
+  "slug": "post-237",
+  "date": "2007-06-22",
+  "raw_date": "2007-06-22T18:58:01+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200706\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=237",
+  "markdown": "\nCardSpace means your site needs:\n\n\n\n> \\* to be running ssl, with a confirmed location and organization name to prevent warnings.\n> \n> \n> \\* to be running with an account that can access the ssl certifications (ASPNET account, NETWORK SERVICES, etc)\n> \n> \n> \\* to decipher the claims, you need to decrypt the certificate and the associated claims, hence the need for access to the machine’s ssl certs (It appears to be POST and rather hard)\n> \n> \n> \\* you have to use cobbled together controls from the internet\n> \n> \n> \\* Optionally a third party. The user can act as their own certificate issuer.\n> \n> \n> \\* The server can be any OS, but the client has to be XP2 or Vista\n\n\nOpenId means your site needs\n\n\n\\* a third party website to process the passwords\n\n\n\\* ideally the users will want to get their own URL (so that their identity is as strong as the domain name sales process, woo hoo!)\n\n\n\\* The user claims are posted back in the URL (REST is easy)\n\n\n\\* you have to use cobbled together login controls from the internet\n\n\n\\* The server and the client can be anything\n\n\nI have an OpenID logon almost working, I got close to a working CardSpace logon control, but ran into the SSL cert issues.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-237.md"
+}

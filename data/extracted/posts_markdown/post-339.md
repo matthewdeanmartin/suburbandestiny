@@ -1,0 +1,30 @@
+---
+date: '2008-04-01'
+recovered_from: wayback
+slug: post-339
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200804\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=339
+title: Pervasive Integration Architect Forensics
+---
+
+
+**Problem.** ETL package blows up without error of “column name foo truncated on line 64″ Line 64 looks fine. Line 64 was actually refering to some hidden *code*, not the data file.
+
+
+A Pervastive ETL process file is a infinitely deep series of Russian nested eggs.
+
+
+A map task (which is saved to a .map.xml file) usually indicates a table copy from 1 table to another.
+
+
+But that is not all. If you do a SQL trace on these, you can discover they may be referencing many more tables.
+
+
+To really discover everything going on in a map, you \*must\* open the file as an XML document and search for the CDATA sections.
+
+
+To figure out what row it is blowing up at, you have to add row counter to the event that executes after each row.
+
+
+Anyhow, it looks like my error message had to do with having CR\+LF instead of LF’s as line breaks. I can’t believe a product that costs a boat load of money can’t automatically deal with the CR/CR\+LF/LF. ALL of these patterns mean end of row except for some special edge cases like text columns, which should be wrapped in string limiters anyhow. If someone really wants to make this explicitly set property instead of something the code just \*assumes\*, then it should have a option setting somewhere, named something like “Be annoying”

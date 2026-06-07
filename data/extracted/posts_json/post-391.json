@@ -1,0 +1,10 @@
+{
+  "title": "Walking with PowerShell",
+  "slug": "post-391",
+  "date": "2008-07-25",
+  "raw_date": "2008-07-25T17:30:05+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200807\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=391",
+  "markdown": "\nNow let us go back in time when dinosaurs wrote .BAT files and find out how they should have done it in PowerShell\n\n\n%PATH%\n\n\nbecomes\n\n\nget\\-content env:PATH\n\n\nSET FOO\\=Bar\n\n\nbecomes\n\n\nset\\-content env:FOO\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-391.md"
+}

@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Get the most Amtrak freebies via Amtrak Guest Rewards (AGR)",
+  "slug": "post-1372",
+  "date": "2015-10-07",
+  "raw_date": "2015-10-07T07:27:28+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\www.suburbandestiny.com\\root\\__query__\\p\\1372\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=1372",
+  "markdown": "\n**Strategy \\#1\\.** Just get that price down.\n\n\n**Use AmSnag** – [AmSnag](http://biketrain.net/amsnag/amSnag.php) finds all the cheap tickets, often late at night.  \n\n**Joint NARP.** 10% discount when you can’t find a better one, AGR points on sign up.  \n\n**Joint Student Advantage.** 10%\\-20% Amtrack discounts and other “junk” discounts  \n\n**Sales.** The sales are relentless, all over the place and hard to exploit.  \n\n**Don’t travel so far.** If you’re in DC, go to Philly instead of NYC.  \n\n**Travel at night.** If you can bear it.\n\n\n**Strategy \\#2\\.** Rack up points, get free rides.\n\n\n**Join a signup “cabal”** \\- Find a current member who will “refer” you to AGR. Hope someone pays the favor forward to you someday. [Here is one that favors people who hang out at a particular Amtrak Forum](http://www.flyertalk.com/forum/amtrak-guest-rewards/1306211-amtrak-guest-rewards-signup-referral-thread.html)  \n\n**Ride the Train.** You earn points based on dollars spent. So the incentive is to buy expensive tickets, not just tickets with high price to mileage ratios.  \n\n**Points Transfers/Buy points.** Get points in one program, and transfer them to AGR.  \n\n**Amtrack Points cards**. UPDATE. Bank of America offers 2 flavors of Credit Cards linked to AGR. One gets you a companion ticket for $80 a year plus points for spending, the other is just points for spending.  I may have to write a whole article on this to even touch on all the relevant knowledge points.  \n\n**Join NARP.** You get AGR points related to how much you donate.  \n\n**Cashback Cards \\-**Straight cash might be worth more than transferred points.  \n\n**Points for Hotels, Car Rental and other services.** These feel like junk discounts. Except the electricity sign up. That looks like a good deal if you were planning to sign up for wind energy anyhow.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-1372.md"
+}

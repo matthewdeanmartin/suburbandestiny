@@ -1,0 +1,5 @@
+{
+  "layout": "post.njk",
+  "section": "life",
+  "permalink": "/life/{{ page.fileSlug }}/"
+}

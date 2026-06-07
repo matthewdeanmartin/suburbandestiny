@@ -1,0 +1,10 @@
+{
+  "title": "Error Messages:  On_Error_Insult_User",
+  "slug": "post-476",
+  "date": "2008-11-03",
+  "raw_date": "2008-11-03T06:38:32+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200811\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=476",
+  "markdown": "\nIn the good ole days, if we hit an error message, we’d just write to the console a routine insult to the user.\n\n\n**If input\\_arg\\<0 then Print “You are such a dumb ass”**\n\n\nWe now hide our contempt in secret code\n\n\n**If input\\_arg\\<0 then Print “Please contact your administrator”  \n\n/\\* You are such a dumb ass \\*/**\n\n\nSometimes we prefer the “I’m smarter than the runtime” pattern and send developers on a goose chase.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-476.md"
+}

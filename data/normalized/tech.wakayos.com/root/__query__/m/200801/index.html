@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com:80/?m=200801","20200221132505","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1582291505");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>January | 2008 | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 3.5.2"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="archive date custom-background two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="http://tech.wakayos.com/">
+									<img src="http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/trolley.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<section id="primary">
+			<div id="content" role="main">
+
+			
+				<header class="page-header">
+					<h1 class="page-title">
+													Monthly Archives: <span>January 2008</span>											</h1>
+				</header>
+
+				
+								
+					
+	<article id="post-320" class="post-320 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=320" title="Permalink to Learning about Medium Trust" rel="bookmark">Learning about Medium Trust</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=320" title="11:37 am" rel="bookmark"><time class="entry-date" datetime="2008-01-31T11:37:15+00:00" pubdate>January 31, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><span style="font-weight: bold">Remove High Powered APIs</span><br/>
+No WMI calls, no SMO calls. The whole point of CAS is that you don&#8217;t trust your users to not figure out how to call a potentially dangerous API like WMI or SMO, so you mark the application as untrusted.  This makes it impossible for you (or anyone else) to upload code to your website that calls these potentially dangerous API&#8217;s<br/>
+<span style="font-weight: bold"><br/>
+WebPermission</span><br/>
+My site was using a component that pulled and RSS feed from a third site and merged it into my page. That blew up on medium trust, but started working again when added:</p>
+<p align="left">&lt;trust level=&#8221;Medium&#8221; originUrl=&#8221;http://del\.icio\.us/.*&#8221;/&gt;</p>
+<p>Presumably more URLs could be added to the list using the regex operator <span style="font-weight: bold">|</span> (meaning or), e.g.</p>
+<p align="left">&lt;trust level=&#8221;Medium&#8221; originUrl=&#8221;http://del\.icio\.us/.*<span style="font-weight: bold">|</span>http://www\.yahoo\.com/.*&#8221;/&gt;</p>
+<p><span style="font-weight: bold">Custom web.config Sections</span><br/>
+My blowery HTTP component blew up on medium trust, but worked again when I added                <span style="font-weight: bold">requirePermission=&#8221;false&#8221;</span> to the appropriate place under configSection</p>
+<p align="left">&lt;configSections&gt;<br/>
+&lt;sectionGroup name=&#8221;blowery.web&#8221;&gt;<br/>
+&lt;section name=&#8221;httpCompress&#8221;<br/>
+type=&#8221;blowery.Web.HttpCompress.SectionHandler, blowery.Web.HttpCompress&#8221;<br/>
+<span style="font-weight: bold">requirePermission=&#8221;false&#8221;</span><br/>
+/&gt;<br/>
+&lt;/sectionGroup&gt;</p>
+<p>Under medium trust, you can&#8217;t read most web.config entries directly, except for the above noted pattern.</p>
+<p><span style="font-weight: bold">Response.Flush/Response.Close yeilds SecurityPermission error</span><br/>
+Replace with Response.End and hope for the best</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-320 -->
+
+				
+					
+	<article id="post-319" class="post-319 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=319" title="Permalink to Learing about ASP.NET output caching" rel="bookmark">Learing about ASP.NET output caching</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=319" title="11:29 am" rel="bookmark"><time class="entry-date" datetime="2008-01-31T11:29:35+00:00" pubdate>January 31, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><span style="font-weight: bold;">How it works</span><br/>
+You add a directive, something like</p>
+<p>&lt;%@ OutputCache Duration=&#8221;3600&#8243; VaryByParam=&#8221;none&#8221; %&gt;</p>
+<p>The page then puts the HTML output of the page or user control into the Cache object.&nbsp; Next time you get a request, the rendering engine loads a cache control instead, something like an HTML literal that gets it&#8217;s data from cache.</p>
+<p>To test your caching strategy, load your pages <span style="font-weight: bold;">twice</span>.</p>
+<p><span style="font-weight: bold;">Gotcha: When the control come from cache, you can&#8217;t reference that control.</span>&nbsp;<br/>
+So all the code behind that references the control need to check to see if the control exists (is equal to null or Nothing)</p>
+<p><span style="font-weight: bold;">Gotcha: When you dynamically load a control, it isn&#8217;t the same data type if it came from cache</span></p>
+<p>myUC = LoadControl(&#8220;~/MyUC.ascx&#8221;)</p>
+<p>If the control came from cache, it isn&#8217;t of type, MyUC, it is a cached control.</p>
+<p><span style="font-weight: bold;">Gotcha: Code behind in the user control doesn&#8217;t run when a user control is loaded from cache.</span>&nbsp; For example, if your control needs to register a JavaScript or CSS file (which requires modifying the parent pages &lt;head&gt; tag), it won&#8217;t run.</p>
+<p><span style="font-weight: bold;">Gotcha: Tilda URL&#8217;s stop working.&nbsp; </span><br/>
+If you reference an image by something like:</p>
+<p>&nbsp;&nbsp;&nbsp; ImageUrl=&#8221;~/images/mypic.png&#8221;</p>
+<p>The first time this is rendered, it will calculate the correct relative path.&nbsp; If this is called again from say a subfolder, it will use the relative path that was correct for the page that called it first.</p>
+<p><span style="font-weight: bold;">Gotcha: Programmatically clearing the cache requires adding a dependency to EVERY page and user control.</span></p>
+<p>(I think changing web.config will also clear caches, but this is heavy handed)</p>
+<p>General pattern for a cache clearing system: (Ref. <a href="http://aspalliance.com/668">http://aspalliance.com/668</a>)<br/>
+&nbsp;&nbsp;&nbsp; Create a dependency object on application start.<br/>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; HttpContext.Current.Cache.Insert(&#8220;Pages&#8221;, DateTime.Now, Nothing, _<br/>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; System.DateTime.MaxValue, System.TimeSpan.Zero, _<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; System.Web.Caching.CacheItemPriority.NotRemovable, Nothing)</p>
+<p>&nbsp;&nbsp;&nbsp; Make all pages inherit from a custom page class,&nbsp; e.g.</p>
+<p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Public Class SmartPage<br/>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Inherits Web.UI.Page<br/>
+&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp; In the load event add this:<br/>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  Response.AddCacheItemDependency(&#8220;Pages&#8221;)<br/>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp; On an admin page, put this behind a button:<br/>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  HttpContext.Current.Cache.Insert(&#8220;Pages&#8221;, DateTime.Now, Nothing, _<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.DateTime.MaxValue, System.TimeSpan.Zero, _<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.Web.Caching.CacheItemPriority.NotRemovable, _<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nothing)</p>
+<p><span style="font-weight: bold;">When to Use</span><br/>
+So far, given these gotchas, Output caching is best for:</p>
+<p>Simple pages (easy to see what the dependencies are)<br/>
+Almost static pages (especially if the dynamic parts are derived from slowing changing files, like web.config)<br/>
+Completely static pages, such as document oriented pages.</p>
+<p>When the page is complex, you may need to switch to data caching, where you cache smaller objects, like dataset that holds a state list.&nbsp; Caching at an user webcontrol or page level might cause some of the gotchas I&#8217;ve mentioned, especially if the state list is on an otherwise highly dynamic page.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-319 -->
+
+				
+					
+	<article id="post-318" class="post-318 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=318" title="Permalink to License Mixing from a CDDL standpoint" rel="bookmark">License Mixing from a CDDL standpoint</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=318" title="10:27 am" rel="bookmark"><time class="entry-date" datetime="2008-01-28T10:27:34+00:00" pubdate>January 28, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Wow I can&#8217;t believe how long this document got.&nbsp; I just wanted to be able to get $25 bucks from ordinary people who use my software, but can afford to pay, to get code contributions from developers who want to use my software but don&#8217;t want to pay, and not give my code away to people so that they could sell it for $24.50 and discourage anyone from buying from me.&nbsp;&nbsp; And I don&#8217;t want anyone suing me for relying on my product and suffering some dread fate.</p>
+<p>So far dual licensing with CDDL looks the best.</p>
+<p>Contributing new code is okay under the CDDL license, just follow the relevant rules to hold harmless, etc.</p>
+<p>But what if I find a cool library, API, code snippet, DLL, control, JAR, etc that someone has released for free on the web? Can it be used with the open source project I&#8217;m currently working on?</p>
+<p><span style="font-weight: bold;">Often&#8230;no! </span></p>
+<p>Viral licenses, GPL, CDDL require careful consideration of what code you mix in with existing code.&nbsp; In fact, a viral license may prevent change an existing code base from proprietary to open, depending on what licenses are already mixed in.&nbsp; The FSF has a long list of <a href="http://www.fsf.org/licensing/licenses/">GPL incompatible licenses</a>.</p>
+<p>For example, the Free Software Foundation says that CDDL and GPL are incompatible:</p>
+<dl style="margin-left: 40px;">
+<dt><span class="link-external"><a id="CDDL" href="http://www.opensolaris.org/os/licensing/cddllicense.txt">Common  Development and Distribution License (CDDL)</a></span>  </dt>
+</dl>
+<p style="margin-left: 40px;">This is a free software license. It has a copyleft with a scope that&#8217;s  similar to the one in the Mozilla Public License, which makes it incompatible  with the <a href="gpl.html">GNU GPL</a>. This means a module covered by the GPL  and a module covered by the CDDL cannot legally be linked together. We urge you  not to use the CDDL for this reason.</p>
+<p>Also unfortunate in the CDDL is its use of the term <span class="link-external"><a href="http://www.gnu.org/philosophy/not-ipr.xhtml">&#8220;intellectual  property&#8221;</a></span>.</p>
+<p>[Sigh.&nbsp; The link to the essay on "intellectual property" is disheartening.&nbsp; Mr. Stallman is trying to say that property rights between physical and intangible things are somehow different.&nbsp; A more rigorous understanding of ownership of property demonstrates that ownership is a bundle of intangible rights, like the right to use, dispose, sell an object.&nbsp; The property right is to the intangible ability-- the physical object is just a distraction.&nbsp; Stallman has not earned the standing to make a statement like "Economics operates here, as it often does, as a vehicle for unexamined  assumptions."&nbsp; I might as well be saying nuclear physicists are a bunch of raving lunatics and whining ninnys, despite me not know squat about nuclear physics.]</p>
+<p><span style="font-weight: bold;">Or maybe license incompatibility isn&#8217;t so bad!&nbsp; </span><br/>
+LAMP applications are often developed as a single unit, yet they use GPL, Apache, Hybrid and PHP licenses respective, which the FSF says are incompatible with each other.</p>
+<p><span style="font-weight: bold;">Dual Licensing</span><br/>
+Make different versions that are released under different licenses.&nbsp;&nbsp; So there might be a CDDL version and a GPL version.&nbsp; Contributors would could contribute to the GPL branch and mix in GPL code.&nbsp; Alternatively they could contribute to the CDDL version and take advantage of it&#8217;s superior terms.</p>
+<p><span style="font-weight: bold;">Copyright and Dual Licensing</span><br/>
+The choice to do dual licensing can only be done by the original project&#8217;s copyright holder.&nbsp; </p>
+<p><span style="font-weight: bold;">Merging and Dual Licenses</span><br/>
+You can&#8217;t merge GPL improvments back into the dual licensed branch of code.&nbsp; This is a strange restriction because when GPL is violated, the party that has standing is the copyright holder!&nbsp; Unless the chosen opensource license gives users and contributors standing, I don&#8217;t see how they could stop a copyright holder from periodically merging the proprietary and opensource branches, unless the contributor retains rights to the contribution.&nbsp; </p>
+<p>If the contributor is retaining rights to the contribution, then he could take action against merging.&nbsp; If the license says that contributions are automatically granted to the original copyright holder, then merging is OK.</p>
+<p>If the contributor didn&#8217;t have the rights to his contribution in the first place, (say the contributor stole some proprietary code) then merging could pose a risk to the the original copyright holder trying to sell under a proprietary license.</p>
+<p><span style="font-weight: bold;">Trade Marks and Dual Licenses</span><br/>
+You might want to give the open source and closed source product a different name, since a trademark is a signal to the market that one company has done something to enforce quality.&nbsp; An open source product uses different means to create quality.</p>
+<p><span style="font-weight: bold;">Forking and Dual Licensing</span><br/>
+Because only the orginal copyright holder can release a proprietary version, forks don&#8217;t normally pose a competitive risk</p>
+<p><span style="font-weight: bold;">Purism and Dual Licensing</span><br/>
+Purism is a sign of obsessive compulsive personality disorder being projected onto software licensing.&nbsp; Just because some GPL users are OCPD doesn&#8217;t mean non OCPD developers should strive for a perfect &#8216;all GPL&#8217; world.</p>
+<p><span style="font-weight: bold;">What about LGPL?</span><br/>
+LGPL specificly talks about allowing code mixing with dynamically link libraries, a specific technology for mixing code.&nbsp; CDDL allows for code mixing on a file based level, which allows for mixing licenses that are statically or dynamically linked.&nbsp; (This may be a red herring, since some LGPL licenses say &#8220;static or dynamic linking&#8221;)
+</p>
+<p><span style="font-weight: bold;">Incentives LGPL and Dual Licensing</span><br/>
+If I am a commercial developer and want to sell some code, I will look for open source licenses that allow me to mix free code with my proprietary code.&nbsp; If I take an LGPL licensed work and put a thin layer of my code over the top, I can start selling it.&nbsp; This would compete with the original copyright holder&#8217;s commercial version.</p>
+<p>On the other hand, if I am a commercial developer, I might use the open source version as a trial version, and then buy the commercial license if I didn&#8217;t want to deal with the viral features of GPL or CDDL.</p>
+<p><span style="font-weight: bold;">Viral to the Modifications, Viral to the Derived Works</span>
+</p>
+<p>In CDDL, you only need to make your modifications to the CDDL work opensource.&nbsp; If you compose the CDDL code, statically or dynamically (what ever that may mean), <a href="http://weblogs.java.net/blog/evanx/archive/2006/06/mayhem_roundup.html">the derived work doesn&#8217;t have to be made open source</a>.</p>
+<p><span style="font-weight: bold;">Can you change your mind?</span><br/>
+You can change your mind with a proprietary license, but many open source licenses are forever.&nbsp; Also, because the licenses are long lived and are based on licenses who&#8217;s official version might change!&nbsp; So at the very least, you might want to pick a type of license that has something to say about versioning or that doesn&#8217;t refer back to the &#8220;latest greatest&#8221; license that some foundation has tweaked.</p>
+<p style="text-align: right; font-size: 8px">Blogged with <a href="http://www.flock.com/blogged-with-flock" title="Flock" target="_new">Flock</a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-318 -->
+
+				
+					
+	<article id="post-317" class="post-317 post type-post status-publish format-standard hentry category-etl">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=317" title="Permalink to Review: Pervasive Data Integration" rel="bookmark">Review: Pervasive Data Integration</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=317" title="9:38 pm" rel="bookmark"><time class="entry-date" datetime="2008-01-22T21:38:43+00:00" pubdate>January 22, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>I was about to review this product on the basis of their customer service, but fortunately I got a generous 48 hour trial license.  Ironic how Microsoft trusts developers to play with the full feature set of SQL Enterprise Edition (a product that costs upwards of $35,000) through either a three month trial or the Developer Edition.  <a href="http://www.intelligententerprise.com/showArticle.jhtml?articleID=51201544">Pervasive Data Integration costs between $10,000 and $20,000</a> and you don&#8217;t get a database to go with it.  <a href="http://labastida.com/get-free-software/">Rumor exist about a 14 day trial license</a>.</p>
+<p>The tool supports a remarkably long list of data sources. If you happen to be in an organization where you have to put up with 100+ native data formats, this might be exciting.  In my professional experience, this is not a good or typical integration pattern.  More typical is that organizations dump their native data formats to various text formats before exchanging with other organziations.  Native and binary formats are too brittle (subject to breaking over time due to technological or other changes).  Text, especially fixed width layouts, was the universal data exchange format before there was XML or the like.  That said, native data exchange tend to have more meta-data in them, so there is less problem of data corruption as the data goes from native to text durring inter-organizational exchanges.</p>
+<p>Also, FYI, if you do have to deal with a native data format, you might be better off using ODBC, JDCBC, ADO, OleDB or the like.  Interacting with native data formats is for applications where it is important to access specific features of the source data platform (like running PL-SQL, access to indexes), or performance reasons.  If you have extremely high performance requirements for ETL, then ironically, you will probably end up working a lot with text. </p>
+<p>The GUI is Java. So far I&#8217;ve only gotten a few JVM error messages.  After more than a decade, Java apps still don&#8217;t deploy very smoothly, if I had a nickle for everytime I got a JVM version error, I&#8217;d be rich.</p>
+<p>The Data Integration uses a system of workspaces, repositories and thingies.  In practice, this means the source code files are stored in a xml database layered over the file system.  I got numerous error messages attempting to save files.  Apparently it is not good enough to save a file, it needs to go into this xml filesystem layer.</p>
+<p>The Integration engine itself is without a UI at all.  The various designers have a UI, but feedback is mostly sent to log files.  The choice to use error logs instead of message boxes for the design time experience is bemusing and echos what I think is one of the backwards steps MS took going from DTS classic to SSIS (that is, moving more feedback from the UI to error logs)</p>
+<p>I haven&#8217;t figured out how the Integration Engine works yet, so it&#8217;s hard to say if it is using buffers like SSIS, individual objects like DTS or some other as of yet undiscovered pattern.</p>
+<p>The mapping tool is not intuitive.  The message box you get on first open is a strongly worded exhortation to study the documentation, i.e. they know the mapping tool is unintelligible.  I probably will not be able to grok this before the trial license expires.</p>
+<p>Pervasive has fallen for the <a href="http://www.joelonsoftware.com/items/2006/09/01b.html">Wasabi patttern</a>, that is inventing a programming language for a single application.  Pervasive uses RIFL, which is supposed to be some sort of VBScript rip off.  Why they didn&#8217;t expose a COM interface to their API and just use real VBScript, I don&#8217;t know. (Or anyone of a bunch of other scripting languages with broad industry adoption, I mean, Lua, javascript, you name it.)</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=49" title="View all posts in ETL" rel="category">ETL</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-317 -->
+
+				
+					
+	<article id="post-316" class="post-316 post type-post status-publish format-standard hentry category-general-programming category-sqlserver category-ssis">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=316" title="Permalink to Pervasive Data Integrator: Title pending…" rel="bookmark">Pervasive Data Integrator: Title pending&#8230;</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=316" title="2:27 pm" rel="bookmark"><time class="entry-date" datetime="2008-01-22T14:27:43+00:00" pubdate>January 22, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>[Update]</p>
+<p>I finally found <a href="http://labastida.com/">Fernando Lambastida</a>&#8216;s blog.  I called him, he apparently is associated with Pervasive.  I told him who I was, a lowly techie in a big software consulting company that needs to evaluate/work with/play with some ETL bits.  I said that I saw the offer for a 14 day &#8216;<a href="http://labastida.com/get-free-software/">free demo software</a>&#8216; on his blog and he offered to help me work with Pervasive to get a trial key.  If your calls to Pervasive are channellings you through the sales sewer pipeline, instead try Fernando, he&#8217;s a good chap.</p>
+<p>[Okay back to what had transpired before]<br/>
+So I got a job interview coming up.  They want a <a href="http://ww2.pervasive.com/Integration/Products/Pages/IntegrationProducts.aspx">Pervasive ETL</a> expert.  Pervasive is a relatively uncommon ETL package in a fairly narrow vertical market: ETL.  So I do what seems reasonable, I download the free evaluation trial.  I install it, read the documentation.  I almost grok it, so I try to open a designer.  The designer asks me for a license key.  Hmm.  I check the email.  Yup, it says I have to contact them to get a key.  Website says so, too.  Trial keys require a phone call to Pervasive.  Okay. I&#8217;m a developer, I understand that companies need to defend their IP.  So I call.</p>
+<p>I call the company and eventually get transfered to a Chris, who said if I was interested in pitching my skills to a company who had a copy of Pervasive, I had to get a license key from that company or that company&#8217;s sales representative!!! This is very weird, he can&#8217;t possibly mean I need to illegally obtain a license key from an existing customer, does he? And Chris says under no circumstance can I be given a key.</p>
+<p>So I call them back and ask not to be transfered to Chris and now I get a Howard. Howard likewise said no, no demo key.</p>
+<p>So if anything, <a href="http://ww2.pervasive.com/Integration/Trials/Pages/DataIntegrator.aspx">Pervasive</a>&#8216;s website is highly misleading about the availability of an evaluation version.</p>
+<p>If you came to this post researching Pervasive, I recommend that you look into something else.  There are too many choices available, from ad hoc, to <a href="http://www.ayende.com/Blog/archive/2007/07/24/Rhino-ETL-First-Code-Drop.aspx">RhinoETL</a>, <a href="http://www.jaspersoft.com/JasperSoft_JasperETL.html">Jasper ETL</a>, DTS, SSIS, Oracle DataIntegrator, Informatica&#8211;why settle for dicey customer service?</p>
+<p>Data is the lifeblood of an organization.  If the data fails to flow, you&#8217;re out a job and the company will be losing money.</p>
+<p>Buying tools from companies that are actively hostile to developers is like loading a metaphorical gun and pointing it to your company&#8217;s head.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=10" title="View all posts in Development" rel="category">Development</a>, <a href="http://tech.wakayos.com/?cat=1" title="View all posts in SQL Server" rel="category">SQL Server</a>, <a href="http://tech.wakayos.com/?cat=15" title="View all posts in SSIS" rel="category">SSIS</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-316 -->
+
+				
+					
+	<article id="post-315" class="post-315 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=315" title="Permalink to Redirecting SNAFUs in global.asax" rel="bookmark">Redirecting SNAFUs in global.asax</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=315" title="11:47 am" rel="bookmark"><time class="entry-date" datetime="2008-01-21T11:47:30+00:00" pubdate>January 21, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>It seemed all so simple.&nbsp; Check to see if the database is set up, if not redirect to an installation page.&nbsp; I wanted the check to be done at session start instead of every page to reduce database queries.&nbsp; Ideally, I only want this check to happen once per web.config modification, but I don&#8217;t know how to hook into that event.</p>
+<p>First I put this into the global.asax at Session_Start<br/>
+<span style="font-family: Courier;">Response.Redirect(&#8220;~/install/installdb.aspx&#8221;)</span></p>
+<p>I get a permissions error in Medium trust, but not in Full trust.</p>
+<p>Then I try<br/>
+<span style="font-family: Courier;">Server.TransferRequest(&#8220;~/install/installdb.aspx&#8221;)</span></p>
+<p>And I get<br/>
+&#8220;<i>This operation requires IIS integrated pipeline mode.&#8221;<br/>
+</i><span style="font-family: Arial;"><br style="font-family: Arial;"/><span style="font-family: Arial;">Apparently IIS5 and Cassini can&#8217;t deal with TransferRequest.</span></span><i><span style="font-family: Arial; font-style: italic;"></p>
+<p></span></i>Then I try<br/>
+<span style="font-family: Courier;">Server.Transfer(&#8220;~/install/installdb.aspx&#8221;) </span></p>
+<p>Finally, that works.<br style="font-style: italic;"/>
+<p style="text-align: right; font-size: 8px">Blogged with <a href="http://www.flock.com/blogged-with-flock" title="Flock" target="_new">Flock</a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-315 -->
+
+				
+					
+	<article id="post-314" class="post-314 post type-post status-publish format-standard hentry category-aspnet category-sqlserver">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=314" title="Permalink to How hard is it to make SQL Express easy?" rel="bookmark">How hard is it to make SQL Express easy?</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=314" title="11:39 am" rel="bookmark"><time class="entry-date" datetime="2008-01-18T11:39:26+00:00" pubdate>January 18, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><span style="font-weight: bold">Goal.</span> Make it easy for a end user, say with half as many brain cells as a mollusk, to install a DB driven website.</p>
+<p><span style="font-weight: bold">Particulars</span>.  A typical database set up requires creating the database, setting up the logons and users for the anonymous web user, the ASPNET web user and maybe an application user or role.  The user then needs to run a TSQL script to install objects.  Finally the user needs to set the connection string in the web.config.</p>
+<p><span style="font-weight: bold">Solution so far</span>. If the user has an existing database, user and connection string and can put it in the web.config, I can run the TSQL scripts for him and even detect and create the application user.</p>
+<p><span style="font-weight: bold">Speed Bump.  </span>Wouldn&#8217;t it be easier if I created everything in advance and put it into App_Data and connected to it using an user instance?  Well, so one would think.  It would mean you could use a mdb file without knowing: the server name, the credentials, the file location (except that it is in the usual App_Data folder)</p>
+<p>Here is the magical connection string:</p>
+<p><span style="font-weight: bold">Data Source=.\SQLExpress;Integrated Security=True;User Instance=True;AttachDBFilename=|DataDirectory|calendar.mdf</span><br style="font-weight: bold"/><br/>
+Here are the magic error messages (short list, I forgot to copy some of them down)</p>
+<p><span style="font-weight: bold">Invalid value for key &#8216;attachdbfilename&#8217;. </span></p>
+<p><span style="font-weight: bold">Failed to generate a user instance of SQL Server due to a failure in starting  the process for the user instance. The connection will be closed.</span></p>
+<p><span style="font-weight: bold">&#8220;No connection could be made because the target machine actively refused it&#8221;</span></p>
+<p><span style="font-weight: bold">Unable to open the physical file &#8220;C:\Inetpub\foo\App_Data\aspnetdb.mdf&#8221;</span></p>
+<p>Random things tried:<br/>
+Don&#8217;t create the mdb file using the &#8220;Add New Item&#8221; menu in Visual Studio (create DB the old fashion way with Management Studio)<br/>
+Change .\SQLExpress to actual server name, eg. MyBox\SQLExpress<br/>
+Changed <span style="font-weight: bold">|DataDirectory|</span> to the actual physical directory.<br/>
+Grant rights to NETWORK SERVICES, LOCAL SERVICE, MyBox\ASPNET to modify files in App_Data folder (preferably only to the account that the anonymous user is running as, not all three of them)<br/>
+Switch from IIS to ASP.NET Development Server (or other way around)<br/>
+Delete files found at:<br/>
+C:\Documents and Settings\[some user name]\Local Settings\Application Data\Microsoft\Microsoft SQL Server Data\SQLEXPRESS<br/>
+The above folder holds the various databases that SQLExpress creates upon creating a User Instance<br/>
+Don&#8217;t use Remote Desktop.  When you run a user instance across remote desktop, it is hard to guess what User profile the various system databases will be written to.</p>
+<p><span style="font-weight: bold">Advice- User Instance, just say &#8220;=false&#8221;.</span><br/>
+User Instances are bad. Bad bad bad.  They might be okay in a windows application that you are running on a single disconnected machine in a salt mine mile below ground.</p>
+<p><span style="font-weight: bold">AttachDBFilename</span><br/>
+This is only going to work if you have administrator rights.  You typically will not give your anonymous account admin rights to the database.  So right away, we can see <span style="font-weight: bold">Integrated Security=True</span> and <span style="font-weight: bold">AttachDBFilename=&#8230; </span>do not go together&#8230;unless you are using windows authentication.  A brain damaged mollusk doesn&#8217;t know how to set up windows authentication, less so on a hosted account where user admin tools are often crippled and incomplete (I&#8217;m thinking of the lunarpages control panel here)</p>
+<p>Furthermore,  <span style="font-weight: bold">|DataDirectory|</span> doesn&#8217;t always resolve.</p>
+<p>So what is left?  We have a file that isn&#8217;t attached, that ADO can&#8217;t find, and we need a priori information about the SQL instance name and a priori information about the user ID, password, and database name.  Sigh.  Thanks Microsoft.  Not a single break.</p>
+<p><span style="font-weight: bold">Final Solution</span><br/>
+Half brained mollusks will have to use conventions.  First, assume the server name is &#8220;localhost&#8221;, second the user will have to find out what the credentials are and hope the credentials have dbo.  Finally, the user will have to know what the db name is.</p>
+<p>Worse, the user will have to be able to edit the web.config file.  I&#8217;m now going to work on a web.config generating page, so the user can enter the five magic words and get a web.config file generated for him.</p>
+<p style="text-align: right; font-size: 8px">Blogged with <a href="http://www.flock.com/blogged-with-flock" title="Flock" target="_new">Flock</a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=3" title="View all posts in ASP.NET" rel="category">ASP.NET</a>, <a href="http://tech.wakayos.com/?cat=1" title="View all posts in SQL Server" rel="category">SQL Server</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-314 -->
+
+				
+					
+	<article id="post-313" class="post-313 post type-post status-publish format-standard hentry category-aspnet">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=313" title="Permalink to Evolution of an Idea" rel="bookmark">Evolution of an Idea</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=313" title="11:15 am" rel="bookmark"><time class="entry-date" datetime="2008-01-08T11:15:53+00:00" pubdate>January 8, 2008</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>I&#8217;ve been working on creating a social website to fix the things I didn&#8217;t like about meetup.com for a few years now.&nbsp; Here are some of my early mis-steps:</p>
+<p><span style="font-weight: bold;">Using as the manual intended</span><br/>
+Wordpress for blogging&#8211; very successful, my most trafficked websites, although as a community, I mostly get drive by commenters.</p>
+<p><span style="font-weight: bold;">Even if you install it, no one will come</span><br/>
+- phpList mailing lists. Useless unless you are some sort of organization that sends out announcements to a large user list.<br/>
+- forums- phpBB. These are useless until a stampede of users show up.<br/>
+- WordPress as an event manager (well it supported user accounts, comments as RVPSs, posts and events, categories as interest groups)&nbsp; Utter failure.&nbsp; I couldn&#8217;t figure out how market it.<br/>
+- MS Word documents (ugh&#8211; pre-2007 this was a exercise in futility for anything except trivial page authoring). Utter waste of time, attracted no traffick to speak of.</p>
+<p><span style="font-weight: bold;">Over-ambitious Custom Development, </span><span style="font-weight: bold;">FilmClans-&nbsp; Movie club software</span><br/>
+version 1&#8211; almost finished before my attention wandered.&nbsp;<br/>
+version 2&#8211; tried to port it to C# and set up a InfoCard logon.&nbsp; Failure on both accounts.</p>
+<p>There were probably a few too many features to pull of FilmClans in the time and attention available.</p>
+<p><span style="font-weight: bold;">Small Enough to Succeed: Toki Pona Dictionary and Search Engine</span><br/>
+First successful website (meaning, feature complete, provided value to at least one person)</p>
+<p>Hardly any users, but it is a nice social website non-the-less and it became my favorite dictionary and search engine for toki pona.</p>
+<p><span style="font-weight: bold;">Social Animals DC</span><br/>
+This is a calendar aggregator.&nbsp; I manually track down events from many organizations and merge them into a single calendar.&nbsp; Jury still out on how successful it will be for other people, but I use it to keep track of events I would like to go to.</p>
+<p><span style="font-weight: bold;">Lessons Learned</span></p>
+<ul>
+<li>One size fits all solutions to social websites don&#8217;t work, (i.e. using a blog for in person events)
+ </li>
+<li>Pick a website design &amp; feature set that is useful with just one person (or else it won&#8217;t get off the ground, exception special cases, like when you got a pre-existing audience)</li>
+<li>Leverage existing technologies (i.e. using RSS for calendar feeds)</li>
+<li>Be a barnacle (start thinking about using other website&#8217;s APIs early on, i.e. using delicious to drive my links page for social animals dc)</li>
+</ul>
+<p style="text-align: right; font-size: 8px">Blogged with <a href="http://www.flock.com/blogged-with-flock" title="Flock" target="_new">Flock</a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=3" title="View all posts in ASP.NET" rel="category">ASP.NET</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-313 -->
+
+				
+				
+			
+			</div><!-- #content -->
+		</section><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			
+				<aside id="archives" class="widget">
+					<h3 class="widget-title">Archives</h3>
+					<ul>
+							<li><a href="http://tech.wakayos.com/?m=202001" title="January 2020">January 2020</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201911" title="November 2019">November 2019</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201906" title="June 2019">June 2019</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201704" title="April 2017">April 2017</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201605" title="May 2016">May 2016</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201604" title="April 2016">April 2016</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201512" title="December 2015">December 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201505" title="May 2015">May 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201501" title="January 2015">January 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201410" title="October 2014">October 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201407" title="July 2014">July 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201406" title="June 2014">June 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201404" title="April 2014">April 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201403" title="March 2014">March 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201307" title="July 2013">July 2013</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201302" title="February 2013">February 2013</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201211" title="November 2012">November 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201210" title="October 2012">October 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201209" title="September 2012">September 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201208" title="August 2012">August 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201201" title="January 2012">January 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201112" title="December 2011">December 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201111" title="November 2011">November 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201109" title="September 2011">September 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201107" title="July 2011">July 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201106" title="June 2011">June 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201105" title="May 2011">May 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201101" title="January 2011">January 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201012" title="December 2010">December 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201007" title="July 2010">July 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201005" title="May 2010">May 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201004" title="April 2010">April 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200911" title="November 2009">November 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200908" title="August 2009">August 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200907" title="July 2009">July 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200906" title="June 2009">June 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200905" title="May 2009">May 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200904" title="April 2009">April 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200902" title="February 2009">February 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200901" title="January 2009">January 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200811" title="November 2008">November 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200810" title="October 2008">October 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200809" title="September 2008">September 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200808" title="August 2008">August 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200807" title="July 2008">July 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200806" title="June 2008">June 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200805" title="May 2008">May 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200804" title="April 2008">April 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200803" title="March 2008">March 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200802" title="February 2008">February 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200801" title="January 2008">January 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200712" title="December 2007">December 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200711" title="November 2007">November 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200710" title="October 2007">October 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200709" title="September 2007">September 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200708" title="August 2007">August 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200707" title="July 2007">July 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200706" title="June 2007">June 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200705" title="May 2007">May 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200704" title="April 2007">April 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200702" title="February 2007">February 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200701" title="January 2007">January 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200612" title="December 2006">December 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200611" title="November 2006">November 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200610" title="October 2006">October 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200609" title="September 2006">September 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200608" title="August 2006">August 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200607" title="July 2006">July 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200606" title="June 2006">June 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200605" title="May 2006">May 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200604" title="April 2006">April 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200603" title="March 2006">March 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200602" title="February 2006">February 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200601" title="January 2006">January 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200410" title="October 2004">October 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200408" title="August 2004">August 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200405" title="May 2004">May 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200404" title="April 2004">April 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200403" title="March 2004">March 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200402" title="February 2004">February 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200312" title="December 2003">December 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200311" title="November 2003">November 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200310" title="October 2003">October 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200309" title="September 2003">September 2003</a></li>
+					</ul>
+				</aside>
+
+				<aside id="meta" class="widget">
+					<h3 class="widget-title">Meta</h3>
+					<ul>
+												<li><a href="http://tech.wakayos.com/wp-login.php">Log in</a></li>
+											</ul>
+				</aside>
+
+					</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 13:25:05 Feb 21, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:24:43 Apr 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.756
+  exclusion.robots: 0.06
+  exclusion.robots.policy: 0.044
+  esindex: 0.014
+  cdx.remote: 45.958
+  LoadShardBlock: 486.684 (3)
+  PetaboxLoader3.datanode: 545.276 (4)
+  PetaboxLoader3.resolve: 64.226 (3)
+  load_resource: 149.922
+-->

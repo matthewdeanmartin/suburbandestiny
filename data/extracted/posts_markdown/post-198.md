@@ -1,0 +1,56 @@
+---
+date: '2007-02-08'
+recovered_from: wayback
+slug: post-198
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200702\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=198
+title: SMO vs TSQL vs Batch vs .NET vs VBS
+---
+
+
+The prototypical application I have in mind is the backup script, which involves launching a few processes, running a few TSQL commands like “BACKUP” and doing some file system shuffling, like checking for the existance of a file you intend to write, deleting old backup files, moving them to a safe place, etc.  To get anything done, you find yourself doing 3 crimes against computer science:
+
+
+
+> Code writing code to make up for missing features in the host language.
+> 
+> 
+> Parsing untyped output.  The output of DIR is unparsed.
+> 
+> 
+> Domain overspecialization.  TSQL does good with tables, it stubles when you need to write a batch script in TSQL.  Batch does good at launching processses, it fails when you need to do loops or handle errors. .NET has a wonderful library, but you have to roll your own 5 line process launcher.
+
+
+In batch, you can launch a process in 1 line of code:
+
+
+
+> osql.exe {args}
+
+
+In TSQL, you can launch a process, BUT, it is just a xp\_cmd\_shell command, so really you are writing batch and if you have long strings of xp\_cmd\_shell commands you should write batch.  However, TSQL will put the data into a single column table, so if the output of the batch command is one data element per row, it nicely maps to a table and you can use it as a table.  Still, you have to use TSQL’s string functions to build the command, there isn’t a independent parameter, data returned isn’t typed (it is a table of strings, not a collection of files or some other class).
+
+
+SQLCMD.  SQLCmd is a SQL2005 tool that is a half measure to make some TSQL scripts easier to write and run, especiall when they need to be execute in different database contexts.  Previously this had been done by writing dynamic EXEC(“use db EXEC myCommand”) type scripts, which were not fun to write–again due to the lousy string handling of TSQL.
+
+
+The resulting code is clunky and slow to write, a hybrid of a not very good procedural language with something that was never meant to be used as a programming language at all.
+
+
+VBS has late binding.  This feature is hardly ever used for anything clever, mostly it exists to cripple the language and make it unfriendly to intellisense supporting IDE’s. COPY, DIR, DEL takes many lines of code.  SQLDMO exists, but why put yourself through the pain when you could write VB6 in the uncrippled way?  Well maybe because the environment is COM unfriendly.
+
+
+VB6\. It takes a couple of lines of code to launch a process and it is fairly hard to get the output of the command.  SQL DMO did exist to get object oriented access.  This requires an environment that is COM friendly.  Why deal with COM at all when you can use .NET and not worry if you have the right to register a COM dll?
+
+
+.NET and SMO. The prototypical backup script in SMO requires instatiating a bunch of objects in a typed language and relying on the .NET framework for the file system shuffling.  In general, it takes more lines of code than the corresponding batch command, eg. COPY, DIR, DEL.  Still it is better than VB6\.
+
+
+WMI. WMI is just so damn hard to use.  I won’t talk about it. It makes me dizzy.WMI via .NET is better, but man you just never know what kind of object you’ll get back when you talk to a WMI object.  Calling everything in the world an object and accessing everthing with a .getProperty(string name) and  .invoke(string name) methods is not really typed programming.
+
+
+Powershell.  I’m just starting to learn about Powershell.  It looks like the goal is to make batch into a real programming language, with the conciseness of COPY, DIR, DEL, the library of .NET, and some real programming language features. 
+
+
+Powershell you’re my only hope.

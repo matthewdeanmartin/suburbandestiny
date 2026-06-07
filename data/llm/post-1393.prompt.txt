@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Second Impressions of Breville BES920XL",
+  "slug": "post-1393",
+  "date": "2015-09-06",
+  "raw_date": "2015-09-06T12:41:11+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\www.suburbandestiny.com\\root\\__query__\\p\\1393\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=1393",
+  "markdown": "\nMy new grinder is on order, so I’ve been using the pressurized baskets. I can get a reliable drinkable shot, but it doesn’t much resemble the one the La Marzocco one at La Mano makes.  On average 2 shots is stronger than my usual 1 teaspoon of instant \\& 1 shot at the office.\n\n\nI’ve made steamed milk with almond, coconut and soy milk. So far, soy milk performs the best. I’m pretty sure this is a protein thing– only soy milk has the high protein levels you find in cows milk. I don’t have a suitable wet rag for the steam wand. I’ve been trying to use wet paper towel, but that hurts the fingers most of the time.\n\n\nThe toddler likes drinking the steamed milk. For the afternoons and evenings, I’ve been making decaf chai with steamed milk.\n\n\nThe instructions report a 15 minute warm up time. I have no idea what they are talking about. That must be the warm up time in the dead of winter in a cold house. In DC in the summer, it warms up in what seems like 5 minutes.\n\n\nThe top warms up dramatically, but so far I haven’t achieved warm coffee cups. I’m wondering if this is a silly sales man story. “Buy this $$$ machine, and hey it will warm your cups if you set them on top!” But now that the tanks are insulated and the machine, sensibly, shuts off after an hour or two, your cups don’t warm up. I happen to have some metal espresso cups, so I’m going to see if they warm up faster than the ceramic ones.\n\n\nSo far, I would say the machine is performing at expectations. One the new grinder gets here, I’m optimistic it will surpass expectations\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-1393.md"
+}

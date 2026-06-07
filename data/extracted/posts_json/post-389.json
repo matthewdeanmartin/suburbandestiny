@@ -1,0 +1,10 @@
+{
+  "title": "MS Build Fortune Cookie Manual",
+  "slug": "post-389",
+  "date": "2008-07-25",
+  "raw_date": "2008-07-25T05:21:53+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200807\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=389",
+  "markdown": "\n**Jargon**\n\n\nPropertyGroup \\= Variable declarations  \n\nTask\\= Statement/Method Invocation  \n\nImport \\= Reference/Include/Using statement  \n\nTarget \\= Code Bock/Subroutine\n\n\n**Control of Flow**\n\n\nCode runs once. So if a project has 10 dependencies that need to be compiled, and other projects depend on some subset of those, they won’t be rebuilt. I think this is what makes a build script different from an ordinary script, like a ps or bat file.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-389.md"
+}

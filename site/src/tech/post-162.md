@@ -1,0 +1,23 @@
+---
+date: '2006-08-22'
+recovered_from: wayback
+slug: post-162
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200608\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=162
+title: Setting a database to Read Only
+---
+
+
+If you set a SQL database to read only, SQL doesn’t have to lock pages.  This is good for performance.  This should mean more people can query the same tables at the same time.  This is good for concurrency.
+
+
+Of course to use a RO strategy, you will have to turn on RW at least during periodic data loads.
+
+
+However, to change to Read\_Only, no one can be connected.  If have to wait, you might end up waiting until 2AM in the morning until the database is quiet.  If you forcably kill the connections, you will invalidate any pooled connections or connections that haven’t gone out of scope.  There are half a dozen places where things that are connection pooling or things that act like connection pooling occur, in ADO, ASP, ODBC, etc.  To avoid invalidating connection in a pool, you need to either drain the pool (a method that isn’t available in some of these API’s) or wait until the pool is drained, which may take a very long time.
+
+
+Another possiblity is just letting users deal with the error message they see when their webpage tries to use an invalid connection.  This allows for a mid\-day RW/RO switch.  
+
+Another possibility is to do data loads unattended in the middle of the night.  This might work for some shops.  That way the RW/RO switch can be done when the database is quiet.

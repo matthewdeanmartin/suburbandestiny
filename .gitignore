@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Eleventy
+site/node_modules/
+site/_site/
+
+# OS / editor
+.idea/
+.DS_Store
+Thumbs.db

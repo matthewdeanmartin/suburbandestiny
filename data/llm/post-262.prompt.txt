@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Replacing the water cooler",
+  "slug": "post-262",
+  "date": "2007-07-27",
+  "raw_date": "2007-07-27T18:11:07+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200707\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=262",
+  "markdown": "\nThe water cooler failed.  After ripping the son of a bitch out, it appears the internal copper bits corroded, probably from using distilled water instead of blue stuff, which is not available anywhere except mail order.\n\n\nWater cooling is not ready for consumers, here’s a few reasons, based on my experience:\n\n\n**The cooler did not work at all with a standard case.** It endangered parts should it have ever leaked, required brackets and screw holes that don’t exist on standard case.  It was too huge and bulky to actually fit in a rather big box.  The tubes interfered with expansion cards and were hard to position without crimping.\n\n\n**The water cooling system was extremely loud and not much better at cooling that the huge heat sink I have replace it with.**  My replacement runs at 36 at idle and 45 at 100% CPU usage.\n\n\n**The water cooling system appears to have required some weird chemical to keep the internals from corroding.**  Given that the coolant appears to somehow evaporate and escape from this seemingly sealed system, it cool run out of coolant at any moment.  Ordinary consumers not going to stand for a cooling system that requires mail ordering coolant.  I’m not even entirely sure about this theory, as I have always suspected that the company was trying to pry more money out of me by saying that only their secret blend of weird chemicals worked in their cooler.  Rather than have give them another buck, I’ll tell them to themselves f\\*k.\n\n\n**Proprietary cooling chemicals.**  You don’t put proprietary software into your machine, why put proprietary cooling chemicals in your machine?\n\n\n**Installation.**  I have a huge box full of parts left over from installation.  The cooling system increased the number of parts in my computer by a full 50% at least.\n\n\n(brand names \\& links to the guilty to be added later)\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-262.md"
+}

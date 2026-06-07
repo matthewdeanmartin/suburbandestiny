@@ -1,0 +1,36 @@
+---
+date: '2007-02-01'
+recovered_from: wayback
+slug: post-193
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200702\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=193
+title: Visual Studio Team Server Impressions
+---
+
+
+The thing has 10 Sql Databases. Most shops have applications with just one database and they have a rough time doing the DBA work to care for and feed them.
+
+
+It has seven big pieces. By big, I mean, each one you could spend a year accumulating experience before you’d feel a mediocre competency. Reporting Services. SQL Server. Sharepoint. Analysis Services. Visual Stuidio (the IDE). IIS and Web services and off course the Team Server specific functionality behind them all. Add Windows Server to the list if you are used to running code strictly on workstations.
+
+
+Installation isn’t as bad as the beta. In the beta I never successfully installed a version–the requirements are very picky. For example SQL Developer edition is not good enough for a test install, you need a real SQL Standard Edition. Still, installation took the better part of 4 evenings.
+
+
+Creating a project takes 10 minutes. I guess web services are a bit slow. Speaking of slow, half of the install struggle was finding a machine powerful enough to run the VPC. It quickly becomes obvious why the install documents have a separate section explaining how to split the server across several physical machines.
+
+
+Ok, enough kvetching. I like that it has a CMMI process baked in. Team Server supports a massive number of process templates and reports. Firefox seems to work with the web sites.
+
+
+I filed a bug. It took me a while to realize that you can’t do much in the sharepoint section, for example you can’t file a bug report there. Instead you file bug report in the VS2005 IDE. It started at bug 16\. I guess it found 15 bugs before I could check in the first line of code. Unfortunately I was a “Dumb Ass End User”(TM) and the bug report I filed failed to show up on anything except the “All My Team Project Work Items”, it didn’t show on many of the other “List\-Bugs” reports. Same thing happened on my “Task Item”. I can just imagine now a pointy haired boss filing 50 bug reports 50 task items and all of them being ignored because he didn’t flip the right bits. And if you are a process person reading this, I can hear you thinking, “Training is the answer.” Come on, get real. Dogs can be trained, but not PHB’s when your living in a Dilbert world.
+
+
+The source control plug in rocks. This is already miles ahead of VSS and I’ve only been looking at it for 10 minutes. The source code compare is still the VSS one. I can lock a single file and still have multiple check out for others (without creating a brand new repository with a different check in policy, like you have to do in VSS!) It is much easier to view those little comments people are supposed to make when they check in a change set. I never figured out how to do that in VSS. And not only that, I can rename a file and see the history and do compares between the file before and after I changed it!
+
+
+The build utility left me scratching my head. It is modal and puts a death grip on your instance of visual studio while it is running. It can’t be interrupted. It can’t be stopped. Ha ha! Little does that puny programmer in Redmond who doesn’t want me to stop the build know that I control the electrical supply to the computer! It takes a few minutes to time out.
+
+
+Also, there needs to be 3rd process, after MSF and CMMI called COWBOY. It means you don’t give a flying foik about the heaps of reports, analysis documents and the overly complex work flows, but you do want to be able to see what your code looked like in case you have to revert, branch or do some other tricky code change.

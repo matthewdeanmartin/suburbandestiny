@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "The sorry state of application security audit logging",
+  "slug": "post-544",
+  "date": "2009-06-08",
+  "raw_date": "2009-06-08T09:52:46+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200906\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=544",
+  "markdown": "\nSecurity oriented audit logging records what happened and who did it. So lots of logging frameworks fail because they aren’t very well integrated into the authentication scheme. Ideally, the log entries would non\\-deniable and read and write\\-only (i.e. no updates and deletes) by a non\\-administrator. And super\\-ideal would be a rich, granular permissions system. For example, NTFS rights are read/write. There isn’t an append\\-only right for files. And ordinary users need to be able to write to the log. Logging isn’t useful if only the administrator can write a log entry. And ordinary users need to be able to review the log, although not necessarily the same ordinary users that wrote to the log. \n\n\nThis excludes logging techniques where you can write \n\n\nLog(“I committed a crime”);  \n\nDeleteLogs(); //or update logs\n\n\nLikewise, this should’t happen when running as user John Doe:\n\n\nLog(“Bill committed a crime”); //Not me!\n\n\n**Windows Event Log.**  \n\n Requires pinvoke/win32 API calls to record event with user Id.  \n\n Can log to Application from ASP.NET with blank user from C\\#.  \n\n You might not even be able to tell which website or application wrote the error log entry.  \n\n Looks like it only works with windows authentication, and not custom authentication, e.g. GenericPricincipal.  \n\n Only an administrator can create a new log/event source.\n\n\n**Sql Event Log**  \n\n No user (except SPID) is recorded  \n\n Xp\\_Logevent requires membership in dbo in master, or systeadmin, or explicit rights\n\n\n EXECUTE master..xp\\_logevent 50003,’hello world E’, ERROR  \n\n RAISERROR (‘hello world from raiserror’, 500000,1\\) WITH LOG –Requires sysadmin rights to use WITH LOG\n\n\n**IIS Log **Response.AppendToLog(“Action recorded by Austin Powers, really.”);  \n\n Has the cs\\-username field, but it is the service name, not the real user.  \n\n[For IIS5/6 you need to write an ISAPI filter to hook into the code writing to that log to change cs\\-username](http://www.velocityreviews.com/forums/t362252-setting-csusername-from-an-aspnet-site.html).****\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-544.md"
+}

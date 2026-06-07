@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Software Review: Free MS-SQL DB Documentation Generation",
+  "slug": "post-158",
+  "date": "2006-08-04",
+  "raw_date": "2006-08-04T08:22:25+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200608\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=158",
+  "markdown": "\n[SchemaSpy](http://schemaspy.sourceforge.net/) is a free [database documentation](http://schemaspy.sourceforge.net/) generation tool.  It uses Java and JDBC to gather schema information.  The output is a browsable website for each database. It generates ERD’s if you have [Graphviz](http://www.graphviz.org/Download_windows.php) installed.  It also supports a large number of other databases, (important for me, SQL 2005\\).  I haven’t figure out how to get intergrate security to work, but it does appear to work with just a user in the db\\_datareader role.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-158.md"
+}

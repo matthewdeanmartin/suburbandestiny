@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Kitchen Computer",
+  "slug": "post-155",
+  "date": "2006-07-26",
+  "raw_date": "2006-07-26T19:15:46+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200607\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=155",
+  "markdown": "\nI bought a $40 (with shipping) Windows CE terminal that can connect to Windows XP pro. I used a monitor I got from the trash and a keyboard and mouse left over from a previous computer.\n\n\nI set it up in the Kitchen, the biggest complain is that the wires are all over the place. I could fix it for $30 (with shipping) for an xbox style wireless adapter.\n\n\nThe monitor is too bulky. Fixing it would cost $110 (with shipping) to replace it with an LCD monitor.\n\n\nThe keyboard is too big and not water proof. Fixing it would cost $25 (With shipping).\n\n\nSo for $165 I could have an optimized kitchen computer. It’s the accessories that run up the bill.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-155.md"
+}

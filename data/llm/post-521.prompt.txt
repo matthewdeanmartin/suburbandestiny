@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "FISMA Secure",
+  "slug": "post-521",
+  "date": "2009-02-25",
+  "raw_date": "2009-02-25T09:05:36+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200902\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=521",
+  "markdown": "\nA security policy is what it is implemented as, not what it’s goals were.\n\n\nFISMA secure means\n\n\n– Old technology is more secure than new technology.  \n\nLengthy approval processes for new technologies means obsolete, insecure technologies will stay in production for longer than a streamlined approval process.\n\n\n– Known bugs are more secure than unknown bugs.  \n\nLengthy approval processes for patching means known flaws are kept in production rather than risk introducing unknown flaws.\n\n\n– In house written encryption is better than third party code.  \n\nLengthy and non\\-existent approval process for party components encourage teams to use less secure handwritten code instead of third party code.\n\n\n– Closed source is better than owning the source code  \n\nOpen source barely existed when FISMA was imagined, so government hasn’t really decided what to do about open source, so as often is the case with hard questions, the answer is “No you can’t.”    (Can I use closed source code? No! Can I use Open source code? No! Can I write code? Well, I guess we can only slow you down, since that is what we hired you for\\- but as soon as we can figure out how to say ‘no’, we will.)\n\n\n– Non\\-developers can “document” security into a system.  \n\nFISMA seems to have forgotten that security holes are created by developers and have to be discovered and closed by developers.  A strictly process person can describe the system, but without reading code, they can’t really find any flaws.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-521.md"
+}

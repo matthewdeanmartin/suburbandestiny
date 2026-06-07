@@ -1,0 +1,27 @@
+---
+date: '2007-05-13'
+recovered_from: wayback
+slug: post-212
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200705\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=212
+title: Boot Loader Personality Disorder
+---
+
+
+Boot loaders and the programmers who write them, are not the sort I’d want to invite to a party.  He would show up, untalkative and quietly change all the locks and board up all my roommates doors. They he’d paint my walls, re\-arrange the furniture, change all the locks and then leave town.
+
+
+I finally got the laptops to triple boot.  It was an ugly process.  Except for Linux, Vista and XP each wanted to act like they were the only operating system on the computer.  Vista and XP do not play well with each other, the XP boot loader can’t load Vista and Vista lets XP overwrite the MBR.
+
+
+Linux tries to make sure everyone else can still boot by filling in the appropriate settings in the Grub configuration and menu files, but if you install a Windows operating system afterwards, XP and Vista will try to screw things up.
+
+
+The configuration that finally works is to boot to GRUB first, Grub then can load either Ubuntu or the Vista Boot loader.  The Vista Boot loader, in turn lets you pick Vista or XP. 
+
+
+I’ll post the utilites I used shortly. Ubuntu requires a live disk and cryptic grub commands to restore GRUB, Windows requires a free 3rd party utility that isn’t very well documented to get Vista and XP to play with each other.
+
+
+I suspect that if the installation was XP \-\> Vista \-\> Linux, things would have been smoother.  However the machine already had Vista, then I added Linux, then XP. XP blew away Linux, and made it hard to boot to Vista anymore either.  So it took a lot of google fu to get thing working again.

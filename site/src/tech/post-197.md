@@ -1,0 +1,18 @@
+---
+date: '2007-02-07'
+recovered_from: wayback
+slug: post-197
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200702\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=197
+title: Why I ripped MS Ajax 1.0 out of my app
+---
+
+
+1\. It broke the blowery HTTP compression. Despite having the source code for blowery and attempting to step through it, I couldn’t figure out which event blowery should be hooking into to avoid conflict with MS Ajax. Ajax is supposed to increase subjective speed. Why should I have to remove the one component that was increasing objective speed to increase subjective speed?
+
+
+2\. The event behavior for everything changed. Everything I put into a update panel had different event behavior. In Soviet Ajax, you don’t call events, events call you! So buttons, buttons in columns just stopped working. It is clear the intention of the update panel was to allow developers to drop ordinary code into an update panel and make the post backs go away. In reality, you will have to do meticulous event wiring for anything you put into an update grid. I was just starting to understand the lifecycle of a page and how the life cycle of a page, control and master page interleaved and now I have to come up with a mental model for the regular page life cycle with the Ajax page life cycle.
+
+
+3\. Simply dropping gridviews into updatepanels was anything but simple. The web.config file requires extensive updating, you need a scriptmanager in the master page and see \#2, again.

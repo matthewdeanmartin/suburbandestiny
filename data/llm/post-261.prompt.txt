@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Using Random in ASP.NET",
+  "slug": "post-261",
+  "date": "2007-07-25",
+  "raw_date": "2007-07-25T11:06:06+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200707\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=261",
+  "markdown": "\nIn C\\# and ASP.NET you can generate random numbers like this:\n\n\n Random r \\= new Random(System.DateTime.Now.Millisecond);\n\n\n double d \\= r.NextDouble();\n\n\nBut, in an stateless ASP.NET world, you will get the same random number generator starting over at it’s pseudo\\-random beginning each time the page posts back and you create a new Random object. To keep a random number generator moving forward with new random numbers, use something like:\n\n\n public static double roll() {\n\n\n Random r;\n\n\n if (HttpContext.Current.Session\\[\"r\"] \\=\\= null)\n\n\n {\n\n\n r \\= new Random(System.DateTime.Now.Millisecond);\n\n\n HttpContext.Current.Session\\[\"r\"] \\= r;\n\n\n }\n\n\n else\n\n\n {\n\n\n r \\= (Random)HttpContext.Current.Session\\[\"r\"];\n\n\n }\n\n\n \n\n\n return r.NextDouble();\n\n\n }\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-261.md"
+}

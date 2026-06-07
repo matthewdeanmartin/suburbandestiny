@@ -1,0 +1,38 @@
+---
+date: '2008-01-22'
+recovered_from: wayback
+slug: post-316
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200801\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=316
+title: 'Pervasive Data Integrator: Title pending…'
+---
+
+
+\[Update]
+
+
+I finally found [Fernando Lambastida](http://labastida.com/)‘s blog.  I called him, he apparently is associated with Pervasive.  I told him who I was, a lowly techie in a big software consulting company that needs to evaluate/work with/play with some ETL bits.  I said that I saw the offer for a 14 day ‘[free demo software](http://labastida.com/get-free-software/)‘ on his blog and he offered to help me work with Pervasive to get a trial key.  If your calls to Pervasive are channellings you through the sales sewer pipeline, instead try Fernando, he’s a good chap.
+
+
+\[Okay back to what had transpired before]  
+
+So I got a job interview coming up. They want a [Pervasive ETL](http://ww2.pervasive.com/Integration/Products/Pages/IntegrationProducts.aspx) expert. Pervasive is a relatively uncommon ETL package in a fairly narrow vertical market: ETL. So I do what seems reasonable, I download the free evaluation trial. I install it, read the documentation. I almost grok it, so I try to open a designer. The designer asks me for a license key. Hmm. I check the email. Yup, it says I have to contact them to get a key. Website says so, too. Trial keys require a phone call to Pervasive. Okay. I’m a developer, I understand that companies need to defend their IP. So I call.
+
+
+I call the company and eventually get transfered to a Chris, who said if I was interested in pitching my skills to a company who had a copy of Pervasive, I had to get a license key from that company or that company’s sales representative!!! This is very weird, he can’t possibly mean I need to illegally obtain a license key from an existing customer, does he? And Chris says under no circumstance can I be given a key.
+
+
+So I call them back and ask not to be transfered to Chris and now I get a Howard. Howard likewise said no, no demo key.
+
+
+So if anything, [Pervasive](http://ww2.pervasive.com/Integration/Trials/Pages/DataIntegrator.aspx)‘s website is highly misleading about the availability of an evaluation version.
+
+
+If you came to this post researching Pervasive, I recommend that you look into something else. There are too many choices available, from ad hoc, to [RhinoETL](http://www.ayende.com/Blog/archive/2007/07/24/Rhino-ETL-First-Code-Drop.aspx), [Jasper ETL](http://www.jaspersoft.com/JasperSoft_JasperETL.html), DTS, SSIS, Oracle DataIntegrator, Informatica–why settle for dicey customer service?
+
+
+Data is the lifeblood of an organization. If the data fails to flow, you’re out a job and the company will be losing money.
+
+
+Buying tools from companies that are actively hostile to developers is like loading a metaphorical gun and pointing it to your company’s head.

@@ -1,0 +1,43 @@
+---
+date: '2007-07-18'
+recovered_from: wayback
+slug: post-256
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200707\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=256
+title: Hosting PowerShell in ASP.NET
+---
+
+
+PowerShell can be run inside of your application, even an ASP.NET one. I started with Dominick’s sample on [hosting powershell in ASP.NET](http://www.leastprivilege.com/HostingPowerShellInASPNET.aspx).
+
+
+The UI was modestly difficult. I used a label and a textbox that uses AJAX to update the label with the output of a PowerShell command each time I hit enter and trigger the Ajax updated event.
+
+
+First odd thing, the runspace (which is like the powshell session) is stored in cache, so it is a global object. If the application is multi\-user or multi\-browser with one user, effects in one browser or user will bleed over into the other. So far my only idea for possible improvement is to store the user session ID or user name into the cache. The user docs state that there needs to be a one to one relationship between the PSHost and the runspace.
+
+
+Next odd thing, not all commands work. When using the default PSHost and if you don’t add a “output\-default” command, the runspace emits a pipeline of objects (roughly corresponding to rows of output you’d get from a cmd.exe command). In Dominick’s example, the rows are converted to text and usually look okay. I added the ‘output\-default’ command to the pipeline and switched to a custom host:
+
+
+So I wrote a class that extended PSHost  
+
+and  
+
+PSHostUserInterface. The former has to do with starting and stopping PowerShell. The latter is the basic user interface. With the PSHostUserInterface, you can provide a way to output warnings, writeline’s etc. There is also a Raw UI that needs to be extended to get commands like CLS to work. The PSHostRawUserInterface lets the host know what to do when someone’s code wants to write to a particular part of the screen. From the docs: “The user interface model is based on a two\-dimensional grid of cells referred to as the screen buffer.”
+
+
+Communication between the ASP.NET page and the PSHost was challenging. They appear to run on **different threads**. I ended up passing state between the page (which displays the output) and the PSHost (which has first access to the output after an invoke) by shuffling the text rows to a database and back. There isn’t an obvious way to let the PSHost keep a usable reference to a page or to pass the PSHost a usable reference to the calling page.
+
+
+Now if I run my hosted PowerShell, the popularity of commands like “more” create a problem. More launches a process and waits for input. The process is launched as the ASPNET user (I’m running IIS on XP), even though I have impersonation turned on in web.config.
+
+
+So my next challenges:
+
+
+1. Figure out if it is possible to get impersonation to work (either by launching the PowerShell host with credentials of my choosing or changing the credentials once inside of PowerShell)
+2. Implement PSHostRawUserInterface. It looks like it will be required to get anywhere close to approximating a windows PowerShell user experience.
+3. Figure out what to do when a process gets launched accidentally from ASP.NET–and is invisible! Unfortunately almost no applications check to see if they are being run remotely and can’t expect to get user input.
+4. Determine what constitutes a carriage return that means “line continuation inside a command or expression” and what means “send this command to the pipeline and invoke it!” This will also be tricky to do inside of a multiline HTML textbox.

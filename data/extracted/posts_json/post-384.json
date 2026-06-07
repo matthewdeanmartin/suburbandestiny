@@ -1,0 +1,10 @@
+{
+  "title": "Where is MS-Build?",
+  "slug": "post-384",
+  "date": "2008-07-16",
+  "raw_date": "2008-07-16T08:24:13+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200807\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=384",
+  "markdown": "\nMsbuild’s location varies depending on version.\n\n\nThere isn’t a 1\\.1 version.\n\n\nC:\\\\WINDOWS\\\\Microsoft.NET\\\\Framework\\\\v2\\.0\\.50727\\\\MsBuild.exe\n\n\nC:\\\\WINDOWS\\\\Microsoft.NET\\\\Framework\\\\v3\\.5\\\\MSBuild.exe\n\n\nMsbuild is considered unusable without extending it, <http://msbuildtasks.tigris.org/>, the community built tasks.\n\n\nMSBuild files can be edited with [MS\\-Build SideKick](http://www.attrice.info/msbuild/), (14 day trial $55 single user license).\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-384.md"
+}

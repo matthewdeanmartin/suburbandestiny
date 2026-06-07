@@ -1,0 +1,10 @@
+{
+  "title": "Life Hacking: Shopping",
+  "slug": "post-153",
+  "date": "2006-07-22",
+  "raw_date": "2006-07-22T13:11:02+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200607\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=153",
+  "markdown": "\nEvery time I’ve tried to use shopping list software, I boggle at the amount of time it would take to do the data entry.  Short of electronic eyes and RFID chips on the goods in the fridge, the killer grocery list may be a ways off.  Grocery lists generated off of recipes aren’t a bad idea, but last time I tried to use cook book software I couldn’t keep to recipes in the database, so I couldn’t generate a comprehensive ‘requirements’ list.\n\n\nAny solution to the grocery list problem will need to include a way to generate the list, either on paper, PDA or phone.  I think that the killer app, when it happens will use RSS to a smart phone.  PDAs are too bulky and RSS is a universal format that many devices will be able to deal with, someday.  \n\nHere’s an interesting angle on grocery lists: [other people’s grocery lists](http://grocerylists.org/)  \n\nThis one his half way there: the [Publix grocery list maker](http://www.publix.com/MyGroceryList.do) It integrates the shopping list an online recipe database with a map of the grocery story. Unfortunately the publix website is \\*slow\\* and clunky.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-153.md"
+}

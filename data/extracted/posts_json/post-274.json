@@ -1,0 +1,10 @@
+{
+  "title": "Authentication Mystery: When Membership.GetUser is null",
+  "slug": "post-274",
+  "date": "2007-09-01",
+  "raw_date": "2007-09-01T14:10:11+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200709\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=274",
+  "markdown": "\nWhen Membership.GetUser is null or nothing, but login succeeds (and fails on a bad password), check the path as such…\n\n\n\\<authentication mode\\=”Forms” \\>  \n    \\<forms …  \n               path\\=”/”   \n               …  \\>              \n\\</authentication\\>\n\n\nMine was set to path \\=”blahblah/blah”.  I changed it to “/” and things worked again.\n\n\nHas something to do with browsers rejecting the cookie because it didn’t look like it was coming from the right server. \n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-274.md"
+}

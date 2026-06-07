@@ -1,0 +1,35 @@
+---
+date: '2013-02-10'
+recovered_from: wayback
+slug: post-703
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\201302\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=703
+title: HTML 5 Web Storage
+---
+
+
+Web development is the constant struggle to manage state, state that is constantly disappearing because, HTTP is stateless. We are all now experts in using hidden fields (viewstate), cookies, query strings, and server side session. Now we have one more option, HTML5 web storage:
+
+
+With shims, anyone can use it now on all browsers: http://www.jstorage.info/
+
+
+Security\-wise, it not especially secure. You can’t store secret data here, it is public to the user and any malicious code on the machine. To safely encrypt, you have to encrypt on server and send back to the server to decrypt. This save the cost of sending the data in a cookie for every single request, but the client can’t manipulate it.
+
+
+You have to make sure you don’t share your domain with other applications. So if your shared hosting also shares the same domain, then all apps share the same local storage.
+
+
+The data in local storage can be tampered with, so it is the equivalent of user input. Which gave me this idea:
+
+
+**Never ask the user anything twice.**  
+
+Wouldn’t it be interesting to have everything the user told you stored for recall? Store the users last 100 searches. So you’ve asked the user for their address. Store it locally and re\-use that instead of round tripping to the server. What this seems to address most closely is the sort of problems that ASP.NET Profile addresses. Profile is sort of a bad name– it is a durable, strongly typed session. It was supposed to be a place to store things like, the user’s preferred font size, preferred language and other UI settings. Since they are irrelevant to the app’s domain (say selling books), the data can be stored somewhere where it is unlinked to anything else.
+
+
+And the last scenario is going to be organization specific– in some development teams, get a new table is major hurdle. So you begin to look for every trick to avoid having to write to the database\- from memory stored data to file stored data to local web storage. So lets say your user needs a data snapshot– data will be stored locally, processed locally but not sent back to the server (on account of tamper risks). Instead of creating a snapshot table, and going through a lengthy dev cycle to get those tables and procs created, we can use Web storage.
+
+
+Anyhow, just an idea. I haven’t even written any sample code.

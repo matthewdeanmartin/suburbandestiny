@@ -1,0 +1,73 @@
+---
+date: '2009-11-13'
+recovered_from: wayback
+slug: post-585
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200911\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=585
+title: MAF, Plugin Architectures and the ASP.NET 3.5 website
+---
+
+
+Plug ins allow developers to collaborate with zero co\-ordination. The host application provides extension points and another developer writes a module that the host application can use without re\-compile. A typical plug in architecture also includes:
+
+
+\- Activation. A way to enable and disable plug ins at runtime  
+
+\- Discovery. Plug ins are registered by scanning a directory for code artifacts.  
+
+\- Code artifacts that implement an expected interface are used by the host application  
+
+\- Plug ins are invoked with some sort of reflection  
+
+\- Plug ins might need to run with fewer security rights than host code.
+
+
+[MAF/System.AddIn](http://msdn.microsoft.com/en-us/library/bb384241.aspx) exists.  
+
+MEF is on the way,but it looks like it will be fully baked in .NET 4\.0, no sign if it will support 3\.5\. 
+
+
+MEF is getting much more attention on the blog and the web and I attribute that entirely to the MEF team promoting their work more than the MAF team.
+
+
+**Benefits of MAF**  
+
+Its a documented solution, that will always be better known and understood than any plug\-in architecture you could throw together.  
+
+It is available in release form \*now\* and doesn’t require 4\.0\. MEF is pre\-release and will require upgrading to 4\.0 when it is release. (I think)
+
+
+**Challenges with MAF:**  
+
+They team assumes you want version resilience. This is the most expensive feature. It achieves version resilience by adding 5 assemblies between your host and plug ins. Without code generation, the extra five assemblies adds too much work. 
+
+
+Also, when it comes time to write the V2 to V1 adapters, you will have to make ugly choices like, should the adapters throw errors or should they similate the new functionality. For example, in the calculator example where V1 supported adding and subtracting and V2 supported multiplication, you could have simulated multiplication by calling the V1 addition method in a loop to replicate multiplication. This would be better backwards compatibility, but now you got some business logic in your ViewAdapters. If you don’t put that logic there, then you will throw NotImplementedExceptions. Now how is a component backwards compatible if it throws runtime errors? (Well, admittedly the adapter lets the old plug in work as well as it used to just so long as you keep away from “new funcitonality” that arrived in V2\)
+
+
+They assume you need the extra security and reliability you get from loading plug ins in a sandbox. This means MAF wants you to declare contracts with primative datatypes if you can. Just like you can’t pass database connections or the HttpContext back and forth across a webservice, you aren’t supposed to do that in MAF (but you can, as long as you don’t load plug ins in a new AppDomain.)
+
+
+**Plug in UI**. Officially, you aren’t supposed to pass winforms controls across MAF contracts, ie only the host has UI. WPF controls are supposed to be able to cross, ie. the plugin can have UI. 
+
+
+In ASP.NET, my own experimentation shows you can have server controls in the plug in, but it is hard beyond being worth it to put a Page or UserControl in a plug in and then get it to render on an ASP.NET page. This means that all ASP.NET plugins must mix code and UI more than I like. Some of this can be mitigated by the host providing enough extension points that it wouldn’t matter. For example, if a pluggable form page queried the plug in for the controls and used a host owned layout engine to layout the labels and input boxes, then the plug in writer wouldn’t have to mix too much presentation code and C\#.
+
+
+**How does MAF relate to other similar ASP.NET technologies?**  
+
+ASP.NET already can cope with new pages and classes being added at run time with minimal effect on the running application. A pattern I’ve seen is where V1 of the website is deployed, then when V2 is deployed, only the classes and pages that the developer thinks changed are copied into the V1 website. This creates a blended version V1/V2 website. If the contracts changed, e.g. a property of a webcontrol has a different data type, it is up to the developer to also track down the dependencies and deploy new versions of those too. Because pages are compiled on first request, the developer may not learn about broken contracts until long after the code in in production.
+
+
+WebParts lets chunks of code and UI get plugged into or removed from a page at runtime. WebParts assume the webparts are being developed by the same team as the host, so the there isn’t necessarily any features for versioning, isolation or what have you. As a component technology, WebParts is all about a specific type of UI widget, where AddIns is \*anything\*, including things like adding an Icelandic spell checker to your website. 
+
+
+**ASP.NET and process isolation.**  
+
+ASP.NET and JSP and most other non CGI web technologies were created because spawning a new process for each request crushed server when they were under load. A common MAF recommendation is to design for the possibility of running your Add Ins in a separate process. But why would I want to constrain my design so that future developers will have the option of running a new process per page request and destroying the ability to support more than a few dozen concurrent requests? I’m convinced that a MAF addin running in ASP.NET should not take advantage of process isolation.
+
+
+**MAF and COM**  
+
+It’s been noted that MAF has a lot of COM nostalgia. I think this is because MAF was created to solve the problems of creating Microsoft Office add ins. Microsoft office is a COM application and as such will work best with a component technology that has a lot of parallels with COM. This is a challenge for people like me because I never wrote C\+\+ and don’t have an internal mental model of how COM works.

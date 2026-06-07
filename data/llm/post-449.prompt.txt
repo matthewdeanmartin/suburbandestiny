@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Commenting Code",
+  "slug": "post-449",
+  "date": "2008-09-23",
+  "raw_date": "2008-09-23T06:56:14+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200809\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=449",
+  "markdown": "\nIt is important to comment your code for maintenance developers benefit.\n\n\n\n> //instantiate object  \n> \n> Foo fooObject \\= new Foo();\n\n\nThis is important because, maintenance developers are unlikely to recognize the most common single line code pattern in object oriented development.\n\n\n\n> //call a method in the class  \n> \n> fooObject.SomeMethod(1,2,3\\);\n\n\nThis likewise is important because maintenance developers are unlikely to grasp the principle of methods and invocations.\n\n\n\n> //I’m smart and you’re stupid.\n\n\nThis is important because any maintenance developer that doesn’t grasp object instantiation and method invocation probably will need to be explicitly filled in on your utter lack of respect.\n\n\nKeep in mind, that according to accurately compiled statistics, 61%\\* of all code will be debugged and maintained by the original developer.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-449.md"
+}

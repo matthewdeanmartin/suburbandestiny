@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Visual Studio 2008 Install Fails on Web Authoring Component",
+  "slug": "post-362",
+  "date": "2008-05-24",
+  "raw_date": "2008-05-24T09:32:21+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200805\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=362",
+  "markdown": "\nSolution: Install manually.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-362.md"
+}

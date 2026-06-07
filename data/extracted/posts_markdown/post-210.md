@@ -1,0 +1,45 @@
+---
+date: '2007-04-28'
+recovered_from: wayback
+slug: post-210
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200704\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=210
+title: Geek Charity– Donate Bandwidth and CPU Cycles
+---
+
+
+Every computer represents more computing power than you can possibly use, except for a few minutes of peak number crunching a day. Same goes for bandwith. 
+
+
+The extra CPU cycles are easy to give away, since recipients don’t care when you give them CPU cycles. When you need your CPU, recipient jobs will wait.
+
+
+Bandwidth is a harder to give away because the operating system doesn’t do a good job of giving priority to my browser and lowest priority to charitable recipients of my extra bandwidth.
+
+
+I was a happy user of United Devices/Grid.org and had donated nearly 4 years of CPU time before it bit the dust on Friday.
+
+
+I am now promoting BOINC, which is a free framework for distributed computing.  You can either join an exiting project, or you can create your own project.  Someday when I have a massive math problem that is easy to state, but hard to solve without 100′s of days of computer time, it will be exciting to try it out.
+
+
+For now, I’m going to run the [BOINC client](http://boinc.berkeley.edu/download.php).  The BOINC client asks you what projects you want your computer to work on. After consulting the [BOINC directory](http://boinc.berkeley.edu/projects.php), you pick the charitable cause that you think is worth the higher electric bill. (Trivia, with boinc my computer’s CPU runs at 46C, that hotter than it was under UD agent) 
+
+
+Advice: check the estimated time of completion for a job.  Some jobs take up to three months of 24 hour a day computing.  If your computer isn’t on all the time, the task won’t finish before the due date.  For your ocassionally on machines, pick BOINC projects with short jobs.
+
+
+Personally, I’m skipping the cryptography, the search for space aliens, and solving esoteric math problems and other similar projects of limited social value.  The bio\-informatics area–drug searching, DNA decoding and epidemiological simulations–is an good place to start, but if you are doing protein folding, you might as well let the specialized computers like the Sony PS3 do the work, since a PS3 is so much more efficient at calculating protein folding than a PC, the work done on a PC represents electricity wastage more than a charitable donation.
+
+
+I donate bandwidth using [Bit Torrent](http://www.bittorrent.com/). It’s a charitable act when you are picking out organization that other wise couldn’t afford the bandwidth, or when the bits themselves represent a good cause.  Examples would include FOSS software, public domain art, non\-profit websites trying to distribute large files, etc.  
+
+
+Bit Torrent was originally intended to be a utility to speed the downloads of large, popular files.  If I want to give the Red Cross, say, some of my bandwidth, I first need to get a file from the Red Cross so I can distribute it, but if it is a file I wouldn’t download anyhow, then I would make the a negative contribution to the bandwidth of the charitable organization.
+
+
+So instead of using a directory to find charitable organizations, use your own directory of previously downloaded files and pick which ones you want to let the uploading go on and on. 
+
+
+My favorite bandwidth recipients are Vox Libris (the free audio book organization), Guttenburg project (free public domain books), and Ubuntu (free operating systems).  I happen to use these and since I have the file, I’m more than happy to donate my bandwidth so that the organizations that originated them don’t have such a big internet bill when it comes to distributing their bits.

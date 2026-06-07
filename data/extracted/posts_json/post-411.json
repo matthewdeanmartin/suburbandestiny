@@ -1,0 +1,10 @@
+{
+  "title": "Catch/Rethrow",
+  "slug": "post-411",
+  "date": "2008-08-31",
+  "raw_date": "2008-08-31T11:59:55+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200808\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=411",
+  "markdown": "\nHow often do you see this pattern (or variations on it)\n\n\ntry{  \n\n…some code…  \n\n}  \n\ncatch{  \n\nthrow;  \n\n}\n\n\nSometimes it will be catch(Exception ex) or catch(SomeParticularException ex), and sometimes it will be throw; or throw ex;, there is no finalizer block, but the important thing is that NO OTHER ACTION IS TAKEN (no logging, no retry, nothing else in the catch block).\n\n\nAs far as I can tell, this is equivallent of wrapping code in NOP (no\\-operation) commands.\n\n\nPlease don’t do this.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-411.md"
+}

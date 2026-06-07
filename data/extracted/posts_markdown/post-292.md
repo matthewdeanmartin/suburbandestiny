@@ -1,0 +1,44 @@
+---
+date: '2007-10-19'
+recovered_from: wayback
+slug: post-292
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200710\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=292
+title: 'SSIS Tip:  Fixing Columns Width with Derived Column Transformation'
+---
+
+
+SSIS will not copy a column with say varchar (255\) to say varchar (15\) without a lot of errors, warnings and such. Data types are converted using the Derived Column Transform Editor (DCT).
+
+
+
+1\. Add as new column. Name it NewColumn15\. It doesn’t seem possible to replace the column if it has a new datatype
+
+
+
+2\. DON’T used the drop down and length text box. They are broken and will reset the length to 50 on all subsequent edits unless you do the following:
+
+
+
+Instead, use the ( ) syntax to do an explicit cast, for example:
+
+
+
+(DT\_STR, 12, 1252\) TRIM( \[OldColumn])
+
+
+
+With this technique, the data type drop down and length text box are populated automatically with the correct values.
+
+
+
+1252 is a magic number you are required to include for non\-unicode strings. I have no idea if ASCII or Unicode has higher performance, I do know that requiring explicit casts wastes a billion times more developer time than will ever be saved in runtime, especially if you are moving data between two systems who see plain text as ASCII in one and Unicode in the other. The inability to set a global rule for implicit type casts is a real productivity drain and source of unnecessary compile errors.
+
+
+
+The “Data Conversion Transformation Editor” appears to do the same thing. I don’t use it as much since I prefer to see my transformations–data type or otherwise–in the same place when I can.
+
+
+
+3\. The old column will likely no longer be used. This will cause endless warnings in the package log. Removing columns that are no longer used in a data flow is tricky. Sometimes you can get at them with the advanced editor (for example when you want to ignore a column from a source text file), but getting rid of them later in the flow is still a mystery to me. It does not appear to be possible to remove output columns from the flow on the “Data Flow Path Editor” (the thing you get right clicking “edit” on a green arrow).

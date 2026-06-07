@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Exporting Gridviews with ASP.NET",
+  "slug": "post-194",
+  "date": "2007-02-02",
+  "raw_date": "2007-02-02T06:59:42+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200702\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=194",
+  "markdown": "\nHow to export a ASP.NET gridview to excel, plus how to deal with the occasional control not rendered in a form error.\n\n\nPublic Overrides Sub VerifyRenderingInServerForm(ByVal control As Control)  \n\n‘Do nothing.  \n\nEnd Sub\n\n\nProtected Sub btnExport\\_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnExport.Click  \n\nResponse.Clear()  \n\nResponse.AddHeader(“content\\-disposition”, “attachment;filename\\=FileName.xls”)  \n\nResponse.Charset \\= “”\n\n\n‘If you want the option to open the Excel file without saving than\n\n\n‘comment out the line below\n\n\n‘Response.Cache.SetCacheability(HttpCacheability.NoCache)\n\n\nResponse.ContentType \\= “application/vnd.xls”  \n\nDim stringWrite As System.IO.StringWriter \\= New System.IO.StringWriter()  \n\nDim htmlWrite As System.Web.UI.HtmlTextWriter \\= New HtmlTextWriter(stringWrite)\n\n\nMe.grdData.RenderControl(htmlWrite)  \n\nResponse.Write(stringWrite.ToString())  \n\nResponse.End()  \n\nEnd Sub\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-194.md"
+}

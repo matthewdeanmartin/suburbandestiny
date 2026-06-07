@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if title %}{{ title }} — {% endif %}{{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+  </head>
+  <body class="{% if section %}section-{{ section }}{% endif %}">
+    <header class="site-header">
+      <a class="site-title" href="{{ '/' | url }}">{{ site.title }}</a>
+      <nav class="section-nav">
+        {%- for key, sec in site.sections %}
+        <a
+          href="{{ sec.url | url }}"
+          class="section-link{% if section == key %} is-active{% endif %}"
+          >{{ sec.name }}</a
+        >
+        {%- endfor %}
+      </nav>
+    </header>
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <nav class="footer-nav">
+        {%- if section == "life" %}
+        <a href="{{ '/life/' | url }}">Life archive</a>
+        {%- for page in collections.lifePages %}
+        <a href="{{ page.url | url }}">{{ page.data.title }}</a>
+        {%- endfor %}
+        {%- elif section == "tech" %}
+        <a href="{{ '/tech/' | url }}">Tech archive</a>
+        {%- for page in collections.techPages %}
+        <a href="{{ page.url | url }}">{{ page.data.title }}</a>
+        {%- endfor %}
+        {%- else %}
+        <a href="{{ '/life/' | url }}">Life</a>
+        <a href="{{ '/tech/' | url }}">Tech</a>
+        {%- endif %}
+      </nav>
+      <p class="footer-note">
+        Recovered from the Wayback Machine.
+      </p>
+    </footer>
+  </body>
+</html>

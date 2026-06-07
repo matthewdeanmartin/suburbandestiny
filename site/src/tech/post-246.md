@@ -1,0 +1,24 @@
+---
+date: '2007-06-29'
+recovered_from: wayback
+slug: post-246
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200706\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=246
+title: When is [Insert technical field name here] fun?
+---
+
+
+I think it is fun when it has recently hit humans.  When stone tipped spears were brand new, I bet you didn’t have to encourage kids to study chipping at arrowheads.
+
+
+When calculus was new–I bet people studied it because it was the hot new thing.  Now calculus is universal and required (at least for technical fields). 
+
+
+When I was a kid, programming was fun.  Mostly because it was the hot new thing.  In retrospect, programming wasn’t painful only because the constraints of the machines and tools forced us to become ludicrously modest in our goals.
+
+
+When I hear on TV an actor playing a scientist say, “Science is fun!” I think, the science they are talking about on TV hasn’t been fun since the enlightenment, 200 years ago.
+
+
+Fast forward to now.  Stone tip tools are studied by re\-enactors and archeologists.  Calculus is a slog.  Programming is work.

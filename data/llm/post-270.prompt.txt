@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Pedagogical API’s",
+  "slug": "post-270",
+  "date": "2007-08-21",
+  "raw_date": "2007-08-21T16:46:13+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200708\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=270",
+  "markdown": "\nThis summer my project was to teach my son to program, (as it was last summer).  We created a SMS text message translator, (eg. CU L8R\\=see you later), a version of Hammurabi, a primitive predator\\-prey population simulator, and got started on an MMO as a way to explore object oriented programming.  This year, we wrote our programs from scratch, as opposed to–mostly–copying them from a book.  Last year, we translated code from an old VB for kids book into C\\#\n\n\nWhilst writing these programs with my son, I realized I didn’t have quite the API’s I wish I had.\n\n\nI wish there were some API’s that were domain specific, like Hammurabi\\-type\\-game specific.  Most of the games were easy, but had one or two damn hard parts. For example, creating a Dice class that works in ASP.NET turned out to be a major distraction from the more relevant task of understanding the difference between fields, methods, if blocks, for blocks, as so on.\n\n\nIf there was such a pedagogical API, it would have a bunch of functions suitable that would have desirable quantities (going up, peaking, going back down), without a multi\\-hour detour into how 2nd degree polynomials work.  \n\n\nAnyhow, if I ever get the time I re\\-write these mini\\-applications, factor them into the hard parts and the easy parts and publish them as pedagogical API’s.\n\n\nI can tell you as a geek who learned programming as a child, I’d rather have had API’s in C\\#, than a funky kid specific language.  Even as a ten year old I knew that logo was for sissies and real code was in Atari Basic.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-270.md"
+}

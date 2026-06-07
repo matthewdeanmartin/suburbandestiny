@@ -1,0 +1,24 @@
+---
+layout: base.njk
+permalink: /
+eleventyExcludeFromCollections: true
+---
+<section class="splash">
+  <p class="splash-lede">{{ site.tagline }}.</p>
+  <div class="splash-cards">
+    <a class="splash-card" href="{{ site.sections.life.url | url }}">
+      <span class="splash-card-name">{{ site.sections.life.name }}</span>
+      <span class="splash-card-tagline">{{ site.sections.life.tagline }}</span>
+      <span class="splash-card-meta"
+        >{{ collections.life | length }} posts · {{ site.sections.life.years }}</span
+      >
+    </a>
+    <a class="splash-card" href="{{ site.sections.tech.url | url }}">
+      <span class="splash-card-name">{{ site.sections.tech.name }}</span>
+      <span class="splash-card-tagline">{{ site.sections.tech.tagline }}</span>
+      <span class="splash-card-meta"
+        >{{ collections.tech | length }} posts · {{ site.sections.tech.years }}</span
+      >
+    </a>
+  </div>
+</section>

@@ -1,0 +1,10 @@
+{
+  "title": "Pervasive Integration Architect Forensics",
+  "slug": "post-339",
+  "date": "2008-04-01",
+  "raw_date": "2008-04-01T11:22:57+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200804\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=339",
+  "markdown": "\n**Problem.** ETL package blows up without error of “column name foo truncated on line 64″ Line 64 looks fine. Line 64 was actually refering to some hidden *code*, not the data file.\n\n\nA Pervastive ETL process file is a infinitely deep series of Russian nested eggs.\n\n\nA map task (which is saved to a .map.xml file) usually indicates a table copy from 1 table to another.\n\n\nBut that is not all. If you do a SQL trace on these, you can discover they may be referencing many more tables.\n\n\nTo really discover everything going on in a map, you \\*must\\* open the file as an XML document and search for the CDATA sections.\n\n\nTo figure out what row it is blowing up at, you have to add row counter to the event that executes after each row.\n\n\nAnyhow, it looks like my error message had to do with having CR\\+LF instead of LF’s as line breaks. I can’t believe a product that costs a boat load of money can’t automatically deal with the CR/CR\\+LF/LF. ALL of these patterns mean end of row except for some special edge cases like text columns, which should be wrapped in string limiters anyhow. If someone really wants to make this explicitly set property instead of something the code just \\*assumes\\*, then it should have a option setting somewhere, named something like “Be annoying”\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-339.md"
+}

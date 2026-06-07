@@ -1,0 +1,26 @@
+---
+date: '2007-07-25'
+recovered_from: wayback
+slug: post-260
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200707\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=260
+title: Outsourcing Identification
+---
+
+
+Three of my favorite website now use the same cryptographic keychain and password:
+
+
+* Paypal
+* Half.com
+* Ebay.
+
+
+That’s because Ebay owns them all. Similar situation for Flickr and Yahoo.  Gmail and Google Analytics.  Make you wonder if it is the ID system that helps drive consolidation or if it’s just cheaper to have one authentication system for the whole portfolio of companies a big corporation owns– probably a bit of both.
+
+
+I wish Ebay would make their authentication service available to the world, in an InfoCard/OpenID sort of way, because plain OpenId is still single factor identification.  (InfoCard is a type of two factor identification if you call your entire physical computer the one factor and the network logon/InfoCard pin the other factor.)
+
+
+[Bill Monk](https://www.billmonk.com/) is interesting because , but you can sign in using your Facebook ID. \[I can't tell who owns them, maybe the same company as Facebook?]  I’m planning on using bill monk to keep track of how much money I owe my son.  He gets paid for chores \& accomplishments and sometimes is allowed to spend it.  Accounting is currently done on a piece of paper on the fridge, not exactly a web 2\.0 user experience.

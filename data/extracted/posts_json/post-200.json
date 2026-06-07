@@ -1,0 +1,10 @@
+{
+  "title": "MS Access as a Linked Server",
+  "slug": "post-200",
+  "date": "2007-02-13",
+  "raw_date": "2007-02-13T15:04:03+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200702\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=200",
+  "markdown": "\nI needed to simulate an Oracle server, but didn’t like the idea of trying to install and run Oracle Express. So I created a linked Server pointing to an Access MDB with tables linked to a SQL Server, which had tables dumped from the Oracle Server. This allows for OPENQUERY queries without the “db.dbo” prefix that you’d need if you’d just referenced the SQL database directly. You know a database is hard to use when you can’t convince database professionals to use the free copy installed on their machine.\n\n\n\nThese are the things I did to get my lined server working:\n\n\n\n1. Switch connection string from SQL authentication to Windows Authentication.\n\n\nWithout that, you get can’t find installable ISAM or authentication errors.\n\n\n\nWhat didn’t work\n\n\n\n1. Giving more rights to IUSER and ASPNET account (this was only failing in my web app, not in SQL Server Management Studio)\n2. Setting the password in the provider string.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-200.md"
+}

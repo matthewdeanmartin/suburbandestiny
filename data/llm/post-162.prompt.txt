@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Setting a database to Read Only",
+  "slug": "post-162",
+  "date": "2006-08-22",
+  "raw_date": "2006-08-22T06:12:07+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200608\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=162",
+  "markdown": "\nIf you set a SQL database to read only, SQL doesn’t have to lock pages.  This is good for performance.  This should mean more people can query the same tables at the same time.  This is good for concurrency.\n\n\nOf course to use a RO strategy, you will have to turn on RW at least during periodic data loads.\n\n\nHowever, to change to Read\\_Only, no one can be connected.  If have to wait, you might end up waiting until 2AM in the morning until the database is quiet.  If you forcably kill the connections, you will invalidate any pooled connections or connections that haven’t gone out of scope.  There are half a dozen places where things that are connection pooling or things that act like connection pooling occur, in ADO, ASP, ODBC, etc.  To avoid invalidating connection in a pool, you need to either drain the pool (a method that isn’t available in some of these API’s) or wait until the pool is drained, which may take a very long time.\n\n\nAnother possiblity is just letting users deal with the error message they see when their webpage tries to use an invalid connection.  This allows for a mid\\-day RW/RO switch.  \n\nAnother possibility is to do data loads unattended in the middle of the night.  This might work for some shops.  That way the RW/RO switch can be done when the database is quiet.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-162.md"
+}

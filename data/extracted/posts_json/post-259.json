@@ -1,0 +1,10 @@
+{
+  "title": "Running a Ps1 File and PowerShell Signing",
+  "slug": "post-259",
+  "date": "2007-07-19",
+  "raw_date": "2007-07-19T12:08:59+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200707\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=259",
+  "markdown": "\n**Invoking a Powershell Script**\n\n\nBy default, powershell does not run any unsigned ps1 files. Also, to invoke a script, you need to prefix it with .\\\\\n\n\n .\\\\myScript.ps1  \n\n\n\n\nThe following will get a bemusing error message:\n\n\n myScript.ps1  \n\n\n\n\nIf you don’t sign it, you will get an error message about not trusting the code.\n\n\n**Should we sign it?**\n\n\nIf you distribute the code, you might want to sign it. If you are paranoid about accidentally running malicious code, you might want to sign your code, maybe if you work at a bank or some other attractive target for hackers. [Signing PowerShell Scripts is a very challenging chore](http://www.hanselman.com/blog/SigningPowerShellScripts.aspx).\n\n\n* If the script moves to another machine, you will need to bring the certification authority with it.\n* If the script’s signature expires, you will need to resign the script (and this will probably be a different user, with different access to tools and documentation)\n* If you don’t do self signatures, you will have to harass the system administrator who has access to the companies SSL cert, or worse spend money on a SSL cert.\n\n\nHere is how to turn off signing and return to the security policies that govern .BAT files.\n\n\nSet\\-ExecutionPolicy Unrestricted\n\n\nSet\\-ExecutionPolicy RemoteSigned\n\n\nRemote signed is not a hassle like the other two because it only applies to scripts that were sent to you, say by the Mafia.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-259.md"
+}

@@ -1,0 +1,33 @@
+---
+date: '2008-05-21'
+recovered_from: wayback
+slug: post-359
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200805\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=359
+title: Why there is a shortage of SharePoint Developers
+---
+
+
+You **\*must\*** use Windows Server 03/08 as your development workstation (either by installing on a partition or in a VPC).
+
+
+You **\*must\*** do development on a machine with a full installation copy of SharePoint (and installing that is no minor feat, especially to enable the peripheral features like email integration, etc).
+
+
+You **\*must\*** install Visual Studio 2005 \+ sharepoint related extensions, both the WSS and MOSS SDKs and these must be on the Windows Server as mentioned earlier.
+
+
+You **\*may not\*** do web style development, i.e. you may not have your development environment on one machine and the server on the other. If you try, you will quickly learn that off server you suffer from crappy connectivity challenges, no debug support, no deploy support, and most importantly no IJW technology. Off server It Just \*does’t\* Work and you need to be a SharePoint genius to know in advance the numerous steps to deploy code to SharePoint.
+
+
+Another consequence of this is that developers can’t get into the field by purchasing a SharePoint hosting account. Even if he was going to spend the $30\-$50 a month for a sharepoint account, he’d have to still set up the entire sharepoint server environment locally to develop for the hosted account! This is a world apart from ASP.NET development.
+
+
+Consequences: Licensing become a challenge. Doing all the above 100% legally for a developer who just wants to learn is going to be expensive.
+
+
+The most important challenge, the time to “Hello World” is so great, the typical developer who has maybe a day or an evening to try out a new technology will never get to “Hello World” and will stop attempting to use sharepoint.
+
+
+The result? Microsoft has successfully marketed the server and forgotten the developers. Please, someone send Steve Balmer over to the SharePoint building so they can be reminded that just because customers pay the bills, it’s developers that decided in the long run who will remain customers.

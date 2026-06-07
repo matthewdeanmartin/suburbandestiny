@@ -1,0 +1,10 @@
+{
+  "title": "It’s not engineering. It’s school yard psychology",
+  "slug": "post-624",
+  "date": "2011-07-28",
+  "raw_date": "2011-07-28T07:30:39+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\201107\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=624",
+  "markdown": "\n\\#regions are where we hide our shame and self loathing from not being able to refactor our class into anything smaller than 2500 lines of code. We only tell ourselves that we are being tidy so the self delusion does seem so obvious and depressing.\n\n\nxml comments are where managers say “Get moving on documentation!” and developers respond by shuffling from foot to foot to show some movement.\n\n\nThe same people who write empty xml comments and add regions to their massive classes are the same people who ignore compilation warnings.\n\n\nMicrosoft is kind of like a parent with multiple, perverse personalities. They tell us to not use “[autoeventwire up](http://support.microsoft.com/kb/814745)” because it’s a bug generator, then it is the default in Visual Studio. \n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-624.md"
+}

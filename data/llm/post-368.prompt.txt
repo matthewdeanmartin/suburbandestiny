@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "SSAS Tips",
+  "slug": "post-368",
+  "date": "2008-06-02",
+  "raw_date": "2008-06-02T10:11:49+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200806\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=368",
+  "markdown": "\nIf you have a diminision made up of 3 tables (i.e. normalized hierarchial data) make sure the wizard creates one diminsion, not 3\\.\n\n\nIf you have [referential integrity problems, read this article](http://msdn.microsoft.com/en-us/library/ms345138.aspx).\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-368.md"
+}

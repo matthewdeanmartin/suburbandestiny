@@ -1,0 +1,39 @@
+---
+date: '2019-11-03'
+recovered_from: wayback
+slug: post-871
+source_file: C:\github\dead_blog\data\normalized\suburbandestiny.com\Tech\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=871
+title: Version Incrementing on Multiple Branches
+---
+
+
+**“Increment source or tag version by 0\.0\.1 at end of build script”**  
+
+If you have main, branch 1, branch 2, and a build script that wants to increment the build number after each successful build, you’ll have race conditions.
+
+
+Simultaneously, dev 1 and dev 2 check out their respective branches. They build, using the latest tag on main. When they push, they push the same version number, or if they push and tag main, the second developer will get “tag already exists”
+
+
+**“Version Server”**If a version number server handed out numbers, then each developer could reserve a version number, say 1\.0\.11\. But if dev 1 gets a version number first, but pushes second, or even months later, his version number is out of order (e.g tag 1\.0\.10 comes after 1\.0\.11\)
+
+
+**“Version Master”**  
+
+Alternatively, no versions are bumped on branches. A separate process or person, “the Version Master” periodically tags the main branch with a version number and on that commit, doesn’t do anything else, except increment the version number in source and add a tag. 
+
+
+But what is a version and what does this buy us over changeset ids? Let’s assume that passing builds are less common that commits, so it would make sense to bump a version or build number for each passing build. 
+
+
+**“Version Master” with Flagging**  
+
+We could have the build script put a flag into a change set like “GIMME\_A\_VERSION.txt” or and once that file makes it to main, then count up the existing version tags and bump the tag. Downside, the source doesn’t know its own version number without checking git. So the Version Master would have to see a request for a version bump in the source and then do a bump of the version in source, tag it with the same tag and push it.
+
+
+This system could miss version bumps if two passing builds arrived in rapid succession, you’d only be able to push one version number in source, you wouldn’t be able to insert a bumped version number inbetween commits.
+
+
+This is so hard.

@@ -1,0 +1,10 @@
+{
+  "title": "Website Navigation: Google is my user interface",
+  "slug": "post-285",
+  "date": "2007-10-02",
+  "raw_date": "2007-10-02T17:10:51+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200710\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=285",
+  "markdown": "\nMy one page bounce rate for my websites is so high, for all practical purposes, google is my navigation system.   Bounce rate is the percent of people who show up and immediately leave.  A one page bounce rate is how many people show up, look at one page and leave.\n\n\nIf Google is my user interface, I should:\n\n\n* copy Googles’s look \\& feel\n* use the referrer to extract the search term and do something useful with it\n* spend more time on search engine optimization than optimizing the navigation tool bar or site map.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-285.md"
+}

@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Terminate with extreme prejudice: WinCinemaMgr.exe",
+  "slug": "post-242",
+  "date": "2007-06-27",
+  "raw_date": "2007-06-27T15:59:01+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200706\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=242",
+  "markdown": "\n**WinCinemaMgr**.**exe** installed itself without my permission into the startup queue. It didn’t ask explicit permission, it is malware. The delivery vector is the Sandisk Mp3 player. It isn’t an evil MP3 player and my son like it just fine, but Sandisk’s developers have no respect what so ever for their users. If I wanted to load up my startup queue with sh\\*t I would have browsed known malware sites.\n\n\n\\[Update: I renamed the file and it..came back! Ugh!]\n\n\nHarm done:\n\n\n4MB memory erase from my system forever (or until I rip wincinemamgr.exe out of my computer). If you multiple the number of WinCinemaMgr infections by 4MB, you get the total amount of computer hardware, destroyed and rendered useless by SanDisk. I’m figuring a million installation, or about about 3,000GB, which works out to about $384,000 of national sabotage.\n\n\nUnmeasured CPU usage. I figure it was probably lurking at something between 0 and 1%, again– work out the cost of 1% of a CPU, 1% of the electricity my computer draws, times a million users and all of a sudden, WindCinemaMgr.exe is doing some serious destruction.\n\n\nHarddrive space 296KB \\* 2 copies, times 1 million userrs. That is 325GBs. Even with harddrives as cheap as they are, a third of a terabyte of space that no on ever wanted used up is a crime.\n\n\nStay tuned, maybe tomorrow I’ll rant about realsched.exe and if I get real ambitious, I’ll write a batch file for killing crapware and put that in my startup queue.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-242.md"
+}

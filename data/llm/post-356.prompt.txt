@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Utilities I can’t work without",
+  "slug": "post-356",
+  "date": "2008-05-15",
+  "raw_date": "2008-05-15T05:47:45+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200805\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=356",
+  "markdown": "\n[7z](http://www.7-zip.org/) Free file unzipper/zipper.\n\n\n[Magic Disk](http://www.magiciso.com/tutorials/miso-magicdisc-history.htm). Not to be confused with MagicIso\n\n\n[Beyond Compare](http://www.scootersoftware.com/) Commercial file \\& folder comparison\n\n\n[Trillian](http://www.ceruleanstudios.com/) Multiprotocol IM, free and paid version.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-356.md"
+}

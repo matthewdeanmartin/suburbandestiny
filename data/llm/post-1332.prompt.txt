@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "What I think about Amazon Kindle 7 Day Trials",
+  "slug": "post-1332",
+  "date": "2014-04-06",
+  "raw_date": "2014-04-06T07:07:48+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\www.suburbandestiny.com\\root\\__query__\\p\\1332\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=1332",
+  "markdown": "\nI wrote this and sent it to Amazon. A low paid customer support person received my email and replied with an unrelated canned message.\n\n\n“Well you asked for it so here it is:\n\n\nSince I got my kindle, I’ve bought more books per year than any year before. It’s become an expensive habit. In part this is because I can read 10 or 20 samples and then pick which books I want to read. (you can check my account \\-  I buy too many books)\n\nI tried the 7\\-day trial where your sample disappears after 7 days. Before I could finish the sample, it was gone. So where can I find a place to read the rest of the sample? Look at that, B\\&N’s nook site still offers real samples.\n\nUntil then I never even thought about Nooks or Google Books or the like.  But it appears that B\\&N has more clout to deal with people like Apress (one company that seems to have switched to 7\\-day trials)\n\nI also noticed I purposely skip over downloading 7\\-day trials. I won’t finish them on time. What sort of customer exists in an idealized world where they don’t have a job or kids, but only exist as a unidimensional figment of your imagination that downloads 7\\-day trials and then spends all their time reading it.\n\nSo main accomplishments of this 7\\-day trial thing:\n\n1\\- I skip samples that are 7\\-day trials– It’s like entire publishers have disappeared from the inventory now.\n2\\- I switch over to B\\&N’s nook to get the sample for 7\\-day trial books. I own like six kindles, why not get a nook to deal with the 7\\-day trial limitations on amazon?\n3\\- This could get me back into physical book stores where I can see the whole book, cover to cover before I buy it, rather than this now you have it now you don’t bait and switch you get with 7\\-day trials.  I haven’t been in a physical bookstore for years.\n\nSo really, this 7\\-day trial thing could revolutionize the way I read, rather than being a boring reader who essentially only bought kindle books after reading the samples.\n\nAnd I need to write a complain to APress which used to be a reputable publisher.\n\nAnyhow, I find the 7\\-day trial thing bemusing.  7\\-day trials ruins the workflow for anyone with a real life. I can only imagine how this is for old retired ladies who have lots of free time to download technical book trials and read them immediately.\n\nPlease read this email quickly, I’m only granting you a 7\\-day trial on my feedback. If you don’t get to it by then, it will self destruct.\n“\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-1332.md"
+}

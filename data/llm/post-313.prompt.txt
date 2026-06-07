@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Evolution of an Idea",
+  "slug": "post-313",
+  "date": "2008-01-08",
+  "raw_date": "2008-01-08T11:15:53+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200801\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=313",
+  "markdown": "\nI’ve been working on creating a social website to fix the things I didn’t like about meetup.com for a few years now.  Here are some of my early mis\\-steps:\n\n\nUsing as the manual intended  \n\nWordpress for blogging– very successful, my most trafficked websites, although as a community, I mostly get drive by commenters.\n\n\nEven if you install it, no one will come  \n\n\\- phpList mailing lists. Useless unless you are some sort of organization that sends out announcements to a large user list.  \n\n\\- forums\\- phpBB. These are useless until a stampede of users show up.  \n\n\\- WordPress as an event manager (well it supported user accounts, comments as RVPSs, posts and events, categories as interest groups)  Utter failure.  I couldn’t figure out how market it.  \n\n\\- MS Word documents (ugh– pre\\-2007 this was a exercise in futility for anything except trivial page authoring). Utter waste of time, attracted no traffick to speak of.\n\n\nOver\\-ambitious Custom Development, FilmClans\\-  Movie club software  \n\nversion 1– almost finished before my attention wandered.   \n\nversion 2– tried to port it to C\\# and set up a InfoCard logon.  Failure on both accounts.\n\n\nThere were probably a few too many features to pull of FilmClans in the time and attention available.\n\n\nSmall Enough to Succeed: Toki Pona Dictionary and Search Engine  \n\nFirst successful website (meaning, feature complete, provided value to at least one person)\n\n\nHardly any users, but it is a nice social website non\\-the\\-less and it became my favorite dictionary and search engine for toki pona.\n\n\nSocial Animals DC  \n\nThis is a calendar aggregator.  I manually track down events from many organizations and merge them into a single calendar.  Jury still out on how successful it will be for other people, but I use it to keep track of events I would like to go to.\n\n\nLessons Learned\n\n\n* One size fits all solutions to social websites don’t work, (i.e. using a blog for in person events)\n* Pick a website design \\& feature set that is useful with just one person (or else it won’t get off the ground, exception special cases, like when you got a pre\\-existing audience)\n* Leverage existing technologies (i.e. using RSS for calendar feeds)\n* Be a barnacle (start thinking about using other website’s APIs early on, i.e. using delicious to drive my links page for social animals dc)\n\n\nBlogged with [Flock](http://www.flock.com/blogged-with-flock \"Flock\")\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-313.md"
+}

@@ -1,0 +1,375 @@
+:root {
+  --ink: #1a1a1a;
+  --paper: #ffffff;
+  --grey-900: #2b2b2b;
+  --grey-600: #595959;
+  --grey-400: #8c8c8c;
+  --grey-200: #d9d9d9;
+  --grey-100: #efefef;
+  --rule: #e5e5e5;
+  --measure: 38rem;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.65;
+  font-optical-sizing: auto;
+}
+
+main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 2rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-title {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.site-title:hover {
+  color: var(--grey-600);
+}
+
+.section-nav {
+  margin-top: 0.9rem;
+  display: flex;
+  gap: 1.5rem;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+}
+
+.section-link {
+  color: var(--grey-400);
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.section-link:hover {
+  color: var(--grey-600);
+}
+
+.section-link.is-active {
+  color: var(--ink);
+  font-weight: 600;
+  border-bottom-color: var(--ink);
+}
+
+/* ---------- Splash (home) ---------- */
+
+.splash {
+  padding: 3rem 0 1rem;
+}
+
+.splash-lede {
+  font-size: 1.35rem;
+  line-height: 1.5;
+  color: var(--grey-600);
+  margin: 0 0 2.5rem;
+}
+
+.splash-cards {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.splash-card {
+  display: block;
+  padding: 1.5rem 1.5rem 1.4rem;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.splash-card:hover {
+  border-color: var(--grey-400);
+  background: var(--grey-100);
+}
+
+.splash-card-name {
+  display: block;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.splash-card-tagline {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--grey-600);
+}
+
+.splash-card-meta {
+  display: block;
+  margin-top: 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--grey-400);
+}
+
+/* ---------- Archive header ---------- */
+
+.archive-header {
+  margin-bottom: 1.5rem;
+}
+
+.archive-title {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+.archive-tagline {
+  margin: 0.4rem 0 0;
+  color: var(--grey-600);
+}
+
+/* ---------- Archive (home) ---------- */
+
+.archive {
+  padding: 2.5rem 0 1rem;
+}
+
+.archive-intro {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  color: var(--grey-400);
+  margin: 0 0 2.5rem;
+}
+
+.archive-year {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--grey-400);
+  margin: 2.5rem 0 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.archive-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.archive-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.35rem 0;
+}
+
+.archive-link {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.archive-link:hover {
+  border-bottom-color: var(--ink);
+}
+
+.archive-date {
+  flex: none;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--grey-400);
+  white-space: nowrap;
+}
+
+/* ---------- Post ---------- */
+
+.post {
+  padding: 3rem 0;
+}
+
+.post-header {
+  margin-bottom: 2.5rem;
+}
+
+.post-title {
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.post-meta {
+  margin: 0.75rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--grey-400);
+}
+
+.post-body {
+  font-size: 1.2rem;
+}
+
+.post-body p {
+  margin: 0 0 1.4rem;
+}
+
+.post-body a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--grey-200);
+  text-underline-offset: 2px;
+}
+
+.post-body a:hover {
+  text-decoration-color: var(--ink);
+}
+
+.post-body h2,
+.post-body h3,
+.post-body h4 {
+  font-family: var(--sans);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 2.2rem 0 0.8rem;
+}
+
+.post-body img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+}
+
+.post-body blockquote {
+  margin: 1.4rem 0;
+  padding: 0.2rem 0 0.2rem 1.25rem;
+  border-left: 3px solid var(--grey-200);
+  color: var(--grey-600);
+}
+
+.post-body pre,
+.post-body code {
+  font-family: ui-monospace, "Cascadia Code", "SFMono-Regular", Menlo, monospace;
+  font-size: 0.9em;
+}
+
+.post-body pre {
+  background: var(--grey-100);
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+
+.post-body code {
+  background: var(--grey-100);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+.post-body pre code {
+  background: none;
+  padding: 0;
+}
+
+.post-body hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+
+.post-back {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.9rem;
+}
+
+.post-back a {
+  color: var(--grey-600);
+  text-decoration: none;
+}
+
+.post-back a:hover {
+  color: var(--ink);
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  max-width: var(--measure);
+  margin: 4rem auto 0;
+  padding: 2rem 1.5rem 4rem;
+  border-top: 1px solid var(--rule);
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+}
+
+.footer-nav a {
+  color: var(--grey-600);
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: var(--ink);
+}
+
+.footer-note {
+  margin: 1.5rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--grey-400);
+}
+
+@media (max-width: 30rem) {
+  body {
+    font-size: 1.05rem;
+  }
+  .post-body {
+    font-size: 1.1rem;
+  }
+  .archive-item {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .post-title {
+    font-size: 1.7rem;
+  }
+}

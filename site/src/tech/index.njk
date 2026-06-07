@@ -1,0 +1,36 @@
+---
+layout: base.njk
+section: tech
+title: Tech
+permalink: /tech/
+eleventyExcludeFromCollections: true
+---
+<section class="archive">
+  <header class="archive-header">
+    <h1 class="archive-title">{{ site.sections.tech.name }}</h1>
+    <p class="archive-tagline">{{ site.sections.tech.tagline }}</p>
+    <p class="archive-intro">
+      {{ collections.tech | length }} posts, {{ site.sections.tech.years }}.
+    </p>
+  </header>
+
+  {%- set currentYear = "" %}
+  {%- for post in collections.tech %}
+    {%- set postYear = post.data.date | year %}
+    {%- if postYear != currentYear %}
+      {%- if currentYear != "" %}
+  </ul>
+      {%- endif %}
+  <h2 class="archive-year">{{ postYear }}</h2>
+  <ul class="archive-list">
+      {%- set currentYear = postYear %}
+    {%- endif %}
+    <li class="archive-item">
+      <a class="archive-link" href="{{ post.url | url }}">{{ post.data.title }}</a>
+      <time class="archive-date" datetime="{{ post.data.date }}"
+        >{{ post.data.date | readableDate }}</time
+      >
+    </li>
+  {%- endfor %}
+  </ul>
+</section>

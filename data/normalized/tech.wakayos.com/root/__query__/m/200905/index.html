@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?m=200905","20210308131244","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1615209164");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>May | 2009 | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 3.5.2"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="archive date custom-background two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="http://tech.wakayos.com/">
+									<img src="http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/pine-cone.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<section id="primary">
+			<div id="content" role="main">
+
+			
+				<header class="page-header">
+					<h1 class="page-title">
+													Monthly Archives: <span>May 2009</span>											</h1>
+				</header>
+
+				
+								
+					
+	<article id="post-541" class="post-541 post type-post status-publish format-standard hentry category-security">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=541" title="Permalink to Security auditing/logging. It’s not the same as the others" rel="bookmark">Security auditing/logging. It&#8217;s not the same as the others</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=541" title="3:37 am" rel="bookmark"><time class="entry-date" datetime="2009-05-30T03:37:25+00:00" pubdate>May 30, 2009</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Error logging means something went wrong with the runtime code. Crimes could happen and not a single error be raised.  Error logs are first for developer diagnostics.  Just &#8220;logging&#8221; and trace are usually for developer diagnostics. When runtime errors aren&#8217;t happening, then developers have to move on to trace.  System.Diagnostics, enterprise library and log4net are examples of that.  Aspect oriented techniques that log all method calls in an assembly would fall in that category.</p>
+<p>Server event logging is aimed at the uses cases of server administrators&#8211;the Sql Server Logs, the IIS Logs server to help the administrator troubleshoot problems.</p>
+<p>The customer of a security log is not the developer or the system administrator.  The customer is the court of law, the control and managemetn structures of the company that uses the computer system. When a security log picks up wrong doing, no one asks the developer or system administrator to fix it, instead the wrong doers get fired, arrested, sued, jailed, etc.  The developers and administrators will be asked to prevent these in the future, but security logs are not kept to keep developers and sysadmins busy. Security logs are kept to find and punish wrongdoing.</p>
+<p>Often security logging turns into an attempt to make databases temporal&#8211; meaning the state of data is recorderd for the life of the database.  So not only are transactions logged to enable ACID transactions, but the state of each cell in each coloumn in each table is recorded in its before and after state.  If the DB is all write with a tiny amount of update, this is okay.  If you update your entire database each year, then the logging feature will cause database size doubling&#8211; even if you aren&#8217;t adding any new rows, customers or sales.  While it&#8217;s an interesting database problem, data modification logging helps the DBA solve DBA oriented problems, like how to un-corrupt data after the user sends the COMMIT TRANSACTION command.</p>
+<p>As exciting as temporal databases may be&#8211; its about as relevant as a court lawyer showing and saying he will present his evidence in the form of a real time movie of the suspect, starting when the suspect was born and continuing with out interruption until today.  The temporal-database as a security log dodges the question of how to effectively do security auditing and fails to answer it.  A planet sized heap of garbage data is still garbage data.</p>
+<p>Although there is little support for the idea at the moment, I think security auditing begins with risk and threat assessment.  What crimes can be committed with your data? What evidence will we wish we&#8217;d gathered for it prosecution?  That is what we should audit.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=71" title="View all posts in security" rel="category">security</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-541 -->
+
+				
+					
+	<article id="post-537" class="post-537 post type-post status-publish format-standard hentry category-sqlserver">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=537" title="Permalink to The best SQL Stored Procedure Header EVAR" rel="bookmark">The best SQL Stored Procedure Header EVAR</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=537" title="6:03 am" rel="bookmark"><time class="entry-date" datetime="2009-05-22T06:03:56+00:00" pubdate>May 22, 2009</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<pre>
+/******************************************************************************
+** File:		my_stored_procedure
+** Author: 		John Doe Programmer
+** Copyright:		ABC Corp 2009
+** Creation Date:	1/1/2009
+** Description: 	Return data
+** Version:		2.9
+** Build:		291
+** Number of bugs:	13
+** Specification #:	13.123.123.12.312.3.123.234.34.5.2345.324.5.345.23.45.2345.23.45.3.45.3245.345.3.45.2345.3245.34.5.3245.2345
+** 	Please refer to the requirements tracibility matrix to see how this beautifully links to the following requirements:
+**      13.123.123.12.312.3.123.234.34.5.2345.324.5.345.23.45.2345.23.45.3.45.3245.344
+**      13.123.123.12.312.3.123.234.34.5.2345.324.5
+**      13.123.123.12.312.3.123.234.34.5.2345.324.5.345.23.45.2345.23.45.3.45.3245.342
+**      13.123.123.12.312.3.128.234.34.5.2345.324.5.345.23.45.2345.23.45.3.45.3245.342
+** Bug tracker ref:	Http://bugzilla/proc=12
+** Temperature:		70
+** Cubicle Size:		12x8
+** Number of characters of text:
+** Percent ratio of whitespace to letters 'e':
+** List of people who think this is buggy:
+** My favorite colors:
+** My favorite pony:
+** My boss's name:
+** My boss's wife's name:
+** Birthday of Dr. Codd:
+** Description of what we think Dr. Codd would have to say about this stored procedure:
+** Lawyers to call if you need to ask questions about the copyright notice:
+** Number of colums referenced:
+** Acronym list: WTF, STFU, TANSTAFL
+** Abreviation list:  
+** Misspellings we can't fix because there are too many dependencies on them:
+** 10 ways to improve your code through comment headers:
+** Phone number to call in case of emergency:
+** Phone number of 911 service:
+** Numer of time executed:
+** Comment template:
+**
+** /***********
+** ** File:		my_stored_procedure
+** ** Author: 		John Doe Programmer
+** ** Copyright:		ABC Corp 2009
+** ** Creation Date:	1/1/2009
+** ** Description: 	Return data
+** ** --TODO: Finish copying template into all headers
+**
+**
+** Db Objects affected list:  (this will be out of date on first edit)
+** Called by: (This will be out of date, um tomorrow)             
+** Return values: (This will be out of date, um today)
+** Parameters: (because we should repeat source code in comments, its's good for you)
+** Input					
+** ----------					
+** @ID  This is the ID. ID is short for identifier. Can you say 'aye dee'? I knew you could.
+** @NEW_ID  This is the NEW_ID. This means "New Id".  Don't be confused by the underscores!
+** Output
+** -----------
+** 0 or 1 or both.
+** TODO: (INSERT ASCII ART HERE TO SUPPLEMENT BEAUTIFUL BOXES)
+*******************************************************************************
+** Change History
+*******************************************************************************
+** Date:		Author:				Description:
+** --------		--------			-------------------------------------------
+** 1-1-2009		Larry Smoe			Added header
+** 1-2-2009		John Doe			Removed header
+** 1-3-2009		Larry Smoe			Restored header
+** 1-4-2009		John Doe			Removed !$!#$ header
+** 1-5-2009		Larry Doe			Copied header to new stored procedure, 
+will update someday. with new text 
+** 1-6-2009		Larry Doe			Fix row of astrixes, there were 4 extra!
+** 1-7-2009		John Doe			Removed all ***** ascii art
+** 1-8-2009 8AM		Larry Doe			Started adding unicorn ascii art
+** 1-8-2009 9AM		Larry Doe			Coffee break
+** 1-8-2009 1PM		Larry Doe			Lunch break
+** 1-8-2009 3PM		Larry Doe			Finished adding unicorn ascii art, golf time!
+** 1-9-2009		John Doe			Removed all ***** ascii art
+** 1-8-2009 8AM		Larry Doe			Added "--Get Rows" comment to all select statements
+** 1-9-2009		John Doe			Removed all !#$#$ "--Get Rows" comments
+*******************************************************************************/
+</pre>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=1" title="View all posts in SQL Server" rel="category">SQL Server</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-537 -->
+
+				
+					
+	<article id="post-534" class="post-534 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=534" title="Permalink to Not using SqlRedgate is industrial sabotage" rel="bookmark">Not using SqlRedgate is industrial sabotage</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=534" title="5:33 am" rel="bookmark"><time class="entry-date" datetime="2009-05-22T05:33:32+00:00" pubdate>May 22, 2009</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>SQL and related databases have some peculiar characterists that encourage it&#8217;s users to become opinionated.  Namely, it is very easy to screw stuff up.  The relational database is a unparallelled tool attached at the hip to a COBOL era programming langauge.  The recent rise of compensating tools is a revolution in IT and probably will add an extra %0.1 to the developed worlds GDP.  If only adoption rate was higher.</p>
+<p><strong>SqlCompare</strong>.  This is one of many schema diff tools on the market.  It does source control (or scripts folder) to database schema comparison.  And it works.  Microsoft&#8217;s product that enables this work flow costs twice as much (ie. data dude)</p>
+<p><strong>SqlData Generator</strong>. Fire those monkeys you call testers.  A typical testor of a database application hits random keys until the validator allows saving a row. If the row gets rejected, but otherwise the data looks okay, a bug is filed.  Sql Data Generator can do that 100,000 times a second.  If you have foreign keys, SqlRedGate can generate sample data better than most domain experts.</p>
+<p><strong>SqlPrompt</strong>.  Writing code without intellisense is slow.  Working without intellisense, expect your developers to need and extra six monts to a year to commit the schema to memory.  Trust me, I&#8217;ve never really been good with a schema until I had most of it committed to memory.  With typcial schemas of 500+ tables, not giving your developers intellisense is adding an extra half man year for each developer on your team.  </p>
+<p>Code formatting affects maintenance times and right now to debug a TSQL stored procedure it takes hours if the proc is long enough.  Reformatting pays for itself in the first debug session.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-534 -->
+
+				
+					
+	<article id="post-531" class="post-531 post type-post status-publish format-standard hentry category-aspnet category-wcf category-webservices">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=531" title="Permalink to Webservices and WCF- eatting one’s own dogfood" rel="bookmark">Webservices and WCF- eatting one&#8217;s own dogfood</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=531" title="5:49 am" rel="bookmark"><time class="entry-date" datetime="2009-05-11T05:49:42+00:00" pubdate>May 11, 2009</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>The official line for WCF and webservices is that they are for interop especially between organizations and between different technology stacks, e.g. Java and .NET or COBOL and .NET.</p>
+<p><strong>Who wants to build an open API when no one has asked for it? Who will ask for an open API if one doesn&#8217;t already exist?  <span style="font-weight: normal;">For WCF/webservices to happen at all you have to image a use case for these that would be useful now.</span></strong></p>
+<p><strong><span style="font-weight: normal;">Three reason why you&#8217;d wan&#8217;t to consume your own webservices:</span></strong></p>
+<p><strong>Javascript to .NET interop</strong>.  This allows for Aptana driven development against a C# application.  This becomes especially compelling if you have webservices returning JSON,  and RSS, because the client will be simpler to write.</p>
+<p><strong>Testability</strong>.  The webservices API is more testable than the webforms that do much the same thing.</p>
+<p><strong>Data access</strong>.  XML is a datatype too.  It can be handy to have one more dataformat in the data monkey&#8217;s toolbox.</p>
+<p><strong>Compatibility with future versions. </strong>WCF especially- The web service as a programming model might be low performance, but it is remarkably resiliant to changes in implementation.  So much thought has gone into defining an interface that works with everyone, it will even work with that foreign application called &#8220;Your Application, version next&#8221;</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=3" title="View all posts in ASP.NET" rel="category">ASP.NET</a>, <a href="http://tech.wakayos.com/?cat=70" title="View all posts in wcf" rel="category">wcf</a>, <a href="http://tech.wakayos.com/?cat=69" title="View all posts in webservices" rel="category">webservices</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-531 -->
+
+				
+					
+	<article id="post-530" class="post-530 post type-post status-publish format-standard hentry category-matthew-martin tag-c">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=530" title="Permalink to When to and when not to use #Region in C# and VB.NET" rel="bookmark">When to and when not to use #Region in C# and VB.NET</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=530" title="2:55 pm" rel="bookmark"><time class="entry-date" datetime="2009-05-09T14:55:45+00:00" pubdate>May 9, 2009</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Regions are not classes.  Regions are not shelves in your closet. Regions are not folders on your obsessively compulsively clean desk.  Regions are not to be alphabetized like the cans of food in your cupboards. Regions are not the rug for sweeping your buggy code under. </p>
+<p>Remember, regions by default are collapsed and invisible without special action.</p>
+<p>Regions are a code smell. Regions are obfuscation.  Regions are evil.  Except in the following 3 cases.</p>
+<p>DO. License headers.  You got to have them on every file for certain licenses. If these collapse by default, that is okay.</p>
+<p>DO. Stupid ass headers your boss makes you put in your code that add no value.  #Region will make them invisible most of the time.</p>
+<p>DO. Commented out dead code you can&#8217;t delete because you don&#8217;t expect your colleagues to find it in the source control.</p>
+<p>And to clarify:</p>
+<p>DON&#8217;T. Groups of related methods. This is a code smell. If you have more than 100 lines of code and have the urge to use a region, you probably have discovered the need for a new class.</p>
+<p>DON&#8217;T. Arbitrary categories of members, e.g. Properties, private methods, methods that return strings, methods starting with the letter &#8220;r&#8221;</p>
+<p>DON&#8217;T. Code Generated regions. Use partial classes.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://tech.wakayos.com/?tag=c" rel="tag">c#</a>			</span>
+						
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-530 -->
+
+				
+				
+			
+			</div><!-- #content -->
+		</section><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			
+				<aside id="archives" class="widget">
+					<h3 class="widget-title">Archives</h3>
+					<ul>
+							<li><a href="http://tech.wakayos.com/?m=202001" title="January 2020">January 2020</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201911" title="November 2019">November 2019</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201906" title="June 2019">June 2019</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201704" title="April 2017">April 2017</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201605" title="May 2016">May 2016</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201604" title="April 2016">April 2016</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201512" title="December 2015">December 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201505" title="May 2015">May 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201501" title="January 2015">January 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201410" title="October 2014">October 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201407" title="July 2014">July 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201406" title="June 2014">June 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201404" title="April 2014">April 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201403" title="March 2014">March 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201307" title="July 2013">July 2013</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201302" title="February 2013">February 2013</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201211" title="November 2012">November 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201210" title="October 2012">October 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201209" title="September 2012">September 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201208" title="August 2012">August 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201201" title="January 2012">January 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201112" title="December 2011">December 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201111" title="November 2011">November 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201109" title="September 2011">September 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201107" title="July 2011">July 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201106" title="June 2011">June 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201105" title="May 2011">May 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201101" title="January 2011">January 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201012" title="December 2010">December 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201007" title="July 2010">July 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201005" title="May 2010">May 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201004" title="April 2010">April 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200911" title="November 2009">November 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200908" title="August 2009">August 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200907" title="July 2009">July 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200906" title="June 2009">June 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200905" title="May 2009">May 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200904" title="April 2009">April 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200902" title="February 2009">February 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200901" title="January 2009">January 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200811" title="November 2008">November 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200810" title="October 2008">October 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200809" title="September 2008">September 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200808" title="August 2008">August 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200807" title="July 2008">July 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200806" title="June 2008">June 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200805" title="May 2008">May 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200804" title="April 2008">April 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200803" title="March 2008">March 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200802" title="February 2008">February 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200801" title="January 2008">January 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200712" title="December 2007">December 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200711" title="November 2007">November 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200710" title="October 2007">October 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200709" title="September 2007">September 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200708" title="August 2007">August 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200707" title="July 2007">July 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200706" title="June 2007">June 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200705" title="May 2007">May 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200704" title="April 2007">April 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200702" title="February 2007">February 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200701" title="January 2007">January 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200612" title="December 2006">December 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200611" title="November 2006">November 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200610" title="October 2006">October 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200609" title="September 2006">September 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200608" title="August 2006">August 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200607" title="July 2006">July 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200606" title="June 2006">June 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200605" title="May 2006">May 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200604" title="April 2006">April 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200603" title="March 2006">March 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200602" title="February 2006">February 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200601" title="January 2006">January 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200410" title="October 2004">October 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200408" title="August 2004">August 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200405" title="May 2004">May 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200404" title="April 2004">April 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200403" title="March 2004">March 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200402" title="February 2004">February 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200312" title="December 2003">December 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200311" title="November 2003">November 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200310" title="October 2003">October 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200309" title="September 2003">September 2003</a></li>
+					</ul>
+				</aside>
+
+				<aside id="meta" class="widget">
+					<h3 class="widget-title">Meta</h3>
+					<ul>
+												<li><a href="http://tech.wakayos.com/wp-login.php">Log in</a></li>
+											</ul>
+				</aside>
+
+					</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 13:12:44 Mar 08, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:19:25 Apr 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.243
+  exclusion.robots: 0.039
+  exclusion.robots.policy: 0.031
+  esindex: 0.01
+  cdx.remote: 6.016
+  LoadShardBlock: 133.119 (3)
+  PetaboxLoader3.datanode: 151.547 (4)
+  load_resource: 89.687
+  PetaboxLoader3.resolve: 44.785
+-->

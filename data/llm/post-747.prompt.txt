@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "DC Agile Software Management Book Club",
+  "slug": "post-747",
+  "date": "2014-06-21",
+  "raw_date": "2014-06-21T04:36:40+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\201406\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=747",
+  "markdown": "\nOkay, I’m at it again. I’ve created a [book club](http://www.meetup.com/DC-Agile-Software-Management-Book-Club/) to replace another that had gone into hibernation. This one is going to be for these audiences:\n\n\n\\- PM’s broadly defined (product managers, program managers, in short “bosses of software developers”)  \n\n\\- Tech leads (The senior developer who has no official organizational power)  \n\n\\- Developers on teams  \n\n\\- Developers who happen to have a boss\n\n\nTopicwise, it will cover\n\n\n\\- Agile software development (as opposed to SDLC, CMMI, waterfall and other process\\-above\\-all exercises)  \n\n\\- Software development management  \n\n\\- Teamwork  \n\n\\- Personal productivity using techniques borrowed from the world of software development management\n\n\nHere is the book list:\n\n\n1\\) Kanban, David J. Anderson $10  \n\n2\\) Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams by Mickey W. Mantle and Ron Lichty, $17 (watch out for similarly titled book!)  \n\n3\\) Notes to a Software Team Leader: Growing Self Organizing Teams , Osherove, $23  \n\n4\\) Essential Scrum: A Practical Guide to the Most Popular Agile Process, Rubin $20  \n\n5\\) Team Geek: A Software Developer’s Guide to Working Well with Others Brian W. Fitzpatrick $10  \n\n6\\) Peopleware $17  \n\n7\\) Mythical Man Month, $20, $5 used  \n\n8\\) Software Estimation: Demystifying the Black Art , $17  \n\n9\\) Personal Kanban: Mapping Work \\| Navigating Life, Tonianne DeMaria Barry , Jim Benson, $10  \n\n10\\) Smart and Gets Things Done, $10  \n\n11\\) The Dream Team Nightmare: Boost Team Productivity Using Agile Techniques, Portia Tung (note: choose your own adventure book), $13  \n\n12\\) Cracking the PM Interview: How to Land a Product Manager Job in Technology, Gayle Laakmann McDowell, $10  \n\n13\\) Slack,Getting Past Burnout, Busywork, and the Myth of Total Efficiency, $8,/ $0\\.01\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-747.md"
+}

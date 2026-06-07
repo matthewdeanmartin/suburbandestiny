@@ -1,0 +1,27 @@
+---
+date: '2007-01-31'
+recovered_from: wayback
+slug: post-191
+source_file: C:\github\dead_blog\data\normalized\tech.wakayos.com\root\__query__\m\200701\index.html
+source_site: suburbandestiny-tech
+source_url: http://tech.wakayos.com/?p=191
+title: Getting the Most from your iPod
+---
+
+
+An iPod is a pocket computer, a portable hard drive, photowallet, and oh yeah, a music player.  Music player better than everything else.
+
+
+But, something that the iPod does better than everything else is store data.  My thumb drive is both too slow and too small to hold serious amounts of data.  My iPod can hold virtual machines like VMWare, VPC, Moka and semi\-virtual machines like Mojopac.  All of these require the user to have administrative rights on the host machine, so they make more sense for someone who wants to maintain a constant computing environment between home and the office, but doesn’t want to lug the laptop.
+
+
+The iPod is a good place for holding portable applications.  Portable applications let you take your documents and applications with you, and often do not require you to have administrator rights on the host computer. I like the PortableApps.com launcher, since it is very easy to plug things into it, even if it doesn’t have a “paf” installer.
+
+
+And rather than suffering from iPhone envy, I put the Ventrilo client onto my iPod, so now, when connected to a computer with a microphone, it can function as a phone.  (If I want to be ironic, I can do the same thing with my Windows Mobile phone, which can act as a 2 GB USB drive)
+
+
+And should you have an entire encrypted movie file, you can fit it on the drive (well, up to about 10 movies, at 6GB each) and watch it in perfectly good resolution.  This strategy wouldn’t let you play the movie on the TV without the help of a host computer, though.  It is a good place to put large video files should your laptop be unable to hold that much data, or if the laptop is a work machine and you don’t want to clutter it with [public domain and free full length films](http://emol.org/movies/).
+
+
+In conclusion, computing can be done on a continuum, from an application rooted to one desk, to a computer than can move from desk to desk, an application that can move from desk to desk, and an application that runs untethered on a laptop, pocket computer or Mp3 player. The convergence device hasn’t arrived and I think it never will, because there is a better computing experience to be had by switching to the best form of the same app depeding on your special circumstances.

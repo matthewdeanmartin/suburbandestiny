@@ -1,0 +1,10 @@
+{
+  "title": "Built in Exceptions you should use",
+  "slug": "post-394",
+  "date": "2008-08-12",
+  "raw_date": "2008-08-12T13:52:34+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200808\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=394",
+  "markdown": "\nI’ve been using FxCops which looks down on “throw new Exception();”\n\n\nHere are some more narrow exceptions that already exist in the framework that you should throw, hey it saves you the effort of writing a custom error class.\n\n\nArgumentNullException – Argument is null  \n\nArgumentException – Argument not valid  \n\nArgumentOutOfRangeException– arguement too big or small, or not on the list  \n\nArithmeticException — The root of a negative number  \n\nInvalidOperationException \\-given state,\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-394.md"
+}

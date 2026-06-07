@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Getting Subversion to Work: Tips",
+  "slug": "post-277",
+  "date": "2007-09-07",
+  "raw_date": "2007-09-07T09:21:45+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200709\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=277",
+  "markdown": "\n**Apache Server**. Don’t change versions. Changing versions is a super\\-duper\\-ultra\\-advanced user scenario. Mere super geniuses shouldn’t attempt. Use the version that comes with the Collabnet subversion installer. (The blank URL warning the installer gives you means it doesn’t want http:// in the field.) In fact, this is probably a good idea for all LAMP stack applications—it’s better to have a dozen LAMPs that work than a dozen broken apps using the same LAMP.\n\n\n\n**The Passwords.**\n\n\nhtpasswd.exe \\-cs passwords.txt matthew  \npause\n\n\n\n**The Location.**  The location should look something like this. Ideally you want this over https, but getting apache to run https is a pain.\n\n\n\n\\<Location /svn\\>  \n DAV svn  \n SVNParentPath c:\\\\svn\n\n\n\n AuthType Basic  \n AuthName “Vienna Subversion Repository”  \n AuthUserFile “C:/Program Files/CollabNet Subversion Server/httpd/bin/passwords.txt”  \n  \n Require valid\\-user  \n\\</Location\\>\n\n\n\n**SSL**. SSL is fairly hard. Your first goal will be to get SSL to work with any certificate at all. The next goal will be to get the SSL certificate to match the URL, expiration date and so on. Even if you get rid of the expiration and URL errors, you will be dogged by certificate authority warnings until you pay money for an SSL cert, which is not worth it.\n\n\n\n**Checking Out/Checking In Code**. Use a combination of Ankh and Tortoise.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-277.md"
+}

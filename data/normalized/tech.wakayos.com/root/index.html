@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/","20201101002849","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1604190529");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>Mister SQL | The other half of MS SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 3.5.2"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="home blog custom-background two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="http://tech.wakayos.com/">
+									<img src="http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/wheel.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li class="current_page_item"><a href="http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+			
+						<nav id="nav-above">
+			<h3 class="assistive-text">Post navigation</h3>
+			<div class="nav-previous"><a href="http://tech.wakayos.com/?paged=2"><span class="meta-nav">&larr;</span> Older posts</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+								
+					
+	<article id="post-874" class="post-874 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=874" title="Permalink to Is working with Python Environments a barrier to Python use?" rel="bookmark">Is working with Python Environments a barrier to Python use?</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=874" title="1:20 pm" rel="bookmark"><time class="entry-date" datetime="2020-01-16T13:20:00+00:00" pubdate>January 16, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><strong>Vanilla Installs</strong><br/>
+easy!<br/>
+What is everyone complaining about?<br/>
+I only need one python ever!</p>
+<p>Oh I got app 1 installing dependencies over app 2 because I’m installing everything to the system python and I have to run as admin or sudo pip install everything!</p>
+<p><strong>Virtual envs</strong><br/>
+python -m venv venv<br/>
+Pycharm’s venv creator<br/>
+venv wrapper<br/>
+activating with activate.bat and dot sourcing<br/>
+looking at PATH to figure out why nothing works<br/>
+adding PYTHONPATH for things that for some reason can’t be in the venv</p>
+<p><strong>Oh, but I will never need another python.</strong><br/>
+Yeah right, python 2 and 3 everywhere, 2 often unavoidable.<br/>
+Pypy can solve perf problems<br/>
+You probably don’t want to migrate to 3.n to 3.n+1 because libraries take a while to catch up so you’re switching back and forth<br/>
+Oh, you’re going to stick with 3.1 forever? Pip just installed the latest version of a lib that doesn’t support 3.1, do you know how to pin your dependencies?<br/>
+Oh you found a bug that is fixed, but now you need to move away from 3.1, etc.<br/>
+So now you need pyenv, pywin and or tox. Tox does cross python testing, pyenv/pywin do interpreter switching</p>
+<p><strong>Ah, my versions are pinned, I have no more problems</strong><br/>
+Dependency A depends on B 2.1 and Dependency C depends on B 2.3.  Pip out of box provides no clues why everything is broken<br/>
+Thanks okay, I’ll use pipenv. Now I can get a graph to see where the transitive problems are and get warnings when they happen. Also, I can separate out development dependencies so that the dependency graph for a production release is simpler.</p>
+<p><strong>No more problems, yes sir.</strong><br/>
+“Can’t find FORTRAN compiler” &#8211; Yes, some common data science library have FORTAN dependencies.<br/>
+Oh, easy, I just won’t do datascience, just Postgres. “Can’t find C++ compiler. Can’t find Python.h. Can’t find libfoo.so”&#8230;. Oh, I guess I need to install tool chains. Or learn to install wheels. Or realize that if you have a lot of native dependencies, maybe you should use conda.</p>
+<p><strong>No more problems? Everyone on the team did the exact same thing, identically. All easy now?</strong><br/>
+Well actually they didn’t, all of the above are slightly different for each OS.<br/>
+But lets imagine everyone did have the same workstation<br/>
+The build environment runs in docker, often in a linux distro with most dependencies.This is so reliable, why didn’t we just use docker all the time? It is very, very slow if you’re writing to it all the time.<br/>
+The production environment runs in docker often a small distribution like alpine, except many ordinary packages lack the corresponding apk to do installs<br/>
+VMs and Vagrant are often too slow.<br/>
+And finally, you generally need a bunch of bash scripts to make this run in production. To get them to work on windows, you’ll need gitbash, or mingw64, or cygwin, all of which behave differently<br/>
+But what about Ubuntu on Windows (WSL?) &#8211; Until WSL2 is release, performance is really bad for anything involving IO, but some people can put up with it. Also not supported by free Pycharm, AFAIK.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-874 -->
+
+				
+					
+	<article id="post-871" class="post-871 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=871" title="Permalink to Version Incrementing on Multiple Branches" rel="bookmark">Version Incrementing on Multiple Branches</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=871" title="8:00 am" rel="bookmark"><time class="entry-date" datetime="2019-11-03T08:00:11+00:00" pubdate>November 3, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><strong>&#8220;Increment source or tag version by 0.0.1 at end of build script&#8221;</strong><br/>
+If you have main, branch 1, branch 2, and a build script that wants to increment the build number after each successful build, you&#8217;ll have race conditions.</p>
+<p>Simultaneously, dev 1 and dev 2 check out their respective branches. They build, using the latest tag on main. When they push, they push the same version number, or if they push and tag main, the second developer will get &#8220;tag already exists&#8221;</p>
+<p><strong>&#8220;Version Server&#8221;<br/>
+</strong>If a version number server handed out numbers, then each developer could reserve a version number, say 1.0.11. But if dev 1 gets a version number first, but pushes second, or even months later, his version number is out of order (e.g tag 1.0.10 comes after 1.0.11)</p>
+<p><strong>&#8220;Version Master&#8221;</strong><br/>
+Alternatively, no versions are bumped on branches. A separate process or person, &#8220;the Version Master&#8221; periodically tags the main branch with a version number and on that commit, doesn&#8217;t do anything else, except increment the version number in source and add a tag. </p>
+<p>But what is a version and what does this buy us over changeset ids? Let&#8217;s assume that passing builds are less common that commits, so it would make sense to bump a version or build number for each passing build. </p>
+<p><strong>&#8220;Version Master&#8221; with Flagging</strong><br/>
+We could have the build script put a flag into a change set like &#8220;GIMME_A_VERSION.txt&#8221; or and once that file makes it to main, then count up the existing version tags and bump the tag. Downside, the source doesn&#8217;t know its own version number without checking git. So the Version Master would have to see a request for a version bump in the source and then do a bump of the version in source, tag it with the same tag and push it.</p>
+<p>This system could miss version bumps if two passing builds arrived in rapid succession, you&#8217;d only be able to push one version number in source, you wouldn&#8217;t be able to insert a bumped version number inbetween commits.</p>
+<p>This is so hard.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-871 -->
+
+				
+					
+	<article id="post-864" class="post-864 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=864" title="Permalink to WFH: Work From Home" rel="bookmark">WFH: Work From Home</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=864" title="6:51 am" rel="bookmark"><time class="entry-date" datetime="2019-06-25T06:51:06+00:00" pubdate>June 25, 2019</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>I&#8217;ve a usually WFH job and now I&#8217;ve got enough experience with it to have opinions, so here is the good, the bad, the ugly.</p>
+<p>The caveat here is I don&#8217;t work for Github, a company famous for a functioning, remote workforce. I work somewhere where only formal communications go out by mailing list, MS Teams/Slack has zero adoption, etc.</p>
+<p><strong>The Good.</strong><br/>
+Generally less commute, less time in the car.</p>
+<p>You can potentially, finally get a quiet office with a door.</p>
+<p><strong>The Bad, The Ugly.</strong><br/>
+Organizational onboarding just never happens. You never get the introductions to anyone, so you never develop the informal connections. You are free to cold call people in the organization, but odds are, you don&#8217;t even know who to cold call. This is true for everyone above you, below you or at the same level as you in the organization chart. I&#8217;m guessing the organization is running on the informal connections made before telework got started, or those rebels that chose to stay at the office despite widespread telework.</p>
+<p>You wake up every morning not sure if you need to head into work. Onsite meetings generally get canceled minutes before they start.</p>
+<p>Because you are an offsite worker, you don&#8217;t get even a cubicle assigned to you at the actual office building, you get to use the public computer lab. So every time you have to go pee or eat lunch, you have to pack up your entire workspace or just hope no one is going to pilfer your stuff in the computer lab or give it to lost &#038; found.</p>
+<p>My quiet home office with a door is actually just a bedroom with a door. The lawnmowers &#038; garbage men are outside my window everyday, loud enough that folk on the phone can&#8217;t hear me.</p>
+<p>Mentally switching to and from &#8220;work mode&#8221; doesn&#8217;t happen. I either get stuck in &#8220;at home&#8221; mode or &#8220;at work mode&#8221;, usually, &#8220;at home&#8221; mode, which is a mess for productivity.</p>
+<p>The main tool for communication is Outlook, so there is no equivalent of a &#8220;chat room&#8221; where you can post a question. There are only mailing lists of 50 to 150 people. I never see informal communication on these.</p>
+<p><strong>Conclusion.</strong><br/>
+Work from home will fall short if the organization isn&#8217;t Github &#038; there isn&#8217;t the equivalent of slack &#038; if there isn&#8217;t a formal onboarding policy that makes sure that a new employee actually interacts with people. Putting the new hires in a room of 250 people who they won&#8217;t even be working with &#038; the meet 35 people in 35 minutes as you walk around the office at random doesn&#8217;t count&#8211; that shit is what pure-onsite orgs do when they know they don&#8217;t have to get onboarding right because everyone you need to work with is going to be within 10 feet of your cubicle &#038; the relationships will form naturally.</p>
+<p>In otherwords, work-from-home probably destroyed Yahoo. </p>
+<p>ref: https://www.nbcnews.com/business/business-news/why-are-big-companies-calling-their-remote-workers-back-office-n787101</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-864 -->
+
+				
+					
+	<article id="post-847" class="post-847 post type-post status-publish format-standard hentry category-python">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=847" title="Permalink to Why you should work at Burson-Marsteller on my team" rel="bookmark">Why you should work at Burson-Marsteller on my team</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=847" title="6:58 am" rel="bookmark"><time class="entry-date" datetime="2017-04-03T06:58:01+00:00" pubdate>April 3, 2017</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><strong>THIS JOB DOESN&#8217;T EXIST ANYMORE. The company doesn&#8217;t have this name anymore.</strong></p>
+<p>The job app for an opening on my team went up a few days ago (March 2017), here: <a href="http://chj.tbe.taleo.net/chj05/ats/careers/requisition.jsp?org=BM&amp;cws=1&amp;rid=1694">http://chj.tbe.taleo.net/chj05/ats/careers/requisition.jsp?org=BM&#038;cws=1&#038;rid=1694</a></p>
+<p>It&#8217;s in downtown DC, close to a Metro stop.  We plan to find a mid-career developer and pay mid-career developer rates.</p>
+<p><strong>What&#8217;s are we doing?</strong><br/>
+The job is mostly backend development, Ubuntu-Nginx-Postgres-Django. So UNPD or DUNP or UPDN or something like that. It&#8217;s a hybrid of data work, application development, data science and a cloud component. We use AWS with a variety of server and service types. Developers are learning more about how to do server admin in order to deal with AWS and server administrators are learning more about application development, a phenomenon called DevOps*. (*because I say so. aficionados think DevOps is a cultural shift in IT departments, too.) We are down to one on-premise server and that&#8217;s the way we like it.</p>
+<p><strong>What&#8217;s the team look like?</strong><br/>
+We are doing what I call a sincere scrum. You may be more familiar with the &#8220;yeah-right&#8221; software development process, where someone dictates SDLC and the team and management say &#8220;yeah right, we&#8217;ll do that&#8221;. Part of getting team members autonomy is having some clarity around roles. At the moment, we have a clear Product Owner (my supervisor), a Scrum Master (myself), a server administrator and a front end developer.</p>
+<p>So what the heck is a scrum master? By the agile textbook, I&#8217;m in charge of facilitating the daily status reports, curating the ticket database, but I don&#8217;t primarily choose what features we implement. The product owner decides what features are going to make the team money.</p>
+<p>Scrum (and especially &#8216;Extreme Programming&#8217;) have some opinions about practices, such as the need for unit testing, build servers, source control etc.  I&#8217;m also the build master, which means, we have a build server &#038; a build script that automatically compiles, lints, and runs tests. If you haven&#8217;t worked on an application with a suite of unit tests, it makes maintenance development far less stressful. New bugs and breaks are found fast and can be fixed fast. Build script driven development also means when it comes time to do testing with live humans or code review with live humans, time is spent on higher level concepts instead of nuisance bugs.</p>
+<p>The team is distributed between DC and NYC. We don&#8217;t mind if team members work a day a week at home. </p>
+<p><strong>What are the cool technologies?</strong><br/>
+On top of a cake of data work and application development, for frosting, we get to work with social media APIs, a huge multinode Redshift database, REDIS, data science libraries like scikit-learn, pandas and so on. Many of our app&#8217;s components do huge data pulls that feed datascience reports.  The cost of data and the cost of statistical prediction has come way down in the last few years and we are exploiting that to do AI-like or magic-like predictions and analysis. </p>
+<p>So throw your resume into the pile and our HR department will get to me:<br/>
+<a href="http://chj.tbe.taleo.net/chj05/ats/careers/requisition.jsp?org=BM&amp;cws=1&amp;rid=1694">http://chj.tbe.taleo.net/chj05/ats/careers/requisition.jsp?org=BM&#038;cws=1&#038;rid=1694</a></p>
+<p><em>NB: I don&#8217;t speak for Burson-Marsteller. I just happen to work there and we have a job opening on our team.</em></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=84" title="View all posts in python" rel="category">python</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-847 -->
+
+				
+					
+	<article id="post-841" class="post-841 post type-post status-publish format-standard hentry category-programming">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=841" title="Permalink to Adapting a template for a resume" rel="bookmark">Adapting a template for a resume</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=841" title="6:10 pm" rel="bookmark"><time class="entry-date" datetime="2016-05-07T18:10:40+00:00" pubdate>May 7, 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>For various reasons, I&#8217;ve become way to familiar with the technologies associated with creating resumes. For the record, the coolest are: <a href="https://cvmkr.com/">CV Maker</a>, <a href="https://www.sharelatex.com/templates/cv-or-resume">LaTeX resume templates</a>, <a href="https://jsonresume.org/">JsonResume</a> and just about anyone&#8217;s HTML5 resume template. The HTML5 templates are written by people who actually have artistic taste, so they look beautiful. No way could I do the same in a short time, so I bought a template. (Never mind that the Template store&#8217;s UI let me buy the wrong template before I bought the right one, let&#8217;s focus on the happy parts of this experience.)</p>
+<p>To use it for my self, I had to:</p>
+<p><strong>Assemble the raw material for a resume.</strong> StackOverflow Careers is my ground truth for resume data. From there I copy it to USAJobs and so on.</p>
+<p><strong>Load it up in Intellij</strong> Visual Studio with Resharper is not too bad, but if you just use Intellij, you get all the goodness that Resharper was giving you and more. </p>
+<p><strong>Disable the PHP mailer</strong> A contact form is just a spam channel. Don&#8217;t ask me why spammers think they can make money sending mail to web admins (unless maybe it&#8217;s spear phishing). I considered not showing my email address, but the spam harvesters already have my email address and google already perfectly filters my spam.</p>
+<p><strong>Strip out the boiler plate. </strong>Every time you think to got it all, there is more references to John Doe.</p>
+<p><strong>Fix the load image. </strong>The load image was waiting for all assets to render before it would remove the annoying spinner and curtain. But the page did not have any elements that the user might interact with too early. The page didn&#8217;t have any flashes of unstyled content like you see with Angular. There weren&#8217;t any UI element suddenly snapping into place on the document ready event like a certain app I&#8217;ve worked on before.</p>
+<p><strong>Deminimize the code. </strong> This should be easy, right? A template has to ship with the JavaScript source code. But the code was minimized. So I pointed the page to the non-minimized version. The whole page broke. Finally I noticed the minimized file actually contained version 1.2 and the non-minimized shipped was 1.0. So I deminimized the code and could begin removing the extraneous load image.</p>
+<p><strong>Upload to my hosted Virtual Machine </strong>. Filezilla all of a sudden decides it can connect, but can&#8217;t do anything. Some minutes later, I figure out that TunnelBear, my VPN utility and Filezilla don&#8217;t play well together. So I added an exception for my wakayos.com domain.</p>
+<p><strong>Write blog post. </strong>I just wanted my resume to be a nice container. But as a developer, it sort of looks like maybe I wrote this from scratch. I certainly did not.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=30" title="View all posts in Programming" rel="category">Programming</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-841 -->
+
+				
+					
+	<article id="post-833" class="post-833 post type-post status-publish format-standard hentry category-matthew-martin category-visual-studio">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=833" title="Permalink to How to do postbuild tasks painlessly in Visual Studio" rel="bookmark">How to do postbuild tasks painlessly in Visual Studio</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=833" title="9:36 am" rel="bookmark"><time class="entry-date" datetime="2016-05-06T09:36:16+00:00" pubdate>May 6, 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>So, you&#8217;d think you&#8217;d need to write custom msbuild targets or even learn msbuild syntax. Wrong!</p>
+<p>(okay, some of this can be done via the project properties, the &#8220;Build Events&#8221; tab. The &#8220;Build Events&#8221; tab hides the fact that you are writing msbuild code and now you have batch file code embedded into a visual property page instead a file that can be check into source control, diffed or run independently.)</p>
+<p>You will have to edit your csproj file.</p>
+<p>1. Create a postbuild.bat file in the root of your project. Right click for properties and set to &#8220;always copy&#8221;. A copy of this will now always be put in the bin\DEBUG or bin\RELEASE folder after each build.</p>
+<p>2. Unload your csproj file (right click, &#8220;Unload project&#8221;), right click again to bring it up for edit.</p>
+<p>3. At the very end, find this:<br/>
+<code>&lt;Target Name="AfterBuild"&gt;<br/>
+&lt;Exec Command="CALL postbuild.bat $(OutputPath)" /&gt;<br/>
+&lt;/Target&gt;</code></p>
+<p>The code passes the \bin\DEBUG or \bin\RELEASE path to the batch file. You could pass more msbuild specific variables if you need to.</p>
+<p>Strangely, the build output window will always report an error regarding the first line of the batch file. It will report that SET or ECHO or DIR or whatever isn&#8217;t a recognized command. But the 2nd and subsequent lines of the batch file run just fine.</p>
+<p>From here you can now call out to powershell, bash, or do what batch files do.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>, <a href="http://tech.wakayos.com/?cat=12" title="View all posts in Visual Studio" rel="category">Visual Studio</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-833 -->
+
+				
+					
+	<article id="post-831" class="post-831 post type-post status-publish format-standard hentry category-programming">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=831" title="Permalink to What a Build Master should know or do as a Build Master." rel="bookmark">What a Build Master should know or do as a Build Master.</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=831" title="1:54 pm" rel="bookmark"><time class="entry-date" datetime="2016-04-29T13:54:47+00:00" pubdate>April 29, 2016</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>An automated build is beautiful. It takes one click to run. The clicking on the run button is completely deskilled. It can be delegated to the cat.</p>
+<p>Setting up and troubleshooting a build server on the other hand is unavoidably senior developer work, but I encourage everyone to start as soon as they can stomach the complexity.</p>
+<p>Does it compile?</p>
+<p>A good build pays close attention to the build options as a production release will have different options from your workstation build. If it builds on your machine, you may still have accidentally sabotages performance and security on the production server. Review all the compilation options.</p>
+<p>In the case of C#, the rest of the build script is a csproj file, which is msbuild code, which is executable xml. You don’t need to know about how it works until stuff breaks and then you need to know enough msbuild to fix it. Also, because the build server sometimes doesn’t or can’t have the IDE on it, the msbuild script might be the only way to modify how the build is done.</p>
+<p>The TFS build profile is written in XAML, which again is executable XML. Sometimes it has to be edited, for example if you want to get TFS to support anything but ms-test. Fear the day you need to.</p>
+<p>Technologies to know: msbuild, IDEs (VS20XX), TFS GUI, maybe XAML, possibly JS and CSS compilers like TypeScript and SASS</p>
+<p>Is it fetching source code correctly, can it compile immediately after check out to a clean folder?</p>
+<p>When there are 50 manual steps to be done after checking code out before you can compile, the build master must fix all of these. Again, it builds on the workstation, but all that proves is that you have a possibly non-repeatable build.</p>
+<p>Maybe 90% of the headaches have to do with libraries, or nowadays, repo managers, like nuget, bower, npm, etc. A sloppy project makes no effort to put dependencies into source control and crappy tools means the build server or build script is unawares of the library managers.</p>
+<p>Technologies to know: tfs, nuget, bower, npm, your IDE</p>
+<p>What is “good” as far as a build goes?</p>
+<p>A good build server is opinionated and doesn’t ship what ever successfully writes to a hard drive. Depending on the technology, there isn’t even such a thing as compilation. Those technologies have to be validated using lint, unit tests and so on. These post build steps can either be failing or non-failing post-build tasks. If they don’t fail the build, then often they are just ignored. Failing unit tests should fail a build. Other failing tasks, probably should fail a build, even if they aren’t production artifacts. I usually wish I could fail a build on lint problems, but depending on the linter and the specific problems, sometimes there just isn’t enough time to address (literally) 1,000,000 lint warnings.</p>
+<p>Technologies to know: mstest, nunit, xunit, and other unit test frameworks for each technology in your stack.</p>
+<p>Who fixes the failing tests? Who fixes the bugs?</p>
+<p>The build master, depending on the organization and how dysfunctional it is, is either completely or partially responsible for fixing the build. There is no way to write a manual for how to do this. Essentially, as a build master, you have to dig into someone else’s code and demonstrate they broke the build and are obliged to fix it, or quietly fix it, or what ever the team culture allows you to do.</p>
+<p>Technologies to know: nunit test, debugging, trace</p>
+<p>We got a good build, now what? Process.</p>
+<p>Not so fast! Depending on the larger organization policies with respect to command and control, you may need to get a long list of sign offs from people before you can deploy to the next environment. Sometimes you can have the build serve deploy directly to the relevant environment, sometimes it spits out a zipped package to be consumed by some sort of deployment script. Usually though, the build server can’t deploy directly to production due to air gaps or cultural barriers.</p>
+<p>Technologies to know: Jira or what ever issue tracker is being used.<br/>
+Non-technologies to know: your organizations official and informal laws, rules and customs regarding deployment.</p>
+<p>The Grand Council of Release Poobahs and your boss said okay, now what?<br/>
+This step is often the most resistant to automation. It often has unknowable steps, like filling in the production password, production file paths and IP addresses.</p>
+<p>MsBuild supports no less than two xml transformation syntaxes for changing xml config for each environment.</p>
+<p>It may be advisable for environments you know about to do enviornment discovery. It’s either wonderful or an easy way to shoot yourself in the foot. When you know the target server is a Windows2008 Server and on such servers it must do X and on Win 7 workstations it must do Y, don’t forget to think about the Windows 10 machine that didn’t exist when you wrote your environment discovery code. Maybe it should blow up on an unknown machine, maybe it should</p>
+<p>Technologies to know: batch, powershell, msdeploy, MS Word<br/>
+Non-technologies to know: your organizations official and informal laws, rules and customs regarding deployment.</p>
+<p>Optional Stuff</p>
+<p>Build servers like TFS also have built into them bug trackers, requirements databases, SSRS, SSAS (Analysis Services), and build farm things. They are all optional and each one is a huge skill. SSAS alone requires the implanting of a supplemental brain so you can read and write MDX queries.</p>
+<p>Also, optional, is learning how other build servers work. No single build server has won all organizations, so you will eventually come across TeamCity, Lunt Build, etc.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=30" title="View all posts in Programming" rel="category">Programming</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-831 -->
+
+				
+					
+	<article id="post-819" class="post-819 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=819" title="Permalink to " rel="bookmark"></a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=819" title="1:04 pm" rel="bookmark"><time class="entry-date" datetime="2015-12-03T13:04:08+00:00" pubdate>December 3, 2015</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><strong>Features worth searching for:</strong><br/>
+Log-by-level. E.g. info, warn, verbose, error.<br/>
+Log-by-module/theme. E.g. MyClass, file1.js, Data, UI, Validation, etc. Sometimes called &#8220;groups&#8221; or other things.<br/>
+Log-errors. Info, warn, verbose are all the same data type, but the error is a complex data type and the work flow differs dramatically from the others.<br/>
+Log-to-different places, e.g. HTML, alert, console, Ajax/Server<br/>
+Log-formatting. E.g. xml, json, CSV, etc.<br/>
+Log-correlation. E.g. if you log to 2 places, say a client, server and web-service and db, and a transactions passes through all four, can you correlate the log entries?<br/>
+Log-analysis. E.g. if you generate *a lot* of log entries, something to search/summarize them would be nice.<br/>
+Semantic-logging. E.g. logging (arbitrary) structured data as well as strings or a fixed set of fields.<br/>
+Analytics. Page hit counters. (I didn&#8217;t search for these)<br/>
+Feature Usage. Same, but for applications where feature != page<br/>
+Console. Sometimes as a place to spew log entries, sometimes as a place for interactive execution of code.</p>
+<p><strong>Repository Queries:</strong><br/>
+<a href="http://bower.io/search/?q=logging">http://bower.io/search/?q=logging</a>  25 entries right now.<br/>
+<a href="http://bower.io/search/?q=log">http://bower.io/search/?q=log</a><br/>
+<a href="http://bower.io/search/?q=console">http://bower.io/search/?q=console</a></p>
+<p><a href="https://www.nuget.org/packages?q=javascript+logging">https://www.nuget.org/packages?q=javascript+logging</a> Nuget JS logging libraries.</p>
+<p><a href="https://nodejsmodules.org/tags/logging">https://nodejsmodules.org/tags/logging</a> &#8211; Nodejs Repository query</p>
+<p><strong>Various Uncategorized Browser-Centric Libraries</strong><br/>
+<a href="https://github.com/enoex/Bragi-Browser">https://github.com/enoex/Bragi-Browser</a>  category logger (here they are called &#8220;groups&#8221;)<br/>
+<a href="https://github.com/better-js-logging/console-logger">https://github.com/better-js-logging/console-logger</a> category &#038; level logger.<br/>
+<a href="https://github.com/latentflip/bows">https://github.com/latentflip/bows</a> colorful logging by category<br/>
+<a href="https://oaxoa.github.io/Conzole/">https://oaxoa.github.io/Conzole/</a> Side console.<br/>
+<a href="https://github.com/structured-log/structured-log">https://github.com/structured-log/structured-log</a> &#8211; Serilog/Structured Log<br/>
+<a href="http://log4javascript.org/">http://log4javascript.org/</a> Log4JavaScript &#8211; for people who like the log4x API. As of 2015, appears dated &#038; unmaintained.<br/>
+<a href="http://www.softwarementors.com/log4js-ext/">http://www.softwarementors.com/log4js-ext/</a>  More upto date log4x library. Fancy on screen log.<br/>
+<a href="https://github.com/stritti/log4js">https://github.com/stritti/log4js</a>  A level-logger. (Many features are IE only)<br/>
+<a href="http://smalljs.org/logging/debug/">http://smalljs.org/logging/debug/</a>  Console logger with module filters.<br/>
+<a href="http://jsnlog.com/">http://jsnlog.com/</a> Client side logger that sends events to popular server side logging libraries (more than just server side node)<br/>
+<a href="http://www.songho.ca/misc/logger/logger.html">http://www.songho.ca/misc/logger/logger.html</a>  on screen (HTML) logging overlay<br/>
+<a href="https://github.com/cerner/canadarm/ ">https://github.com/cerner/canadarm/ </a><br/>
+<a href="https://github.com/FacetsTechnologies/loghound ">https://github.com/FacetsTechnologies/loghound </a><br/>
+<a href="http://jstracer.sourceforge.net/">http://jstracer.sourceforge.net/</a><br/>
+<a href="https://github.com/jbail/lumberjack">https://github.com/jbail/lumberjack</a>  Monkeypatches the built-in console object.</p>
+<p><strong>Microlibraries for Browser</strong><br/>
+These might not be any smaller than other libraries.<br/>
+<a href="https://github.com/bfattori/LogJS">https://github.com/bfattori/LogJS</a> &#8211; supports local storage logging.<br/>
+<a href="https://github.com/kapilkaisare/sleeper-agent">https://github.com/kapilkaisare/sleeper-agent</a> 4 level logging with an on/off switch at runtime.<br/>
+<a href="https://github.com/mattkanwisher/driftwood.js">https://github.com/mattkanwisher/driftwood.js</a> &#8211; 4 level logging with environment switches &#038; ajax<br/>
+<a href="https://github.com/pimterry/loglevel">https://github.com/pimterry/loglevel</a>.  4 level logging Supports plugins.<br/>
+<a href="https://github.com/cowboy/javascript-debug/tree/v0.4">https://github.com/cowboy/javascript-debug/tree/v0.4</a> console.log wrapper<br/>
+<a href="http://js.jsnlog.com/">http://js.jsnlog.com/</a> Same as JSN Log, but just the JS part, so it&#8217;s like a microlibrary.<br/>
+<a href="https://github.com/gillesruppert/flog">https://github.com/gillesruppert/flog</a><br/>
+<a href="https://github.com/nhnb/console-log">https://github.com/nhnb/console-log</a>  &#8211; Polymer/web-component style console logging<br/>
+<a href="https://github.com/icodeforlove/Console.js">https://github.com/icodeforlove/Console.js</a> &#8211; Polyfill for pretty-console display?<br/>
+<a href="https://github.com/Couto/groundskeeper">https://github.com/Couto/groundskeeper</a> &#8211; Build step to remove console.log entries before sending to production.</p>
+<p><strong>Abandonware</strong><br/>
+<a href="https://github.com/pockata/blackbird-js">https://github.com/pockata/blackbird-js</a> -Abandoned? Not sure what it does.<br/>
+NitobiBug -Abandoned. If you look long enough you can find websites that serve up the file.</p>
+<p><strong>Browser plug ins</strong><br/>
+<a href="http://getfirebug.com/logging">http://getfirebug.com/logging</a> &#8211; Firefox centric.</p>
+<p><strong>Error Logging</strong><br/>
+Error logging is more than a print statement. Generally, at point of error you want to capture all the information that the runtime provides.<br/>
+<a href="http://www.stacktracejs.com/">http://www.stacktracejs.com/</a> Stacktrace and more.<br/>
+<a href="http://openmymind.net/2012/4/4/You-Really-Should-Log-Client-Side-Error/">http://openmymind.net/2012/4/4/You-Really-Should-Log-Client-Side-Error/</a> Roll your own</p>
+<p><strong>Node Loggers (might work in Browser, not sure)</strong><br/>
+<a href="https://github.com/enoex/Bragi-Node">https://github.com/enoex/Bragi-Node</a>  (Node Centric)<br/>
+<a href="https://www.npmjs.com/package/winston">https://www.npmjs.com/package/winston</a> (Node Centric)<br/>
+<a href="https://github.com/jstrace/jstrace">https://github.com/jstrace/jstrace</a> (Node centric)<br/>
+<a href="https://nodejs.org/en/blog/module/service-logging-in-json-with-bunyan/">https://nodejs.org/en/blog/module/service-logging-in-json-with-bunyan/</a> Bunyan</p>
+<p><strong>Commercial Loggers</strong><br/>
+Often a opensource client that talks to a commercial server. No idea if these can work w/o the server component.</p>
+<p><a href="https://www.loggly.com/docs/javascript/">https://www.loggly.com/docs/javascript/</a><br/>
+<a href="https://github.com/loggly/loggly-jslogger ">https://github.com/loggly/loggly-jslogger </a></p>
+<p><a href="https://logentries.com/">https://logentries.com/</a><br/>
+<a href="https://github.com/logentries/le_js">https://github.com/logentries/le_js</a></p>
+<p><a href="https://trackjs.com/">https://trackjs.com/</a><br/>
+<a href="https://github.com/trackjs">https://github.com/trackjs</a></p>
+<p><a href="http://jslogger.com/">http://jslogger.com/</a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-819 -->
+
+				
+					
+	<article id="post-809" class="post-809 post type-post status-publish format-standard hentry category-c category-webservices">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=809" title="Permalink to Dumb Services – Accessing a website when there isn’t an webservice API" rel="bookmark">Dumb Services &#8211; Accessing a website when there isn&#8217;t an webservice API</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=809" title="9:55 am" rel="bookmark"><time class="entry-date" datetime="2015-05-30T09:55:37+00:00" pubdate>May 30, 2015</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>The dumbest API is a C# WebClient that returns a string. This works on websites that haven&#8217;t exposed an asmx, svc or other &#8220;service&#8221; technology.</p>
+<p>What are some speed bumps this presents to other developers, who might want to use your website as an API? The assumption here is that there is no coordination between </p>
+<p><strong>All websites are REST level X.</strong><br/>
+Just by the fact that the site works with web browsers and communicates over HTTP, at least some part of the HTTP protocol is being used. Usually only GET and POST, and the server returns a nearly opaque body. By that I mean, the mime type lets you know that it is HTML, but from the document alone, or even from crawling the whole website, you won&#8217;t necessarily programmatically discover what you can do with website.  Furthermore, the HttpStatus codes are probably being abused or ignored, resources are inserted and deleted on POST, headers are probably ignored and so on.</p>
+<p><strong>Discovery of the API == Website Crawling. </strong><br/>
+If you could discover the API, then you could machine generate a strongly typed API, or at least at run time, provide meta data about the API. With a regular HTML page, it will have links and forms. The links are a sort of API.  You can craw the website and find all the published URLs, and infer from their structure what the API might be. The Url might be a fancy &#8220;choppable&#8221; Url with parameters between /&#8217;s or it might be an old school QueryString with parameters as key value pairs after the ?.</p>
+<p>You can similarly discover the forms by crawling the website. Forms at least will let you know all the expected parameters and a little bit about their data types and expected ranges.</p>
+<p>If the website is JavaScript driven, all bets are off unless you can automate a headless browser. For a single page application (SPA), your GET returns a static template and a lot of JavaScript files. The static template doesn&#8217;t necessarily have the links or forms, or if it does, they are not necessarily filled in with anything yet. On the otherhand, if a website is an SPA, it probably has a real web service API.</p>
+<p><strong>Remote Procedure Invocation</strong><br/>
+Each URL represents an end point. The trivial invocations are the GETs. Invocation is a matter of crafting a URL, sending the HTTP GET and deciding what to do with the response (see below.)</p>
+<p>The Action URLs of the forms. The Forms tell you more explicitly what the possibly parameters and data types are. </p>
+<p><strong>Data Serialization.</strong><br/>
+The dumbest way to handle the response from a GET or POST is a string. It is entirely up to the client to figure out what to do with the string. The parsing strategy will depend on the particular scenario. Maybe you are looking for a particular substring. Maybe you are looking for all the numbers. Maybe you are looking for the 3rd date. There in the worst case scenario, there is nothing a dumb service client writer can do to help.</p>
+<p>The next dumb way to handle a dumb service response is to parse it as HTML or XML, for example with Html Agility Pack, a C# library that turns reasonable HTML into clean XML. This buys you less that you might imagine. If you have an XML document with say, Customer, Order, Order Line and Total elements, you could almost machine convert this document into an XSD and corresponding C# classes which can be consumed conveniently by the dumb service client. But in practice, you get an endless nest of Span, Div and layout Table elements. This might make string parsing look attractive in comparison.  Machine XML to CS converters, like xsd.exe, have no idea what to do with an HTML document.</p>
+<p>The next dumb way is to just extract the tables and forms. This would work if tables are being used as intended- a way to display data. The rows could then be treated as typed classes.</p>
+<p>The next dumb way is to look for microformats. Microformats are annotated HTML snippets that have class attributes that semantically define HTML elements as being consumable data. It is a beautiful idea with very little adoption.  The HTML designer works to make a website look good, not to make life easy for Dumb Services. If anyone cared about the user experience of a software developer using a site as a programmable API, they would have provided a proper REST API.  It is also imaginable to attempt to detect accidental microformats, for example, if the page is a mess of spans with classes that happen to be semantic, such as &#8220;customer&#8221;, &#8220;phone&#8221;, &#8220;address&#8221;. Without knowing which elements are semantic, the resulting API would be polluted with spurious &#8220;green&#8221;, &#8220;sub-title&#8221; and other layout oriented tags. </p>
+<p>The last dumb way I can think of is HTML 5 semantic tags. If the invocation returns documents, like letters and newspaper articles, then the elements header, footer, section, nav, or article could be used. The world of possible problem domains is huge, though. If you are at a CMS website and want to process documents, this would help. If you are at a travel website and want to see the latest Amtrak discounts, then this won&#8217;t help. I imagine 95% of possible use cases don&#8217;t include readable documents an important entity.  Another super narrow class of elements would be dd, dl, and dt, which are used for dictionary and glossary definitions.</p>
+<p><strong>Can there be a Dumb Services Client Generator?</strong><br/>
+By that, I mean, how much of the above work could be done by a library?  This <a href="https://stackoverflow.com/questions/2425043/how-do-you-screen-scrape">SO question suggests that up to now, most people are doing dumb services</a> in an ad hoc fashion, except for the HTML parsing.</p>
+<ul>
+<li>The web crawling part: entirely automatable. Discovering all the GETs, and Forms is easy.</li>
+<li>The meta-data inference part: Infering the templates for GET is hard, inferring the meta data for a form request is easy.
+</li>
+<li>The Invocation part is easy.</li>
+<li>The Deserialization part: Incredibly hard. Only a few scenarios are easy. At best, a library could give the developer a starting point.</li>
+</ul>
+<p>What would a proxy client look like? The loosely typed one would for example, return a list of Urls and strings, and execute requests, again returning some weakly typed data structure, such as string, Stream, XML as if all signatures where:</p>
+<p>string ExecuteGet(Uri url, string querystring)<br/>
+Stream ExecuteGet(Uri url, string querystring)<br/>
+XmlDocument ExecuteGet(Uri url, string querystring)<br/>
+..etc</p>
+<p>In practice we&#8217;d rather something like this:</p>
+<p>Customer ExecuteGet(string url, int customerId)</p>
+<p>At best, a library could provide a base class that would allow a developer to write a strongly typed client over the top of that.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=63" title="View all posts in c#" rel="category">c#</a>, <a href="http://tech.wakayos.com/?cat=69" title="View all posts in webservices" rel="category">webservices</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-809 -->
+
+				
+					
+	<article id="post-801" class="post-801 post type-post status-publish format-standard hentry category-matthew-martin">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://tech.wakayos.com/?p=801" title="Permalink to Using Twitter more effectively as a software developer" rel="bookmark">Using Twitter more effectively as a software developer</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://tech.wakayos.com/?p=801" title="1:47 pm" rel="bookmark"><time class="entry-date" datetime="2015-05-14T13:47:03+00:00" pubdate>May 14, 2015</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>FYI: I&#8217;m not a technical recruiter. I&#8217;m just a software developer.</p>
+<p><strong>Have a clear goal</strong> Is this to network with every last person in the world who knows about, say, Windows Identify Foundation? Or to make sure you have some professional contacts when your contract ends? Don&#8217;t follow people that can&#8217;t help you with that goal.  If you have mixed goals, open a different account.</p>
+<p><strong>Important Career Moments Relevant to Twitter.</strong> Arriving town, leaving town and changing jobs, conferences, starting a new company&#8211; if you have a curated twitter list, it might help at those time points, or it might not, who knows.</p>
+<p>At the moment, there are so many jobs for developers and so few jobs, that the real issue is not finding a job, but finding a job that you like. Another issue is taking control of the job hunting process. The head hunters most eager to hire you, have characteristics like, they make lots of calls per day and they have a smooth hiring pipeline. But there is no particular correlation with what sort of project manager is at the other end of that pipeline.</p>
+<p><strong>Goals: Helping Good Jobs Find Developers</strong> I&#8217;m talking about that day when your boss says, hey, do you know any software developers? And I say, no, I work in a cubicle where I talk to same 3 people 20 minutes a week. So that was a big part of my goal for creating a twitter following, so that in 3 years, bam, I can say, &#8220;Anyone want a job?&#8221; and it wouldn&#8217;t be just a message in the bottle dropped in the Atlantic. If you don&#8217;t care about the job don&#8217;t post it. If a colleague desperately needs to fill a spot for the worlds worst place to work, don&#8217;t post it, you&#8217;re not a recruiter, you got standards.</p>
+<p>Twitter is a lousy place for identifying who is a developer and who is in a geographic region. After exhaustive search, I found less than 2000 people in DC who do something related to software development and of those, maybe 50% are active accounts. There must be more developers and related professions then that in DC&#8211; I guess 10,000 or 20,000.</p>
+<p><strong>Making Content: Questions.</strong> It works for newbie questions. Anything that might require an answer in depth is better on StackOverflow. And StackOverflow doesn&#8217;t want your easy questions anyhow.</p>
+<p><strong>Making Content: Discussion.</strong> It works for mini-discussions, of maybe 3-4 exchanges, tops. Consider doing a thoughtful question a day. Hash tag it, but don&#8217;t pick stupid hash tags, or hash tag spam. #dctech is better than #guesswhat Consider searching a hash tag before using it. Re-use good hash tags as much as possible to increase discussion around a hashtag.</p>
+<p><strong>Making Content: Jokes.</strong> It works really well for jokes. Now if you actually engage in jokes, that is a personal decision. They are somewhat risky. On the otherhand, if you never tells a joke, you&#8217;re a boring person who gets unfollowed and moved to a list.</p>
+<p><strong>Making Content: Calls to Action</strong>. I don&#8217;t practice this well myself because it&#8217;s hard to do in twitter. Most effective calls to action are some sort of &#8220;click this link&#8221;, hopefully because after I read the target page, I don&#8217;t just chuckle or say, &#8220;hmm&#8221;, but I do something different in the real world.</p>
+<p><strong>Making Content: Don&#8217;t do click bait</strong>. Not because it isn&#8217;t effective, it is effective in making people click. But everyone is doing it and it is junking up news feeds.</p>
+<p><strong>Building a Community: Who to Follow?</strong> Follow people you wish worked at your office. They may or may not post the content you like, but you can generally fix that by turning off retweets. If they still tweet primarily about stamp collecting, or tweet too much, put them on a list, especially if they don&#8217;t follow you back anyhow.</p>
+<p><strong>Building a Community: Finding people to Follow</strong> Twitter&#8217;s own search works best&#8211; search for keyword, limit to &#8220;people near me&#8221; and click &#8220;all&#8221; content.</p>
+<p>Real people follow real accounts, usually. Real people are followed by 50/50 spambots and real people. Unfortunately, people follow stamp collecting and cat photo accounts, but are followed by friends, family and coworkers. If you are looking for industry networking opportunities, you care about the coworkers, not the stamp collecting and cat photo accounts.</p>
+<p>Bio&#8217;s on twitter suck. People fill them with poorly thought out junk. I don&#8217;t care who you speak for, I don&#8217;t care if your retweets are endorsements. Put the funny joke in an ephemeral tweet, not the bio, followers end up re-reading your bio over and over. Include where you live, your job title and key works for what technologies you care about. Well, that&#8217;s what I wish people would do, but if you really want to put paranoid legal mumbo jumbo there, at least make sure that it aligns with your goals.</p>
+<p><strong>Building a Community: Getting Follow Backs</strong>. People follow back on initial follow, and sometimes on favorite and retweet.</p>
+<p><strong>Building a Community: Follow &#8220;dead&#8221; accounts anyhow.</strong> They might come back to life because you followed them. Who knows? It&#8217;s a numbers game.</p>
+<p><strong>Interaction: Retweet or Favorite?</strong> Favorite, means, &#8220;I hear you&#8221;, &#8220;I read that&#8221;, &#8220;I am paying attention to you&#8221;. Retweet means, &#8220;I think everyone of my followers really cares about this as much as they care about me.&#8221; People get this wrong so much I generally turn of retweet on every account I follow. I can still see those retweets should an account be on a list I curate.</p>
+<p>Retweet what everyone can agree on, Favorite religion and politics. If someone says something you like, it&#8217;s a good time for engagement. But not if it means reminding everyone that follows you that after work hours, you are a Republican, Democrat or Libertarian. Favorites are comparatively discreet, the audience has to seek them out to find our what petition you favorited.</p>
+<p>In practice, people Retweet when they should Favorite, junking up their followers news feeds with stamp collecting, radical politics, and personal conversations.</p>
+<p><strong>Interaction: Do start tweets targeted at one person with the @handle.</strong> It prevents that message from showing up in your followers feeds. Don&#8217;t automatically put the period in front, most people are gauging wrong when to thwart the build in filter system. </p>
+<p><strong>Know Your Audience.</strong> I have two audience, my intended audience of software developers in greater DC, and my <strong>unintended </strong>audience people who follow me because they agree with my politics, or are interested in the same technologies as me. I have a clear goal, so I know that the audience I&#8217;m going to cater to is the one that aligns with my goals. I can&#8217;t please everyone and if I wanted to, I would open a 2nd account.</p>
+<p><strong>Lists: Lists are for you.</strong> Don&#8217;t curate a list with the assumption that anyone cares. They don&#8217;t. Consider making lists private if you don&#8217;t think the account cares if they&#8217;ve been put on a list. </p>
+<p><strong>Lists: Create an Audience List</strong> The people I follow are great, but the people that follow me back are better. I put them on a private audience list because they don&#8217;t need a notification hearing that I&#8217;ve put them on an audience list. </p>
+<p>People on my general list that don&#8217;t follow me back, I hope they will follow me back someday. The people on the audience list, I care about their retweets and tweets more because it&#8217;s just much more likely that I&#8217;ll get an interaction someday.</p>
+<p><strong>Lists: Create a High Volume Tweeter/&#8221;Celebrity&#8221; list.</strong> People who tweet nonstop junk up your feed, move them to a list unless they are following you back. &#8220;Celebrities&#8221; have 10,000s of followers but only a few people they follow. They probably won&#8217;t ever interact with you, but if they do, it will be via you mentioning them, not through a reciprocal follow relationship.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a>			</span>
+									
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-801 -->
+
+				
+						<nav id="nav-below">
+			<h3 class="assistive-text">Post navigation</h3>
+			<div class="nav-previous"><a href="http://tech.wakayos.com/?paged=2"><span class="meta-nav">&larr;</span> Older posts</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+			
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			
+				<aside id="archives" class="widget">
+					<h3 class="widget-title">Archives</h3>
+					<ul>
+							<li><a href="http://tech.wakayos.com/?m=202001" title="January 2020">January 2020</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201911" title="November 2019">November 2019</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201906" title="June 2019">June 2019</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201704" title="April 2017">April 2017</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201605" title="May 2016">May 2016</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201604" title="April 2016">April 2016</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201512" title="December 2015">December 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201505" title="May 2015">May 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201501" title="January 2015">January 2015</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201410" title="October 2014">October 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201407" title="July 2014">July 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201406" title="June 2014">June 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201404" title="April 2014">April 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201403" title="March 2014">March 2014</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201307" title="July 2013">July 2013</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201302" title="February 2013">February 2013</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201211" title="November 2012">November 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201210" title="October 2012">October 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201209" title="September 2012">September 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201208" title="August 2012">August 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201201" title="January 2012">January 2012</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201112" title="December 2011">December 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201111" title="November 2011">November 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201109" title="September 2011">September 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201107" title="July 2011">July 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201106" title="June 2011">June 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201105" title="May 2011">May 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201101" title="January 2011">January 2011</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201012" title="December 2010">December 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201007" title="July 2010">July 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201005" title="May 2010">May 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=201004" title="April 2010">April 2010</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200911" title="November 2009">November 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200908" title="August 2009">August 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200907" title="July 2009">July 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200906" title="June 2009">June 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200905" title="May 2009">May 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200904" title="April 2009">April 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200902" title="February 2009">February 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200901" title="January 2009">January 2009</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200811" title="November 2008">November 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200810" title="October 2008">October 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200809" title="September 2008">September 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200808" title="August 2008">August 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200807" title="July 2008">July 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200806" title="June 2008">June 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200805" title="May 2008">May 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200804" title="April 2008">April 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200803" title="March 2008">March 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200802" title="February 2008">February 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200801" title="January 2008">January 2008</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200712" title="December 2007">December 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200711" title="November 2007">November 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200710" title="October 2007">October 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200709" title="September 2007">September 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200708" title="August 2007">August 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200707" title="July 2007">July 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200706" title="June 2007">June 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200705" title="May 2007">May 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200704" title="April 2007">April 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200702" title="February 2007">February 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200701" title="January 2007">January 2007</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200612" title="December 2006">December 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200611" title="November 2006">November 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200610" title="October 2006">October 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200609" title="September 2006">September 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200608" title="August 2006">August 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200607" title="July 2006">July 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200606" title="June 2006">June 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200605" title="May 2006">May 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200604" title="April 2006">April 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200603" title="March 2006">March 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200602" title="February 2006">February 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200601" title="January 2006">January 2006</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200410" title="October 2004">October 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200408" title="August 2004">August 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200405" title="May 2004">May 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200404" title="April 2004">April 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200403" title="March 2004">March 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200402" title="February 2004">February 2004</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200312" title="December 2003">December 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200311" title="November 2003">November 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200310" title="October 2003">October 2003</a></li>
+	<li><a href="http://tech.wakayos.com/?m=200309" title="September 2003">September 2003</a></li>
+					</ul>
+				</aside>
+
+				<aside id="meta" class="widget">
+					<h3 class="widget-title">Meta</h3>
+					<ul>
+												<li><a href="http://tech.wakayos.com/wp-login.php">Log in</a></li>
+											</ul>
+				</aside>
+
+					</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 00:28:49 Nov 01, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:05:16 Apr 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.558
+  exclusion.robots: 0.043
+  exclusion.robots.policy: 0.033
+  esindex: 0.01
+  cdx.remote: 5.281
+  LoadShardBlock: 71.97 (3)
+  PetaboxLoader3.datanode: 71.661 (4)
+  load_resource: 91.321
+  PetaboxLoader3.resolve: 40.553
+-->

@@ -1,0 +1,10 @@
+{
+  "title": "URL Rewriting and DotNetKicks Open Source Version",
+  "slug": "post-357",
+  "date": "2008-05-17",
+  "raw_date": "2008-05-17T15:21:20+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200805\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=357",
+  "markdown": "\n[DotNetKicks](http://www.dotnetkicks.com/), the digg clone for .NET developers, has an [open source version](http://code.google.com/p/dotnetkicks/).\n\n\nIt only runs from the root, e.g.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-357.md"
+}

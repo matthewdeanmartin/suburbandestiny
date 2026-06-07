@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "First Impressions BES920XL Breville Espresso Machine",
+  "slug": "post-1389",
+  "date": "2015-09-03",
+  "raw_date": "2015-09-03T13:25:21+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\www.suburbandestiny.com\\root\\__query__\\paged\\2\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=1389",
+  "markdown": "\nSo I followed the instructions and fired it up with help from my 2\\.5 year old assistant barrista.\n\n\n**Incompatible Grinder**This must be why Breville sells an espresso maker with a built in grinder, at least they can tune that machine to work well with that built in grinder. But that isn’t the machine I bought.\n\n\nMy Capresso Infinity grinder can’t grind coffee fine enough for this machine, [Seattle Coffee’s online description agrees](https://www.seattlecoffeegear.com/capresso-infinity-conical-burr-grinder). I have no idea how my older Gaggia Baby was doing it, I suspect that when it was creating coffee with crema, it was because the portafilter basket holes were clogged \\& it was creating an accidental pressurized basked. Pressurized baskets have only 1 tiny hole open, which compensates for coarse grind or tamping problems. Or the Gaggia’s portafiliter was secretly a pressurized system all along– don’t know.\n\n\nWith what I thought was a fine grind, when suitably tamped, trimmed, etc, results in a shot that pulls in \\~ 10 seconds, always less than 1 or 2 atmospheres, sort of like a rushed pour over. A single shot overflowed the cup. The taste was not as bad as the stale coffee, but sure wasn’t like visiting the local espresso shop.\n\n\n**Stale Coffee**  \n\nWith the pressurized basket you can get crema from ground, not obviously stale coffee. But the espresso machine brings out the stale flavor notes. The previous day I’d made drinkable drip coffee with this ground coffee \\& running it through the espresso machine made it undrinkable.\n\n\nI haven’t tried my good coffee with the pressurized portafilter, but I will report back tomorrow.\n\n\n**Steamed Milk**  \n\nThe milk steamer does fine. I had almond milk, which I didn’t have great hopes for, it creates a small amount of foam. The proper vegan espresso milk is Soy, I’m guessing a \\*high protein\\* soy, but I haven’t confirmed. Anyhow, I was fresh out, so I’ll have to report back later.\n\n\n**“Razor Trimmer”**This struck me as sort of a training device, so you can learn how not to overfill the portafilter basket. I doubt it makes a detectable difference unless it is grossly under or over dosed.\n\n\nAnyhow, until I get the grind right, no point in working with the other tunable settings, like temperature and so on.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-1389.md"
+}

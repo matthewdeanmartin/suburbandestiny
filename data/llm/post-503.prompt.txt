@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Telerik RadGrid and the SqlDataSource and Eval",
+  "slug": "post-503",
+  "date": "2009-01-05",
+  "raw_date": "2009-01-05T08:40:55+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200901\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=503",
+  "markdown": "\nIf the no\\-code editable grid isn’t updating, check that AllowAutomaticUpdates is true. The documenation seems to leave out this important detail, except in the description of the AllowAutomaticUpdates property.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-503.md"
+}

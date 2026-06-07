@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=874","20210125033804","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1611545884");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>Is working with Python Environments a barrier to Python use? | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20210125033804cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Version Incrementing on Multiple Branches" href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?p=871"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?p=874"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-874 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20210125033804im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/hanoi.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?p=871" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-874" class="post-874 post type-post status-publish format-standard hentry category-matthew-martin">
+	<header class="entry-header">
+		<h1 class="entry-title">Is working with Python Environments a barrier to Python use?</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?p=874" title="1:20 pm" rel="bookmark"><time class="entry-date" datetime="2020-01-16T13:20:00+00:00" pubdate>January 16, 2020</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><strong>Vanilla Installs</strong><br/>
+easy!<br/>
+What is everyone complaining about?<br/>
+I only need one python ever!</p>
+<p>Oh I got app 1 installing dependencies over app 2 because I’m installing everything to the system python and I have to run as admin or sudo pip install everything!</p>
+<p><strong>Virtual envs</strong><br/>
+python -m venv venv<br/>
+Pycharm’s venv creator<br/>
+venv wrapper<br/>
+activating with activate.bat and dot sourcing<br/>
+looking at PATH to figure out why nothing works<br/>
+adding PYTHONPATH for things that for some reason can’t be in the venv</p>
+<p><strong>Oh, but I will never need another python.</strong><br/>
+Yeah right, python 2 and 3 everywhere, 2 often unavoidable.<br/>
+Pypy can solve perf problems<br/>
+You probably don’t want to migrate to 3.n to 3.n+1 because libraries take a while to catch up so you’re switching back and forth<br/>
+Oh, you’re going to stick with 3.1 forever? Pip just installed the latest version of a lib that doesn’t support 3.1, do you know how to pin your dependencies?<br/>
+Oh you found a bug that is fixed, but now you need to move away from 3.1, etc.<br/>
+So now you need pyenv, pywin and or tox. Tox does cross python testing, pyenv/pywin do interpreter switching</p>
+<p><strong>Ah, my versions are pinned, I have no more problems</strong><br/>
+Dependency A depends on B 2.1 and Dependency C depends on B 2.3.  Pip out of box provides no clues why everything is broken<br/>
+Thanks okay, I’ll use pipenv. Now I can get a graph to see where the transitive problems are and get warnings when they happen. Also, I can separate out development dependencies so that the dependency graph for a production release is simpler.</p>
+<p><strong>No more problems, yes sir.</strong><br/>
+“Can’t find FORTRAN compiler” &#8211; Yes, some common data science library have FORTAN dependencies.<br/>
+Oh, easy, I just won’t do datascience, just Postgres. “Can’t find C++ compiler. Can’t find Python.h. Can’t find libfoo.so”&#8230;. Oh, I guess I need to install tool chains. Or learn to install wheels. Or realize that if you have a lot of native dependencies, maybe you should use conda.</p>
+<p><strong>No more problems? Everyone on the team did the exact same thing, identically. All easy now?</strong><br/>
+Well actually they didn’t, all of the above are slightly different for each OS.<br/>
+But lets imagine everyone did have the same workstation<br/>
+The build environment runs in docker, often in a linux distro with most dependencies.This is so reliable, why didn’t we just use docker all the time? It is very, very slow if you’re writing to it all the time.<br/>
+The production environment runs in docker often a small distribution like alpine, except many ordinary packages lack the corresponding apk to do installs<br/>
+VMs and Vagrant are often too slow.<br/>
+And finally, you generally need a bunch of bash scripts to make this run in production. To get them to work on windows, you’ll need gitbash, or mingw64, or cygwin, all of which behave differently<br/>
+But what about Ubuntu on Windows (WSL?) &#8211; Until WSL2 is release, performance is really bad for anything involving IO, but some people can put up with it. Also not supported by free Pycharm, AFAIK.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?cat=40" title="View all posts in Matthew Martin" rel="category">Matthew Martin</a> by <a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20210125033804/http://tech.wakayos.com/?p=874" title="Permalink to Is working with Python Environments a barrier to Python use?" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-874 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20210125033804/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 03:38:04 Jan 25, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:05:51 Apr 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.676
+  exclusion.robots: 0.055
+  exclusion.robots.policy: 0.042
+  esindex: 0.009
+  cdx.remote: 137.363
+  LoadShardBlock: 2612.458 (3)
+  PetaboxLoader3.datanode: 2489.32 (4)
+  PetaboxLoader3.resolve: 475.022 (2)
+  load_resource: 398.066
+-->

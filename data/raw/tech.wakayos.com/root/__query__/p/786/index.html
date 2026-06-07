@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com:80/?p=786","20191223070123","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1577084483");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>Things that went wrong trying to run pydoc | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20191223070123cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="REST Levels above 4" href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?p=772"/>
+<link rel="next" title="Using Twitter more effectively as a software developer" href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?p=801"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?p=786"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-786 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20191223070123im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/willow.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?p=772" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?p=801" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-786" class="post-786 post type-post status-publish format-standard hentry category-python">
+	<header class="entry-header">
+		<h1 class="entry-title">Things that went wrong trying to run pydoc</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?p=786" title="3:54 pm" rel="bookmark"><time class="entry-date" datetime="2015-01-20T15:54:46+00:00" pubdate>January 20, 2015</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>This is from the standpoint of a beginning python developer on windows. I assume you are like all other python developers and just stare at the machine to twiddle the electrons. These are my in progress notes on getting pydoc to run.</p>
+<p>Install <a href="https://web.archive.org/web/20191223070123/https://www.python.org/downloads/windows/">python</a>. Install it over and over because it is just like Java, and .NET, dozens of side by side installs.<br/>
+Install <a href="https://web.archive.org/web/20191223070123/https://pip.pypa.io/en/latest/installing.html">pip</a>. It may or may not already be there.<br/>
+Install <a href="https://web.archive.org/web/20191223070123/https://github.com/davidmarble/pywin">pywin</a>. I have no idea if it helps. My generators only generated for 3.3.<br/>
+Install virtual environment so you don&#8217;t junk up the global interpreter with packages. </p>
+<p>You will want to get c:\python33\c:\python33\scripts in the path. Set the path the old fashioned way. If using powershell, reload the environment over and over. (pywin is supposed to help for this)</p>
+<blockquote><p>$env:Path = [System.Environment]::GetEnvironmentVariable(&#8220;Path&#8221;,&#8221;Machine&#8221;)</p></blockquote>
+<p>ref: https://stackoverflow.com/questions/17794507/reload-the-path-in-powershell</p>
+<p>Okay, check it like this</p>
+<blockquote><p>$env:Path.Split(&#8220;;&#8221;) | Where {$_.Contains(&#8220;yth&#8221;)}</p></blockquote>
+<p>The goal is to get all the sphinx cruft into a \doc\ folder. The whole mess will fight this every step of the way.</p>
+<p>cd over to your source code folder (maybe) and run this. (I&#8217;m not sure about the best folder, initially I tried running from the c:\python33\source folder, which junks up the python directory. Which seems wrong.)</p>
+<blockquote><p>sphinx-quickstart</p></blockquote>
+<p>If it doesn&#8217;t run, your path is screwed up. This command creates a conf.py<br/>
+When answering, most of the time you answer the default, except for the API doc stuff, which appears to be &#8220;n&#8221; by default. It appears that people use pydoc not just for python api documentation, but for autobiographies and they cater to that scenario first.</p>
+<p>You&#8217;ll need to edit that conf.py</p>
+<p>Install <a href="https://web.archive.org/web/20191223070123/http://www.nano-editor.org/">nano</a>. You could instead open it with word, or some other inappropriate application. At least nano doesn&#8217;t kick you out of the console and it isn&#8217;t vim.</p>
+<p>If the conf file lives in the same directory as your source code, uncomment this:</p>
+<blockquote><p>sys.path.insert(0, os.path.abspath(&#8216;.&#8217;))</p></blockquote>
+<p>Or if the conf.py file is in a sub directory of your app&#8217;s directory, use two dots</p>
+<blockquote><p>sys.path.insert(0, os.path.abspath(&#8216;..&#8217;))</p></blockquote>
+<p>Pause. Go edit your python files and add this to anything that will execute code (and not just define functions and classes) so you don&#8217;t get side effects when generating documentation. And add some comments of the for &#8220;&#8221;"blah&#8221;"&#8221; to your functions. I think this is the <a href="https://web.archive.org/web/20191223070123/http://epydoc.sourceforge.net/manual-epytext.html">expected syntax for the doc comments</a>.</p>
+<blockquote><p>if __name__ == &#8216;__main__&#8217;:<br/>
+    launch_nuclear_attack()</p></blockquote>
+<p>Create the rst files.</p>
+<blockquote><p>sphinx-apidoc -o api .</p></blockquote>
+<p>(maybe &#8211; . . would work better?)<br/>
+I got modules.rst and foldername.rst. The modules.rst just has a reference to foldername.rst.</p>
+<p>These .rst files are like editable &#8220;markdown&#8221; like things. They need further processing. Firstly, on my machine, when I run it, it adds the folder name as the package, and then I get a FolderName.filename package doesn&#8217;t exist error for each file on the make. So edit the .rst file and fix the package names.</p>
+<p>Copy those .rst files into the root of your source control or where ever where ever conf.py is. I think. Put it in all the directories on the workstation if that doesn&#8217;t work. This is like working with java, nothing knows where anything is.</p>
+<p>Run these, although I have no idea what they do:</p>
+<blockquote><p>sphinx-build -b html . build</p></blockquote>
+<blockquote><p>.\make html</p></blockquote>
+<p>And it spits out some html. Cd to the build/html folder and run this to launch chrome.</p>
+<blockquote><p>Start-Process &#8220;chrome.exe&#8221; &#8220;index.html&#8221;</p></blockquote>
+<p>I have no idea if this works, my source folder and python folders are littered with crap created all over the place. </p>
+<p>Official docs:<br/>
+http://sphinx-doc.org/tutorial.html  Quick start tutorial. If this works for you, then you are the sort of person that didn&#8217;t need docs in the first place. Sort of ironic.<br/>
+https://codeandchaos.wordpress.com/2012/07/30/sphinx-autodoc-tutorial-for-dummies/ This is the more useful one, but not in itself enough to generate.<br/>
+http://sphinx-doc.org/man/sphinx-apidoc.html  You need this if you are using it for, I don&#8217;t know, python API documentation and not your autobiography.</p>
+<p>TODO: Turn this into a .bat and .ps1 file.</p>
+<p>Follow up Links<br/>
+PyCharm has a built in understanding of Sphinx.<br/>
+ref: <a href="https://web.archive.org/web/20191223070123/https://www.jetbrains.com/pycharm/webhelp/documenting-source-code-in-pycharm.html">Overview</a><br/>
+ref: <a href="https://web.archive.org/web/20191223070123/https://www.jetbrains.com/pycharm/webhelp/python-integrated-tools.html">Python Integrated Tools Dialog</a>.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?cat=84" title="View all posts in python" rel="category">python</a> by <a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20191223070123/http://tech.wakayos.com/?p=786" title="Permalink to Things that went wrong trying to run pydoc" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-786 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20191223070123/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 07:01:23 Dec 23, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:39:30 Apr 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.582
+  exclusion.robots: 0.048
+  exclusion.robots.policy: 0.036
+  esindex: 0.008
+  cdx.remote: 26.423
+  LoadShardBlock: 291.444 (3)
+  PetaboxLoader3.datanode: 239.362 (4)
+  PetaboxLoader3.resolve: 246.962 (2)
+  load_resource: 235.741
+-->

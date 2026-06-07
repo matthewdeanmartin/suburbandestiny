@@ -1,0 +1,10 @@
+{
+  "title": "Sites I am migrating",
+  "slug": "post-662",
+  "date": "2012-08-22",
+  "raw_date": "2012-08-22T18:26:12+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\201208\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=662",
+  "markdown": "\nI created them in spare time and they add up after a while:\n\n\n**.NET Efforts**  \n\nhttp://tokipona.net/ – .NET  \n\nhttp://tokipona.net/tp/janpije/ – A static mirror I’m hosting for jan Pije  \n\nhttp://wordgenerator.wakayos.com – a front end to a word generation tool  \n\nhttp://gloss.wakayos.com – Helps generate linguistic interlinear gloss formatting  \n\nhttp://locavoredc.wakayos.com – A .NET wiki that has some stale info about how to be a locavore in the DC area. \n\n\n**PHP Efforts**  \n\nhttp://polyglotdc.suburbandestiny.com/ – A directory of language resources in DC.  \n\nhttp://learnicelandic.net/ – Not sure what to do with this. It is a wiki right now.  \n\nhttp://learnicelandic.net/twitter – a content site that is essentially a blog post about using twitter for foreign language learning  \n\nhttp://learniceland.net/join – a landing page I used for a google ads campaign for my icelandic meetup.\n\n\nAnd that is about it.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-662.md"
+}

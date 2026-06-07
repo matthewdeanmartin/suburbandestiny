@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Moving back to Lunarpages from Webhost4life",
+  "slug": "post-405",
+  "date": "2008-08-30",
+  "raw_date": "2008-08-30T15:46:42+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200808\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=405",
+  "markdown": "\nWell, 4life turns out to be for about 2 or so years.\n\n\nWebhost4life’s crimes:\n\n\n\\- Fuzzy method of measuring if you are taking your fair share of resources on a shared computer (Lunar pages at times is guilty of this too according to many online reviews, although on my linux account, I never ran into that)\n\n\n\\- Crappy in person service (Lunarpages may be guilty of this, but I’ve had so much less need to deal with lunarpages people, their software up to now has served all my needs)\n\n\n\\- Overloaded and underpowerd machines (My short Lunarpages windows account had this problem, too, but as a hobbist running small sites, that isn’t really a problem)\n\n\nSo why am I going back to Lunarpages?\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-405.md"
+}

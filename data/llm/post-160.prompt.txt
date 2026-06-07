@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Updating a bazillion rows in SQL",
+  "slug": "post-160",
+  "date": "2006-08-10",
+  "raw_date": "2006-08-10T10:51:15+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200608\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=160",
+  "markdown": "\nIt takes a long time to update 27 million rows.  One strategy I used– bcp Export the table to text, write a .NET program to read each line in, update the relevant column, write back out to a file, BULK import \\& voila.  Works only if no one is updating your big table during the time between the bcp export and bulk import.\n\n\nIf you have to do it in sql, I recommend doing a UPDATE TOP x, so that the update is done in batches of 50000 or so.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-160.md"
+}

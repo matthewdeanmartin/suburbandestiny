@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Maintenance development in 3 steps",
+  "slug": "post-420",
+  "date": "2008-09-03",
+  "raw_date": "2008-09-03T08:12:18+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200809\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=420",
+  "markdown": "\nBecause 3 is a magic number.\n\n\nYou are a maintenence developer, you have been tasked to write foobar(), an incredibly useful function that was left out by the original developers.\n\n\n**1\\. Figure out how authorization works.**\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-420.md"
+}

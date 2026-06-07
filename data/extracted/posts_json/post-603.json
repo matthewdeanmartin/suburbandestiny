@@ -1,0 +1,10 @@
+{
+  "title": "The Thin Website",
+  "slug": "post-603",
+  "date": "2010-12-03",
+  "raw_date": "2010-12-03T14:19:31+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\201012\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=603",
+  "markdown": "\nI’ve been writing server side heavy code for several years now. I need to expand my client side skills. I’m nooding this idea:\n\n\nStatic HTML \\+ JQuery \\+ CSS \\+ JQuery plugins for the common components (drop downs, grids, etc)  \n\nASP.NET website with \\*only\\* WCF or WebService calls that \\*only\\* talk to a SQLite database (and maybe a few C\\# library methods that the client can’t be trusted to run, such as discount calculations, etc)\n\n\nExcept for the webservices, this website would be fully standards based.\n\n\nI mulling over what might be an even lighter middle tier, but haven’t thought of one yet, maybe astoria.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-603.md"
+}

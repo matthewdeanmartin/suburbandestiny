@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Cannot get IIS pickup directory.",
+  "slug": "post-481",
+  "date": "2008-11-17",
+  "raw_date": "2008-11-17T13:23:38+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200811\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=481",
+  "markdown": "\nIn test and development, sometimes you don’t want to send the mail, you just want to write it to disk for reading as an .eml file.\n\n\nIIS’s SMTP writes email to C:\\\\Inetpub\\\\mailroot\\\\Pickup\n\n\nTo let ASP.NET use that, first, you can’t do it in medium trust. You can only send email over port 25 in medium trust, not to the drop folder.\n\n\nYOu will also need this link: http://agileer.com/blog/2007/05/24/CannotGetIISPickupDirectory.aspx\n\n\nEditing the metabase may be required.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-481.md"
+}

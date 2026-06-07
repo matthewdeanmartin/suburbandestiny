@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Setting a property that does’t exist at compile time in C#",
+  "slug": "post-380",
+  "date": "2008-06-26",
+  "raw_date": "2008-06-26T10:47:46+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200806\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=380",
+  "markdown": "\nLet’s say you need to set a property that won’t exist at compile time, but will at runtime, say through the magic of runtime replacing of objects.\n\n\n\n```\nSystem.Reflection.PropertyInfo pi = someObject.GetType().GetProperty(\"SomeProperty\");\npi.SetValue(someObject, \"new value\", null);\n```\n\nIn VB.NET, much easier:\n\n\n\n```\nObject o = someObject\no.SomeProperty=\"new value\"\n```\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-380.md"
+}

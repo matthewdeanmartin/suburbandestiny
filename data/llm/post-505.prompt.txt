@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "log4net weirdness",
+  "slug": "post-505",
+  "date": "2009-01-07",
+  "raw_date": "2009-01-07T14:57:58+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200901\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=505",
+  "markdown": "\nLog4net buffers, i.e. it accumulates log entry then writes them to the database.\n\n\nSo if you are testing log4net and getting nothing… it might be the buffering.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-505.md"
+}

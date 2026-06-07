@@ -1,0 +1,10 @@
+{
+  "title": "Solved! YUI Menu Bar “Pop” problem",
+  "slug": "post-239",
+  "date": "2007-06-25",
+  "raw_date": "2007-06-25T14:39:40+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200706\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=239",
+  "markdown": "\nI have a YUI menu bar. It is entirely javascript driven and inserted into a DIV. That means, it is rendered last. In MSIE 7, that causes the entire page to draw, then pop about 20px down to make space for the menu bar. Here is my solution:\n\n\n\\<**div**  \n\nid\\=”mymenubarhere”  \n\nstyle\\=”position:absolute;right:0px;left:0px;”\\>  \n\n\n\n\n\\</**div**\\>\\<**div**  \n\nstyle\\=”height:20px”\\>\\</**div**\\>  \n\n\n\n\nThe absolute positioned element lets everything else slide beneath it. The following div props up the rest of the page. If you put the height directly on the div where javascript will insert the menu, the height will add padding, border or something to create a tiny gap between the menu bar and the drop down menus, making it impossible to mouse over from the bar to the menu.  \n\n\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-239.md"
+}

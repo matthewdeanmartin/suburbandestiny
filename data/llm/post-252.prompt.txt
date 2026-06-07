@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Google Checkout",
+  "slug": "post-252",
+  "date": "2007-07-14",
+  "raw_date": "2007-07-14T18:42:04+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200707\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=252",
+  "markdown": "\nGoogle check out is a 3rd party payment processor. It also is an authentication mechanism, albeit only at time of purchase.\n\n\n**Pros.**\n\n\nThey are paying customers $10 at time of sign up.\n\n\nYou don’t have to store credit cards at your web site.\n\n\nYour customers can have fewer passwords for money.\n\n\nIt is a REST based API– meaning your application communicates with Google via HTTP GET commands, instead of HTTP POST. You can build your app in [.net](http://www.windowsdevcenter.com/pub/a/windows/2007/01/09/build-a-net-app-for-google-checkout.html), java or PHP.\n\n\nFairly cheap as far as payment processing goes, 2 percent plus 20 cents with discounts for merchants who have big Ad Words bills.\n\n\n**Cons.**\n\n\nNo two factor identification, like what Paypal has.\n\n\nYou aren’t integrated into the Google authentication infrastructure. So you will still need to create a user account in your own infrastructure, then at time of purchase, the user will be asked for a 2nd password. The only saving grace of this 2nd password is that it is one that they probably already use frequently and can use at other sites that take Google Checkout. The other way to look at it is Google checkout purchases will be treated as if they were a different customer than the one in your custom user table)\n\n\nLimited Authentication Claims. The merchant doesn’t seem to necessarily get the purchasers email address and can’t correlate all from the same person without some detective work.\n\n\n**Ready to try it out as a buyer?**\n\n\n  \n\n\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-252.md"
+}

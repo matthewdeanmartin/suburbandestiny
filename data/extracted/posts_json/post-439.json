@@ -1,0 +1,10 @@
+{
+  "title": "Securing a public folder in ASP.NET 1.1 (Maybe 2.0 too)",
+  "slug": "post-439",
+  "date": "2008-09-11",
+  "raw_date": "2008-09-11T12:37:41+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200809\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=439",
+  "markdown": "\nLets say you have a public folder, where users can upload files.  To ensure users can’t upload and execute any code that the .NET compiler can interpret and run, add a we.config file that has errors in it. That will stop any code in that folder from running, malicious or otherwise.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-439.md"
+}

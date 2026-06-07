@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=809","20210805095639","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1628157399");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>Dumb Services &#8211; Accessing a website when there isn&#8217;t an webservice API | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20210805095639cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Using Twitter more effectively as a software developer" href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?p=801"/>
+<link rel="next" title="Next Post" href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?p=819"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?p=809"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-809 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20210805095639im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/shore.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?p=801" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?p=819" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-809" class="post-809 post type-post status-publish format-standard hentry category-c category-webservices">
+	<header class="entry-header">
+		<h1 class="entry-title">Dumb Services &#8211; Accessing a website when there isn&#8217;t an webservice API</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?p=809" title="9:55 am" rel="bookmark"><time class="entry-date" datetime="2015-05-30T09:55:37+00:00" pubdate>May 30, 2015</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>The dumbest API is a C# WebClient that returns a string. This works on websites that haven&#8217;t exposed an asmx, svc or other &#8220;service&#8221; technology.</p>
+<p>What are some speed bumps this presents to other developers, who might want to use your website as an API? The assumption here is that there is no coordination between </p>
+<p><strong>All websites are REST level X.</strong><br/>
+Just by the fact that the site works with web browsers and communicates over HTTP, at least some part of the HTTP protocol is being used. Usually only GET and POST, and the server returns a nearly opaque body. By that I mean, the mime type lets you know that it is HTML, but from the document alone, or even from crawling the whole website, you won&#8217;t necessarily programmatically discover what you can do with website.  Furthermore, the HttpStatus codes are probably being abused or ignored, resources are inserted and deleted on POST, headers are probably ignored and so on.</p>
+<p><strong>Discovery of the API == Website Crawling. </strong><br/>
+If you could discover the API, then you could machine generate a strongly typed API, or at least at run time, provide meta data about the API. With a regular HTML page, it will have links and forms. The links are a sort of API.  You can craw the website and find all the published URLs, and infer from their structure what the API might be. The Url might be a fancy &#8220;choppable&#8221; Url with parameters between /&#8217;s or it might be an old school QueryString with parameters as key value pairs after the ?.</p>
+<p>You can similarly discover the forms by crawling the website. Forms at least will let you know all the expected parameters and a little bit about their data types and expected ranges.</p>
+<p>If the website is JavaScript driven, all bets are off unless you can automate a headless browser. For a single page application (SPA), your GET returns a static template and a lot of JavaScript files. The static template doesn&#8217;t necessarily have the links or forms, or if it does, they are not necessarily filled in with anything yet. On the otherhand, if a website is an SPA, it probably has a real web service API.</p>
+<p><strong>Remote Procedure Invocation</strong><br/>
+Each URL represents an end point. The trivial invocations are the GETs. Invocation is a matter of crafting a URL, sending the HTTP GET and deciding what to do with the response (see below.)</p>
+<p>The Action URLs of the forms. The Forms tell you more explicitly what the possibly parameters and data types are. </p>
+<p><strong>Data Serialization.</strong><br/>
+The dumbest way to handle the response from a GET or POST is a string. It is entirely up to the client to figure out what to do with the string. The parsing strategy will depend on the particular scenario. Maybe you are looking for a particular substring. Maybe you are looking for all the numbers. Maybe you are looking for the 3rd date. There in the worst case scenario, there is nothing a dumb service client writer can do to help.</p>
+<p>The next dumb way to handle a dumb service response is to parse it as HTML or XML, for example with Html Agility Pack, a C# library that turns reasonable HTML into clean XML. This buys you less that you might imagine. If you have an XML document with say, Customer, Order, Order Line and Total elements, you could almost machine convert this document into an XSD and corresponding C# classes which can be consumed conveniently by the dumb service client. But in practice, you get an endless nest of Span, Div and layout Table elements. This might make string parsing look attractive in comparison.  Machine XML to CS converters, like xsd.exe, have no idea what to do with an HTML document.</p>
+<p>The next dumb way is to just extract the tables and forms. This would work if tables are being used as intended- a way to display data. The rows could then be treated as typed classes.</p>
+<p>The next dumb way is to look for microformats. Microformats are annotated HTML snippets that have class attributes that semantically define HTML elements as being consumable data. It is a beautiful idea with very little adoption.  The HTML designer works to make a website look good, not to make life easy for Dumb Services. If anyone cared about the user experience of a software developer using a site as a programmable API, they would have provided a proper REST API.  It is also imaginable to attempt to detect accidental microformats, for example, if the page is a mess of spans with classes that happen to be semantic, such as &#8220;customer&#8221;, &#8220;phone&#8221;, &#8220;address&#8221;. Without knowing which elements are semantic, the resulting API would be polluted with spurious &#8220;green&#8221;, &#8220;sub-title&#8221; and other layout oriented tags. </p>
+<p>The last dumb way I can think of is HTML 5 semantic tags. If the invocation returns documents, like letters and newspaper articles, then the elements header, footer, section, nav, or article could be used. The world of possible problem domains is huge, though. If you are at a CMS website and want to process documents, this would help. If you are at a travel website and want to see the latest Amtrak discounts, then this won&#8217;t help. I imagine 95% of possible use cases don&#8217;t include readable documents an important entity.  Another super narrow class of elements would be dd, dl, and dt, which are used for dictionary and glossary definitions.</p>
+<p><strong>Can there be a Dumb Services Client Generator?</strong><br/>
+By that, I mean, how much of the above work could be done by a library?  This <a href="https://web.archive.org/web/20210805095639/https://stackoverflow.com/questions/2425043/how-do-you-screen-scrape">SO question suggests that up to now, most people are doing dumb services</a> in an ad hoc fashion, except for the HTML parsing.</p>
+<ul>
+<li>The web crawling part: entirely automatable. Discovering all the GETs, and Forms is easy.</li>
+<li>The meta-data inference part: Infering the templates for GET is hard, inferring the meta data for a form request is easy.
+</li>
+<li>The Invocation part is easy.</li>
+<li>The Deserialization part: Incredibly hard. Only a few scenarios are easy. At best, a library could give the developer a starting point.</li>
+</ul>
+<p>What would a proxy client look like? The loosely typed one would for example, return a list of Urls and strings, and execute requests, again returning some weakly typed data structure, such as string, Stream, XML as if all signatures where:</p>
+<p>string ExecuteGet(Uri url, string querystring)<br/>
+Stream ExecuteGet(Uri url, string querystring)<br/>
+XmlDocument ExecuteGet(Uri url, string querystring)<br/>
+..etc</p>
+<p>In practice we&#8217;d rather something like this:</p>
+<p>Customer ExecuteGet(string url, int customerId)</p>
+<p>At best, a library could provide a base class that would allow a developer to write a strongly typed client over the top of that.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?cat=63" title="View all posts in c#" rel="category">c#</a>, <a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?cat=69" title="View all posts in webservices" rel="category">webservices</a> by <a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20210805095639/http://tech.wakayos.com/?p=809" title="Permalink to Dumb Services – Accessing a website when there isn’t an webservice API" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-809 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20210805095639/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 09:56:39 Aug 05, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:08:55 Apr 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.894
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.047
+  esindex: 0.017
+  cdx.remote: 6.201
+  LoadShardBlock: 107.157 (3)
+  PetaboxLoader3.datanode: 57.926 (4)
+  PetaboxLoader3.resolve: 100.717 (2)
+  load_resource: 55.046
+-->

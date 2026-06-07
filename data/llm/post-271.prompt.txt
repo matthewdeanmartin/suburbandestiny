@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "The file ‘/foo.aspx’ has not been pre-compiled, and cannot be requested.",
+  "slug": "post-271",
+  "date": "2007-08-24",
+  "raw_date": "2007-08-24T07:59:14+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200708\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=271",
+  "markdown": "\nIf you put a compiled ASP.NET application into a sub folder of a virtual directory/application, you get this error accessing the child application. Compiled apps don’t like to be in a hierarchy. [Create an IIS ‘application’](http://www.affiliatewiz.com/support/appstartpoint.asp) for the compiled website.\n\n\n\nIf you are missing a reference, you might get this error message. Think back to what the most recent DLLs that were added to your project. GAC’d dlls are a likely candidate because deployment projects and msi installer projects assume the destination has the same GAC’d file as the development machine.\n\n\n\n\n \n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-271.md"
+}

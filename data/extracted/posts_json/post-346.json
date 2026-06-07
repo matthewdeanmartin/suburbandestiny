@@ -1,0 +1,10 @@
+{
+  "title": "Source contol on XML base programming languages",
+  "slug": "post-346",
+  "date": "2008-04-18",
+  "raw_date": "2008-04-18T11:26:46+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200804\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=346",
+  "markdown": "\nJust read the fantastic post by [Ayende](http://ayende.com/Blog/archive/2008/04/17/Source-control-is-not-a-feature-you-can-postphone-to.aspx), about the consequences of using languages that rely on XML as the store of source code.\n\n\nXML looks like text, but XML doesn’t merge, making it much more like a binary blob as far as source control usage goes. XML nodes can be reformatted, elements and attributes can be resorted, comments can be stripped–all modifications which most diff tools can’t deal with.\n\n\nETL technologies affected: SSIS, Pervasive Integration Architect and Talend Open Studio.\n\n\nOf the three, only Talend has side by side visual diffs that doesn’t require opening two instances of the IDE. Talend Open Studio does allow for export of java source code, but I haven’t checked to see if that code exports in a predictable order. If so, at least at that point one could do a dif and see what had changed.\n\n\nSince this is an industry wide problem, I expect to start seeing products on the market that can do proper diffs and merges between XML files that ignore semantic preserving differences, like re\\-ordering of elements and attributes.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-346.md"
+}

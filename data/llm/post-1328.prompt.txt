@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "The uncle I never met has moved on",
+  "slug": "post-1328",
+  "date": "2014-02-27",
+  "raw_date": "2014-02-27T10:03:52+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\www.suburbandestiny.com\\root\\__query__\\p\\1328\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=1328",
+  "markdown": "\nSome free verse my dad wrote on the passing of my uncle:\n\n\n\n> *The Morning Sun*\n> \n> \n>  *The sun is steaming through my window,*  \n> \n>  *Gods gift of warmth for all people*  \n> \n>  *Be you Jew, Muslim or Follower of Christ*  \n> \n>  *The sun warms the body*  \n> \n>  *His spirit warms our souls*  \n> \n>  *How blessed  we are !*\n> \n> \n>  *The sun will fade later and night will follow day*  \n> \n>  *So it is in our personal lives*  \n> \n>  *Sorrow follows joy*  \n> \n>  *And then just like sun the coming up again*  \n> \n>  *Joy warms our hearts again*  \n> \n>  *How blessed we are !*\n> \n> \n>  *I have been blessed all my life with a big brother*  \n> \n>  *Last night his light went out and he is no longer with us*  \n> \n>  *He will not be there in the morning to impart his wisdom*  \n> \n>  *But his memory lives on in my mind’s eye*  \n> \n>  *And in a sense he lives on within me*  \n> \n>  *How blessed I am !*\n> \n> \n>  *This morning my sister,Ann, called tears in her eyes grief in her heart*  \n> \n>  *She  her self is near death, in constant pain*  \n> \n>  *Yet she puts aside her pain to grieve for her brother*  \n> \n>  *Her beloved husband is nearing his last days*  \n> \n>  *But she has vowed to be there for him until the end*  \n> \n>  *How blessed he is to have her love for him !*\n> \n> \n>  *The sun is streaming through my window again*  \n> \n>  *Reminding me that in life’s cycle warmth will reappear again*  \n> \n>  *Even now my family grows with the birth of my grandson Tano*  \n> \n>  *And  my great grandson, Lincoln.*  \n> \n>  *And if that is not enough a new great grandson is due in July*  \n> \n>  *How blessed I am !*\n> \n> \n>  *So for today grieve over the loss of Franklin Martin*  \n> \n>  *But in the morning, as the sun comes up rejoice with me*  \n> \n>  *As our lives are blessed with new new life !*\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-1328.md"
+}

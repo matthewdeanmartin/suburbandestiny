@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Google Apps",
+  "slug": "post-253",
+  "date": "2007-07-14",
+  "raw_date": "2007-07-14T19:27:49+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200707\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=253",
+  "markdown": "\nGoogle apps is where a small business decides to use Google’s office browser based applications and email instead of Word/Excel/Outlook/Exchange\n\n\nThe other competitor is Open Office, Thunderbird and Sunbird, who likewise is free, but is client based. Google wins over these client based applications only in that Google’s apps don’t need to be installed and Google take care of the backup.\n\n\nYou can do some fancy smancy DNS record manipulation to get email sent to [johndoe@yourdomain.com](https://web.archive.org/web/20210308124611/mailto:johndoe@yourdomain.com) to be sent to your Google Apps gmail account. Personally, I just have my web host forward my mail to my google account where I can pick it up with POP access.\n\n\n**Pros:** It is dramatically cheaper than installing applications to all your user’s desktop machines. The business version of Google Apps costs money though.\n\n\n**Cons**: People are already somewhat used to office apps. Anyone that already has Word is going to be reluctant to change. But Google apps can read most MS formats.\n\n\n**Ready?**  \n\n  \n\n\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-253.md"
+}

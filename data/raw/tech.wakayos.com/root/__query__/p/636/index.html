@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech.wakayos.com/?p=636","20191017205143","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1571345503");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<title>ClickOnce Experiments | Mister SQL</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://web.archive.org/web/20191017205143cs_/http://tech.wakayos.com/wp-content/themes/twentyeleven/style.css"/>
+<link rel="pingback" href="http://tech.wakayos.com/xmlrpc.php"/>
+<!--[if lt IE 9]>
+<script src="http://tech.wakayos.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Feed" href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Mister SQL » Comments Feed" href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?feed=comments-rss2"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tech.wakayos.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tech.wakayos.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Custom Exception Antipatterns" href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?p=626"/>
+<link rel="next" title="Rude and Passive Aggressive SQL Error Messages" href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?p=638"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+<link rel="canonical" href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?p=636"/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; }
+</style>
+</head>
+
+<body class="single single-post postid-636 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/" title="Mister SQL" rel="home">Mister SQL</a></span></h1>
+				<h2 id="site-description">The other half of MS SQL</h2>
+			</hgroup>
+
+						<a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/">
+									<img src="https://web.archive.org/web/20191017205143im_/http://tech.wakayos.com/wp-content/themes/twentyeleven/images/headers/pine-cone.jpg" width="1000" height="288" alt=""/>
+							</a>
+			
+								<form method="get" id="searchform" action="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search"/>
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search"/>
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li><a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?page_id=2">About</a></li><li class="page_item page-item-263"><a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?page_id=263">Comment Policy</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?p=626" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?p=638" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-636" class="post-636 post type-post status-publish format-standard hentry category-net tag-clickonce">
+	<header class="entry-header">
+		<h1 class="entry-title">ClickOnce Experiments</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Posted on </span><a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?p=636" title="2:13 pm" rel="bookmark"><time class="entry-date" datetime="2011-11-11T14:13:05+00:00" pubdate>November 11, 2011</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?author=1" title="View all posts by matt" rel="author">matt</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Okay, I used to think click once was a sandbox, kind of like Java applets. I used to think that all click once applications installed from an internet link would be put in a sandbox with partial trust so that certain .NET API and unmanaged code couldn&#8217;t be executed. </p>
+<p>I was wrong! At least, according to my experiments today with .NET 4.0 and click once.</p>
+<p>I took the cassini source code and wrote it so that it would launch and then set up a virtual directory for a website that I bundled with it, essentially as &#8220;resource&#8221;/&#8221;content&#8221; files. I figure out how to get that to work in .NET and in ClickOnce. I thought, gee, I thought the APIs necessary to load an AppDomain and host an ASP.NET site and serve files on port 80 would be forbidden by the sandbox, right?  Initially I thought it was because I was installing it locally. So I put the files up on a website, downloaded and installed and it still let cassini run as in the ClickOnce local storage area, and serve up a website in Full Trust.</p>
+<p>Well, the sandbox is opt-in. If a software publisher doesn&#8217;t opt in, the user just gets a warning that doesn&#8217;t really make any sense and the application runs in Full Trust.</p>
+<p>I did check to see how cassinni runs in ClickOnce after opting-in to Internet level trust. Now, the click once version of Cassini fails as soon as it tries to find out the path to it&#8217;s own assembly files.  I still got&#8230; well not so scary as unintelligible warnings about needing to &#8220;trust&#8221; the remote website.</p>
+<p>Well, so much for sandboxing.  Now one thing worth nothing is I only get the browsers warning &#8220;Hey this came from the internet, sure you want to run it?&#8221; I don&#8217;t get teh UAC curtain of &#8220;this application will change your machine&#8221;. I do get the unintelligible Click once, message &#8220;Unknown publisher, this app has access to your machine, start menu, and well, it came from the internet&#8221; I&#8217;m imaging grandma reading that and thinking, &#8220;Well, I don&#8217;t personally know them either and I&#8217;ve already been told this is from the internet&#8221; Where else does software come from? The machine I&#8217;m writing from doesn&#8217;t event have a CD drive.</p>
+<p>So a malicious code writer would distribute code and not opt in to sandboxing, in full expectation that some people will click through the messages.</p>
+<p>A non-malicious code writer would only get benefit from this if he opts into sandboxing, didn&#8217;t need those other APIs, and if a malicious code writer tried to sneak an assembly into the non-malicious application and execute it, maybe if the sandboxed app has a plug in feature. Why bother with malicious plugins when you can just get people to run your separate full trust app?  And besides, to run a plug in .NET you need to be able to load assemblies on demand and I bet a medium or low trust application wouldn&#8217;t be able to do that.</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?cat=2" title="View all posts in .NET" rel="category">.NET</a> and tagged <a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?tag=clickonce" rel="tag">ClickOnce</a> by <a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?author=1">matt</a>. Bookmark the <a href="https://web.archive.org/web/20191017205143/http://tech.wakayos.com/?p=636" title="Permalink to ClickOnce Experiments" rel="bookmark">permalink</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-636 -->
+
+						<div id="comments">
+	
+	
+			<p class="nocomments">Comments are closed.</p>
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="https://web.archive.org/web/20191017205143/http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 20:51:43 Oct 17, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:44:11 Apr 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.644
+  exclusion.robots: 0.072
+  exclusion.robots.policy: 0.039
+  esindex: 0.01
+  cdx.remote: 6.076
+  LoadShardBlock: 83.44 (3)
+  PetaboxLoader3.datanode: 88.083 (4)
+  PetaboxLoader3.resolve: 41.45 (2)
+  load_resource: 84.557
+-->

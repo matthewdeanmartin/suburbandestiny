@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "ASP.NET Skills",
+  "slug": "post-305",
+  "date": "2007-11-17",
+  "raw_date": "2007-11-17T12:07:18+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200711\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=305",
+  "markdown": "\nASP.NET itself was all about recognizing that a web site has a lot of features that are the same across web sites. The Patterns \\& Practices Enterprise Library also addressed the fact that a lot of problems need to be solved for all kinds of applications– and to some extend, these cross cutting solutions have been moved into the .NET framework.\n\n\nAuthentication. Determining who the user is.  \n\nAuthorization. Making groups of users, deciding what actions groups can do and what things they can touch.  \n\nSecurity. Making power APIs unavailable to hackers.  \n\nData Tier. Getting data out of tables and into objects and collections. And putting it there.  \n\nBuild. Deployment. Turning source code into a published application.\n\n\nThe problem domain itself. Obviously the problem domain will make some APIs more useful than others and is the most likely to consist of custom code.\n\n\nKnowing that there are these half dozen problems that all websites face isn’t too useful if you don’t know the expected hosting environment.\n\n\n**Intranet.** If the app is a private intranet application, then authentication and authorization would likely be done by Active Directory or Adam, security is somewhat less critical to be built into the application because users are employees who fear losing their jobs are not sophisticated hackers (as compared to the internet scenario where attacks are from sophisticated hackers safely in another jurisdiction). A full version of SQL Server is probably available. Full control of the Windows server allows for MSI installs, access to SSL certificates, etc.\n\n\n**Internet.** If the app is a public internet application, then authentication is going to probably be the SQL provider, authorization will be SQL or Azman, security will be important because random world wide hackers and malware will be attacking your machine even if you aren’t an e\\-commerce site. The data tier might be more primative, maybe XML files, like in a Das Blog set up. The hosting account probably doesn’t provide for MSI installs,\n\n\n**Hybrid Intra/Internet.** This is the most challenging set up because MS didn’t specifically provide for it. In 1\\.1 it was very hard, in 2\\.0 it is possible but still hard. ’nuff said.\n\n\n\\[Sorry no time to finish writing this post]\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-305.md"
+}

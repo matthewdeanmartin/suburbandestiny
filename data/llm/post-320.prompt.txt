@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Learning about Medium Trust",
+  "slug": "post-320",
+  "date": "2008-01-31",
+  "raw_date": "2008-01-31T11:37:15+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200801\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=320",
+  "markdown": "\nRemove High Powered APIs  \n\nNo WMI calls, no SMO calls. The whole point of CAS is that you don’t trust your users to not figure out how to call a potentially dangerous API like WMI or SMO, so you mark the application as untrusted. This makes it impossible for you (or anyone else) to upload code to your website that calls these potentially dangerous API’s  \n\n  \n\nWebPermission  \n\nMy site was using a component that pulled and RSS feed from a third site and merged it into my page. That blew up on medium trust, but started working again when added:\n\n\n\\<trust level\\=”Medium” originUrl\\=”http://del\\\\.icio\\\\.us/.\\*”/\\>\n\n\nPresumably more URLs could be added to the list using the regex operator \\| (meaning or), e.g.\n\n\n\\<trust level\\=”Medium” originUrl\\=”http://del\\\\.icio\\\\.us/.\\*\\|http://www\\\\.yahoo\\\\.com/.\\*”/\\>\n\n\nCustom web.config Sections  \n\nMy blowery HTTP component blew up on medium trust, but worked again when I added requirePermission\\=”false” to the appropriate place under configSection\n\n\n\\<configSections\\>  \n\n\\<sectionGroup name\\=”blowery.web”\\>  \n\n\\<section name\\=”httpCompress”  \n\ntype\\=”blowery.Web.HttpCompress.SectionHandler, blowery.Web.HttpCompress”  \n\nrequirePermission\\=”false”  \n\n/\\>  \n\n\\</sectionGroup\\>\n\n\nUnder medium trust, you can’t read most web.config entries directly, except for the above noted pattern.\n\n\nResponse.Flush/Response.Close yeilds SecurityPermission error  \n\nReplace with Response.End and hope for the best\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-320.md"
+}

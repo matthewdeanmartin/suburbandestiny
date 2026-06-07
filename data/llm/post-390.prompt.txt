@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "What is the VSWebCache?",
+  "slug": "post-390",
+  "date": "2008-07-25",
+  "raw_date": "2008-07-25T05:41:04+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200807\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=390",
+  "markdown": "\nWell, dunno, but it sometimes needs to be deleted to get a VS2003 compile to work.\n\n\nIt lives at:\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-390.md"
+}

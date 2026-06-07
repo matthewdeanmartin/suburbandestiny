@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Heroes: Paul Balint Jr.",
+  "slug": "post-312",
+  "date": "2007-12-17",
+  "raw_date": "2007-12-17T07:33:59+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200712\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=312",
+  "markdown": "\nOne year ago, my coworker’s son [Paul Balint Jr. died in action](http://www.community-news.com/node/829) in [Ramadi, Iraq](http://en.wikipedia.org/wiki/Ramadi). Paul served on our behalf, doing a job that someone had to do.\n\n\n![](https://suburbandestiny.com/tech/wp-content/uploads/2007/12/121707-1531-heroespaulb1.png)\n\n\nIn memory of Paul Balint, Jr, let reciprocate his service and learn what we can do to serve the 100,000\\+ troops serving in harm’s way in Iraq.\n\n\n[![](https://suburbandestiny.com/tech/wp-content/uploads/2007/12/121707-1531-heroespaulb2.png)](http://www.aerhq.org/)  \n\n[Army Emergency Relief Fund](http://www.aerhq.org/)\n\n\n![](https://suburbandestiny.com/tech/wp-content/uploads/2007/12/121707-1531-heroespaulb3.png) [Any Soldier](http://www.anysoldier.com/)\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-312.md"
+}

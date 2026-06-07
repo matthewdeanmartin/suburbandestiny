@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ title }}</h1>
+    {%- if date %}
+    <p class="post-meta">
+      <time datetime="{{ date }}">{{ date | readableDate }}</time>
+    </p>
+    {%- endif %}
+  </header>
+  <div class="post-body">
+    {{ content | safe }}
+  </div>
+  <p class="post-back">
+    {%- if section == "life" %}
+    <a href="{{ '/life/' | url }}">← Back to Life</a>
+    {%- elif section == "tech" %}
+    <a href="{{ '/tech/' | url }}">← Back to Tech</a>
+    {%- else %}
+    <a href="{{ '/' | url }}">← Back home</a>
+    {%- endif %}
+  </p>
+</article>

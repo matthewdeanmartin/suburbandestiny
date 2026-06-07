@@ -1,0 +1,15 @@
+Clean this recovered blog post.
+
+Return ONLY the cleaned markdown file with YAML frontmatter.
+
+INPUT JSON:
+{
+  "title": "Registering the PowerShell MSAccess Provider",
+  "slug": "post-257",
+  "date": "2007-07-18",
+  "raw_date": "2007-07-18T12:58:59+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\tech.wakayos.com\\root\\__query__\\m\\200707\\index.html",
+  "source_url": "http://tech.wakayos.com/?p=257",
+  "markdown": "\nCompile the provider. It is called a provider, but treated like a snap in.\n\n\nset\\-alias installutil $env:windir\\\\Microsoft.NET\\\\Framework\\\\v2\\.0\\.50727\\\\installutil.exe  \n\n\n\n\ninstallutil c:\\\\….. path to the .net assembly  \n\n\n\n\nsee if it worked  \n\n\n\n\nget\\-PSsnapin \\-registered  \n\n\n\n\nIn the next step use the *snap in* name  \n\n\n\n\nadd\\-pssnapin “AccessDBProviderPSSnapIn05“  \n\n\n\n\nThis was the part I missed. This time the name is the *provider* name.  \n\n\n\n\nNew\\-PSDrive \\-Name AccessDB \\-PSProvider FileSystem \\-Root “c:\\\\myaccess.mdb”  \n\n  \n\nTo get to the new ‘drive’, use\n\n\nset\\-location … name of drive…\n\n\nYou should now be able to navigate to the MS\\-Access database as if it was a file system and use PowerShell file system commands to do stuff.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-257.md"
+}

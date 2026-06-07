@@ -1,0 +1,10 @@
+{
+  "title": "A model for readership dropoff",
+  "slug": "post-1338",
+  "date": "2014-11-20",
+  "raw_date": "2014-11-20T10:29:34+00:00",
+  "source_file": "C:\\github\\dead_blog\\data\\normalized\\www.suburbandestiny.com\\root\\__query__\\p\\1338\\index.html",
+  "source_url": "http://www.suburbandestiny.com/?p=1338",
+  "markdown": "\nKindle has popular highlights and a pseudo\\-pager number system. So a 200 page book might have 5000 locations. A book might have 15 popular highlights, maybe 20 people for the first, 10 the second, 2 the 15th.  The highlights are located at various locations, say 1% in, 5% in, and the last is at 20% in.\n\n\nThe quality of a sentence affects the \\# of highlights.  Also the location of the book affects \\# of highlights because people stopped reading the book.\n\n\n**readers \\= a \\+ b x**  \n\n– where the intercept is 100% , all readers are present on page 1\\.  \n\n– the slope is negative and represents the drop off rate.\n\n\n**highlights \\= quality of sentence  \\* readers(x)**\n\n\nThe number of highlights depend son the quality of a sentence, which is constant, but unknown. So a good sentence will be highlighted say, 1% of the time.\n\n\nSo someday when I have time, I want to see if I can establish the confidence intervals for the curves. Because there are so many constraints, it seems like we should be able to get good estimates of the drop off rate despite relatively few data points.\n\n\n",
+  "markdown_file": "C:\\github\\dead_blog\\data\\extracted\\posts_markdown\\post-1338.md"
+}
